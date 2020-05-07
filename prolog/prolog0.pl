@@ -1,6 +1,6 @@
 % Comments start with a %
 % Statements end with a .
-% Variables start with an upper ccase
+% Variables start with an upper case
 % Atoms start with a lower case
 
 % Facts
