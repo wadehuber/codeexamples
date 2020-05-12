@@ -1,5 +1,6 @@
 ### hello.c
 *A hello world example.*
+Video - https://youtu.be/_-pZgDV7vFk
 The #include statement brings in the forward declaration for the printf function.
 
 ### c_overview.c
@@ -9,6 +10,7 @@ This file goes over many of the features of C you will need to know, including d
 
 ### inputoutput.c
 *Getting user input in C using scanf.*
+Video - https://youtu.be/EmxakpZJv1o 
 Note that scanf is not the best way to do it, but will suffice at first.  The scanf function takes a pointer to a variable as its parameter so we need to pass the address (&) of the variable.  We will go into more detail later in the course.
 
 ### control.c
