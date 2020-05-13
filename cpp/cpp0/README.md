@@ -1,6 +1,6 @@
 ### hello.cpp
 *Hello, World example*
-Video - https://www.youtube.com/watch?v=L2I-GnaUjTQ  
+Video - https://youtu.be/SpGArm0iCz4 
 Example of string type & output in C++.
 
 ### class.cpp

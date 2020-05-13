@@ -1,10 +1,13 @@
-# C
-Each directory contains multiple C files.
+# Linux & Unix Related Information
 
-## **c0** - An introduction to C, printf/scanf, contruld structures, & datatypes
+## setup.md
+Setup & installation of Linux & Cygwin
 
-## **c1** - Arrays, functions, strings, structs, unions
+## commands.md
+Linux command references & tips
 
-## **c2** - Pointers
+## git.md
+Git information
 
-## **c3** - Header files, constants, recursion
+## vi_editor.md
+Information about the vi editor & vim

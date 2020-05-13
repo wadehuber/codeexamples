@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Other files
+.DS_Store
+*.swp
+compiled
+*.bak
+*.o
+*.stackdump
+*~
