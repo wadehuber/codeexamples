@@ -1,20 +1,18 @@
 # Programming Notes
+
 This directory contains pages with notes, tips, and interesting links relateded to programming and different languages.
 
-## learning.md
-Tips and tools for learning new progrmaming languages
+## General Programming Language
 
-## languages.md
-General programming language theory, paradigms, and related topics
+- [learning.md](learning.md) contains tips and tools for learning new progrmaming languages
+- [languages.md](languages.md) contains general programming language theory, paradigms, and related topics
 
-## c_information.md
-C language related tips & links
+## C & C++ Programming (CSC220 & CSC240)
 
-## cpp_information.md
-C language related tips & links
+- [c_information.md](c_information.md) contains C language related tips & links
+- [cpp_information.md](cpp_information.md) contains C++ language related tips & links
 
-## scheme_information.md
-Scheme & LISP language and functional programming related tips & links
+## CSC240 Languages
 
-## prolog_information.md
-Prolog language and logic programming related tips & links
+- [scheme_information.md](scheme_information.md) Contains Scheme & LISP language and functional programming related tips & links
+- [prolog_information.md](prolog_information.md) Prolog language and logic programming related tips & links
