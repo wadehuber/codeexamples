@@ -1,7 +1,17 @@
-### c_oop.c
-*Object-oriented programming with C examples*
-This demonstrates how we can do polyphormphism in C.  The SHAPE_HEAD macro defines the common fields of a shape.  We use function pointers to allow each shape to define its own area and perimeeter functions.  A set of macros allow us to use a simpler function-style call to the different functions.
+**arguments.c** is an example os how command-line argument work in C
 
-### floadtaccuracy.c
-*Demonstrates the need for caution when using float types*
+**adder.c** is an example of using command-line arguments
 
+**string.c** has examples of string functions and passing strings to a function
+
+**alloc.c** is an example of allocating memory using malloc & calloc
+
+**inout.c** has examples of different types of input and output
+
+**printletters.c** is an example of reading input from the user, converting the input to an integer, and using it to generate output.  
+
+**fileio.c** has examples of reading from and writing two text files
+
+**ctype.c** has examples of working with types with functions from ctype.h
+
+**math.c** has examples using math.h
