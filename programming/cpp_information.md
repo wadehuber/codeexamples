@@ -31,6 +31,7 @@ In general, [cppreference.com](http://cppreference.com) is a reliable C++ refere
 - [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md) (from Bjarne Stroustrup & Herb Sutter)
 - Recommendations for [C++ programming from Intel](https://software.intel.com/content/www/us/en/develop/articles/the-ultimate-question-of-programming-refactoring-and-everything.html)
 - [The Evil Within the Comparison Functions](https://www.viva64.com/en/b/0391/) goes over some common mistakes when doing comparisons in C++.  This is an ad for a company that sells a tool to find the mistakes, but many of the ones they list are fairly common.  They also have a good list of pitfalls you can run into when writing comparisons in your code.  
+- [A guide to Using C++ effectively on small systems](https://www.embedded.com/objects-no-thanks-using-c-effectively-on-small-systems/)
 
 ## C++ Features
 

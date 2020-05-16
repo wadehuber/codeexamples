@@ -6,24 +6,98 @@
 - [LinuxCommand.org](http://linuxcommand.org) is the website for the CSC220 Linux book *The Linux Command Line*.  The "Learning the Shell" link covers many of the commands we will talk about.  There is also a link to download a free PDF of the book.
 - Alex Petralia has a very nice nice overview of some of the most helpful Linux commands - [Learn just enough Linux to get things done](https://alexpetralia.com/posts/2017/6/26/learning-linux-bash-to-get-things-done)
 - A good list of [essential Linux commands](https://semanti.ca/blog/?the-most-useful-linux-commands-you-probably-need-to-know)
+- [How Unix Works](https://neilkakkar.com/unix.html)
 
 ## Linux / UNIX References
 
 - This [Unix/Linux Command Cheatsheet](https://files.fosswire.com/2007/08/fwunixref.pdf) is a great reference for the most commonly used Unix commands.
 - A list of [bash environment variables](http://tldp.org/LDP/abs/html/internalvariables.html).
 - [Unix for Poets](https://web.stanford.edu/class/cs124/kwc-unix-for-poets.pdf) is a nice write up of text processing in Unix
+- If you want to go deeper into what happens when you run different Linux commands, [Safia Abdalla](https://blog.safia.rocks/) has posts that do a deep dive in to "cd", ls", "sudo" and more.  Check the archive link.
+- A book about the [Linux kernel and its insides](https://github.com/0xAX/linux-insides)
 
-## The History of UNIX & Linux
+## The semi-colon (;) on the Linux Command Line
 
-- [Differences between Linux & UNIX](https://opensource.com/article/18/5/differences-between-linux-and-unix)
-- [Origins & History of Unix (1969-1995)](http://www.catb.org/esr/writings/taoup/html/ch02s01.html)
-- [A Quarter Century of UNIX](https://wiki.tuhs.org//lib/exe/fetch.php?media=publications:qcu.pdf)
-- [A visual timeline of Unix](https://www.levenez.com/unix/)
-- [The Unix Heritage Society](https://www.tuhs.org/)
-- [A COMMENTARY ON THE SIXTH EDITION UNIX OPERATING SYSTEM[()] (includes source code)
-- A talk on the history of UNIX: [Unix Architecture Evolution from the 1970 PDP-7 to the 2018 FreeBSD Important Milestones and Lesson…](https://www.youtube.com/watch?v=FbDebSinSQo)
-- An 2003 [interview with Dennis Ritchie](https://anders.unix.se/2015/10/26/interview-with-dennis-ritchie-2003/)
-- The [Origins of the “grep” Command](https://thenewstack.io/brian-kernighan-remembers-the-origins-of-grep/)
-- This paper on the [Evolution of Operating Systems](http://www.brinch-hansen.net/papers/2001b.pdf) has a section on Unix
-- From 1992, [Linux is Obsolete](https://groups.google.com/forum/#!topic/comp.os.minix/wlhw16QWltI%5B1-25%5D)
-- [Unix at 5s](https://arstechnica.com/gadgets/2019/08/unix-at-50-it-starts-with-a-mainframe-a-gator-and-three-dedicated-researchers/)
+You can use a semicolon to separate UNIX commands on a single command line.  This allows you do to things like put a time stamp on the output of a command.
+
+```bash
+$ ls -l ; date
+total 64
+-rwxrwxr-x 1 Wade None 54373 Jun 14 17:51 a.exe
+-rwxrwxr-x 1 Wade None  1061 Jun 14 17:51 test.c
+Sun, Jun 14, 2015  5:56:51 PM
+```
+
+## grep
+
+- A good [grep example](http://www.panix.com/~elflord/unix/grep.html)
+- You can also use [awk to accomplish a lot of the same things you can do with grep](https://blog.jpalardy.com/posts/skip-grep-use-awk/)
+
+## cron
+
+You can schedule processes using cron.  [A good introduction](https://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800).
+
+## Creating a file using the "cat" command
+
+You can create a file with cat by redirecting output to a file.  cat will read from stdin if no input file is given.  ctrl-d ends input with a EOF.
+
+```bash
+$ cat > catfile
+Here is a line.
+Another line.
+ctrl-d will put in an EOF.
+$ cat catfile
+Here is a line.
+Another line.
+ctrl-d will put in an EOF.
+```
+
+Keep in mind that this will erase anything in the file you are redirecting to.  Most commands that accept a file as a parameter will attempt to read from stdin if no filename is given.
+
+### find
+
+- Alvin Alexaner has has [several examples of using the find command](http://alvinalexander.com/unix/edu/examples/find.shtml).
+
+## Using Wildcards & Redirection
+
+In UNIX, the wildcard * matches anything while ? will match a single letter.  We can combine that with ls to get a list of files that, for example, start with h.  The command "ls b?g" will list big, bag, bog, bkg, etc.
+
+```bash
+administrator@ubuntu:~$ ls h*
+hello.c
+administrator@ubuntu:~$ ls h?llo.c
+hello.c
+administrator@ubuntu:~$ ls h?ello.c
+ls: cannot access h?ello.c: No such file or directory
+```
+
+We can also redirect output to a file using the ">" character.  The following example creates a file called mydir that holds the results of the "ls" command
+
+```bash
+administrator@ubuntu:~$ ls > mydir
+administrator@ubuntu:~$ cat mydir
+220
+240
+a.out
+Desktop
+Documents
+Downloads
+examples.desktop
+hello.c
+Music
+mydir
+news.txt
+Pictures
+Public
+Templates
+Videos
+```
+
+## bash shell notes
+
+- [An introduction to bash scripting](https://code.tutsplus.com/tutorials/the-fundamentals-of-bash-scripting--net-32093)
+- If you aren't happy with bash or the other shells, [you can always just write your own](https://indradhanush.github.io/blog/writing-a-unix-shell-part-1/).
+
+## pipes
+
+- Implementating [digital circuits using Unix pipes](http://www.linusakesson.net/programming/pipelogic/index.php)
