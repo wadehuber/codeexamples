@@ -22,7 +22,7 @@ Note that scanf is not the best way to do it, but will suffice at first.  The sc
 
 ## control.c
 
-*Control structures in C such as loops, conditional statements, and controling loop execution.*
+[Video](https://youtu.be/liSw02tckLQ) - *Control structures in C such as loops, conditional statements, and controling loop execution.*
 
 The syntax in this file should look familiar to you since, other than the input and output statements, almost every line of code is valid Java syntax.  The scanf function gets input and stores it at the address given - the & operator gets the address of a variable.  We will discuss that operator more when we discuss pointers.
 
