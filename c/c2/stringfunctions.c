@@ -30,25 +30,6 @@ int main(void) {
     printf("  ptr1:\n");
     str_fun(ptr1);
 
-    /* Try Each of these and see which works.  (Print the output for any that
-     * allow assignment to be done.  Note that changing ptr1 will mean we
-     * no longer have a pointer to the memory we originally allocated, so
-     * we would need to free it so we can reuse it.
-     */
-    /*
-    ptr1 = "Chandler";
-    ptr1 = str2;
-    str1 = "HELLO";
-    str1 = ptr1;
-
-    printf("Strings after direct assignment: \n");
-    printf("  str1 : %s\n", str1);
-    printf("  str2 : %s\n", str2);
-    printf("  ptr1 : %s\n", ptr1);
-    printf("  ptr2 : %s\n", ptr2);
-
-    */
-   
     /* COPYING A STRING */
     /* NOTE: strcpy should not be used because it does no bounds checking! */
     /* strcpy(ptr1, "CSC240 - INTRODUCTION TO PROGRAMMING LANGUAGES"); */

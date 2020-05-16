@@ -16,6 +16,15 @@ int main(void) {
   char str[] = "1234567890";   /* Character array (or string) */
   int * aptr;
 
+  /* The '*' in this line & the next 3 lines means 4 different things! */
+  int * pointer_type = &y;   /* The '*' indicates that this is a pointer type */
+  *pointer_type = 0x4000;    /* The '*' is the de-reference operator */
+  x = 3 * 2;                 /* The '*' is the multiplcation operator */
+
+  /* What does this line do? */
+  /* int * k = *p * 10; */
+
+
   /* & : reference operator - returns the address */
   /* * : dereference operator - returns an alias */
 
