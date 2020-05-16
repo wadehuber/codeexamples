@@ -9,6 +9,8 @@
 
 #define LEN 10
 
+void str_fun(char str[]);
+
 int main(void) {
     char str1[LEN] = "Hello";
     char str2[LEN] = "World";
@@ -16,19 +18,17 @@ int main(void) {
     char * ptr2 = (char *) malloc(LEN);
     char mystr[100];
 
-    /* COPYING A STRING */
-    /* NOTE: strcpy should not be used because it does no bounds checking! */
-    /* strcpy(ptr1, "CSC240 - INTRODUCTION TO PROGRAMMING LANGUAGES"); */
-    strcpy(ptr1, "CSC240"); 
-
-    /* use strncpy to copy strings - string gets truncated if too long */
-    strncpy(ptr2, "Spring '18 THIS GETS TRUNCATED", LEN); 
-
-    printf("Initial Strings: \n");
-    printf("  str1 : %s, length=%lu\n", str1, strlen(str1));
-    printf("  str2 : %s, length=%lu\n", str2, strlen(str2));
-    printf("  ptr1 : %s, length=%lu\n", ptr1, strlen(ptr1));
-    printf("  ptr2 : %s, length=%lu\n", ptr2, strlen(ptr2));
+    printf("Initial strings: \n");
+    printf("  str1: sizeof=%lu  strlen=%lu  str1=%s\n", sizeof(str1), strlen(str1), str1);
+    printf("  str2: sizeof=%lu  strlen=%lu  str2=%s\n", sizeof(str2), strlen(str2), str2);
+    printf("  ptr1: sizeof=%lu  strlen=%lu  ptr1=%s\n", sizeof(ptr1), strlen(ptr1), ptr1);
+    printf("  ptr2: sizeof=%lu  strlen=%lu  ptr2=%s\n", sizeof(ptr2), strlen(ptr2), ptr2);
+  
+    printf("Passing a string to a function: \n");
+    printf("  str1:\n");
+    str_fun(str1);
+    printf("  ptr1:\n");
+    str_fun(ptr1);
 
     /* Try Each of these and see which works.  (Print the output for any that
      * allow assignment to be done.  Note that changing ptr1 will mean we
@@ -48,8 +48,15 @@ int main(void) {
     printf("  ptr2 : %s\n", ptr2);
 
     */
-
    
+    /* COPYING A STRING */
+    /* NOTE: strcpy should not be used because it does no bounds checking! */
+    /* strcpy(ptr1, "CSC240 - INTRODUCTION TO PROGRAMMING LANGUAGES"); */
+    strcpy(ptr1, "CSC240"); 
+
+    /* use strncpy to copy strings - string gets truncated if too long */
+    strncpy(ptr2, "Summer '20 THIS GETS TRUNCATED", LEN); 
+
     /* COMPARING STRINGS - strcmp, strncmp */
     /* NOTE: strcmp should not be used because it does no bounds checking! */
     printf("\nComparing strings: \n");
@@ -114,3 +121,10 @@ int main(void) {
     free(ptr2);
     return 0;
 }
+
+void str_fun(char str[]) {
+    char str2[] = "1234568901234567890";
+    printf("  str_fun:  str: sizeof(%s)=%lu strlen(%s) = %lu\n", str, sizeof(str), str, strlen(str));
+    printf("  str_fun: str2: sizeof(%s)=%lu strlen(%s) = %lu\n", str2, sizeof(str2), str2, strlen(str2));
+}
+

@@ -1,11 +1,4 @@
 #include"myfunctions.h"
-#include"myfunctions.h"
-#include"myfunctions.h"
-#include"myfunctions.h"
-#include"myfunctions.h"
-#include"myfunctions.h"
-#include"myfunctions.h"
-#include"myfunctions.h"
 
 #define NUM 10
 
