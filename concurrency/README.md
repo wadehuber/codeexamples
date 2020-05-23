@@ -1,10 +1,13 @@
 # Concurrency Examples
 
-**fork.c** - Example of using fork() for multi-process programming
-Video - https://youtu.be/D6aaojOj4Lo  
+## fork.c
 
-**pthread.c** - Example of using pthreads for multi-threaded programming
-Video - https://youtu.be/qnb70hFNfVE  
+[Video](https://youtu.be/D6aaojOj4Lo) - Example of using fork() for multi-process programming
 
-**threads.cpp** - Example of using C++ threads
-Video - https://youtu.be/CNFNhZdRtIU  
+## pthread.c
+
+[Video](https://youtu.be/qnb70hFNfVE) - Example of using pthreads for multi-threaded programming
+
+## threads.cpp
+
+[Video](https://youtu.be/CNFNhZdRtIU) - Example of using C++ threads

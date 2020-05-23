@@ -11,6 +11,7 @@ This directory contains pages with notes, tips, and interesting links relateded 
 
 - [c_information.md](c_information.md) contains C language related tips & links
 - [cpp_information.md](cpp_information.md) contains C++ language related tips & links
+- [concurrency.md](concurrency.md) contains links related to concurrent and parallel programming
 
 ## CSC240 Languages
 
