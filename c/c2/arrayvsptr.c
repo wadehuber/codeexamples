@@ -3,55 +3,58 @@
 #define COUNT 16
 
 int main(void) {
-  int arr[COUNT];
-  int * ptr;
-  int ii;
+    int nums[COUNT];
+    int * p;  /* Integer pointer */
 
-  ptr = arr;  /* equivalent to: ptr = &arr[0] */
+    p = nums;   /* equivalent to p = &nums[0] */
 
-  for(ii=0;ii<COUNT;ii++) {
-      arr[ii] = ii;
-  }
+    for(int ii=0;ii<COUNT;ii++) {
+        nums[ii] = ii;
+    }
 
-  printf("Array indexing: \n");
-  for(ii=0;ii<COUNT;ii++) {
-    printf("%d ", arr[ii]);
-  }
-  printf("\n\n");
+    printf("Array indexing: ");
+    for(int ii=0;ii<COUNT;ii++) {
+        printf("%d ", nums[ii]);
+    }
+    printf("\n");
 
-  printf("Pointer arithmetic: \n");
-  for(ii=0;ii<COUNT;ii++) {
-    printf("%d ", *(ptr+ii));
-  }
-  printf("\n\n");
+    printf("Pointer arithmetic: ");
+    for(int ii=0;ii<COUNT;ii++) {
+        printf("%d ", *(p+ii));
+    }
+    printf("\n");
+   
+    printf("Array indexing using pointer name: ");
+    for(int ii=0;ii<COUNT;ii++) {
+        printf("%d ", p[ii]);
+    }
+    printf("\n");
 
-  printf("Array indexing using a pointer: \n");
-  for(ii=0;ii<COUNT;ii++) {
-    printf("%d ", ptr[ii]);
-  }
-  printf("\n\n");
+    printf("Pointer arithmetic using array name: ");
+    for(int ii=0;ii<COUNT;ii++) {
+        printf("%d ", *(nums+ii));
+    }
+    printf("\n");
+    printf("\n");
+   
+    printf("Are arrays and pointers the same?\n");
+    printf("   size of nums: %ld\n", sizeof(nums));
+    printf("   size of p: %ld\n", sizeof(p));
 
-  printf("Pointer arithmetic using an array name: \n");
-  for(ii=0;ii<COUNT;ii++) {
-    printf("%d ", *(arr+ii));
-  }
-  printf("\n\n");
+    /* You can assign a value to a pointer, but not an array name */
+    /*   VALID: p = &ii; */
+    /*   ERROR: nums = &ii */
 
-  printf("\nAre arrays and pointers the same?\n");
-  printf("  size of arr=%lu\n", sizeof(arr));
-  printf("  size of ptr=%lu\n", sizeof(ptr));
+    printf("\n\nPointer arithmetic (using increment operator): \n  ");
+    for(int ii=0;ii<COUNT;ii++) {
+        printf("%d ", *p);
+        p++;
+    }
+    /* at this point p does not point to the start of the array */
+    printf("\np=%p, *p=%d\n", (void *) p, *p);
+    p--;
+    printf("\np=%p, *p=%d\n", (void *) p, *p);
+    printf("\n");
 
-  /* You can assign a value to a pointer, but not an array name */
-  /* VALID: ptr = &ii; */
-  /* COMPILE ERROR arr = &ii; */
-    
-  printf("\n\nPointer arithmetic (using increment operator): \n");
-  for(ii=0;ii<COUNT;ii++) {
-    printf("%d ", *ptr);
-    ptr++;
-  } 
-  printf("\n");
-
-
-  return 0;
+    return(0);
 }

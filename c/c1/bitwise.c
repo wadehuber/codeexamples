@@ -1,23 +1,32 @@
 #include<stdio.h>
 
 int main() {
-  unsigned int i = 8;
+    unsigned int num = 8;
 
-  printf("i = %x\n", i);
-  i = i << 2;
-  printf("i = %x  (i << 2)\n", i);
-  i = i >> 4;
-  printf("i = %x  (i >> 4)\n", i);
-  i = i << 2;
-  printf("i = %x  (i << 2)\n", i);
+    printf("\nInitial:\n");
+    printf("  num = %x\n", num);
 
-  printf("\nBitwise operators:\n");
-  printf("i & 1 = %x\n", i & 1);  /* Logical AND */
-  printf("i | 1 = %x\n", i | 1);  /* Logical OR */
-  printf("i ^ 1 = %x\n", i ^ 1);  /* Logical XOR */
-  printf("i ^ i = %x\n", i ^ i);  /* Logical XOR */
-  printf("i & 9 = %x\n", i & 9);  /* Logical AND */
-  printf("i | 9 = %x\n", i | 9);  /* Logical OR */
-  printf("i ^ 9 = %x\n", i ^ 9);  /* Logical XOR */
-  return 0;
+    printf("\nLeft shift by 2:\n");
+    num = num << 2;
+    printf("  num = %x\n", num);
+
+    printf("\nRight shift by 4:\n");
+    num = num >> 4;
+    printf("  num = %x\n", num);
+
+    printf("\nLeft shift by 2:\n");
+    num = num << 2;
+    printf("  num = %x\n", num);
+
+    printf("\nBitwise operators:\n");
+    printf("num & 1 = %x\n", num & 1);   /* Logical AND */
+    printf("num | 1 = %x\n", num | 1);   /* Logical OR */
+    printf("num ^ 1 = %x\n", num ^ 1);   /* Logical XOR */
+
+    printf("\n");
+    printf("num & 9 = %x\n", num & 9);   /* Logical AND */
+    printf("num | 9 = %x\n", num | 9);   /* Logical OR */
+    printf("num ^ 9 = %x\n", num ^ 9);   /* Logical XOR */
+
+    return(0);
 }
