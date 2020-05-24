@@ -13,3 +13,11 @@ Commands: uptime **date** cal **history** whoami **which** echo df **exit** **ma
 
 [Working with files and directories](https://youtu.be/MhYtNsOJXD8)
 **ls** touch **pwd** **mkdir** **cd** **rmdir** . ..  **cp** **cat** more less head tail **wc** mv grep diff
+
+## Module 2
+
+[Pipes & redirection](https://youtu.be/SzSZl56pI-8)
+stdout, stderr, redirection, ```/dev/null``` pipes, wildcards
+
+[Working with text](https://youtu.be/wfVVPKEIRCE)
+**cat, tail, wc, sort, uniq, cut, grep, history, find**
