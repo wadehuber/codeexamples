@@ -2,13 +2,13 @@
 
 ## recursion.c
 
-*Recursion examples*
+[Video](https://youtu.be/apSfrXPSRNg) - *Recursion examples*
 This file uses the Fibonacci function to demonstrate a loop-based implemenation, an naive recursive implemenatation, and a tail-recursive implenation.  
 
 ## constants.c
 
-*Using constants in C*
-This file has examples of symbolic & enumeration constants as well as constant variables.  It also shows how the value of a "constant" variable can be changed.
+[Video](https://youtu.be/svbqz77Fox4) - *Using constants in C*
+This file has examples of symbolic & enumeration constants as well as constant variables.  It also shows how the value of a "constant" variable can be changed.  A constant variable is different from a symbolic constant since the constant variable will have memory allocated to it and we can have pointers to it, we just can't change it directly.  
 
 ## mystuff_originial.c / multifile
 
