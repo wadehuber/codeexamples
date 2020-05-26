@@ -30,7 +30,7 @@ int main(void) {
 
     /* Allocating an integer array */
     nums = malloc(COUNT * sizeof(int));
-    if(intptr == NULL) {
+    if(nums == NULL) {
         fputs("Error allocating memory for pointer nums.\n",stderr);
         exit(-1);
     }

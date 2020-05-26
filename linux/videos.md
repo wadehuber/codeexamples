@@ -21,3 +21,8 @@ stdout, stderr, redirection, ```/dev/null``` pipes, wildcards
 
 [Working with text](https://youtu.be/wfVVPKEIRCE)
 **cat, tail, wc, sort, uniq, cut, grep, history, find**
+
+## Module 3
+
+[Processes](https://youtu.be/_paIoXq6tmA)
+**ps, kill, top, jobs, fg, paste, >>**
