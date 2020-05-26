@@ -4,58 +4,52 @@
 
 #define STRLEN 20       /* default string length */
 
-/* User defined type */
-
 struct mystruct_t {
-  char name[STRLEN];
-  int num;
+    char name[STRLEN];
+    int num;
 };
 
-/* forward declarations */
-void print_structure(struct mystruct_t s);
+/* Forward declarations */
 void print_struct(const struct mystruct_t * s);
-void init_structure(struct mystruct_t *, char *, int); /* no param names required */
+void update_structure(struct mystruct_t * s, char * name, int num);
 
 int main (void) {
-  struct mystruct_t struct1 = {"Alice", 10};  /* Initializing declaration */
-  struct mystruct_t * ptr = NULL;
+    struct mystruct_t struct1 = {"Alice", 10};  /* Initializing declaration */
+    struct mystruct_t * ptr = NULL;
 
-  /* malloc allocates memory from the heap */
-  ptr = malloc(sizeof(struct mystruct_t));
-  strncpy(ptr->name, "Bob", STRLEN);
-  ptr->num=10;
+    /* malloc allocates memory from the heap */
+    ptr = malloc(sizeof(struct mystruct_t));
+    if(ptr == NULL) {
+        fputs("Error allocating memory for pointer to mystruct_t.\n", stderr);
+        exit(-1);
+    }
 
-  /* print both structures */
-  print_structure(struct1);
-  print_structure(*ptr);
+    /* initialize the values in the mystruct_ struct that ptr points to */
+    ptr->num = 10;
+    strncpy(ptr->name, "Bob", STRLEN);
 
-  /* modify both structures */
-  init_structure(&struct1, "Sue", 30);
-  init_structure(ptr, "Robert", 20);
+    /* print both structures */
+    print_struct(&struct1);
+    print_struct(ptr);
 
-  /* print both structures */
-  printf("\nPrinting both structures after init_structure using print_struct\n");
-  print_struct(&struct1);
-  print_struct(ptr);
+    /* modify the structures */
+    update_structure(&struct1, "Sue", 30);
+    update_structure(ptr, "Robert", 20);
 
-  printf("\nPrinting both structures after print_struct using print_structure\n");
-  print_structure(struct1);
-  print_structure(*ptr);
-  return 0;
-}
-/* struct is pass-by-address */
-void init_structure(struct mystruct_t *s, char * name, int num) {
-  strncpy(s->name, name, STRLEN);
-  s->num=num;
+    /* print both structures */
+    print_struct(&struct1);
+    print_struct(ptr);
+
+    return(0);
 }
 
-/* struct parameter is pass-by-value */
-void print_structure(struct mystruct_t s) {
-  printf("name: %s, num=%d\n", s.name, s.num);
-}
-
-/* Better print_structure */
+/* print a mystruct_ structure */
 void print_struct(const struct mystruct_t * s) {
-  printf("name: %s, num=%d\n", s->name, s->num);
-  /* s->num=55; NOT ALLOWED */
+    printf("name: %s, num%d\n", s->name, s->num);
+}
+
+/* update structure fields */
+void update_structure(struct mystruct_t * s, char * name, int num) {
+    strncpy(s->name, name, STRLEN);
+    s->num = num;
 }

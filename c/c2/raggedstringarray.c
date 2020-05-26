@@ -26,19 +26,19 @@ int main(void) {
 
 
 	/* Print each array */
-	printf("s1:\n");
+	printf("s1 - Array of character arrays:\n");
 	s1size = 0;
 	for (ii = 0; ii < 5; ii++)  {
 		printf("   %s\n", s1[ ii ]); 
 	}
 	s1size = sizeof(s1);
 
-	printf("\n\ns2:\n");
+	printf("\n\ns2 - Array of pointers to strings:\n");
 	s2size = sizeof(s2);
 	for (ii = 0; ii < 5; ii++) {
 		printf("   %s\n", s2[ ii ]); 
-        /* Add size of pointer + length of string pointed to */
-		s2size += strlen(s2[ii]) + sizeof(char);
+        /* Add size of string + null-teminator */
+		s2size += (strlen(s2[ii]) + 1) * sizeof(char);
 	}
 
 	/* Print sizes */
