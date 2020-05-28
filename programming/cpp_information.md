@@ -20,7 +20,8 @@ Note that the c++11 standard will cover most of what we cover this semester, so 
 
 ## C++ Tutorial
 
-Google has a nice [C++ Tutorial](https://developers.google.com/edu/c++/)
+- Google has a nice [C++ Tutorial](https://developers.google.com/edu/c++/)
+- This 10 hour [C++ Programming All-in-One Tutorial](https://www.youtube.com/watch?v=_bYFu9mBnr4) goes over most of the topics we will cover this semester.  
 
 ## C++ References
 
@@ -97,7 +98,8 @@ cppcheck filename.cpp
 
 ## Advanced C++
 
-- A discussion of some [obscure C++ features](http://madebyevan.com/obscure-cpp-features/)
+- VIDEO: [The Care and Feeding of C++'s Dragons](https://www.youtube.com/watch?v=JSjoCisIHcM) is a talk about some of tools Google uses to help with simplicity in C++.  It isn't really a tutorial, but it touches on a lot of issues that come up in industry.  
+A discussion of some [obscure C++ features](http://madebyevan.com/obscure-cpp-features/)
 - [C++ Annotations](http://www.icce.rug.nl/documents/cplusplus) is an online book with a focus on differences between C & C++.   It goes well beyond what we will cover this semester, but it has a lot of good information.
 - John Carmack on [functional programming in C++](https://www.gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php)
 - A list of recommended [advanced C++ books](https://www.fluentcpp.com/2017/07/28/what-books-to-read-to-get-better-at-c/)
