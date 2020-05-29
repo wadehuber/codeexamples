@@ -26,15 +26,15 @@ class Dog : public Animal {
   public:
     Dog(string s="Boy") : Animal(s) {}
 
-    void speak() { cout << "  DOG " << name << ": Woof!"  << endl; }
-    void move() { cout << "  DOG " << name << ": Run around"  << endl; }
+    void speak() override { cout << "  DOG " << name << ": Woof!"  << endl; }
+    void move() override { cout << "  DOG " << name << ": Run around"  << endl; }
     void fetch() { cout << "  DOG " << name << ": Ball! Ball!"  << endl; }
 };
 
 class Cat : public Animal {
   public:
     Cat(string s="Kitty") : Animal(s) {}
-    void speak() { cout << "  CAT " << name << ": Meow!"  << endl; }
+    void speak() override { cout << "  CAT " << name << ": Meow!"  << endl; }
 };
 
 int main() {
