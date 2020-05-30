@@ -1,39 +1,44 @@
-/* Examples of different ways to perform input & output */
+/* Examples of different ways to perform input & output in C */
 #include<stdio.h>
 #include<string.h>
 
 int main(void) {
-  char c;
-  char outStr[100];
-  int ii;
+    char c;
+    char outStr[100];
 
-  printf("Read one character with getchar\n");
-  c = getchar();
-  printf("c = %c, %d\n\n",c,c);
-  printf("\nPrint one character with putchar\n");
-  putchar(c);
-  putchar('\n');
+    printf("read one character with getchar()\n");
+    c = getchar();
+    printf("c=%c, %d\n", c, c);
+    printf("putchar(c): ");
+    putchar(c);
+    putchar('\n');
+    
+    /* printf examples */
+    printf("\n");
+    printf("printf examples:\n");
+    printf("  Integer: %d, %10d, %o, %X\n", 29, 29, 29, 29);
+    printf("  Character: %c, %5d, %5c, %5d\n", 'r', 'r', 120, 120);
+    printf("  Float: %6.2f, %.1f\n", 2.0/3.0, 2.0/3.0);
 
-  /* printf examples */
-  printf("\nprintf examples\n");
-  printf("Integer: %10d, %d\n", 7, 3);
-  printf("Character: %10c, %c, %8c, %4c, %d\n", 'k', 'k', 120, 'l', 'l');
-  printf("Float: %6.2f, %.1f\n", 2.0/3.0, 3.14);
- 
-  printf("\nsprintf & puts examples\n");
-  /* Similar to printf, but the string is put in "outStr", not written to output 
-     This is a convienent way to generate strings based on the value of a variable */
-  sprintf(outStr, "Float: %6.2f, %.1f\n", 2.0/3.0, 3.14);
-  puts(outStr);
-  sprintf(outStr, "Don't tell me to be qui\0et!\n");  /* \0 in middle */
-  puts(outStr);
+    printf("\n");
+    printf("sprintf & puts examples:\n");
+    sprintf(outStr, "  Float: %6.2f, %.1f\n", 2.0/3.0, 2.0/3.0);
+    puts(outStr);
+    sprintf(outStr, "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ");
+    sprintf(outStr, "Don't tell me to be qu\0iet!");  /* null-terminator in the middle */
+    puts(outStr);
 
-  /* character by character output */
-  printf("outStr=[");
-  for(ii=0;ii<strlen(outStr);ii++)
-     putchar(outStr[ii]);
-  printf("]\n");
-  
-  return 0;
+    /* character-by-character output */
+    printf("\n");
+    printf("outStr:\n");
+    for (int ii=0;ii<100;ii++) {
+        putchar('[');
+        putchar(outStr[ii]);
+        putchar(']');
+        if ((ii+1) % 25 == 0) {
+            putchar('\n');
+        }
+    }
 
+    return 0;
 }
