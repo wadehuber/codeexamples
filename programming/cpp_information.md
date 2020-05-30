@@ -90,6 +90,9 @@ Matrix matrix3 = matrix1 + matrix2
 ## Static Analysis
 
 It is always a good idea to run static analyzer on your code.  A static analyzer is a program that analyzes your source code (without running it) and looks for potential problems.  In the case of C++, it can catch many array overflows and memory management issues.  They don't catch all issues (for example if a loop variable used as an array index it can still have an invalid value), so don't rely on them exclusively.
+
+[Why you should really care about C/C++ static analysis](https://medium.com/hackernoon/why-you-should-really-care-about-c-c-static-analysis-db13f4463b2d)
+
 One C++ static analyzer is cppcheck.  Once your code compiles, you can run it on your code by typing:
 
 ```bash
