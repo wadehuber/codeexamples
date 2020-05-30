@@ -4,9 +4,11 @@
 
 - [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/) covers much of what gets covered in CSC220.  
 - [LinuxCommand.org](http://linuxcommand.org) is the website for the CSC220 Linux book *The Linux Command Line*.  The "Learning the Shell" link covers many of the commands we will talk about.  There is also a link to download a free PDF of the book.
+- Julia Evans [Twitter](https://twitter.com/b0rk) creates excellent comics covering Linux commands and several other topics available at [wizardszines.com](https://wizardzines.com/).  She does an greap job of distilling the important facts into 6 panels.  
 - Alex Petralia has a very nice nice overview of some of the most helpful Linux commands - [Learn just enough Linux to get things done](https://alexpetralia.com/posts/2017/6/26/learning-linux-bash-to-get-things-done)
 - A good list of [essential Linux commands](https://semanti.ca/blog/?the-most-useful-linux-commands-you-probably-need-to-know)
 - [How Unix Works](https://neilkakkar.com/unix.html)
+- A [Really Friendly Command Line Intro](https://hellowebbooks.com/learn-command-line/) is available free online (email registration required).  This covers the most important commands you will use navigating around the command line.  
 
 ## Linux / UNIX References
 
