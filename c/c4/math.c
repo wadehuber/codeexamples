@@ -54,6 +54,5 @@ int main(void) {
     printf("  sin(a)=%.2f, sin(b)=%.2f, sin(c)=%.2f\n", sin(a), sin(b), sin(c));
     printf("  tan(a)=%.2f, tan(b)=%.2f, tan(c)=%.2f\n", tan(a), tan(b), tan(c));
    
-
     return 0;
 }
