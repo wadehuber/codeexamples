@@ -14,6 +14,7 @@
 - Videos
   - [Git command line basics](https://www.youtube.com/watch?v=HVsySz-h9r4)
   - [Learn Git in 20 Minutes](https://www.youtube.com/watch?v=IHaTbJPdB-s)
+  - [Introduction to GitHub for Student Developers](https://mybuild.microsoft.com/sessions/d29ddc03-a873-41df-bb4e-5c0af5bf7b5c) is a short introduction to GitHub presented at Microsoft Build 2020
 
 ## Git Best Practices
 

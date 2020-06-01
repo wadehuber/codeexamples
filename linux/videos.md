@@ -26,3 +26,14 @@ stdout, stderr, redirection, ```/dev/null``` pipes, wildcards
 
 [Processes](https://youtu.be/_paIoXq6tmA)
 **ps, kill, top, jobs, fg, paste, >>**
+
+## Module 4
+
+[Permissions](https://youtu.be/vx13prR-ZzM)
+**user permissions, chmod, umask, groups, umask, su, sudo, ls -l**
+
+[The Linux Environment & the find command](https://youtu.be/nETb6vLZScs)
+**symbolic links, .bashrc & .bash_profile, env, find**
+
+[Compiling with gcc](https://youtu.be/iDjWXKnoF_I)
+**gcc options**

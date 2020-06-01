@@ -1,17 +1,35 @@
-**arguments.c** is an example os how command-line argument work in C
+# C4 - Advanced C topics, command line arguments, & I/O
 
-**adder.c** is an example of using command-line arguments
+## arguments.c
 
-**string.c** has examples of string functions and passing strings to a function
+[Video](https://youtu.be/-P3uILoGTeE)
 
-**alloc.c** is an example of allocating memory using malloc & calloc
+Example os how command-line argument work in C
 
-**inout.c** has examples of different types of input and output
+## adder.c
 
-**printletters.c** is an example of reading input from the user, converting the input to an integer, and using it to generate output.  
+Example of using command-line arguments
 
-**fileio.c** has examples of reading from and writing two text files
+## inout.c
 
-**ctype.c** has examples of working with types with functions from ctype.h
+[Video](https://youtu.be/O5cs66MQi94)
 
-**math.c** has examples using math.h
+Examples of different types of input and output
+
+## printletters.c
+
+Example of reading input from the user, converting the input to an integer, and using it to generate output.  
+
+## fileio.c
+
+Examples of reading from and writing two text files
+
+## ctype.c
+
+Examples of working with types with functions from ctype.h
+
+## math.c
+
+[Video](https://youtu.be/c-kEN0qTKZ8)
+
+Examples using math.h
