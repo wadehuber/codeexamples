@@ -5,4 +5,4 @@ mystuff.o: mystuff.c
 	gcc --std=c11 -Wall -pedantic -c mystuff.c
 
 clean:
-	rm -rf *.o *~ *.exe *.out
+	rm -rf *.o *.exe *.out
