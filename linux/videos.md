@@ -37,3 +37,9 @@ stdout, stderr, redirection, ```/dev/null``` pipes, wildcards
 
 [Compiling with gcc](https://youtu.be/iDjWXKnoF_I)
 **gcc options**
+
+## Module 5
+
+[Regular expressions](https://youtu.be/Wxw6TEp6yWo)
+
+[tar & gzip](https://youtu.be/W79JlqYRmbU) **tar, gzip, gunzip, & gzcat***

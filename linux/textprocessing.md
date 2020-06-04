@@ -5,9 +5,11 @@ One of the most powerful things you can do in Unix is process large amounts of t
 ## Regular Expressions
 
 - [regex101.com](https://regex101.com/) is a really nice site with a regex tester
+- [https://regexr.com/](https://regexr.com/)
 - A regular expression [quick-start](https://www.rexegg.com/regex-quickstart.html)
 - [RegEx for Noobs](https://www.janmeppe.com/blog/regex-for-noobs/)
 - [How to write Regular Expressions](https://www.geeksforgeeks.org/write-regular-expressions/) from GeeksforGeeks
+- There slight differences in regular expression syntax in different languages.  Here is a [summary of the differences](http://www.greenend.org.uk/rjk/tech/regexp.html)
 
 ## sed
 
