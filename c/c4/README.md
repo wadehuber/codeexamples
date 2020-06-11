@@ -26,7 +26,7 @@ Example of reading input from the user, converting the input to an integer, and 
 
 ## fileio.c
 
-[Video](https://youtu.be/CugLdd69V3s`)
+[Video](https://youtu.be/CugLdd69V3s)
 
 Examples of reading from and writing two text files
 
