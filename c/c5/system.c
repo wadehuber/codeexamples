@@ -4,8 +4,11 @@
 #include<stdlib.h>
 
 int main() {
-    printf("Starting system call . . .\n");
-    system("ls -l"); /* execute UNIX command to list directory contents */
-    printf("Done with system call\n");
+
+    printf("Starting system call . . \n");
+    int rc;
+    rc = system("ls -l");   /* execute the Linux command to list directory contents */
+    printf("Done with system call. Return code=%d\n", rc);
+
     return 0;
 }

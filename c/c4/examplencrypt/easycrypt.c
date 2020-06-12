@@ -7,9 +7,13 @@
  * $ echo "This is a test" | ./encrypt 
  * Uijt!jt!b!uftu
  *
- * [student@localhost class6]$ echo "This is a test" | ./encrypt | ./decrypt 
+ * $ echo "This is a test" | ./encrypt | ./decrypt 
  * This is a test
+ *
+ * You can also encrypt/decrypt a file as follows:
+ * $ cat easycrypt.c | ./encrypt | ./decrypt
  */
+
 #include<stdio.h>
 
 #ifdef DECRYPT
@@ -21,16 +25,16 @@
 unsigned int easyendecrypt(char c);
 
 int main(void) {
-  int c;
+    int c;
 
-  while ( (c = getc(stdin)) != EOF) {
-    printf("%c", easyendecrypt(c));
-  }
+    while ( (c = getc(stdin)) != EOF ) {
+        putc(easyendecrypt(c), stdout);
+    }
 
-  printf("\n");
-  return 0;
+    printf("\n");
+    return 0;
 }
 
 unsigned int easyendecrypt(char c) {
-  return c OP 1;
+    return c OP 1;
 }
