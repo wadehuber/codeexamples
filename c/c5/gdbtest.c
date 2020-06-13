@@ -7,8 +7,12 @@ struct thing {
 };
 
 void problem2() {
+  /*  Next line would be a bug
   int k = 0;
+  */
+  int k = 2;
   int a = 10 / k;
+  printf("k=%d, a=%d\n", k, a);
 }
 
 void problem1() {
