@@ -31,3 +31,8 @@ more examples of working with bitwise operations.  Includes examples of counting
 ## stringappend.c
 
 Example of writing a string function that will append two strings into a new string.
+
+## gdbtest.c
+
+[Video](https://youtu.be/ii7kEcBYKs0)
+Demonstration of using gdb.  

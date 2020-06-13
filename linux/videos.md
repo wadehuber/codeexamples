@@ -43,3 +43,7 @@ stdout, stderr, redirection, ```/dev/null``` pipes, wildcards
 [Regular expressions](https://youtu.be/Wxw6TEp6yWo)
 
 [tar & gzip](https://youtu.be/W79JlqYRmbU) **tar, gzip, gunzip, & gzcat***
+
+## Module 6
+
+[sed](https://youtu.be/rNCiBqWa2xs)
