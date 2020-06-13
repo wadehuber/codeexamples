@@ -28,7 +28,7 @@ Example of reading input from the user, converting the input to an integer, and 
 
 [Video](https://youtu.be/CugLdd69V3s)
 
-Examples of reading from and writing two text files
+Examples of reading from and writing to text files
 
 ## ctype.c
 
