@@ -22,14 +22,17 @@ has an example of using compile-time symbolic constants to affect the way a prog
 
 ## readfile.c
 
+[Video](https://youtu.be/VVLJycRScqM)
 another example of reading a file in a C program.  This file reads in a file containing numbers and generates the total.  Includes examples of using errno & strtok.
 
 ## bits.c
 
-more examples of working with bitwise operations.  Includes examples of counting the bits in a byte of memory.
+[Video](https://youtu.be/Ppjg-OVbA-Q)
+more examples of working with bits operations.  Includes examples of counting the bits in a byte of memory & using bit shifts to calculate powers of 2.
 
 ## stringappend.c
 
+[Video](https://youtu.be/ztFcSBMWgSQ)
 Example of writing a string function that will append two strings into a new string.
 
 ## gdbtest.c
