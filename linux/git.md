@@ -12,9 +12,12 @@
 - This claims to be [the only introduction to git you'll ever need](https://areknawo.com/git-basics-the-only-introduction-you-will-ever-need/)
 - A guide to [More Productive Git](https://increment.com/open-source/more-productive-git/)
 - Videos
+  - [Basic Git Concepts](https://www.youtube.com/watch?v=8KCQe9Pm1kg) is a nice overview of what git does
+  - [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
   - [Git command line basics](https://www.youtube.com/watch?v=HVsySz-h9r4)
   - [Learn Git in 20 Minutes](https://www.youtube.com/watch?v=IHaTbJPdB-s)
   - [Introduction to GitHub for Student Developers](https://mybuild.microsoft.com/sessions/d29ddc03-a873-41df-bb4e-5c0af5bf7b5c) is a short introduction to GitHub presented at Microsoft Build 2020
+  - [Introduction to Git - Core Concepts](https://www.youtube.com/watch?v=uR6G2v_WsRA) goes a little more in detail into what git does.
 
 ## Git Best Practices
 
