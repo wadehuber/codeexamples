@@ -32,6 +32,7 @@ The flags above are required, bug gcc has a lot of other flags you may want to u
 - If you need to split up a string in to words (tokens) you can use ```strtok```.  [Here is a tutorial](https://onebyezero.blogspot.com/2018/12/string-tokenization-in-c.html)
 - [Efficient String Operations in C](https://developers.redhat.com/blog/2019/08/12/efficient-string-copying-and-concatenation-in-c/) - specifically copying & concatenation
 - VIDEO: [What Are Pointers](https://www.youtube.com/watch?v=iChalAKXffs) is an excellent introduction to pointers.  The video uses C++ but the first half of the video is applicable to C as well.
+- A video on [Pointers](https://www.youtube.com/watch?v=5BpYD7TxvKU&list=PL6gx4Cwl9DGAKIXv8Yr6nhGJ9Vlcjyymq&index=42) that is part of a C programming tutorial.  There are several other videos on pointer topics in the playlist following this video.
 
 ## Advanced C Tutorials/Examples
 
