@@ -3,19 +3,24 @@
 using namespace std;
 
 class MyClass {
-  public:
-    int * a;
-  private:
-    int b;
-    string name;
+    public:
+        int * a;
+    private:
+        int * b;
+        int c;
+        string name;
 
-  public:
+    public:
     // Constructor
     MyClass(int x, string n="") {
-      static int counter = 1;
-      a = new int;
-      *a = x;
-      b = counter;
+        static int counter = 1;    // Allocated in static memory
+        a = new int;               // Allocated on the heap
+        *a = x;
+        b = new int[x];            // Allocated on the heap
+        for(int ii=0;ii<x;ii++) {
+            b[ii] = ii * *a;
+        }
+      c = counter;
       counter ++;
       name = n;
       cout << "  Constructor " << name << " " << b << " : " 
@@ -24,20 +29,26 @@ class MyClass {
 
     // Copy constructor
     MyClass(const MyClass& original) {
-      a = new int;
-      *a = *(original.a);
-      b = original.b * 10;
-      name = original.name + "_copy";
-      cout << "  Copy ctor " << name << " " << b << " : " 
-             << a << " (" << *a << ")" << endl;
+        a = new int;
+        *a = *(original.a);
+        b = new int[*a];
+        for(int ii=0;ii<*a;ii++) {
+            b[ii] = original.b[ii];
+        }
+        c = original.c;
+        name = original.name + "_copy";
+        cout << "  Copy ctor " << name << " " << c << " : " 
+               << a << " (" << *a << ")" << endl;
     }
 
     // Destructor
     ~MyClass() {
-      cout << "  Destructor " << name << " " << b << " : " 
+      cout << "  Destructor " << name << " " << c << " : " 
              << a << " (" << *a << ")" << endl;
       delete a;
       a = nullptr;
+      delete[] b;     // b points to an array, so use delete[]
+      b = nullptr;
     }
 
     void print();
@@ -45,7 +56,12 @@ class MyClass {
 
 void MyClass::print() {
   cout << "       object " << name << " " << b << " : "
-         << a << " (" << *a << ")" << endl;
+         << a << " (" << *a << ")";
+  cout << " b: ";
+  for(int ii=0;ii<*a;ii++) {
+      cout << b[ii] << " ";
+  }
+  cout << endl;
 }
 
 void func(MyClass cparam) {
