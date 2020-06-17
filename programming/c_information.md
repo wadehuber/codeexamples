@@ -41,6 +41,7 @@ The links below go far more in depth into C than we will in this class, but if y
 - [Inside the C Standard Library](https://begriffs.com/posts/2019-01-19-inside-c-standard-lib.html)
 - I don’t have strong opinions about coding style, other than your code should be clear & consistently formatted.  But you may want to review the [Linux coding standards](https://www.kernel.org/doc/html/v4.10/process/coding-style.html)
 - A list of [obscure C features](https://multun.net/obscure-c-features.html)(that you should probably avoid, but you may see out in the wild)
+- [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/) discusses how C strings and malloc work and why it is important to know it.
 
 ## Memory Usage & Data Alignment
 

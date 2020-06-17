@@ -9,8 +9,8 @@
 
 - [C++ 14 thread tutorial](https://hackernoon.com/learn-c-multi-threading-in-5-minutes-8b881c92941f?gi=7e41eebced8d)
 - Cautions about using threads:
-- [A review](https://blog.acolyer.org/2014/12/09/why-threads-are-a-bad-idea/) of the paper "[Why threads are a bad idea (for most purposes)](http://web.stanford.edu/~ouster/cgi-bin/papers/threads.pdf)"
-- [The problem with threads](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
+  - [A review](https://blog.acolyer.org/2014/12/09/why-threads-are-a-bad-idea/) of the paper "[Why threads are a bad idea (for most purposes)](http://web.stanford.edu/~ouster/cgi-bin/papers/threads.pdf)"
+  - [The problem with threads](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
 
 ## RPC
 
