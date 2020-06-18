@@ -58,7 +58,14 @@ Keep in mind that this will erase anything in the file you are redirecting to.  
 
 ### find
 
+- A nice tutorial on [finding files in Linux](https://www.linode.com/docs/tools-reference/tools/find-files-in-linux-using-the-command-line/)
 - Alvin Alexaner has has [several examples of using the find command](http://alvinalexander.com/unix/edu/examples/find.shtml).
+- A list of [35 practical examples of the linux find command](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
+
+### cut
+
+- [Linux & Unix cut command tutorial](https://shapeshed.com/unix-cut/) with a lot of examples
+- Alvin Alexaner has has [several examples of using the cut command](https://alvinalexander.com/linux-unix/linux-cut-command-cut-fields-columns-examples/).
 
 ## Using Wildcards & Redirection
 
