@@ -57,3 +57,11 @@ The next two vidoes work with the [github-video-example](https://github.com/CGCC
 [Creating a GitHub repo](https://youtu.be/vVXnUKO7RoA)
 
 [Introduction to markdown](https://youtu.be/-cuDmIpRz9o)
+
+## Module 8 (Review videos)
+
+[Unix Review - find](https://youtu.be/rImrnN9ckGA) covers different options for the find command.  It also briefly discusses sudo, grep, xargs, and wildcards as they come int to use with varioous applications of the find command.
+
+[Unix Review - Text Processing](https://youtu.be/MEv4YiudbVk) primarily covers cut, but also touches on cat, more. less, head, tail, grep, and using pipes at the commmand line.
+
+[Unix Review - Redirection & Piping](https://youtu.be/9RXDtmAfJKM) covers redirecting stdout & stdin and piping.  It also has brief examples of the grep, sed, and tee commands.
