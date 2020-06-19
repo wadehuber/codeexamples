@@ -4,13 +4,13 @@
 using namespace std;
 
 int main() {
-    // Initializations in C++
+    // Initialization C++
     double a = 1.2;
     double b {2.3};
-    double c = {3.4};
+    double c = {2.3};
 
     int d = 3.14;
-    //int e = {3.14};    // Compiler warning due to incompatible types
+    // int e = {3.14};    // Compiler error due to incompatible types
 
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
@@ -40,19 +40,19 @@ int main() {
 
     // Range-for (or for-each)
     vector<int> v = {1, 2, 3, 4};
-    // &ii is a reference - allows to be changed
-    for (auto &ii : v) {
-       ii *= 10;
-    }
-    for (auto ii : v) {
-       cout << ii << " ";
+    cout << "v = ";
+    for (auto const &ii : v) {
+        cout << ii << " ";
     }
     cout << endl;
 
-    // Pointers
-    int * ptr = nullptr;    // Null pointer
+    // Pointer
+    int * ptr = nullptr;    //* Null pointer
     if (ptr == nullptr) {
-       cout << "ptr is null" << endl;
+        cout << "ptr is null (nullptr)" << endl;
+    }
+    else {
+        cout << "ptr is not null" << endl;
     }
 
     return 0;
