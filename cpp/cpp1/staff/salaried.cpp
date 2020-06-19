@@ -1,6 +1,6 @@
 #include<iostream>
 #include"salaried.hpp"
 
-int Salaried::pay() {
+int Salaried::pay() const {
   return (payrate / 26);
 }

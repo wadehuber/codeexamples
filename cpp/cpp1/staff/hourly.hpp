@@ -14,6 +14,6 @@ class Hourly : public Employee {
        hours = h;
     }
 
-  int pay();
+  int pay() const;
 };
 #endif

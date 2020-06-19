@@ -15,7 +15,7 @@ class StaffMember {
       address = a;
       phone = p;
     }
-    void print();
-    virtual int pay() = 0;  // Abstract method
+    void print() const;
+    virtual int pay() const = 0 ;  // Abstract method
 };
 #endif

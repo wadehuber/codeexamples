@@ -9,6 +9,6 @@ class Volunteer : public StaffMember{
        StaffMember(n, a, p)
     {
     }
-  int pay () { return 0; }
+  int pay () const { return 0; }
 };
 #endif

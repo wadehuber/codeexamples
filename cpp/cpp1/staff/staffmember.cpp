@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void StaffMember::print() {
+void StaffMember::print() const {
   cout << "    Name: " << name << endl;
   cout << " Address: " << address << endl;
   cout << "   Phone: " << phone << endl;

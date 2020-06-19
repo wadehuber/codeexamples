@@ -1,6 +1,6 @@
 #include<iostream>
 #include"hourly.hpp"
 
-int Hourly::pay() {
+int Hourly::pay() const {
   return (payrate * hours);
 }

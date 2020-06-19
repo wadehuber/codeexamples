@@ -12,6 +12,6 @@ class Salaried : public Employee {
     {
     }
 
-  int pay();
+  int pay() const;
 };
 #endif

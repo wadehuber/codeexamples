@@ -16,6 +16,6 @@ class Employee : public StaffMember{
        ssn = s;
        payrate = r;
     }
-  void print();
+  void print() const;
 };
 #endif
