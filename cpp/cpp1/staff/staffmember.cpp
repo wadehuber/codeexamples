@@ -1,11 +1,12 @@
 #include<iostream>
 #include"staffmember.hpp"
 
-using namespace std;
-
 void StaffMember::print() const {
-  cout << "    Name: " << name << endl;
-  cout << " Address: " << address << endl;
-  cout << "   Phone: " << phone << endl;
+    std::cout << "    Name: " << name << std::endl;
+    std::cout << " Address: " << address << std::endl;
+    std::cout << "   Phone: " << phone << std::endl;
 }
 
+int StaffMember::bonus(int b) const {
+    return b;
+}

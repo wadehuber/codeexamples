@@ -1,8 +1,8 @@
-CC=g++ 
-CPPFLAGS=--std=c++11 -Wall -pedantic
+CC=g++
+CPPFLAGS=--std=c++17 -Wall -pedantic
 
 all: staff.cpp staffmember.o employee.o salaried.o hourly.o
-	$(CC) $(CPPFLAGS) staff.cpp staffmember.o employee.o salaried.o hourly.o -o staff
+	$(CC) $(CPPFLAGS) staff.cpp staffmember.o employee.o salaried.o hourly.o
 
 staffmember.o: staffmember.cpp
 	$(CC) $(CPPFLAGS) -c staffmember.cpp
@@ -17,4 +17,4 @@ hourly.o: hourly.cpp
 	$(CC) $(CPPFLAGS) -c hourly.cpp
 
 clean:
-	rm -f *.o *.exe
+	rm -f *.o *.exe *.out
