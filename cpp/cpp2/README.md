@@ -1,12 +1,23 @@
-### destructors.cpp
+# C++ Memory Management
+
+## destructors.cpp
+
+Video
 *Example of destructor & copy constructor*
 
-### references.cpp
+## references.cpp
+
+Video
 *Examples of C++ references*
 
-### structvsclass.cpp
+## structvsclass.cpp
+
+Video
 *Comparing structs & classes in C++*
 
-### delete.cpp
-"Examples of using delete, value & reference semantics"
-When allocating an array with new we should use delete[] instead of delete.  
+## memory.cpp
+
+[Video](https://youtu.be/QZvPvywUXnQ)
+*More complete example of memory management and the rule of 3*  
+
+Demonstrates using delete vs delete[], value & reference semantics, copy constructors, and overloading the = operator.  

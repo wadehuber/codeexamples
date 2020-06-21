@@ -1,4 +1,4 @@
-# Introduction to C
+# Introduction to C++ & OOP
 
 ## cppio.cpp
 
@@ -9,8 +9,10 @@ This file has examples of using stream input & output in C++.
 
 ## overview.cpp
 
-*Introduction to C++*
-This file has examples of variable declarations, auto, constants, a vector, and pointers in C++.
+[Video](https://youtu.be/qJ_LcjbN8fI)
+*Introduction to C++ syntax*
+
+This file has examples of variable declarations, initilaizations, auto, constants, a vector, and pointers in C++.
 
 ## strings.cpp
 
@@ -23,7 +25,7 @@ C++ includes a string type.  Several examples of different string functions.
 
 [Video 1](https://youtu.be/zvgwLT4FSQg) *Inheritance with C++, pointers & references*
 
-[Video 2]() *Polymorphism, virtual, non-virtual, & pure virtual methods*
+[Video 2](https://youtu.be/TB50U8UoA78) *Polymorphism, virtual, non-virtual, & pure virtual methods*
 
 This file includes examples of inheritance, polymorphism, and virtual and pure-virtual methods.
 
