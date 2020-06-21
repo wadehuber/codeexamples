@@ -7,44 +7,62 @@ using namespace std;
 
 // C-style structure
 struct myStruct {
-  int a;
-  char c[8];
+    int a;
+    char c[16];
 
-  void tryThis() { cout << "Hi" << endl;}
+    myStruct(int x, const string & y)  : a(x) {
+        cout << "myStruct constructor" << endl;
+        strncpy(c, y.c_str(), y.length() + 1);
+    }
+    void dump(unsigned int x=16) {
+        cout << endl << "myStruct: a=" << a << " c=" << c << endl;
+        char * ptr = (char *) this;
+        for(unsigned int ii=0;ii<x;ii++) {
+            printf("%3u:  %5c %5x  %5d\n", ii, *(ptr+ii), *(ptr+ii), *(ptr+ii));
+        }
+    }
 };
 
 // C++ class
 class myClass {
-  public:
     int a;
     string c;
 
-    myClass(int x, string y) {
-       a = x;
-       c = y;
-    }
+    public:
+        myClass(int x, const string & y)  : a(x), c(y) {
+              cout << "myClass constructor" << endl;
+        }
+
+        void dump(unsigned int x=16) {
+            cout << endl << "myClass: a=" << a << " c=" << c << endl;
+            char * ptr = (char *) this;
+            for(unsigned int ii=0;ii<x;ii++) {
+                printf("%3u:  %5c %5x  %5d\n", ii, *(ptr+ii), *(ptr+ii), *(ptr+ii));
+            }
+        }
 };
 
 int main() {
-  struct myStruct str = {7, "Hello"};
-  myClass cls(15, "World");
-  char * c = (char *) &str;
-  char * k = (char *) &cls;
 
-  cout << "myStruct size=" << sizeof(myStruct) << "  a=" << str.a <<
-              "  c=" << str.c << endl;
-  cout << " myClass size=" << sizeof(myClass) << "  a=" << cls.a <<
-              "  c=" << cls.c << endl;
 
-  unsigned int ii;
-  cout <<"myStruct: " << endl;
-  for(ii=0;ii<sizeof(myStruct);ii++) {
-     printf("%3d: %5c %5x %5d\n", ii, *(c+ii), *(c+ii), *(c+ii));
-  }
-  cout << endl << "myClass: " << endl;
-  for(ii=0;ii<sizeof(myClass);ii++) {
-     printf("%3d: %5c %5x %5d\n", ii, *(k+ii), *(k+ii), *(k+ii));
-  }
+    cout << "Declaring variabls:" << endl;
+    struct myStruct str = {7, "Hello"};
+    myClass cls(15, "World");
+    cout << endl;
 
-  return 0;
+    cout << "Sizes: " << endl;
+    cout << "myStruct size=" << sizeof(myStruct) << endl;
+    cout << " myClass size=" << sizeof(myClass) << endl;
+    cout << endl;
+
+    cout << "Accessing members:" << endl;
+    cout << "  myStruct.a = %d" << str.a << endl;     // struct members are public by default
+    //cout << "   myClass.a = %d" << cls.a << endl;   // class members are private by default
+    cout << endl;
+
+    cout << "Calling dump():" << endl;
+    str.dump(sizeof(str));
+    cls.dump(sizeof(cls));
+
+    return 0;
 }

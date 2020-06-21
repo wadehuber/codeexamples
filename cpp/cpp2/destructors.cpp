@@ -11,105 +11,102 @@ class MyClass {
         string name;
 
     public:
-    // Constructor
-    MyClass(int x, string n="") {
-        static int counter = 1;    // Allocated in static memory
-        a = new int;               // Allocated on the heap
-        *a = x;
-        b = new int[x];            // Allocated on the heap
-        for(int ii=0;ii<x;ii++) {
-            b[ii] = ii * *a;
+        // Constructor
+        MyClass(int x=0, const string n="") : name(n) {
+            static int counter = 1;     // Allocated in static memory
+            a = new int;                // Allocated on the heap
+            *a = x;
+            b = new int[*a];             // Allocated on the heap
+            for (int ii=0;ii<*a;ii++) {
+                b[ii] = ii * *a;
+            }
+            c = counter;
+            cout << "  Constructor " << name << " " << *a << " {" << a << "} : "
+                 << "b=" << b << " c=" << c << endl;
+            counter++;
         }
-      c = counter;
-      counter ++;
-      name = n;
-      cout << "  Constructor " << name << " " << b << " : " 
-             << a << " (" << *a << ")" << endl;
-    }
 
-    // Copy constructor
-    MyClass(const MyClass& original) {
-        a = new int;
-        *a = *(original.a);
-        b = new int[*a];
-        for(int ii=0;ii<*a;ii++) {
-            b[ii] = original.b[ii];
+        // Copy Constructor
+        MyClass(const MyClass & original) {
+            a = new int;                // Allocated on the heap
+            *a = *(original.a);
+            b = new int[*a];             // Allocated on the heap
+            for (int ii=0;ii<*a;ii++) {
+                b[ii] = original.b[ii];
+            }
+            c = original.c + 6000;
+            cout << "  Copy ctor " << name << " " << *a << " {" << a << "} : "
+                 << "b=" << b << " c=" << c << endl;
         }
-        c = original.c;
-        name = original.name + "_copy";
-        cout << "  Copy ctor " << name << " " << c << " : " 
-               << a << " (" << *a << ")" << endl;
-    }
 
-    // Destructor
-    ~MyClass() {
-      cout << "  Destructor " << name << " " << c << " : " 
-             << a << " (" << *a << ")" << endl;
-      delete a;
-      a = nullptr;
-      delete[] b;     // b points to an array, so use delete[]
-      b = nullptr;
-    }
+        // Destructor
+        ~MyClass() {
+            cout << "  Destructor " << name << " " << *a << " {" << a << "} : "
+                 << "b=" << b << " c=" << c << endl;
+            delete a;
+            a = nullptr;
+            delete[] b;     // b points to an array, so use delete[]
+            b = nullptr;
+        }
 
-    void print();
+        void print() const;
 };
 
-void MyClass::print() {
-  cout << "       object " << name << " " << b << " : "
-         << a << " (" << *a << ")";
-  cout << " b: ";
-  for(int ii=0;ii<*a;ii++) {
-      cout << b[ii] << " ";
-  }
-  cout << endl;
+void MyClass::print() const {
+    cout << "  Print: " << name << " " << *a << " {" << a << "} : "
+         << "b=" << b << " c=" << c << endl;
+
 }
 
-void func(MyClass cparam) {
-  cout << " FUNC: ++++++++++++ start func ++++++++++++" << endl;
+void func(MyClass funParam) {
+    cout << " FUNC: ++++++++++++ start func ++++++++++++" << endl;
 
-  cout << " FUNC: begin declare c3" << endl;
-  MyClass c3(3, "c3");
-  cout << " FUNC: end declare c3" << endl;
+    cout << " FUNC: begin declare func1" << endl;
+    MyClass func1(3, "func1");
+    cout << " FUNC: end declare func1" << endl;
 
-  cout << " FUNC: print cparam" << endl;
-  cparam.print();
-  cout << " FUNC: print c3" << endl;
-  c3.print();
+    cout << " FUNC: begin print func1" << endl;
+    func1.print();
+    cout << " FUNC: end print func1" << endl;
 
-  cout << " FUNC: ++++++++++++ end func ++++++++++++" << endl;
+    cout << " FUNC: begin print funParam" << endl;
+    funParam.print();
+    cout << " FUNC: end print funParam" << endl;
+
+    cout << " FUNC: ++++++++++++ end func ++++++++++++" << endl;
 }
 
 int main() {
-  cout << "MAIN: start" << endl;  
-  cout << "MAIN: begin declare c1 (object)" << endl;
-  MyClass c1(1, "c1");    // MyClass object allocated on the stack
-  cout << "MAIN: end declare c1 (object)" << endl;
+    cout << "MAIN: begin" << endl;
+    cout << "MAIN: begin declare main1 (object)" << endl;
+    MyClass main1(1, "main1");
+    cout << "MAIN: end declare main1 (object)" << endl;
 
-  cout << "MAIN: begin declare c2 (pointer)" << endl;
-  MyClass * c2;            // MyClass pointer allocated on the stack
-  cout << "MAIN: end declare c2 (pointer)" << endl;
+    cout << "MAIN: begin declare main2ptr (pointer)" << endl;
+    MyClass * main2ptr;
+    cout << "MAIN: end declare main2ptr (pointer)" << endl;
 
-  cout << "MAIN: begin instantiate MyClass object using new " << endl;
-  c2 = new MyClass(2, "c2");  // MyClass object allocated on the heap
-  cout << "MAIN: end instantiate MyClass object using new " << endl;
+    cout << "MAIN: begin declare main2ptr (pointer)" << endl;
+    main2ptr = new MyClass(2, "main2ptr");
+    cout << "MAIN: end declare main2ptr (pointer)" << endl;
 
-  cout << "MAIN: print c1 (&c1 = " << &c1 << ")" << endl;
-  c1.print();
-  cout << "MAIN: print c2 (&c2 = " << &c2 << ", c2 = " << c2 << ")" << endl;
-  c2->print();
+    cout << "MAIN: print main1 (&main1 = " << &main1 << ")" << endl;
+    main1.print();
+    cout << "MAIN: print main2ptr (&main2ptr = " << &main2ptr << ", main2ptr = " << main2ptr << ")" << endl;
+    main2ptr->print();
 
-  cout << "MAIN: begin call to func(c1)" << endl;
-  func(c1);
-  cout << "MAIN: end call to func(c1)" << endl;
+    cout << "MAIN: begin call to func(main1)" << endl;
+    func(main1);
+    cout << "MAIN: end call to func(main1)" << endl;
 
-  cout << "MAIN: print c1 (&c1 = " << &c1 << ")" << endl;
-  c1.print();
+    cout << "MAIN: print main1 (&main1 = " << &main1 << ")" << endl;
+    main1.print();
 
-  cout << "MAIN: begin delete c2" << endl;
-  delete c2;
-  cout << "MAIN: end delete c2" << endl;
+    cout << "MAIN: begin delete main2ptr" << endl;
+    delete main2ptr;
+    cout << "MAIN: end delete main2ptr" << endl;
 
+    cout << "MAIN: complete" << endl;
 
-  cout << "MAIN: complete" << endl;
-  return 0;
+    return 0;
 }
