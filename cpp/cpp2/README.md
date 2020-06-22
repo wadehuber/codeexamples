@@ -9,13 +9,17 @@ Example of constructor, destructor, and copy constructor.  The output here is pr
 
 ## references.cpp
 
-Video
+[Video](https://youtu.be/j1HiuaUt1MU)
 *Examples of C++ references*
+
+Demonstration of how to work with references, including a function that returns a reference.
 
 ## structvsclass.cpp
 
-Video
+[Video](https://youtu.be/fGnBsqVWpW0)
 *Comparing structs & classes in C++*
+
+DIfferences and similarities between structs & classes in C++.  Also an example of usin g a char pointer to view memory contents.
 
 ## memory.cpp
 
