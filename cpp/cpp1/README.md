@@ -36,6 +36,13 @@ This file includes examples of inheritance, polymorphism, and virtual and pure-v
 
 This file contains a simplified example of how non-virtual, virtual, & pure-virtual methods work.
 
+## defaultargs.cpp
+
+[Video](https://youtu.be/2VTzfl7Aidc)
+*Default arguments*
+
+This file contains an example of using default arguments in C++ functions.
+
 ## staff
 
 [Video](https://youtu.be/ZwDR84yAB4E)

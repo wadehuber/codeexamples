@@ -2,8 +2,10 @@
 
 ## destructors.cpp
 
-Video
+[Video](https://youtu.be/SKVERljxky4)
 *Example of destructor & copy constructor*
+
+Example of constructor, destructor, and copy constructor.  The output here is pretty verbose because the intention is to understand when the different functions get called.  In general, constructors, destructors, and copy constructors (and *especially overloaded operators*) should avoid output to stdout.
 
 ## references.cpp
 

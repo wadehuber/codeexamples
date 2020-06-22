@@ -32,7 +32,7 @@ int main ()
     
     // Call iterate with 2 parameters (use the default step & column values)
     cout << endl;
-    cout << "iterate(50,74)" << endl;
+    cout << "iterate(1,50)" << endl;
     iterate(1,50);
 
     return 0;
