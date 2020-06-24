@@ -1,7 +1,8 @@
-# C++ STL
+# CPP3 - C++ STL & operator overloading
 
 ## operatorovld.cpp
 
+[Video](https://youtu.be/DdPikUiZRc4)
 *Example of operator overloading*
 
 ## vdestruct.cpp
@@ -17,4 +18,5 @@
 
 ## map.cpp
 
+[Video](https://youtu.be/i_vm3nu0MyQ)
 *C++ Maps*
