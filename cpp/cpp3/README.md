@@ -11,7 +11,7 @@
 
 ## vector.cpp
 
-[Video 1 Initializing & accessing members]()
+[Video 1 Initializing & accessing members](https://youtu.be/xabMvAstrD4)
 [Video 2 Working with vectors]()
 *C++ Vectors*
 

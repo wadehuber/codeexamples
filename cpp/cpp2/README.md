@@ -7,19 +7,12 @@
 
 Example of constructor, destructor, and copy constructor.  The output here is pretty verbose because the intention is to understand when the different functions get called.  In general, constructors, destructors, and copy constructors (and *especially overloaded operators*) should avoid output to stdout.
 
-## references.cpp
-
-[Video](https://youtu.be/j1HiuaUt1MU)
-*Examples of C++ references*
-
-Demonstration of how to work with references, including a function that returns a reference.
-
 ## structvsclass.cpp
 
 [Video](https://youtu.be/fGnBsqVWpW0)
 *Comparing structs & classes in C++*
 
-DIfferences and similarities between structs & classes in C++.  Also an example of usin g a char pointer to view memory contents.
+Differences and similarities between structs & classes in C++.  Also an example of usin g a char pointer to view memory contents.
 
 ## memory.cpp
 

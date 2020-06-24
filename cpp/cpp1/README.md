@@ -21,20 +21,12 @@ This file has examples of variable declarations, initilaizations, auto, constant
 
 C++ includes a string type.  Several examples of different string functions.
 
-## animals.cpp
+## references.cpp
 
-[Video 1](https://youtu.be/zvgwLT4FSQg) *Inheritance with C++, pointers & references*
+[Video](https://youtu.be/j1HiuaUt1MU)
+*Examples of C++ references*
 
-[Video 2](https://youtu.be/TB50U8UoA78) *Polymorphism, virtual, non-virtual, & pure virtual methods*
-
-This file includes examples of inheritance, polymorphism, and virtual and pure-virtual methods.
-
-## virtualfunctions.cpp
-
-[Video](https://youtu.be/ZnV4gXitoz0)
-*Virtual & pure virtual methods*
-
-This file contains a simplified example of how non-virtual, virtual, & pure-virtual methods work.
+Demonstration of how to work with references, including a function that returns a reference.
 
 ## defaultargs.cpp
 
@@ -43,7 +35,26 @@ This file contains a simplified example of how non-virtual, virtual, & pure-virt
 
 This file contains an example of using default arguments in C++ functions.
 
-## staff
+## OOP Examples
+
+The next three videos feature examples of virtual/non-virtual functions, inheritance, and polymorphism.  The are included in increasing order of complexity, but if you are new to OOP you may find the first animals.cpp to be easier to understand at first.  
+
+### virtualfunctions.cpp
+
+[Video](https://youtu.be/ZnV4gXitoz0)
+*Virtual & pure virtual methods*
+
+This file contains a simplified example of how non-virtual, virtual, & pure-virtual methods work.
+
+### animals.cpp
+
+[Video 1](https://youtu.be/zvgwLT4FSQg) *Inheritance with C++, pointers & references*
+
+[Video 2](https://youtu.be/TB50U8UoA78) *Polymorphism, virtual, non-virtual, & pure virtual methods*
+
+This file includes examples of inheritance, polymorphism, and virtual and pure-virtual methods.  
+
+### staff
 
 [Video](https://youtu.be/ZwDR84yAB4E)
 *Payroll example*  This is a long video, so timestamps are included.
