@@ -12,7 +12,7 @@
 ## vector.cpp
 
 [Video 1 Initializing & accessing members](https://youtu.be/xabMvAstrD4)
-[Video 2 Working with vectors]()
+[Video 2 Working with vectors](https://youtu.be/CADgXFk8Dio)
 *C++ Vectors*
 
 ## map.cpp
