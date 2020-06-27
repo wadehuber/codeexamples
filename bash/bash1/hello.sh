@@ -1,17 +1,7 @@
 #!/bin/bash
 
-# No space around = in an assignment
+# variables - no space around the = in an assignment
 greeting="Hello"
-person="World"
+name="`whoami`"
 
-if [ $# -ne 0 ]
-then
-    person=$1
-fi
-
-if [ $person = "Wade" ]
-then
-    echo "$greeting, professor"
-else
-    echo "$greeting, $person"
-fi
+echo "$greeting, $name"
