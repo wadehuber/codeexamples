@@ -5,17 +5,15 @@
 ii=1
 max=$1
 
-# if no parameter was given, 10 is default
+# if no parameter is given, 10 is the default
 max=${max:=10}
-
-# If parameter is passed, use that as max
 
 echo
 echo "While loop:"
 while [[ $ii -le $max ]]
 do
     echo $ii
-    ii=$((ii+1))
+    ((ii+=1))
 done
 
 echo
@@ -23,8 +21,9 @@ echo "For loop:"
 for ii in {1..5}
 do
     echo $ii
-done    
+done
 
+echo
 echo "For loop (files):"
 for script in *.sh
 do
@@ -44,21 +43,21 @@ ii=1
 until [[ $ii -gt $max ]]
 do
     echo $ii
-    ii=$((ii+1))
+    ((ii++))
 done
 
 echo
-echo "Break out of loop:"
+echo "Break out of loop"
 ii=1
 while [[ $ii -le 1000 ]]
 do
-    if [ $ii -gt $max ] 
+    if [ $ii -gt $max ]
     then
-        echo "Breaking ..."
+        echo "Breaking ...."
         break
     fi
     echo $ii
-    ii=$((ii+1))
+    ((++ii))
 done
 
 echo
@@ -66,6 +65,5 @@ echo "Loop over results of a command"
 scripts=($(find . -name "*.sh"))
 for scriptfile in ${scripts[@]}
 do
-  echo "  $scriptfile"
+    echo "  $scriptfile"
 done
-
