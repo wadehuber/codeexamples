@@ -1,14 +1,5 @@
 #!/bin/bash
 
-STOP=5
-
-echo "Running a for loop"
-for ((ii=1;ii<$STOP;ii++))
-do
-  echo $ii
-done
-
-echo
 
 echo "Files in the current directory"
 allfiles=(*)
@@ -26,13 +17,6 @@ do
 done
 echo "Number of C files = ${#cfiles[@]}"
 echo
-
-echo "Loop over results of a command"
-cppfiles=($(find . -name "*.cpp"))
-for filename in ${cppfiles[@])}
-do
-  echo "  $filename"
-done
 
 filetocheck=${cfiles[0]}
 wordtocheck=printf
