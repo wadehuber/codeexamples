@@ -16,7 +16,8 @@ Note that the template in this file has 2 type parameters, but the video example
 
 ## friend.cpp
 
-*Example of the friend modifier*
+[Video](https://youtu.be/m7RQOpEv9oQ)
+*Example of the friend modifier for classes & methods.  The example is in the context of a simple linked-list implementation.*
 
 ## explicit.cpp
 
@@ -25,4 +26,5 @@ Note that the template in this file has 2 type parameters, but the video example
 
 ## variadic.cpp
 
+[Video](https://youtu.be/YD3ckx2jEHE)
 *Example of variadic template*
