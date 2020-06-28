@@ -4,94 +4,90 @@
 using namespace std;
 
 class WordNode {
-  private:
-    string word;
-    WordNode * next;
-  public:
-    explicit WordNode(const string & s) : word{s} {
-      next = nullptr;
-    }
-    friend class WordList;
-    friend ostream& operator<< (ostream& strm, const class WordList& m);
+    private:
+        string word;
+        WordNode * next;
+    public:
+        explicit WordNode(const string & s) : word{s} {
+            next = nullptr;
+        }
+
+        friend class WordList;
+        friend ostream& operator<<(ostream& strm, const class WordList& m);
 };
 
 class WordList {
-  private:
-    int size;
-    WordNode * first;
-    WordNode * last;
+    private:
+        int size;
+        WordNode * first;
+        WordNode * last;
 
     public:
-      WordList() {
-        size=0;
-        first = nullptr;
-        last = nullptr;
-      }
+        WordList() : size(0), first(nullptr), last(nullptr) {}
 
-      ~WordList() {
-        WordNode * curr = first;
-        WordNode * ptr;
+        ~WordList() {
+            WordNode *curr = first;
+            WordNode * ptr;
 
-        while (curr) {
-          ptr = curr;
-          curr = curr->next;
-          delete(ptr);
+            while (curr) {
+                ptr = curr;
+                curr = curr->next;
+                delete(ptr);
+                ptr = nullptr;
+            }
+            curr = nullptr;
+            first = nullptr;
+            last = nullptr;
         }
-        curr = nullptr;
-        ptr = nullptr;
-        first = nullptr;
-        last = nullptr;
-      }
 
-      void addToFront(string s);
-      void addToRear(string s);
-      bool isEmpty() const { return (size == 0);}
+        void addToFront(string s);
+        void addToRear(string s);
+        bool isEmpty() const { return ( size == 0 ); }
 
-      friend ostream& operator<< (ostream& strm, const WordList& m);
+        friend ostream& operator<<(ostream& strm, const WordList& m);
 };
 
 void WordList::addToFront(string s) {
-  WordNode * newWordNode = new WordNode(s);
-  newWordNode->next = first;
-  first = newWordNode;
-  size++;
-  if (size == 1) {
-    last = first;
-  }
+    WordNode * newWordNode = new WordNode(s);
+    newWordNode->next = first;
+    first = newWordNode;
+    size++;
+    if (size == 1) {
+        last = first;
+    }
 }
 
 void WordList::addToRear(string s) {
-  WordNode * newWordNode = new WordNode(s);
-  if (isEmpty()) {
-    addToFront(s);
-  }
-  else {
-    last->next = newWordNode;
-    last = newWordNode;
-    size++;
-  }
+    WordNode * newWordNode = new WordNode(s);
+    if (isEmpty()) {
+        addToFront(s);
+    }
+    else {
+        last->next = newWordNode;
+        last = newWordNode;
+        size++;
+    }
 }
 
 ostream& operator<<(ostream& strm, const WordList& m) {
-  WordNode * curr = m.first;
-  while(curr != nullptr) {
-    strm << curr->word << " ";
-    curr = curr->next;
-  }
-  return strm;
+    WordNode * curr = m.first;
+    while (curr) {
+        strm << curr->word << " ";
+        curr = curr->next;
+    }
+    return strm;
 }
 
 int main () {
-  cout << "Starting test" << endl;
-  WordList words;
 
-  words.addToFront("Hello");
-  words.addToRear("world");
-  words.addToRear("goodbye!");
-  words.addToFront("CSC220");
+    WordList words;
 
-  cout << words << endl;
+    words.addToFront("Hello");
+    words.addToRear("World");
+    words.addToRear("goodbye");
+    words.addToFront("CSC220");
 
-  cout << "Finished test" << endl;
-  return 0;
+    cout << words << endl;
+
+    return 0;
 }
