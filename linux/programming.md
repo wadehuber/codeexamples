@@ -25,6 +25,7 @@ Please note this was from June 27, 2012. They also have episodes about C, C++ an
 
 - [A bash scripting tutorial](https://swcarpentry.github.io/shell-novice/06-script/)
 - [Loops](http://www.compciv.org/topics/bash/loops/) in bash
+- An [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/)is very thorough.
 - Some [shell script examples](https://www.macs.hw.ac.uk/~hwloidl/Courses/LinuxIntro/x945.html
 )
 - [Eight Obscure Bash Options You Might Want to Know About](https://zwischenzugs.com/2019/04/03/eight-obscure-bash-options-you-might-want-to-know-about/)
