@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#functions
+# Functions
 
 my_func () {
     echo "This is a function"
@@ -8,27 +8,25 @@ my_func () {
 }
 
 log_message () {
-    echo "$(date): $1"
+    echo "$(date | cut -d' ' -f2-4,6): $1"
     return
 }
 
 max () {
-    echo "Finding max of $1 and $2: "
+    echo "Finding max of $1 and $2"
     if [ $1 -ge $2 ]
-    then   
+    then
         echo "  $1 is the max"
-    else   
+    else
         echo "  $2 is the max"
-    fi   
-return
+    fi
+    return
 }
 
+log_message "START"
 my_func
-
-log_message "This is a test"
-
 max 3 4
 max 4 3
 max 4 4
-
-log_message "Goodbye"
+my_func
+log_message "END"
