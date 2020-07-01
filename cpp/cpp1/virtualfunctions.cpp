@@ -26,7 +26,7 @@ class Sub : public Super {
   public:
     Sub() { cout << "SUB: constructor" << endl; }
     // void nonVirtual2() override { cout << "SUPER: nonVirtual2" << endl; }
-    void nonVirtual2() { cout << "SUPER: nonVirtual2" << endl; }
+    void nonVirtual2() { cout << "SUB: nonVirtual2" << endl; }
     virtual void Virtual2() override { cout << "SUB: Virtual2" << endl; }
     void pureVirtual() override { cout << "SUB: pureVirtual" << endl; }
 
