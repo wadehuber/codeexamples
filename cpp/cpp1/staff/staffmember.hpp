@@ -14,7 +14,7 @@ class StaffMember {
                     : name(n), address(a), phone(p)
                     { }
         void print() const;
-        virtual int pay() const = 0;  // Abstract method
+        virtual int pay() const = 0;  // Pure-virtual (Abstract) method
         int bonus(int b) const;       // Non-virtual method
 };
 #endif

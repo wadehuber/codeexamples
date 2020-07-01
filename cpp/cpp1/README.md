@@ -44,7 +44,9 @@ The next three videos feature examples of virtual/non-virtual functions, inherit
 [Video](https://youtu.be/ZnV4gXitoz0)
 *Virtual & pure virtual methods*
 
-This file contains a simplified example of how non-virtual, virtual, & pure-virtual methods work.
+This file contains a simplified example of how non-virtual, virtual, & pure-virtual methods work.  You may want to review the animals.cpp videos first if you want to get a review of inheritance first or a more specific explaination of how each of the types of functions work.  
+
+UPDATE: Line 29 has changed from the video.  The string was changed to "SUB: nonVirtual2" to reflect that this was part of the derrived class.
 
 ### animals.cpp
 
@@ -68,5 +70,7 @@ This program contains the following class heirarchy:
   - Employee (employee.cpp / employee.hpp)
     - Hourly (hourly.cpp / hourly.hpp)
     - Salaried (salaried.cpp / salaried.hpp)
+
+In the loop where the paystubs are printed in staff.cpp the StaffMember print method is called since print is not virtual.  This is as intended - the only thing that should be printed is the name/address/phone of the employee, not additional things such as SSN.  To print that information we would need to use a variable or pointer of the derrived class type.
 
 **NOTE**: You may notice in the video I started to make pay non-virtual when I added the bonus method.  Since the bonus method takes a parameter and pay doesn't, I could have still called it pay since it would have overloaded, not overridden, then virtual pay method.  Also, it probably would have been better to use variables for the 4 StaffMembers to avoid memory allocation.  
