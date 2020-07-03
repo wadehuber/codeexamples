@@ -23,7 +23,7 @@ C++ includes a string type.  Several examples of different string functions.
 
 ## boolean.cpp
 
-[Video](https://youtu.be/6DNzhxgwar0)
+[Video]()
 *Example of using bool type and ternary operator*
 
 ## references.cpp
