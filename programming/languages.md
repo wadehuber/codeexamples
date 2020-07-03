@@ -7,6 +7,7 @@ Some of these are a bit out of date, but they each have some interesting informa
 - The [TIOBE Index](http://www.tiobe.com/tiobe-index//?imm_mid=0deb02&cmp=em-prog-na-na-newsltr_20160109) shows languages that are rising and falling in popularity (though not necessarily in usage).
 - [The Rise and Fall of Programming Languages in 2013](http://www.drdobbs.com/jvm/the-rise-and-fall-of-languages-in-2013/240165192) is an interesting snapshot.  Unfortunately drdobs.com is no longer publishing so there is no updated information.
 - [The Redmonk Language Ranking](https://redmonk.com/sogrady/2020/02/28/language-rankings-1-20/) comes out a couple of times a year and plots languages based on their frequency in Stack Overflow discussions and GitHub projects.  There is bias towards languages with lots of beginners and open source projects, but there are some interesting data points.
+- [The 2020 Stack Overflow Developer Survey](https://stackoverflow.blog/2020/05/27/2020-stack-overflow-developer-survey-results/)
 
 ## Aspects of Programming Languages
 
@@ -65,6 +66,10 @@ You will notice that I talk a lot about the history of programming languages.  W
   - [How it worked](https://www.youtube.com/watch?v=xx7Lfh5SKUQ)
   - [A demo](https://www.youtube.com/watch?v=YTk7jyiaE1U)
   - There is a series of [videos about how it was done](https://www.youtube.com/watch?v=2KSahAoOLdU&list=PL-_93BVApb59FWrLZfdlisi_x7-Ut_-w7)
+
+## SpaceX
+
+- SpaceX software engineers did an [AMA on Reddit](https://www.reddit.com/r/IAmA/comments/1853ap/we_are_spacex_software_engineers_we_launch/)
 
 ## Algol 68
 

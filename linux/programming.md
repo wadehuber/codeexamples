@@ -35,6 +35,9 @@ Please note this was from June 27, 2012. They also have episodes about C, C++ an
 
 - [Directions for creating a daemon](http://www.enderunix.org/docs/eng/daemon.php)
 - Some [falsehoods programmers believe about Unix time](https://alexwlchan.net/2019/05/falsehoods-programmers-believe-about-unix-time/)
+- [The Definitive Guide to Linux System Calls](https://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/)
+- [Making a System Call in C](https://jameshfisher.com/2018/02/19/how-to-syscall-in-c/)
+- A tutorial for [Writing a System Call](https://brennan.io/2016/11/14/kernel-dev-ep3/)
 
 ## Pthreads
 

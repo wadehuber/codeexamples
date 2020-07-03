@@ -16,6 +16,7 @@ Lazy Programmer gives a great overview of [how to learn from coding videos](http
 
 ## Things a Programmer Should Know
 
+- A lot from [Ten Things I Learned In My First Year as A Developer](https://www.blacksintechnology.net/ten-things-i-learned-in-my-first-year-as-a-developer) is applicable while you are still learning to program.
 - Here is a list of [12 Things Every Software Engineer Should Know](https://www.sw-engineering-candies.com/blog-1/top10thingseverysoftwareengineershouldknow)
 
 ## Advanced Tutorials
