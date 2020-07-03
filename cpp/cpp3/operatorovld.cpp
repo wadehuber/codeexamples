@@ -16,6 +16,8 @@ class MyClass {
 
         MyClass operator+(const MyClass& that);
         MyClass operator+(int x);
+        bool operator>(const MyClass& a);
+        bool operator<(const MyClass& a);
 
         // Friends can see private members
         friend ostream& operator<<(ostream& strm, const MyClass&m);
@@ -31,6 +33,14 @@ MyClass MyClass::operator+(const MyClass& that) {
 MyClass MyClass::operator+(int x) {
     MyClass ret(this->a + x);
     return ret;
+}
+
+bool MyClass::operator>(const MyClass& that) {
+    return this->a > that.a;
+}
+
+bool MyClass::operator<(const MyClass& that) {
+    return this->a < that.a;
 }
 
 // ----------------- End of MyClass ----------------- 
@@ -71,6 +81,21 @@ int main() {
     cout << "c1 + c2 = " << c1 << " + " << c2 << " = " << c1+c2 << endl;
     cout << "c1 + num = " << c1 << " + " << num << " = " << c1+num << endl;
     cout << "num + c2 = " << num << " + " << c2 << " = " << num+c2 << endl;
+
+    cout << endl;
+    if (c1 > c2) {
+        cout << c1 << " is greater than " << c2 << endl;
+    }
+    else {
+        cout << c1 << " is not greater than " << c2 << endl;
+    }
+
+    if (c1 < c2) {
+        cout << c1 << " is less than " << c2 << endl;
+    }
+    else {
+        cout << c1 << " is less than " << c2 << endl;
+    }
 
     return 0;
 }
