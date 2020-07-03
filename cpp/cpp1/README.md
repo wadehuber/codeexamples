@@ -21,6 +21,11 @@ This file has examples of variable declarations, initilaizations, auto, constant
 
 C++ includes a string type.  Several examples of different string functions.
 
+## boolean.cpp
+
+[Video](https://youtu.be/6DNzhxgwar0)
+*Example of using bool type and ternary operator*
+
 ## references.cpp
 
 [Video](https://youtu.be/j1HiuaUt1MU)
