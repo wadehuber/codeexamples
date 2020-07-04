@@ -6,11 +6,13 @@
 - GitHub [cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 - Additional resources [from GitHub](https://services.github.com/resources/)
 - [5 Git ideas explained the hard way](https://zwischenzugs.com/2018/03/14/five-key-git-concepts-explained-the-hard-way/)
+- [git - the simple guild](http://rogerdudler.github.io/git-guide/)
 - [Getting](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) a repo
 - [Updating](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository) a repo
 - Branching in git can be hard to get your head around.  Here is a great [introduction to branching](https://learngitbranching.js.org/)
 - This claims to be [the only introduction to git you'll ever need](https://areknawo.com/git-basics-the-only-introduction-you-will-ever-need/)
 - A guide to [More Productive Git](https://increment.com/open-source/more-productive-git/)
+- [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud) is from Atlassian so it focuses on Bitbucket instead of GitHub, but it is nicely organized and has nice illustations of how git works.
 - Videos
   - [Basic Git Concepts](https://www.youtube.com/watch?v=8KCQe9Pm1kg) is a nice overview of what git does
   - [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)

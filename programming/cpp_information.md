@@ -34,7 +34,7 @@ In general, [cppreference.com](http://cppreference.com) is a reliable C++ refere
 - [The Evil Within the Comparison Functions](https://www.viva64.com/en/b/0391/) goes over some common mistakes when doing comparisons in C++.  This is an ad for a company that sells a tool to find the mistakes, but many of the ones they list are fairly common.  They also have a good list of pitfalls you can run into when writing comparisons in your code.  
 - [A guide to Using C++ effectively on small systems](https://www.embedded.com/objects-no-thanks-using-c-effectively-on-small-systems/)
 
-## C++ Features
+## C++ Features & Topics
 
 ### Vectors
 
@@ -48,13 +48,40 @@ In general, [cppreference.com](http://cppreference.com) is a reliable C++ refere
 
 - A [list of operators you can overload](http://en.cppreference.com/w/cpp/language/operators)
 
+### Lvalues & RValues
+
+- [Understanding lvalues & rvalues in C & C++](https://eli.thegreenplace.net/2011/12/15/understanding-lvalues-and-rvalues-in-c-and-c/)
+- [A Brief Introduction to Rvalue References](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2027.html#Move_Semantics)
+
+### const
+
+- [The C++ const Declaration: Why & How](http://duramecho.com/ComputerInformation/WhyHowCppConst.html)
+- [Const Correctness](https://isocpp.org/wiki/faq/const-correctness) from the ISO C++ website
+- [Const/volatile/mutable](http://en.cppreference.com/w/cpp/language/cv)
+
 ### Other Topics
 
 - [getline](http://en.cppreference.com/w/cpp/string/basic_string/getline)
-- [Const/volatile/mutable](http://en.cppreference.com/w/cpp/language/cv)
 - [Overriding non-virtual methods](https://stackoverflow.com/questions/11067975/overriding-non-virtual-methods)
 
-### Copy constructor vs Assignment operator (=operator)
+### Rule of Three (or 5 or Zero)
+
+In C++ there is the idea of the "Rule of Three" - for classes that use heap memory you should implement a destructor, copy constructor, or copy assignment operator.  If you want to continue in C++ it is essential knowledge.  
+
+- Video: [Rule of Three in C++: Overloaded Assignment, Copy Constructor, Destructor](https://www.youtube.com/watch?v=F-7Rpt2D-zo)
+- [C++ Made Easier: The Rule of Three](https://www.drdobbs.com/c-made-easier-the-rule-of-three/184401400)
+- [The Rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three) from [cppreference.com](https://en.cppreference.com/w/)
+- [C++ Core Guidelines: The Rule of Zero, Five, or Six](https://www.modernescpp.com/index.php/c-core-guidelines-constructors-assignments-and-desctructors)
+
+### Move Semantics
+
+- [C++ moves for people who don't knjow or care what rvalues are](https://medium.com/@winwardo/c-moves-for-people-who-dont-know-or-care-what-rvalues-are-%EF%B8%8F-56ee122dda7)
+- [Copy vs Move semantics](https://www.modernescpp.com/index.php/copy-versus-move-semantic-a-few-numbers)
+- [What is a move constructor in C++?](https://www.educative.io/edpresso/what-is-a-move-constructor-in-cpp)
+- [Move Constructors and move assignment](https://www.learncpp.com/cpp-tutorial/15-3-move-constructors-and-move-assignment/) from learncpp.com
+- Microsoft's introduction to [Move Constructors and Move Assignment Operators (C++)](https://docs.microsoft.com/en-us/cpp/cpp/move-constructors-and-move-assignment-operators-cpp?view=vs-2019)
+
+## Copy constructor vs Assignment operator (=operator)
 
 In C++, you need to be aware of what underlying operation is occurring when you set a variable.
 In the following case, m3 is set using =operator:
@@ -104,6 +131,7 @@ cppcheck filename.cpp
 - VIDEO: [The Care and Feeding of C++'s Dragons](https://www.youtube.com/watch?v=JSjoCisIHcM) is a talk about some of tools Google uses to help with simplicity in C++.  It isn't really a tutorial, but it touches on a lot of issues that come up in industry.  
 A discussion of some [obscure C++ features](http://madebyevan.com/obscure-cpp-features/)
 - [C++ Annotations](http://www.icce.rug.nl/documents/cplusplus) is an online book with a focus on differences between C & C++.   It goes well beyond what we will cover this semester, but it has a lot of good information.
+- VIDEO: [C9 Lectures: Stephan T. Lavavej - Standard Templiate Library](https://channel9.msdn.com/Series/C9-Lectures-Stephan-T-Lavavej-Standard-Template-Library-STL-/C9-Lectures-Introduction-to-STL-with-Stephan-T-Lavavej) has several videos covering the STL
 - John Carmack on [functional programming in C++](https://www.gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php)
 - A list of recommended [advanced C++ books](https://www.fluentcpp.com/2017/07/28/what-books-to-read-to-get-better-at-c/)
 - CPPCon notes (most of the talks are available on YouTube):
@@ -146,11 +174,6 @@ A discussion of some [obscure C++ features](http://madebyevan.com/obscure-cpp-fe
 - VIDEO: [Easing into Modern C++ (7 Features of C++ You Can Adopt Today)](https://www.youtube.com/watch?v=8wnj6M-jj9c)
 - VIDEO: [How to Adopt Modern C++17 into Your C++ Code](https://www.youtube.com/watch?v=UsrHQAzSXkA) from Build 2018
 - [A Guide to Modern C++ for C Programmers](https://berthub.eu/articles/posts/c++-1/) (there are multiple parts, the link is to the first one)
-
-## "Rule of Three"
-
-In C++ there is the idea of the "Rule of Three" - for classes that use heap memory you should implement a destructor, copy constructor, or copy assignment operator.  We probably won't get to operator overloading and writing copy constructors, but if you want to continue in C++ it is essential knowledge.  A student recommended the following video:
-[Rule of Three in C++: Overloaded Assignment, Copy Constructor, Destructor](https://www.youtube.com/watch?v=F-7Rpt2D-zo)
 
 ### CPPcon 2019 Back to Basics Talks
 
