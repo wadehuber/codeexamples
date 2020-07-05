@@ -12,23 +12,22 @@ class MyClass {
         void print() { cout << "MyClassObject x=" << x << endl; }
 };
 
-MyClass * myClassMakerBad(int n) {
-    return new MyClass(n); 
+MyClass * myClassMakerPtr(int n) {
+    return new MyClass(n);
 }
 
-unique_ptr<MyClass> myClassMaker(int n) {
+unique_ptr<MyClass> myClassMakerSmart(int n) {
     return make_unique<MyClass>(n);
 }
 
 int main() {
+    auto mPtrRaw = myClassMakerPtr(5);
+    auto mPtrSmart = myClassMakerSmart(10);
 
-    auto mPtr1 = myClassMakerBad(5);
-    mPtr1->print();
+    mPtrRaw->print();
+    mPtrSmart->print();
 
-    auto mPtr2 = myClassMaker(10);
-    mPtr2->print();
-
-    delete(mPtr1);
+    delete(mPtrRaw);
 
     return 0;
 }

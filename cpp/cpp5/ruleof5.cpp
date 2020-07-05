@@ -7,44 +7,48 @@ class RuleOf5 {
     private:
         int x;
     public:
-        explicit RuleOf5(int n=1) : x(n) { cout << "Constructor x=" << n << endl; }
-        ~RuleOf5() { }
+        RuleOf5(int n=0) : x(n) { cout << "Constructor x=" << x << endl; }
+        ~RuleOf5() { cout << "Destructor x=" << x << endl; }
 
-        // Copy constructor & copy assignment (overloaded = operator)
-        RuleOf5(const RuleOf5& that) { 
+        // Copy constructor
+        RuleOf5(const RuleOf5 & that) {
             x = that.x + 10;
-            cout << "Copy Constructor " << x << endl; 
+            cout << "Copy Constructor " << x << endl;
         }
-        RuleOf5& operator=(const RuleOf5& that) { 
+
+        // Copy assignment - overload operator=
+        RuleOf5& operator=(const RuleOf5 & that) {
             if (this != &that) {
                 x = that.x + 100;
-                cout << "Copy Assignment (overloaded operator=) " << x << endl; 
+                cout << "Copy Assignment (overloaded operator=) " << x << endl;
             }
             return *this;
         }
-        
-        // Move constructor & move assignment (overloaded = operator)
-        RuleOf5(const RuleOf5&& that) { 
-            x = that.x + 1000;
-            cout << "Move constructor " << x << endl; 
+
+        // Move constructor
+        RuleOf5(const RuleOf5 && that) {
+            x = that.x + 10;
+            cout << "Move Constructor " << x << endl;
         }
-        RuleOf5& operator=(const RuleOf5&& that) { 
+
+        // Move assignment - overload operator=
+        RuleOf5& operator=(const RuleOf5&& that) {
             if (this != &that) {
                 x = that.x + 10000;
-                cout << "Move Assignment (overloaded operator=) " << x << endl; 
+                cout << "Move Assignment (overloaded operator=) " << x << endl;
             }
             return *this;
         }
 };
 
 RuleOf5 makeRuleOf5() {
-    RuleOf5 lVar(2) ;
-    return lVar;
+    RuleOf5 varLocal(2);
+    return varLocal;
 }
 
 int main() {
 
-    // Default constructor
+    // Constructor
     RuleOf5 varOriginal(1);
     cout << endl;
 
@@ -65,6 +69,13 @@ int main() {
     // Move constructor
     vector<RuleOf5> v;
     v.push_back(RuleOf5(3));
+    cout << endl;
+    
+    // std::move
+    RuleOf5 varStdMove;
+    varStdMove = std::move(varOriginal);
+    // After this point, varOriginal is no longer valid
+    cout << endl;
 
     return 0;
 }
