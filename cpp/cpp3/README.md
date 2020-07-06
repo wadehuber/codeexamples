@@ -20,3 +20,10 @@
 
 [Video](https://youtu.be/i_vm3nu0MyQ)
 *C++ Maps*
+
+## algorithm.ccp
+
+[Video](https://youtu.be/bdiWTAWxc_w)
+*Methods from the C++ algorithms library*
+
+Note that the examples of any_of, any_of, none_of all use lambdas which we haven't covered yet.  For now, just keep in mind that the lambda function is contained between the braces, so you can update that part to have it do what you want.
