@@ -81,6 +81,19 @@ In C++ there is the idea of the "Rule of Three" - for classes that use heap memo
 - [Move Constructors and move assignment](https://www.learncpp.com/cpp-tutorial/15-3-move-constructors-and-move-assignment/) from learncpp.com
 - Microsoft's introduction to [Move Constructors and Move Assignment Operators (C++)](https://docs.microsoft.com/en-us/cpp/cpp/move-constructors-and-move-assignment-operators-cpp?view=vs-2019)
 
+### C++ STL
+
+- [Power up C++ with the STL](https://www.topcoder.com/community/competitive-programming/tutorials/power-up-c-with-the-standard-template-library-part-1/) from Topcoder
+- Quantcademy has a multi-part tutorial on the C++ STL, including sections on [Containers](https://www.quantstart.com/articles/C-Standard-Template-Library-Part-I-Containers/), [Iterators](https://www.quantstart.com/articles/C-Standard-Template-Library-Part-II-Iterators/), & [Algorithms](https://www.quantstart.com/articles/C-Standard-Template-Library-Part-III-Algorithms/)
+- [An introduction to the Standard Template Library](https://cal-linux.com/tutorials/STL.html) by Carlos Moreno
+- [The Complete Practical Guide to C++ STL](https://medium.com/@abhiarrathore/the-magic-of-c-stl-standard-template-library-e910f43379ea) by Abhishek Rathore
+
+### Smart Pointers
+
+- [Exploring std::unique_ptr](https://shaharmike.com/cpp/unique-ptr/)
+- How to: [Create and use unique_ptr instances](https://docs.microsoft.com/en-us/cpp/cpp/how-to-create-and-use-unique-ptr-instances?view=vs-2019) from Microsoft
+- [Top 10 dumb mistakes to avoid with C++ 11 smart pointers](https://www.acodersjourney.com/top-10-dumb-mistakes-avoid-c-11-smart-pointers/)
+
 ## Copy constructor vs Assignment operator (=operator)
 
 In C++, you need to be aware of what underlying operation is occurring when you set a variable.
