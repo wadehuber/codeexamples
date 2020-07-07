@@ -61,6 +61,7 @@ In general, [cppreference.com](http://cppreference.com) is a reliable C++ refere
 
 ### Other Topics
 
+- [The difference between struct & class](https://www.fluentcpp.com/2017/06/13/the-real-difference-between-struct-class/)
 - [getline](http://en.cppreference.com/w/cpp/string/basic_string/getline)
 - [Overriding non-virtual methods](https://stackoverflow.com/questions/11067975/overriding-non-virtual-methods)
 

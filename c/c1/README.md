@@ -24,6 +24,11 @@ We have to pass the length of the array to the function so the loop will know wh
 
 [Video](https://youtu.be/p127cSHXHs4) - *User-defined types in C, including enums, structs, and unions.  typedef.*
 
+## union.c
+
+[Video](https://youtu.be/UCDsmTC-FTE)
+*An example of a union of an int, double & string*
+
 ## stuructsize.c
 
 [Video](https://youtu.be/Llz6LeDT0YU) - *Size of structures with similar fields.  Bitfields.*
