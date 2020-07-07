@@ -16,6 +16,7 @@ int main() {
 
     values = "HELLO";
     cout << "Values = " << get<string>(values) << endl;
+    cout << endl;
 
     checkType(values);
     values = 3.14;
@@ -26,15 +27,15 @@ int main() {
     return 0;
 }
 
-// Checking to see what type a vairant holds
+// Check to see what type a variant holds
 void checkType(variant<int, double, string> v) {
     if (holds_alternative<int>(v)) {
-        cout << "The parameter holds an int value=" << get<int>(v) << endl;
+        cout << "The parameter holds an int value = " << get<int>(v) << endl;
     }
     if (holds_alternative<double>(v)) {
-        cout << "The parameter holds a double value=" << get<double>(v) << endl;
+        cout << "The parameter holds an double value = " << get<double>(v) << endl;
     }
     if (holds_alternative<string>(v)) {
-        cout << "The parameter holds a string value=" << get<string>(v) << endl;
+        cout << "The parameter holds an string value = " << get<string>(v) << endl;
     }
 }
