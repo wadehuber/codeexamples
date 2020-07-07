@@ -7,7 +7,7 @@ class RuleOf5 {
     private:
         int x;
     public:
-        RuleOf5(int n=0) : x(n) { cout << "Constructor x=" << x << endl; }
+        explicit RuleOf5(int n=0) : x(n) { cout << "Constructor x=" << x << endl; }
         ~RuleOf5() { cout << "Destructor x=" << x << endl; }
 
         // Copy constructor

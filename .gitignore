@@ -39,3 +39,4 @@ compiled
 *.o
 *.stackdump
 *~
+.vscode/c_cpp_properties.json
