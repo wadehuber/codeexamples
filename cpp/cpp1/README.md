@@ -40,6 +40,11 @@ Demonstration of how to work with references, including a function that returns 
 
 This file contains an example of using default arguments in C++ functions.
 
+## constmethod.cpp
+
+[Video](https://youtu.be/_F5emVR-jd4)
+*Example of const member methods*
+
 ## OOP Examples
 
 The next three videos feature examples of virtual/non-virtual functions, inheritance, and polymorphism.  The are included in increasing order of complexity, but if you are new to OOP you may find the first animals.cpp to be easier to understand at first.  
