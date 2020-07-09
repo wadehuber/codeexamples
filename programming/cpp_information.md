@@ -59,6 +59,10 @@ In general, [cppreference.com](http://cppreference.com) is a reliable C++ refere
 - [Const Correctness](https://isocpp.org/wiki/faq/const-correctness) from the ISO C++ website
 - [Const/volatile/mutable](http://en.cppreference.com/w/cpp/language/cv)
 
+### Variadic Templates
+
+- VIDEO: [Variadic Templates in C++11/C++14 - An Introduction](https://www.youtube.com/watch?v=R1G3P5SRXCw) by Peter Sommerlad at CppCon2015
+
 ### Other Topics
 
 - [The difference between struct & class](https://www.fluentcpp.com/2017/06/13/the-real-difference-between-struct-class/)
