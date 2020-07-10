@@ -10,6 +10,12 @@ This file uses the Fibonacci function to demonstrate a loop-based implemenation,
 [Video](https://youtu.be/svbqz77Fox4) - *Using constants in C*
 This file has examples of symbolic & enumeration constants as well as constant variables.  It also shows how the value of a "constant" variable can be changed.  A constant variable is different from a symbolic constant since the constant variable will have memory allocated to it and we can have pointers to it, we just can't change it directly.  
 
+## headers.c
+
+[Video](https://youtu.be/dtlTKLIupgs) - *Example of how header files work*
+
+The intention of this video & example is to show how header files are included into a C source file.  We use the -E flag so that gcc will run the preprocessor but not compile the file since header files affect the C code that gets compiled.  We also discuss how to write guards and demonstrate what their purpose is.  See the multifile & multifile2 examples below for more information on writing header files and C programs with more than one C source file.
+
 ## mystuff_originial.c / multifile
 
 [Video](https://youtu.be/jHYn7b6NwLc) & [makefile video](https://youtu.be/rnPmx6-AiOs) - *Multifile C program example*
