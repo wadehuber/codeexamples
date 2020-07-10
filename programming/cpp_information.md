@@ -63,6 +63,11 @@ In general, [cppreference.com](http://cppreference.com) is a reliable C++ refere
 
 - VIDEO: [Variadic Templates in C++11/C++14 - An Introduction](https://www.youtube.com/watch?v=R1G3P5SRXCw) by Peter Sommerlad at CppCon2015
 
+### Namespaces
+
+- [Everytnhing You Need to Know About Namespace in C++](https://www.edureka.co/blog/namespace-in-cpp/)
+- Microsoft's documentation on [Namespaces in C++](https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=vs-2019)
+
 ### Other Topics
 
 - [The difference between struct & class](https://www.fluentcpp.com/2017/06/13/the-real-difference-between-struct-class/)
@@ -88,10 +93,15 @@ In C++ there is the idea of the "Rule of Three" - for classes that use heap memo
 
 ### C++ STL
 
-- [Power up C++ with the STL](https://www.topcoder.com/community/competitive-programming/tutorials/power-up-c-with-the-standard-template-library-part-1/) from Topcoder
+- [Power up C++ with the STL](https://www.topcoder.com/community/competitive-programming/tutorials/power-up-c-with-the-standard-template-library-part-1/) (part 1) from Topcoder
 - Quantcademy has a multi-part tutorial on the C++ STL, including sections on [Containers](https://www.quantstart.com/articles/C-Standard-Template-Library-Part-I-Containers/), [Iterators](https://www.quantstart.com/articles/C-Standard-Template-Library-Part-II-Iterators/), & [Algorithms](https://www.quantstart.com/articles/C-Standard-Template-Library-Part-III-Algorithms/)
 - [An introduction to the Standard Template Library](https://cal-linux.com/tutorials/STL.html) by Carlos Moreno
 - [The Complete Practical Guide to C++ STL](https://medium.com/@abhiarrathore/the-magic-of-c-stl-standard-template-library-e910f43379ea) by Abhishek Rathore
+
+#### std::variant
+
+- [Basic std::variant use](https://riptutorial.com/cplusplus/example/18604/basic-std--variant-use)
+- [Modern C++ Features - std::variant and std::visit](https://arne-mertz.de/2018/05/modern-c-features-stdvariant-and-stdvisit/)
 
 ### Smart Pointers
 

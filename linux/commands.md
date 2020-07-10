@@ -40,6 +40,7 @@ Sun, Jun 14, 2015  5:56:51 PM
 - You can schedule processes using cron.  [A good introduction](https://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800).
 - [The Beginners Guide to Cron Jobs](https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/)
 - The official Ubuntu documentaion includes a nice [CronHowto](https://help.ubuntu.com/community/CronHowto)
+- [crontab guru](https://crontab.guru/) has lots of crontab schedule examples and a translator
 
 ## Creating a file using the "cat" command
 
