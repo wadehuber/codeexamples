@@ -29,6 +29,8 @@ We have to pass the length of the array to the function so the loop will know wh
 [Video](https://youtu.be/UCDsmTC-FTE)
 *An example of a union of an int, double & string*
 
+Unions are similar to structures (and identical in how they are declared other than being called unions), but a union will only be allocated enough memory for its *largest* member, whereas a struct will be allocated enough memory for all its members *combined*.  You would use a union if you want to have a variable that can hold differet types at different times.
+
 ## stuructsize.c
 
 [Video](https://youtu.be/Llz6LeDT0YU) - *Size of structures with similar fields.  Bitfields.*

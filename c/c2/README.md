@@ -13,7 +13,7 @@ This file has examples of how arithmetic with pointers works.
 ## arrayvsptr.c
 
 [Video](https://youtu.be/qa3xXcoI7z0) - *Using array names & pointers*
-This file has examples showing the similarities & differences between pointers.
+This file has examples showing the similarities & differences between pointers.  If we declare a variable with type `char *` then it is a pointer.  A variable with type `char[]` is an array.  We can use the *names* of pointers and arrays in the same way (as shown in this example), so in that way they are the similar.  However, an array variable has memory allocated for it whereas a pointer variable does not - it only has memory allocated to hold an address.
 
 ## stringvsptr.c
 
