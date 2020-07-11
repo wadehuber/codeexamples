@@ -5,6 +5,8 @@
 [Video](https://youtu.be/6DNzhxgwar0)
 *Example of operator overloading*
 
+Note that while we only overload the +, <, >, and << operators in this video, those are not the only operators you can overload.  See the C++ information page for a list of operators you can overload.
+
 ## vdestruct.cpp
 
 [Video](https://youtu.be/8OKllpDnhbU)
@@ -15,6 +17,8 @@
 [Video 1 Initializing & accessing members](https://youtu.be/xabMvAstrD4)
 [Video 2 Working with vectors](https://youtu.be/CADgXFk8Dio)
 *C++ Vectors*
+
+In general, you should always prefer using the STL classes when you can.  Use vectors - *especially* instead of creating arrays with `new`.
 
 ## map.cpp
 

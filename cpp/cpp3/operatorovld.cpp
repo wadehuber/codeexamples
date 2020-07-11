@@ -14,6 +14,8 @@ class MyClass {
             cout << "  print : " << a << endl;
         }
 
+        // For overloaded operators defined as class members, an object of the
+        //   Class type is the first operand (the "this" pointer)
         MyClass operator+(const MyClass& that);
         MyClass operator+(int x);
         bool operator>(const MyClass& a);
@@ -44,6 +46,8 @@ bool MyClass::operator<(const MyClass& that) {
 }
 
 // ----------------- End of MyClass ----------------- 
+// For overloaded operators defined outside the class, each operand is passed
+//   in as a parameter to the function
 ostream& operator<<(ostream& strm, const MyClass& m) {
     strm << "{" << m.a << "}";
     return strm;
