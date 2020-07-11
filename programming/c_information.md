@@ -42,6 +42,7 @@ The links below go far more in depth into C than we will in this class, but if y
 - I don’t have strong opinions about coding style, other than your code should be clear & consistently formatted.  But you may want to review the [Linux coding standards](https://www.kernel.org/doc/html/v4.10/process/coding-style.html)
 - A list of [obscure C features](https://multun.net/obscure-c-features.html)(that you should probably avoid, but you may see out in the wild)
 - [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/) discusses how C strings and malloc work and why it is important to know it.
+- [Signal handling](https://publications.gbdirect.co.uk//c_book/chapter9/signal_handling.html) in C
 
 ## Memory Usage & Data Alignment
 
@@ -133,6 +134,7 @@ for (int ii=0;ii<10;ii++) {
 - An [implementation of the movie Inception in C](https://github.com/karthick18/inception)
 - A [Proposal for a Friendly Dialect of C](https://blog.regehr.org/archives/1180) suggests some features that would make C program safer.
 - Don’t write your code like this, but the [International Obfuscated C Contest](http://ioccc.org/) has some interesting examples of valid C code.
+- [How C array sizes became part of the binary interface of a library](https://developers.redhat.com/blog/2019/05/06/how-c-array-sizes-become-part-of-the-binary-interface-of-a-library/)
 
 ## Real-world C examples
 
@@ -141,11 +143,13 @@ for (int ii=0;ii<10;ii++) {
 - [SQLite](https://www.sqlite.org/index.html) is a very small database engine that is included as a library in a lot of languages, including Python and Java.  [This code walk through](http://cppdepend.com/blog/?p=214) touches points out some good programming practices that show up in the source code.
 - A guide to [low-level programming in C on the Raspberry Pi](http://www.pieter-jan.com/node/15).
 - [String-matching using C & Assembly](https://trent.me/is-prefix-of-string-in-table/)
+- VIDEO [Programming A Chess Engine in C](https://www.youtube.com/watch?v=bGAfaepBco4) (the first video in a series)
 
-## Bugs
+## Bugs & Exploits
 
 - A few years ago Cloudflare reported a bug (found by Google) that exposed memory locations which contained data that had gone out of scope.  The C related description starts in the “Root cause of the bug” section.
 - Leaving braces off a single line loop is usually not a good idea.  Doing that let to the [Apple SSL/TLS bug](https://www.imperialviolet.org/2014/02/22/applebug.html) from a few years ago
+- [Manual Control Flow Guards](https://nullprogram.com/blog/2017/01/21/) are a Windows feature that help avoid buffer overflow exploit.
 
 ## C Coding Tips
 

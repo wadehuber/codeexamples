@@ -18,6 +18,11 @@
 - If you want to go deeper into what happens when you run different Linux commands, [Safia Abdalla](https://blog.safia.rocks/) has posts that do a deep dive in to "cd", ls", "sudo" and more.  Check the archive link.
 - A book about the [Linux kernel and its insides](https://github.com/0xAX/linux-insides)
 
+## Interesting Articles
+
+- [The 1010 of ELF files on Linux: Understanding an Analysis](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/) has some great information on the Executable and Linkable Format for Linux binaries.
+- [In Unix Everything is a File](https://ph7spot.com/musings/in-unix-everything-is-a-file)
+
 ## The semi-colon (;) on the Linux Command Line
 
 You can use a semicolon to separate UNIX commands on a single command line.  This allows you do to things like put a time stamp on the output of a command.

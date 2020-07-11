@@ -102,6 +102,8 @@ In C++ there is the idea of the "Rule of Three" - for classes that use heap memo
 
 - [Basic std::variant use](https://riptutorial.com/cplusplus/example/18604/basic-std--variant-use)
 - [Modern C++ Features - std::variant and std::visit](https://arne-mertz.de/2018/05/modern-c-features-stdvariant-and-stdvisit/)
+- A lot in information on [variants from Bartek's coding blog](https://www.bfilipek.com/2018/06/variant.html)
+- [std::variant Doesn't Let Me Sleep](https://pabloariasal.github.io/2018/06/26/std-variant/)
 
 ### Smart Pointers
 
@@ -225,3 +227,4 @@ Cppcon 2019 had several good “Back to Basics” talks about a wide variety of 
 ## C++ in the Real World
 
 - [A GameBoy emulator](https://github.com/Dooskington/GameLad)
+- The [Eudora email client source code](https://computerhistory.org/blog/the-eudora-email-client-source-code/) is available from the Computer History Museum.  The *Windows Eudora Architecture* PDF in the Widows distribution is worth reading.
