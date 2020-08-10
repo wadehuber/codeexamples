@@ -1,0 +1,35 @@
+# Scheme Debugging Tips
+
+## General hints
+
+- Keep your functions short.  Short functions are easier to debug.  Complex functions composed of smaller functions can be tested piece by piece.
+
+## Contract violation
+
+```(text)
++: contract violation
+expected: number?
+given: A
+```
+
+This means Scheme was expecting a form of a certain type but was given a different type.  Something like `(+ 3 "String")` where the 2nd element is a string, not a number as expected.  This is also common when you try to do a list operation on an atom.  The first line will indicate what function gave the error, the second line (`expected:`) will let you know what type was expected and the final line (`given:`) will indicate what input you passed.
+
+## Application not a procedure
+
+```(text)
+application: not a procedure;
+```
+
+This happens when you ask Scheme to evaluate something where the first item in the form is not a procedure.  A common place where this occurs is when you forget to quote a list, like `(car (1 2 3 4))`.  In this case, `(1 2 3 4)` is not a list.
+
+## Airity mismatch
+
+```(text)
+my-defined-function: arity mismatch;
+the expected number of arguments does not match the given number
+ expected: 2
+ given: 1
+ arguments…;
+```
+
+This error is given when you pass the wrong number of arguments to a function.  The expected number of arguments will be listed along with how many arguments you passed.  To resolve, you need to find where the function call is with the wrong number of parameters.  This is a common error with recursive functions.  Check that both recursive calls have the coorect number of parameters.
