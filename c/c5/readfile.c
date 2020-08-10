@@ -11,7 +11,7 @@ int main(int argc, char * argv[]) {
     int sum=0;
     int ii=0;
     char * number;
-
+ 
     if (argc < 2) {
         fputs("Missing filename to read\n", stderr);
         exit(-1);
