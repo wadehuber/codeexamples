@@ -118,3 +118,7 @@ Videos
 ## pipes
 
 - Implementating [digital circuits using Unix pipes](http://www.linusakesson.net/programming/pipelogic/index.php)
+
+## Advanced Topics
+
+- [How to Teleport in the Terminal](https://dev.to/jimmymcbride/bash-how-to-teleport-in-the-terminal-1e09)

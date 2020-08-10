@@ -81,6 +81,7 @@ You will notice that I talk a lot about the history of programming languages.  W
 - And yes, there are [problems because of it](https://www.bloomberg.com/news/articles/2020-04-13/an-ancient-computer-language-is-slowing-america-s-giant-stimulus)
 - As recently 2014, there were [200 times more COBOL transactions than Google searches](https://www.siliconrepublic.com/enterprise/legacy-issues-200-times-more-cobol-transactions-today-than-google-searches)
 - Walmart has a [GitHub repo with COBOL code](https://github.com/walmartlabs/zFAM/blob/master/Source/ZFAM007.cbl)
+- [COBOL stays top of mind for businesses in 2020](https://www.techradar.com/news/cobol-remains-an-important-programming-priority)
 - You can play around with [GnuCOBOL](https://en.wikipedia.org/wiki/GnuCOBOL)
 - IBM has pushed out some resources for [learning & programming in COBOL](https://newsroom.ibm.com/2020-04-09-IBM-and-Open-Mainframe-Project-Mobilize-to-Connect-States-with-COBOL-Skills)
 

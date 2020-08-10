@@ -1,6 +1,6 @@
 # Database Information
 
-## General Databse Links
+## General Database Links
 
 - [Things I Wished More Developers Knew About Databases](https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 
@@ -8,9 +8,18 @@
 
 - VIDEO [Intro to SQL](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql) from Khan Academy
 
+## Other SQL links
+
+- [SQL Concepts from A to Z](https://www.helenanderson.co.nz/sql-concepts-from-a-to-z/).  That site also has an expaination of [SQL Joins without using Venn Diagrams](https://www.helenanderson.co.nz/sql-joins-venn-diagrams/)
+- [SQL queries don't start with SELECT](https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/) has some good information about how SQL queries work
+- [A Visual Explaination of SQL Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
+- A guide to [optimizing queries](https://towardsdatascience.com/learning-sql-201-optimizing-queries-regardless-of-platform-918a3af9c8b1)
+
 ## JDBC
 
 - Jenkov's [JDBC Tutorial](http://tutorials.jenkov.com/jdbc/index.html)
+- [10 common mistakes Java developers make when writing SQL](https://blog.jooq.org/2013/07/30/10-common-mistakes-java-developers-make-when-writing-sql/)
+- [10 *more* common mistakes Java developers make when writing SQL](https://blog.jooq.org/2013/08/12/10-more-common-mistakes-java-developers-make-when-writing-sql/)
 
 ## Setting up SQLite in Eclips
 

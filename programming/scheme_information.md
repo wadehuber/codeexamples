@@ -66,7 +66,6 @@ For Scheme, we will be using [DrRacket](https://download.racket-lang.org/).  Mak
 ## Functional Programming Talks
 
 - [Functional Thinking talk from OSCON 2013](https://www.youtube.com/watch?v=7aYS9PcAITQ) doesn't cover anything about Scheme, but does a good job of explaining where functional programming fits in to modern programming.
-- [Lambda Calculus Tutorial from PYCON 2019](https://www.youtube.com/watch?v=5C6sv7-eTKg)
 - [The Power of Composition](https://www.youtube.com/watch?v=WhEkBCWpDas) is a great introduction to Functional Programming.  It uses F#, but most of it should be at a level where you can follow it.
 - [Plain Functional Programming](https://www.youtube.com/watch?v=YXDm3WHZT5g) by Martin Odersky is another good talk about some more advanced topics (with  Scala) in functional programming.
 
@@ -90,7 +89,6 @@ More information:
 - A list of [Functional Programming Jargon](https://github.com/hemanth/functional-programming-jargon/blob/master/readme.md)
 - A practical [introduction to FP using Python](https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming)
 - An old [Introduction to Functional Programming Book](http://usi-pl.github.io/lc/sp-2015/doc/Bird_Wadler.%20Introduction%20to%20Functional%20Programming.1ed.pdf)
-- [Algebra and the Lambda Calculus](https://people.csail.mit.edu/jaffer/lambda.txt) discusses some of the mathematical underpinnings of functional programming.
 - [F# for Fun and Profit](https://fsharpforfunandprofit.com/) has a lot of resources for learning F#, a functional language that was developed by Microsoft.
 - [The Functional Style](https://codurance.com/2018/08/09/the-functional-style-part-1/) - an introduction to Functional Programming
 
@@ -98,6 +96,13 @@ More information:
 
 - Examples of [Higher Order Functions in JavaScript](https://medium.com/better-programming/the-power-of-higher-order-functions-in-javascript-91fc8edc3a7a)
 - [What is a Pure Function](https://medium.com/better-programming/what-is-a-pure-function-3b4af9352f6f) with examples in Python
+
+## Lambda Calculus
+
+- VIDEO: Steven Syrek - Lambda Calculus For People Who Can't Be Bothered to Learn It [Part 1](https://www.youtube.com/watch?v=c_ReqkiyCXo) and [Part 2](https://www.youtube.com/watch?v=9lM825quliY)
+- [Algebra and the Lambda Calculus](https://people.csail.mit.edu/jaffer/lambda.txt) discusses some of the mathematical underpinnings of functional programming.
+- VIDEO: [Lambda Calculus Tutorial from PYCON 2019](https://www.youtube.com/watch?v=5C6sv7-eTKg)
+- VIDEO: [Lambda Calculus Then and Now](https://www.youtube.com/watch?v=SphBW9ILVPU)
 
 ## Interesting Links
 
