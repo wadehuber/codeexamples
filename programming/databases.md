@@ -1,11 +1,15 @@
 # Database Information
 
+CSC205, CSC220, and CSC240 are not database courses, but we will briefly cover databases if we have time.  We will cover a very small subset of SQL - CREATE TABLE, INSERT, SELECT, and possibly UPDATE - just enough to be able to do something non-trivial in our programs.
+
 ## General Database Links
 
 - [Things I Wished More Developers Knew About Databases](https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 
 ## SQL Tutorials
 
+- An non-technical [introduction to SQL](https://blog.hubspot.com/marketing/sql-tutorial-introduction#sm.0014w0gpa13h5f0aqar1fdz1qni3h)
+- Another more complete [SQL tutorial](http://www.sqltutorial.org/)
 - VIDEO [Intro to SQL](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql) from Khan Academy
 
 ## Other SQL links

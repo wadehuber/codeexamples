@@ -10,6 +10,8 @@
 
 ### Multiple markers at this line, Syntax error on token
 
+![Multiple markers this line](images/eclipseerror.png)
+
 ```(text)
 Multiple markers at this line
     - Syntax error on token ";", [ expected
