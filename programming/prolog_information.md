@@ -13,7 +13,8 @@ If you want something a bit more high-end, [Sicstus](https://sicstus.sics.se/) i
 
 - An [Introduction to Logic Programming](https://www.matchilling.com/introduction-to-logic-programming-with-prolog/)
 - [12 Days to Prolog](https://dev.to/donaldkellett/less-than-12-days-of-prolog---a-guide--brief-review-of-the-prolog-programming-language-1dgl) with some nice advanced examples
-- [The Power of Prolog is a more thorough, advanced tutorial.
+- *The Art of Prolog* is an excellent book on Prolog and logic programming.  It is available [for free online](https://mitpress.mit.edu/books/art-prolog-second-edition) - look under the "Open Access" tab.
+- [The Power of Prolog](https://www.metalevel.at/prolog) is a more thorough, advanced tutorial.
 
 ## Representation of Lists of 2 elements in Scheme vs Prolog
 
@@ -39,6 +40,7 @@ I have not looked in depth at most of these, but here are a few newer logic lang
 
 ## Prolog in the Real World
 
+- VIDEO: [Production Prolog](https://www.youtube.com/watch?v=G_eYTctGZw8) by Michael Hendricks
 - An interesting experiment in using Prolog for [bots in Counter-Strike](http://ceur-ws.org/Vol-928/0170.pdf).  Two interesting conclusions: C++ bot code can be rewritten to Prolog, & Prolog bots can be used e?ciently.
 - [GRAKN.AI](http://grakn.ai/) is a distributed graph database that is [compatible with logic programs](https://blog.grakn.ai/isa-graql-logic-program-8af1258054a4).
 - Windows NT had an [embedded Prolog interpreter](http://www.redditmirror.cc/cache/websites/web.archive.org_84624/web.archive.org/web/20040603192757/research.microsoft.com/research/dtg/davidhov/pap.htm) to help with network configuration

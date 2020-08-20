@@ -195,6 +195,7 @@ A discussion of some [obscure C++ features](http://madebyevan.com/obscure-cpp-fe
 - This [blog post](https://www.bfilipek.com/2018/12/c-at-end-of-2018.html) has a summary of what features of which standards have been implemented in different C++ compilers.  
 - C++ standards [support in gcc](https://gcc.gnu.org/projects/cxx-status.html#cxx1z)
 - An interview with Bjarne Stroustrup about [his opinions of future plans for C++](https://www.theregister.co.uk/2018/06/18/bjarne_stroustrup_c_plus_plus/)
+- A good write up of [Value Semantics](https://akrzemi1.wordpress.com/2012/02/03/value-semantics/) in C++
 
 ## Modern C++
 
