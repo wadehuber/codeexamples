@@ -45,6 +45,7 @@ If you are interested in other techniques of shuffling, the following links may 
 - [Sorting Algorithm Animations](https://www.toptal.com/developers/sorting-algorithms/) - notice the difference in Insertion sort's performance between sorted & reverse sorted data
 - [Comparison of Sorting Algorithms](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html) - notice how the recursive merge sort sorts the array from left to right
 - A nice [demonstration of quicksort](https://illustrated-algorithms.now.sh/quicksort) at a high level, though it glosses over the details of how you actually partition the elements.
+- [VIDEO](https://www.youtube.com/watch?v=ZZuD6iUe3Pc): Visualization and Comparison of Sorting Algorithms
 
 ## Sorting Videos
 
