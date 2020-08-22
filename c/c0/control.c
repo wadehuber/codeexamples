@@ -8,7 +8,7 @@ int main(void) {
     printf("Enter an integer : ");
     scanf("%d", &b);
     
-    /* If-then-eles statement */
+    /* If-then-else statement */
     if (a < b) {
         printf("a=%d is less than b=%d\n", a, b);    
     }
@@ -65,6 +65,7 @@ int main(void) {
     /* The break statement exits the current loop */
     printf("Break:\n");
     for(;;) {
+        /* Once a is bigger than 1000 exit the loop */
         if (a > 100) {
             printf("  Breaking at a=%d. . . \n", a);
             break;
