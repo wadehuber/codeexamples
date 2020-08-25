@@ -1,7 +1,20 @@
 # Setup
 
-For CSC220 and for compiling C & C++ in CSC240 you will need a UNIX-style terminal.  The best solution is to install Linux, either dual-boot or on a virtual machine, but you can also use Windows or Mac.  No matter what environment you use, make sure you install gcc, g++, gdb, and make.  You may have to choose those separately during Cygwin or Linux installation.  If you forget, you can always install them later - consult the documentation for your system.
-I will predominately be using Cygwin, a Centos 8 VM, and MacOS for class examples.
+For CSC220 and for compiling C & C++ in CSC240 you will need a UNIX-style terminal.  Directions for getting started on the following 4 development environments are listed here (keep in mind that ***you only need one!***):
+
+- Linux on a virtual machine (VM)
+- Windows Subsystem for Linux (Windows 10)
+- Cygwin on Windows
+- MacOS
+- Linux
+
+I created a video which compares [compiling C code using the 3 different methods for using gcc on Windows](https://www.youtube.com/watch?v=irCWodI1MO4).  
+
+At the end of this page are more specific directions for editing, compiling, and running C code on the classroom VMs, but the steps are similar on any of the below.  Once you have your environment set up and know which directories to get to then there isn't much difference between working on any of the system.s
+
+No matter what environment you use, make sure you install `gcc`, `g++`, `make`, and (for CSC220) `gdb`.  You may have to choose those separately during Cygwin or Linux installation.  If you forget, you can always install them later - consult the documentation for your system.  You will also need an editor.  For Cygwin, Linux on Windows 10, or MacOS you can use whatever editor you prefer (Vim, Notepad++, Visual Studio Code, etc.).  On Linux I recommend Gedit or Vim.
+
+I will be using all 4 of the environments listed above to compile and I use [Vim](https://www.vim.org/download.php) as my editor.  
 
 ## Installing Linux on a virtual machine
 
@@ -14,19 +27,67 @@ I will predominately be using Cygwin, a Centos 8 VM, and MacOS for class example
 - VIDEO: [Installing C & C++ Compiler for Windows 7, 8.1, & 10](https://youtu.be/DAlS4hF_PbY) - Cygwin has a pretty thorough walkthrough of installing Cygwin all the way through compiling a C program.
 - VIDEO: [Installing Cygwin on Windows by James Jardine](https://www.youtube.com/watch?v=zRbbDkDb5UM) is another nice walkthrough of the installation process
 
-## Windows 10
+### Using C with Cygwin
+
+After installing Cygwin you should se an icon on your desktop like below:
+
+![Cygwin Icon](images/cygicon.png)
+
+Double-clicking the icon should bring up a Cygwin terminal like below:
+
+![Cygwin Terminal](images/cygterm.png)
+
+### Editing Cygwin Files
+
+You can edit files in a second Cygwin terminal (using vim or pico), but you may prefer to edit the files using a Windows editor.  You can either edit files under the Cygwin home directory or change to a Windows directory.  
+
+#### Editing files under the Cygwin home directory
+
+The Cygwin home directory is selected during installation.  Typically it is under ```C:\cygwin``` or ```C:\cygwin64```.  Under that installation directory, navigate to ```home\username```.  That is your Cygwin home directory.
+
+![Cygwin Directory in Explorer](images/cygdir.png)
+
+Once you navigate to that directory (or whatever subdirectory you want to storeyour files) you can edit and save files there with your favorite text editor.
+
+#### Editing files in a regular Windows directory
+
+If you already have a directory where you store your code you can navigate to that directory under Cygwin.  Suppose you have a directory called ```csc240``` on your ```C:``` drive.
+
+![Windows Directory in Explorer](images/windir.png)
+
+You can access your Windows drives by changing to the directory ```/cygdrive/driveletter```.  Note the leading slash.  Replace driveletter with the appripriate drive letter, for example ```/cygdrive/c``` will be your computer's ```C:``` drive.
+
+![Compiling & running C in Cygwin](images/cygcomp.png)
+
+## Windows 10 - Windows Subsystem for Linux
 
 You can install several different Linux distributions in the Microsoft Store.  If you go this route I sugguest [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+
+VIDEO: [Installing Ubuntu on Windows](https://youtu.be/X4JnQLPTS44) (including activating the Windows Subsystem for Linux and compiling & running a C program).  To simulate one likely scenario, I forgot to activiate the WSL first before installing Ubuntu.  If you want to do things the easy way you may want to do that part first.  
+
+### Compiling C files with the Linux Subsystem for Windows
+
+Once you have installed a Linux distribution from the Windows Store, the simplest way to compile & run your C files is to change to the apprpriate directory from inside the Linux window then follow the directions for the VM's above.  
+
+If you save your files in a directory called ```csc240``` on your ```C:``` drive:
+
+![Windows Directory in Explorer](images/windir.png)
+
+Then you can change to that directory in the Linux window using the command
+
+```bash
+cd /mnt/c/csc240
+```
+
+You should modify the drive letter & directory as necessary.
 
 ## MacOS
 
 The Mac Terminal should be sufficient for what we do in this class.  You will need to install Xcode to get access to gcc/g++.  On Mac I use [iTerm2](https://www.iterm2.com/) which is a replacment for the built in terminal.  
 
-## Installing Linux on a USB drive
-
-[Pendrive Linux](http://www.pendrivelinux.com/) has directions for installing Linux on a bootable USB drive.  Note that you want to choose an option with persistent storage so that you can save your work.
-
 ## Using C on a Virtual Machine
+
+Note that the instructions below relate to the VMs on the classroom & lab computers, but the steps are essentially the same (with slightly different look & feel)) on Windows 10, Cygwin, Linux, or MacOS.
 
 ![VMWare Icon](images/vmicon.png)
 
@@ -73,51 +134,3 @@ bash: a.out: command not found...          # Linux does not look in the current 
 [student@localhost 240]$ ./a.out           # Specify to look in the current directory (./) for the file to run.
 Hello, world!                              # Output from the program
 ```
-
-## Using C with Cygwin
-
-After installing Cygwin you should se an icon on your desktop like below:
-
-![Cygwin Icon](images/cygicon.png)
-
-Double-clicking the icon should bring up a Cygwin terminal like below:
-
-![Cygwin Terminal](images/cygterm.png)
-
-### Editing Cygwin Files
-
-You can either edit files under the Cygwin home directory or change to a Windows directory.  
-
-#### Editing files under the Cygwin home directory
-
-The Cygwin home directory is selected during installation.  TYpically it is under ```C:\cygwin``` or ```C:\cygwin64```.  Under that installation directory, navigate to ```home\username```.
-
-![Cygwin Directory in Explorer](images/cygdir.png)
-
-Once you navigate to that directory (or whatever subdirectory you want to storeyour files) you can edit and save files there with your favorite text editor.
-
-#### Editing files in a regular Windows directory
-
-If you already have a directory where you store your code you can navigate to that directory under Cygwin.  Suppose you have a directory called ```csc240``` on your ```C:``` drive.
-
-![Windows Directory in Explorer](images/windir.png)
-
-You can access your Windows drives by changing to the directory ```/cygdrive/driveletter```.  Note the leading slash.  Replace driveletter with the appripriate drive letter, for example ```/cygdrive/c``` will be your computer's ```C:``` drive.
-
-![Compiling & running C in Cygwin](images/cygcomp.png)
-
-## Compiling C files with the Linux Subsystem for Windows
-
-If you have installed a Linux distribution from the Windows Store, the simplest way to compile & run your C files is to change to the apprpriate directory from inside the Linux window then follow the directions for the VM's above.  
-
-If you save you rfiles in a directory called ```csc240``` on your ```C:``` drive:
-
-![Windows Directory in Explorer](images/windir.png)
-
-Then you can change to that directory in the Linux window using the command
-
-```bash
-cd /mnt/c/csc240
-```
-
-You should modify the drive letter & directory as necessary.
