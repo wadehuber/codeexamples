@@ -14,6 +14,12 @@ The #include statement brings in the forward declaration for the printf function
 
 This file goes over many of the features of C you will need to know, including data types, printf, structures, calling functions, and arrays.
 
+## printf.c
+
+[Video](https://youtu.be/xkL6KTnslkU) - *Examples of using printf in C*
+
+This video is optional.  It goes over printf control sequences, including printing integer values as decimal, octal, and hexidecmial values, formatting floating point numbers, escape sequences for tabs & newlines, & printing in columns.  Most of this material is available in other examples.
+
 ## inputoutput.c
 
 [Video](https://youtu.be/EmxakpZJv1o) - *Getting user input in C using scanf.*
