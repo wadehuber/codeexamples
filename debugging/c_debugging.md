@@ -164,6 +164,27 @@ warning: multi-character character constant [-Wmultichar]
 The string in scanf should have double quotes :
 scanf ("%u", &number);
 
+### printf makes pointer from integer without a cast
+
+```(text)
+myprog.c: In function ‘main’:
+myprog.c:35:27: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   35 |                   printf(x);
+      |                          ~^~~
+      |                           |
+      |                           int
+In file included from myprog.c:1:
+/usr/include/stdio.h:200:13: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  200 | int printf (const char *__restrict, ...)
+      |             ^
+```
+
+The first paramter of a `printf` call should be a control sequence.  Since x is an int, then the correct code will be;
+
+```(c)
+printf("%d", x);
+```
+
 ## Output Issues
 
 If you get random characters as part of your output, typically one of the following is to blame:
