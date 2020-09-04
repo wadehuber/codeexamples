@@ -91,6 +91,8 @@ More information:
 - An old [Introduction to Functional Programming Book](http://usi-pl.github.io/lc/sp-2015/doc/Bird_Wadler.%20Introduction%20to%20Functional%20Programming.1ed.pdf)
 - [F# for Fun and Profit](https://fsharpforfunandprofit.com/) has a lot of resources for learning F#, a functional language that was developed by Microsoft.
 - [The Functional Style](https://codurance.com/2018/08/09/the-functional-style-part-1/) - an introduction to Functional Programming
+- [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide) is an introduction to Functional Programming using JavaScript.
+- [JavaScript Allongé](https://leanpub.com/javascriptallongesix/read) is another guild to Functional Programming in JavaScript.
 
 ## Functional Features in Other Languages
 
