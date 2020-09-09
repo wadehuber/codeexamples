@@ -32,6 +32,12 @@ Note that scanf is not the best way to do it, but will suffice at first.  The sc
 
 The syntax in this file should look familiar to you since, other than the input and output statements, almost every line of code is valid Java syntax.  The scanf function gets input and stores it at the address given - the & operator gets the address of a variable.  We will discuss that operator more when we discuss pointers.
 
+## switch.c
+
+[Video](https://youtu.be/rqop-rnbiRk) - *Switch vs if-else*
+
+This file contains an example of two different if-else structures replaced with switch statements.
+
 ## datatypes.c
 
 [Video](https://youtu.be/10ewFOh8pKQ) - *Examples of different data types built in to C and how we can work with them.*
