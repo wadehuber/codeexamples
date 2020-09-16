@@ -18,7 +18,7 @@ The intention of this video & example is to show how header files are included i
 
 ## mystuff_originial.c / multifile
 
-[Video](https://youtu.be/jHYn7b6NwLc) & [makefile video](https://youtu.be/rnPmx6-AiOs) - *Multifile C program example*
+[Video](https://youtu.be/lJdCQPuFiOE) & [makefile video](https://youtu.be/rnPmx6-AiOs) - *Multifile C program example*
 This mystuff_original.c file is split up into several files in the multifile directory.
 
 ## multifile2
