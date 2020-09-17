@@ -150,7 +150,13 @@ It is always a good idea to run static analyzer on your code.  A static analyzer
 
 [Why you should really care about C/C++ static analysis](https://medium.com/hackernoon/why-you-should-really-care-about-c-c-static-analysis-db13f4463b2d)
 
-One C++ static analyzer is cppcheck.  Once your code compiles, you can run it on your code by typing:
+### cppcheck
+
+One C++ static analyzer is cppcheck.  Information about cppcheck & installaction instructions are available from the cppcheck website - [cppcheck.sourceforge.net](http://cppcheck.sourceforge.net/)
+
+I've created a [video that walks you through using cppcheck](https://youtu.be/KQE7i0F1at4) on Ubuntu & using the Windows GUI.
+
+Once your code compiles, you can run it on your code by typing:
 
 ```bash
 cppcheck filename.cpp

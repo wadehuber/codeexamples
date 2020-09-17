@@ -1,5 +1,7 @@
 # C Pointers
 
+Note - I strongly recommend using a static analysis tool such as cppcheck (See [this video](https://youtu.be/KQE7i0F1at4)) when working with pointers to help you avoid common mistakes.  
+
 ## pointer.c
 
 [Video](https://youtu.be/woUn-BuAvEg) - *Pointers, referencing & dereferencing, allocating memory, sizeof pointers*
