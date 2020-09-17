@@ -30,3 +30,9 @@ Includes more examples of working with the preprocessor.  Also includes examples
 
 [Video](https://youtu.be/yBF8AxoSO6I) - *Simple example of a linked list in C*
 The basicilist.h is the header file that contains the struct definition and forward declarations for our linked list functions.  We use a node_t pointer to point to the first element in our linked list.  In the basiclist.c file, the list_add function takes a double pointer to the list (since it will add the new element to the front of the list) and a pointer to the data.  Since we don't know what type of data we are adding to the list, we use a void *.  The user of the code will need to handle casting back to the correct type.  The list_remove_first funtion frees the memory associated with the first element then points the list to the 2nd element.  There is also a test main function that will be compiled if you use the -DTEST flag.  The main method in basiclist.c creates a list of integers then prints them out.  
+
+## structwithptr.c
+
+[Video](https://youtu.be/x_fEDTaEmBk) - *Example of allocating memory for a pointer to a struct*
+
+If you have a structure that contains pointers, if you create a pointer to that structure you need to allocate memory for the structure itself, and also for the pointers it contains.
