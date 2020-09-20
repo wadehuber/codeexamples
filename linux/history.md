@@ -11,6 +11,7 @@
 - [Unix at 5s](https://arstechnica.com/gadgets/2019/08/unix-at-50-it-starts-with-a-mainframe-a-gator-and-three-dedicated-researchers/)
 - [Rob Pike’s History of Unix](https://www.youtube.com/watch?v=_2NI6t2r_Hs) talk isn’t directly related to what we cover in class, but there are some interesting things about the early days of Unix.
 - An 2003 [interview with Dennis Ritchie](https://anders.unix.se/2015/10/26/interview-with-dennis-ritchie-2003/)
+- A 1982 film from Bell Labs [The UNIX System: Making Computers More Productive](https://www.youtube.com/watch?v=tc4ROCJYbm0)
 
 ## Source Code
 
