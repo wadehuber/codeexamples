@@ -13,7 +13,7 @@ undefined reference to `std::ostream::operator<<(std::ostream)'
 undefined reference to `std::cout'
 ```
 
-This can happen if you use gcc instead of g++ to compile your C++ program
+This can happen if you use gcc instead of g++ to compile your C++ program.  If the undefined reference is to a class you write, you may have left of the scope resolution operator from the method definiton.
 
 ## string does not name a type
 
