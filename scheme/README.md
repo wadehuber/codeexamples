@@ -1,3 +1,9 @@
 # SCHEME
 
-In each directory there is a single Scheme file and a list of videos that go walk through the code.
+## Scheme 0 - Introduction to Scheme & DrRacket
+
+## Scheme 1 - Scheme data types, predicates, strings vs symbols
+
+## Scheme 2 - Working with list
+
+## Scheme 3 - Higher-order procedures

@@ -1,8 +1,19 @@
-# SCHEME Module1
+# SCHEME Module 1 - Introduction
 
-**scheme1.scm** - Introduction to Scheme
+## datatypes.scm
 
-Videos:
-- Data types, p redicates, & operations - https://youtu.be/r64vat2ztf4 
-- Procedures & conditionals - https://youtu.be/Io1eNFxxtqg 
-- Introduction to Scheme lists - https://youtu.be/GXKfxQdTohk 
+[Video](https://youtu.be/_pTgW8ihjV0) *Examples of data types and predicates in Scheme*
+
+This example covers comments, data types, symbols & strings, predicates for data types, using define, and checking equality.
+
+## procedures.scm
+
+[Video](https://youtu.be/lx5Oq7ibnKY) *Writing Scheme procedures*
+
+This example covers writing Scheme procedures, including lambdas & recursion.
+
+## introlists.scm
+
+[OldVideo](https://youtu.be/GXKfxQdTohk) *Introduction to lists in Scheme* Note that this video walks through scheme1.scm in the obsolete directory.
+
+[Video]() *Introduction to lists in Scheme*

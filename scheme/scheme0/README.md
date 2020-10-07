@@ -1,6 +1,6 @@
 # SCHEME Module 0
 
-**schem0.scm** - Example of using DrRacket & Scheme
+**scheme0.scm** - Example of using DrRacket & Scheme
 
 [Video](https://youtu.be/r7gvwg8vQ88)
 
