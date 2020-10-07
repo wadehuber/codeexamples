@@ -20,6 +20,13 @@ Note that while we only overload the +, <, >, and << operators in this video, th
 
 In general, you should always prefer using the STL classes when you can.  Use vectors - *especially* instead of creating arrays with `new`.
 
+## vector2.cpp
+
+[Video](https://youtu.be/JK3sLGN0kjU)
+*Vectors of user-defined objects*
+
+In this video I show an example of using a vector to store objects of a custom class.  You should review the other vector videos first so that you understand how vectors work.
+
 ## map.cpp
 
 [Video](https://youtu.be/i_vm3nu0MyQ)
