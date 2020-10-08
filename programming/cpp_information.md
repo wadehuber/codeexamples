@@ -177,6 +177,7 @@ A discussion of some [obscure C++ features](http://madebyevan.com/obscure-cpp-fe
   - [2017](https://github.com/CppCon/CppCon2017)
   - [2018](https://github.com/CppCon/CppCon2018)
   - [2019](https://github.com/CppCon/CppCon2019)
+  - [2020](https://github.com/CppCon/CppCon2020)
 
 ## C++ Standards
 
@@ -200,6 +201,7 @@ A discussion of some [obscure C++ features](http://madebyevan.com/obscure-cpp-fe
 
 - This [blog post](https://www.bfilipek.com/2018/12/c-at-end-of-2018.html) has a summary of what features of which standards have been implemented in different C++ compilers.  
 - C++ standards [support in gcc](https://gcc.gnu.org/projects/cxx-status.html#cxx1z)
+- A good [interview with Bjarne Stroustrup](https://www.youtube.com/watch?v=uTxRF5ag27A)
 - An interview with Bjarne Stroustrup about [his opinions of future plans for C++](https://www.theregister.co.uk/2018/06/18/bjarne_stroustrup_c_plus_plus/)
 - A good write up of [Value Semantics](https://akrzemi1.wordpress.com/2012/02/03/value-semantics/) in C++
 
@@ -212,13 +214,17 @@ A discussion of some [obscure C++ features](http://madebyevan.com/obscure-cpp-fe
 - VIDEO: [How to Adopt Modern C++17 into Your C++ Code](https://www.youtube.com/watch?v=UsrHQAzSXkA) from Build 2018
 - [A Guide to Modern C++ for C Programmers](https://berthub.eu/articles/posts/c++-1/) (there are multiple parts, the link is to the first one)
 
-### CPPcon 2019 Back to Basics Talks
+### CppCon Back to Basics Talks
 
-Cppcon 2019 had several good “Back to Basics” talks about a wide variety of C++ topics.
+CppCon has had several good “Back to Basics” talks about a wide variety of C++ topics.  Slides can be found at the CppCon links above.
 
-- [exception handling in C++](https://www.youtube.com/watch?v=W6jZKibuJpU) and making your code exception safe
-- [RAII & the Rule of Zero](https://www.youtube.com/watch?v=7Qgd9B1KuMQ) This talk goes over destructors and what you need to be aware of when implementing C++ objects that allocate resources (eg. memory)
+#### 2019
+
+[Link](https://quuxplusone.github.io/blog/2019/09/12/cppcon-2019-b2b-track/) to all 2019 Back to Basics talks
+
+- [Exception handling in C++](https://www.youtube.com/watch?v=W6jZKibuJpU) and making your code exception safe
 - [Object Oriented Programming](https://www.youtube.com/watch?v=32tDTD9UJCE)
+- [RAII & the Rule of Zero](https://www.youtube.com/watch?v=7Qgd9B1KuMQ) This talk goes over destructors and what you need to be aware of when implementing C++ objects that allocate resources (eg. memory)
 - [Smart Pointers](https://www.youtube.com/watch?v=xGDLkt-jBJ4)
 - Move Semantics (2 parts):
   - [Part 1](https://www.youtube.com/watch?v=St0MNEU5b0o)
@@ -226,6 +232,25 @@ Cppcon 2019 had several good “Back to Basics” talks about a wide variety of 
 - [Const as a promise](https://www.youtube.com/watch?v=NZtr93iL3R0)
 - [Understanding Value Categories](https://www.youtube.com/watch?v=XS2JddPq7GQ)
 - [Lambdas](https://www.youtube.com/watch?v=3jCOwajNch0)
+
+#### 2020
+
+[Link] to a list of 2020 Back to Basics talks
+
+- [The Structure of a Program](https://www.youtube.com/watch?v=3KoXeegncrs)
+- [Class Layout](https://www.youtube.com/watch?v=SShSV_iV1Ko)
+- [Pointers and Memory](https://www.youtube.com/watch?v=rqVWj0aVSxg)
+- [Smart Pointers](https://www.youtube.com/watch?v=sQCSX7vmmKY)
+- [Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY)
+- [Exceptions](https://www.youtube.com/watch?v=0ojB8c0xUd8)
+- [Move Semantics](https://www.youtube.com/watch?v=ZG59Bqo7qX4)
+- Templates (2 parts):
+  - [Part 1](https://www.youtube.com/watch?v=VNJ4wiuxJM4)
+  - [Part 2](https://www.youtube.com/watch?v=0dtjDTEE0hQ)
+- [Lambda Expressions](https://www.youtube.com/watch?v=ZIPNFcw6V9o)
+- [The Abstract Machine](https://www.youtube.com/watch?v=ZAji7PkXaKY)
+- [Unit Tests](https://www.youtube.com/watch?v=_OHE33s7EKw)
+- [Design Patterns](https://www.youtube.com/watch?v=2UUqX2eIdSM)
 
 ## Interesting C++ Articles/Blog Posts/Papers
 

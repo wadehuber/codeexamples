@@ -51,6 +51,7 @@ If you are interested in other techniques of shuffling, the following links may 
 
 - [Quicksort Animation - Visualization of Quick sort](https://www.youtube.com/watch?v=aXXWXz5rF64)
 - [Merge Sort vs Quick Sort](https://www.youtube.com/watch?v=es2T6KY45cA)
+- A visualization of [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg)
 - For those of you who find algorithms easier when they are demonstrated by Hungarian folk dancers, here is a demonstration of [quick-sort with Hungarian (Küküllomenti legényes) folk dance](https://www.youtube.com/watch?v=ywWBy6J5gz8)
 
 ## Sorting algorithm comparison
