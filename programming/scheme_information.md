@@ -138,5 +138,7 @@ More information:
 - A paper describing how LISP is useful for [work in bioinformatics & computational biology](https://arxiv.org/pdf/1608.02621.pdf).
 - Sound processing using LISP: [Basic sound processing in Common Lisp](https://www.youtube.com/watch?v=sYcDtniJdoE) by Dmitry Petrov
 - A very incomplete list of [companies using functional programming](https://github.com/elamje/FunctionalProgrammingCompanies)
-- A list of [companies using common LISP](https://common-lisp.net/lisp-companies)
+- A list of [companies using Common LISP](https://common-lisp.net/lisp-companies)
+- Another list of [companies using Common LISP](http://pchristensen.com/blog/lisp-companies/)
+- And yet one more list of [companies using Common LISP](https://lisp-journey.gitlab.io/who/)
 - A list of [companies using Clojure](https://clojure.org/community/companies)
