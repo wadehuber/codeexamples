@@ -14,6 +14,4 @@ This example covers writing Scheme procedures, including lambdas & recursion.
 
 ## introlists.scm
 
-[OldVideo](https://youtu.be/GXKfxQdTohk) *Introduction to lists in Scheme* Note that this video walks through scheme1.scm in the obsolete directory.
-
-[Video]() *Introduction to lists in Scheme*
+[Video](https://youtu.be/b62aQ22O2vQ) *Introduction to lists in Scheme*

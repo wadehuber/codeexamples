@@ -8,7 +8,6 @@
   (lambda (x)
     (* x 2)))
 
-(newline)
 "Lists"
 (list x y z)
 (list 'x 'y 'z)
@@ -24,7 +23,7 @@ lst3
 oplist
 
 (newline)
-"quote vs list)"
+"quote vs list"
 (+ 1 2)          ; evaluate the operator + on the operands 1 & 2
 '(+ 1 2)         ; do not evaluate, treat like a list
 (quote (+ 1 2))  ; same as the above
@@ -39,7 +38,8 @@ lst
 (cdr (cdr lst))
 (car (cdr (cdr lst)))
 (cdr (cdr (cdr lst)))
-"Other examples"
+
+"Other examples of list operations"
 (cdr '(1))
 (car '((4 5 6)))
 (cdr '((4 5 6)))
@@ -47,7 +47,7 @@ lst
 (cdr (car '((4 5 6))))
 (car (cdr '(a b c)))
 (cadr '(a b c))
-(caddr '(a b c))
+(cddr '(a b c))
 
 (newline)
 "List with size 1"
@@ -64,8 +64,6 @@ lst4
 (cdr (car lst4))
 (car (cdr lst4))
 (cdr (cdr lst4))
-(car (car (cdr lst4)))
-(cdr (car (cdr lst4)))
 (car (cdr (car (cdr lst4))))
 (cdr (cdr (car (cdr lst4))))
 (car (cdr (cdr (car (cdr lst4)))))
@@ -74,13 +72,15 @@ lst4
 (cdr (car (cdr (cdr (car (cdr lst4))))))
 (car (cdr (car (cdr (cdr (car (cdr lst4)))))))
 (cdr (cdr (car (cdr (cdr (car (cdr lst4)))))))
+(car (cdr (cdr lst4)))
+(car (car (cdr (cdr lst4))))
+(cdr (car (cdr (cdr lst4))))
+(car (cdr (car (cdr (cdr lst4)))))
 
 (newline)
 "Cool example"
 oplist
-(car oplist)   ; + operator
+(car oplist)    ; + operator
 ((car oplist) 1 2 3 4) ; +
 ((cadr oplist) 1 2 3 4) ; -
 ((car (cdr (cdr oplist))) 10 11 12) ; *
-
-
