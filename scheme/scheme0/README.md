@@ -1,6 +1,9 @@
 # SCHEME Module 0
 
-**scheme0.scm** - Example of using DrRacket & Scheme
+**racket.scm** - Example of using DrRacket
+[Video](https://youtu.be/Ro1S8OGcaNI)
+
+**scheme0.scm** - Introduction to writing Scheme code with DrRacket
 
 [Video](https://youtu.be/r7gvwg8vQ88)
 
