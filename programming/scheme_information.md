@@ -4,6 +4,10 @@
 
 For Scheme, we will be using [DrRacket](https://download.racket-lang.org/).  Make sure you include the language directive `#lang scheme` at the top of each Scheme source file you create.  Save your files with the extension `.scm`.
 
+## Scheme (and other LISPs) Tutorials
+
+- An excellent video explaining how recursively adding elements of a list works - [The Parable of the Clones](https://youtu.be/Al15GtRxmRE)
+
 ## History of Lisp & Scheme
 
 - A great video on the [history of LISP](https://www.youtube.com/watch?v=hGY3uBHVVr4)
@@ -28,10 +32,14 @@ For Scheme, we will be using [DrRacket](https://download.racket-lang.org/).  Mak
 ## Clojure
 
 - [A Clojure Newbie Guide](http://www.clojurenewbieguide.com/)
+- [The Newbie's Guide to Learning Clojure](https://elangocheran.com/2012/03/26/the-newbies-guide-learning-clojure/)
+- [Clockwise](http://doc.ccw-ide.org/documentation.html) is an IDE for Clojure based on Eclipse
+- VIDEO: [Clojure for Java Programmers](https://www.youtube.com/watch?v=P76Vbsk_3J0)
 - A [good introduction to Clojure](http://clojure-doc.org/articles/tutorials/introduction.html) that parallels what we will cover in 240.
 - If you are interested in learning even more about functional programming, a student a few semesters ago took this [free online course](http://mooc.fi/courses/2014/clojure/) and said it was very good.
 - A [comparison of OO & Functional Programming](https://bobonmedicaldevicesoftware.com/blog/2019/01/27/exploring-clojure-and-fp-vs-oop/) by someone learning Clojure
 - [Clojure for the Brave and True](http://www.braveclojure.com/) is an introductory Clojure book available online for free.
+- [Clojure vs LISP, Scheme, & Java](https://clojure.org/reference/lisps)
 - [Effective Programs - 10 Years of Clojure](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/EffectivePrograms.md) - a talk by the creator of Clojure
 - [Lightmod](https://sekao.net/lightmod/) is "An all-in-one tool for full stack Clojure" if you want to try Clojure.
 - Clojure - [the perfect language to expand your brain?](https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/)

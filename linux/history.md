@@ -25,6 +25,7 @@
 
 ## Linux vs UNIX
 
+- VIDEO: [Unix vs Linux](https://www.youtube.com/watch?v=jowCUo_UGts)
 - [Differences between Linux & UNIX](https://opensource.com/article/18/5/differences-between-linux-and-unix)
 - From 1992, [Linux is Obsolete](https://groups.google.com/forum/#!topic/comp.os.minix/wlhw16QWltI%5B1-25%5D)
 

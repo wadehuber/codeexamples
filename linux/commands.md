@@ -9,6 +9,7 @@
 - A good list of [essential Linux commands](https://semanti.ca/blog/?the-most-useful-linux-commands-you-probably-need-to-know)
 - [How Unix Works](https://neilkakkar.com/unix.html)
 - A [Really Friendly Command Line Intro](https://hellowebbooks.com/learn-command-line/) is available free online (email registration required).  This covers the most important commands you will use navigating around the command line.  
+- VIDEO [Linux Tutorial for Beginners: Introductino to Linux Operating System](https://elms.wpcomstaging.com/2008/03/04/lexical-distance-among-languages-of-europe/) is a 2 1/2 hour video that covers a lot of material.
 
 ## Linux / UNIX References
 

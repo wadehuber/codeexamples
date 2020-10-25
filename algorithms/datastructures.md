@@ -51,6 +51,7 @@ This [website](https://www.cs.usfca.edu/~galles/JavascriptVisual/Heap.html) lets
 - [Understanding Dijkstra's Algorithm](https://blog.aos.sh/2018/02/24/understanding-dijkstras-algorithm/) goes over Dijkstra's single-source shortest path algorithm
 - Examples of how [graphs are used in Machine Learning](https://www.oreilly.com/ideas/how-graph-algorithms-improve-machine-learning)
 - [Markov chains](https://setosa.io/ev/markov-chains/) are one application of directed graphs
+- A graph showing the [Lexical Distance Among the Languages of Europe](https://elms.wpcomstaging.com/2008/03/04/lexical-distance-among-languages-of-europe/)
 
 ### The Bridges of Königsberg
 

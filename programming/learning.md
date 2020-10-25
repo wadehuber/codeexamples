@@ -14,6 +14,10 @@ For most of you, this will be your first exposure to some of these languages.  K
 
 Lazy Programmer gives a great overview of [how to learn from coding videos](https://www.youtube.com/watch?v=X4osaNAuJH8).  The same thing applies to my videos and when we do live coding in class.  It isn't a bad idea to code along, but just keep in mind that in most of my examples I've already at least thought through the solution and likely already written the code.  The code examples don't show all the thinking time that went into them, so don't be discouraged if it takes you longer to write code - that is expected!
 
+## Tips for Learners
+
+- A great list of [Learning Tips for Programmers](https://dev.to/aspittel/learning-tips-for-programmers-12g)
+
 ## Things a Programmer Should Know
 
 - A lot from [Ten Things I Learned In My First Year as A Developer](https://www.blacksintechnology.net/ten-things-i-learned-in-my-first-year-as-a-developer) is applicable while you are still learning to program.
