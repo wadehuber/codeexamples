@@ -15,3 +15,7 @@ This example covers writing Scheme procedures, including lambdas & recursion.
 ## introlists.scm
 
 [Video](https://youtu.be/b62aQ22O2vQ) *Introduction to lists in Scheme*
+
+## carcdrexample.scm
+
+[Video](https://youtu.be/h0003sofsnI) *Using car & cdr to extract elements from a nested Scheme list*
