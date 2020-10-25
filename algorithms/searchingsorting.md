@@ -1,45 +1,5 @@
 # Searching & Sorting
 
-## Shuffling using sorting
-
-For the sorting project, **your shuffling method must use the technique below**.  The point of the project is not to shuffle a deck of cards - it is to use sorting to shuffle a deck of cards. Suppose you have 4 card array:
-
-Suppose you have  4 card array:
-
-```(text)
-4H 3S KD 9C
-```
-
-Create a random array of 4:
-
-```(text)
-3 8 6 1
-```
-
-Sort the random array:
-
-```(text)
-1 3 6 8
-```
-
-Rearrange the card array the same way you did to sort the random array:
-
-```(text)
-9C 4H KD 3S
-```
-
-Notice how the 1st card in the original list of cards was 4H and the first element of the random array was 3.  In the sorted array the 3 is in the 2nd position so 4H is in the 2nd position in the shuffled array.  There are many ways to do this in Java.
-
-### More information about shuffling
-
-If you are interested in other techniques of shuffling, the following links may be interesting to you.  Keep in mind that for the sorting project you must use the algorithm described above, not the ones described the links below!
-
-- [Shuffling](http://datagenetics.com/blog/november42014/)
-- [How yould you write code to shuffle a deck of cards?](http://blog.codinghorror.com/shuffling/)
-- [The Danger of Naivete](http://blog.codinghorror.com/the-danger-of-naivete/), with shuffling as the example
-- [The math behind shuffling](https://fredhohman.com/card-shuffling/)
-- VIDEO: [The Best (and Worst) Ways to Shuffle Cards](https://www.youtube.com/watch?v=AxJubaijQbI) from Numberphile
-
 ## Sorting Algorithm Animations
 
 - [Sorting Algorithm Animations](https://www.toptal.com/developers/sorting-algorithms/) - notice the difference in Insertion sort's performance between sorted & reverse sorted data
@@ -72,3 +32,13 @@ A few questions to think about:
 - A discussion of [how Java does sorting](https://stackoverflow.com/questions/4018332/is-java-7-using-tim-sort-for-the-method-arrays-sort/)
 - A good [description of TimSort](https://hackernoon.com/timsort-the-fastest-sorting-algorithm-youve-never-heard-of-36b28417f399), mentioned in the Java article above. If you are interested in how algorithms are analyzed in the real (or at least the academic) world, [this paper](http://drops.dagstuhl.de/opus/volltexte/2018/9467/) goes into it in detail.  
 - A claim that the Python & Java implementation of [TimSort is broken](http://www.envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/)
+
+## More information about shuffling
+
+We discussed in the notes a shuffling algorithm that used sorting.  If you are interested in other techniques of shuffling, the following links may be interesting to you.  Keep in mind that for the sorting project you must use the algorithm described in the notes, not the ones described the links below!
+
+- [Shuffling](http://datagenetics.com/blog/november42014/)
+- [How yould you write code to shuffle a deck of cards?](http://blog.codinghorror.com/shuffling/)
+- [The Danger of Naivete](http://blog.codinghorror.com/the-danger-of-naivete/), with shuffling as the example
+- [The math behind shuffling](https://fredhohman.com/card-shuffling/)
+- VIDEO: [The Best (and Worst) Ways to Shuffle Cards](https://www.youtube.com/watch?v=AxJubaijQbI) from Numberphile
