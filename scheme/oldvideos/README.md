@@ -23,3 +23,12 @@ Videos:
 - [Writing list procedures in Scheme (part 1)](https://youtu.be/BAYoEGGzj5s)
 - [Writing list procedures in Scheme (part 2)](https://youtu.be/u0U4XJMzFzM)
 - [Introduction to Scheme pairs](https://youtu.be/SF4VEPtv_Po)
+
+## scheme3.scm - Higher-Order Functions & Scope
+
+- [Review & working with modules](https://youtu.be/tYX7Nht6pyA)
+- [Reduce](https://youtu.be/wOu7itUGR70)
+- [Higher-order functions: apply, map & filter](https://youtu.be/Xs58XIu_QyU)
+- [Currying](https://youtu.be/ojutgb4UjAE)
+- [Scope (let structures)](https://youtu.be/drmrNQWklxM)
+- [Advanced topics: case-lambda & match](https://youtu.be/3dfEXUz0NTg)
