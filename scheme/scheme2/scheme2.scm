@@ -308,37 +308,3 @@ lst
         '()
         (append (numlist (- n 1)) (list n)))))
 (numlist 10)
-
-(newline)
-"Pair"
-(cons 1 '(2))
-(cons 1 2)
-(list? (cons 1 '(2)))
-(list? (cons 1 2))
-(pair? (cons 1 '(2)))
-(pair? (cons 1 2))
-(car '(1 . 2))
-(cdr '(1 . 2))
-
-(define pair1 (cons a b))     ; (a . b)
-(define pair2 (cons a '()))   ; (a . ())
-(define pair3 (cons a '(b)))  ; (a . (b . ()))
-pair1
-pair2
-pair3
-
-(pair? '(1 2 3))
-(pair? '(1))
-(pair? '())
-(list? '())
-(car pair1)
-(cdr pair1)
-(cons 'a 'b)
-(cons 'a '())
-(cons 'a (cons 'b '()))
-
-;examples
-'(30 . 90)      ; latitude / longitude
-'(neworleans . (30 . 90))
-
-
