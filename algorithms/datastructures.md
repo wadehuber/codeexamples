@@ -13,16 +13,6 @@
 
 ## Linked Lists
 
-The diagrams below are from the slides from class that are not included in the slides posted on Canvas:
-
-Inserting a new node:
-
-![Inserting a node into a linked list](images/insertnode.png "Inserting a node")
-
-Deleting a node:
-
-![Deleting a node from a linked list](images/deletenode.png "Deleting a node")
-
 ## Stacks
 
 ## Queues
