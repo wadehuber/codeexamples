@@ -4,11 +4,9 @@ Most of these videos cover the same material in the existing videos.  They may h
 
 ## scheme0.scm
 
-[Video](https://youtu.be/aPsIUv0rP7o) - An introduction to Dr. Racket & Scheme
+- [Video](https://youtu.be/aPsIUv0rP7o) - An introduction to Dr. Racket & Scheme
 
 ## scheme1.scm
-
-Videos:
 
 - [Data types, p redicates, & operations](https://youtu.be/r64vat2ztf4)
 - [Procedures & conditionals](https://youtu.be/Io1eNFxxtqg)
