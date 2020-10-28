@@ -8,3 +8,7 @@
 - [Currying](https://youtu.be/ojutgb4UjAE)
 - [Scope (let structures)](https://youtu.be/drmrNQWklxM)
 - [Advanced topics: case-lambda & match](https://youtu.be/3dfEXUz0NTg)
+
+## table.scm - Example of using
+
+- [Video](https://youtu.be/5FESmC54bTw) - This example shows how you can set up a table of values using pairs in Scheme.
