@@ -33,3 +33,17 @@ the expected number of arguments does not match the given number
 ```
 
 This error is given when you pass the wrong number of arguments to a function.  The expected number of arguments will be listed along with how many arguments you passed.  To resolve, you need to find where the function call is with the wrong number of parameters.  This is a common error with recursive functions.  Check that both recursive calls have the coorect number of parameters.
+
+```(scheme)
+(define (my-function)
+  (lambda (x y)
+    (+ x y)))
+
+. . my-function: arity mismatch;
+ the expected number of arguments does not match the given number
+  expected: 0
+  given: 2
+  arguments...:
+```
+
+This error is likely the result of having an extraneous pair of parenthesis around the name of the function, such as in the case above.  Removing the parenthesis around my-function will solve the problem.
