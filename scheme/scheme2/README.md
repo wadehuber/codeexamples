@@ -11,7 +11,13 @@
 - [Writing list procedures in Scheme (part 1)](https://youtu.be/BAYoEGGzj5s)
 - [Writing list procedures in Scheme (part 2)](https://youtu.be/u0U4XJMzFzM)
 
-## introlists.scm
+## listprocedures1.scm
+
+[Video](https://youtu.be/WC6TYWaMxjU) *Introduction to writing recursive list procedures in Scheme*
+
+This video introduces writing recursive list procedures.  Features an exmaple of recursively generating a list and of writing procedures that return a modified version of the list.  
+
+## pairs.scm
 
 [Video](https://youtu.be/05INT6Cxvh8) *Introduction to Scheme pairs*
 
