@@ -17,6 +17,12 @@
 
 This video introduces writing recursive list procedures.  Features an exmaple of recursively generating a list and of writing procedures that return a modified version of the list.  
 
+## listprocedures2.scm
+
+[Video](https://youtu.be/tiveq6A4d20) *Continuation of introduction to writing recursive list procedures in Scheme*
+
+This video features examples of writing a procedure that combines the elements of a list, searching lists, and working with nested lists (lists that contain other lists).
+
 ## pairs.scm
 
 [Video](https://youtu.be/05INT6Cxvh8) *Introduction to Scheme pairs*
