@@ -1,9 +1,12 @@
 # Prolog Module 1
 
-## prolog1.pl - Introduction to Prolog: Facts & Rules
+## factsandrules.pl
 
-- [Facts & rules](https://youtu.be/yXcdOTTv9rs)
-- [Working with numbers](https://youtu.be/FiybVMlxGOs)
+- [VIDEO](https://youtu.be/yXcdOTTv9rs) - Introduction to Prolog, facts & rules
+
+## workingwithnumbers.pl
+
+- [VIDEO](https://youtu.be/FiybVMlxGOs) - Examples of working with numbers
 
 ## moreexamples.pl
 
