@@ -4,7 +4,7 @@
 #include <unistd.h> 
 
 /* To compile: 
- *    gcc --std=c11 -pedantic -Wall pthread.c
+ *    gcc --std=c11 -pedantic -Wall pthread.c -lpthread
  *    (you may also need to include -lpthread to pull in the thread library 
  */
 
