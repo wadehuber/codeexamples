@@ -4,7 +4,7 @@
 
 // compile with:
 //   g++ threads.cpp --std=c++11 -pthread
-//   g++ --std=c14 -pedantic -Wall -pthread threads.cpp
+//   g++ --std=c++14 -pedantic -Wall -pthread threads.cpp
 
 using namespace std;
 
