@@ -27,7 +27,7 @@ CSC205, CSC220, and CSC240 are not database courses, but we will briefly cover d
 
 ## Setting up SQLite in Eclips
 
-1. Download the [SQLite jar](https://bitbucket.org/xerial/sqlite-jdbc/downloads/) (pick the latest one)
+1. Download the [SQLite jar](https://github.com/xerial/sqlite-jdbc/releases)
 2. Install the JAR file in your project.
 3. Left click on your project and select Build Path -> Configure Build Path
 4. Click the Libraries tab and click "Add External JAR"
@@ -37,8 +37,7 @@ CSC205, CSC220, and CSC240 are not database courses, but we will briefly cover d
 
 ```(Java)
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.DriverManager; import java.sql.SQLException;
 
 public class SQLiteTest {
 
