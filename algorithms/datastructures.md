@@ -42,6 +42,7 @@ This [website](https://www.cs.usfca.edu/~galles/JavascriptVisual/Heap.html) lets
 - Examples of how [graphs are used in Machine Learning](https://www.oreilly.com/ideas/how-graph-algorithms-improve-machine-learning)
 - [Markov chains](https://setosa.io/ev/markov-chains/) are one application of directed graphs
 - A graph showing the [Lexical Distance Among the Languages of Europe](https://elms.wpcomstaging.com/2008/03/04/lexical-distance-among-languages-of-europe/)
+- Wolfram Alpha has some interesting [graph & network capabilities](https://www.wolfram.com/language/11/graphs-and-networks/)
 
 ### The Bridges of Königsberg
 
