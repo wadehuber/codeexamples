@@ -44,7 +44,7 @@ int add_ten(int x) {
     return x + 10;
 }
 
-/* Call-by-address - modifys the parameter in the caller */
+/* Call-by-address - modifies the parameter in the caller */
 void add_twenty(int *x) {
     *x = *x + 20;
 }
