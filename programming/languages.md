@@ -87,6 +87,7 @@ You will notice that I talk a lot about the history of programming languages.  W
 
 ## Interesting Links
 
+- [Why Numbering Should Start at 0](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html)
 - [The oldest program still in use](https://www.technologyreview.com/s/538966/what-is-the-oldest-computer-program-still-in-use/).  A fairly large percentage of businesses that existed in the 1950's still have an old mainframe program from then still in use.
 - [Code in Movies](https://moviecode.tumblr.com/) collects screenshots of code in movies & TV.
 - You should try to avoid [Programming by Permutation](https://en.wikipedia.org/wiki/Programming_by_permutation).  Make sure you understand why your code doesn't work and what you should change to fix it.
