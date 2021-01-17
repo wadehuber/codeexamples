@@ -56,7 +56,7 @@ This file contains an example of two different if-else structures replaced with 
 
 The two files below are examples for CSC220.  CSC240 students may still find them interesting and countlines.c is similar to what you will do on the first C practice.
 
-### [coutnlines.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/countlines.c)
+### [countlines.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/countlines.c)
 
 [Video](https://youtu.be/0pKn8HOwW9Q) (5:41) - *Count the number of lines in a file.*
 
