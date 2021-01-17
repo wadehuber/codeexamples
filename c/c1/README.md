@@ -60,4 +60,4 @@ This example demonstrates how output can be directed to stdout or to stderr.
 
 ### [bitwise.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/bitwise.c)
 
-[Video](https://youtu.be/8XIK3HlAjg0) - *Examples of bitwise operations*
+[Video](https://youtu.be/8XIK3HlAjg0) (6:11) - *Examples of bitwise operations*
