@@ -21,6 +21,34 @@ I will be using all 4 of the environments listed above to compile and I use [Vim
 - Directions for [installing Linux on a VMWare virtual machine](https://www.linux.com/news/installing-virtual-machines-vmware), which will allow you to install & run Linux on your computer without needing to reboot.
 - You can download a [free (non-commercial) version of VM Player](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
 
+## Windows 10 - Windows Subsystem for Linux
+
+You can install several different Linux distributions in the Microsoft Store.  If you go this route I sugguest [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+
+VIDEO: [Installing Ubuntu on Windows](https://youtu.be/X4JnQLPTS44) (including activating the Windows Subsystem for Linux and compiling & running a C program).  To simulate one likely scenario, I forgot to activiate the WSL first before installing Ubuntu.  If you want to do things the easy way you may want to do that part first.  
+
+**Note**: as soon as you get the command line running you should type the following to ensure you have the latest updates.  When asked for your password, enter your Windows password.
+
+```bash
+sudo apt-get update
+```
+
+### Compiling C files with the Linux Subsystem for Windows
+
+Once you have installed a Linux distribution from the Windows Store, the simplest way to compile & run your C files is to change to the apprpriate directory from inside the Linux window then follow the directions for the VM's above.  
+
+If you save your files in a directory called ```csc240``` on your ```C:``` drive:
+
+![Windows Directory in Explorer](images/windir.png)
+
+Then you can change to that directory in the Linux window using the command
+
+```bash
+cd /mnt/c/csc240
+```
+
+You should modify the drive letter & directory as necessary.
+
 ## Installing Cygwin on Windows
 
 - [Cygwin](https://www.cygwin.com/) is a good choice if you want to be able to run UNIX commands on Windows without doing a full Linux install.  This also allows you to use your favorite Windows editory.  Be sure to install at least gcc & g++.  You will also want to install make & cppcheck.  
@@ -58,28 +86,6 @@ If you already have a directory where you store your code you can navigate to th
 You can access your Windows drives by changing to the directory ```/cygdrive/driveletter```.  Note the leading slash.  Replace driveletter with the appripriate drive letter, for example ```/cygdrive/c``` will be your computer's ```C:``` drive.
 
 ![Compiling & running C in Cygwin](images/cygcomp.png)
-
-## Windows 10 - Windows Subsystem for Linux
-
-You can install several different Linux distributions in the Microsoft Store.  If you go this route I sugguest [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
-
-VIDEO: [Installing Ubuntu on Windows](https://youtu.be/X4JnQLPTS44) (including activating the Windows Subsystem for Linux and compiling & running a C program).  To simulate one likely scenario, I forgot to activiate the WSL first before installing Ubuntu.  If you want to do things the easy way you may want to do that part first.  
-
-### Compiling C files with the Linux Subsystem for Windows
-
-Once you have installed a Linux distribution from the Windows Store, the simplest way to compile & run your C files is to change to the apprpriate directory from inside the Linux window then follow the directions for the VM's above.  
-
-If you save your files in a directory called ```csc240``` on your ```C:``` drive:
-
-![Windows Directory in Explorer](images/windir.png)
-
-Then you can change to that directory in the Linux window using the command
-
-```bash
-cd /mnt/c/csc240
-```
-
-You should modify the drive letter & directory as necessary.
 
 ## MacOS
 
