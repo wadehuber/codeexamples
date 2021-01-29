@@ -8,6 +8,18 @@ Always compile your code using the following command line options to ensure you 
 gcc --std=c11 -pedantic -Wall filename.c
 ```
 
+then to run the code in Ubuntu, other Linux distros, WSL, or MacOS
+
+```bash
+.\a.out
+```
+
+or under Cygwin
+
+```bash
+.\a.exe
+```
+
 Not using gcc with these compile flags may hide errors that result in a grade of 0 on your project!
 Also, you should use gcc version 4.7 or later.  Earlier versions may be missing some features you will need for this class.
 
