@@ -1,8 +1,8 @@
 # C
 
-## gcc compile flags
+## Compiling C with gcc
 
-Always compile your code using the following command line options to ensure you are writing standard C code:
+We will be using [gcc](https://gcc.gnu.org/) for CSC240.  Always compile your code using the following command line options to ensure you are writing standard C code:
 
 ```bash
 gcc --std=c11 -pedantic -Wall filename.c
