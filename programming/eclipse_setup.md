@@ -7,6 +7,7 @@ If you have not already done so, [download Eclipse](https://www.eclipse.org/down
 ## Eclipse Tutorials
 
 - [Eclipse tutorial](http://eclipsetutorial.sourceforge.net/totalbeginner.html)
+- An [Eclipse set up guide](https://www3.ntu.edu.sg/home/ehchua/programming/howto/eclipsejava_howto.html) that also walks through [installing the Java SDK](https://www3.ntu.edu.sg/home/ehchua/programming/howto/JDK_HowTo.html#jdk-install)
 
 ## Git & GitHub
 
