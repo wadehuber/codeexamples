@@ -33,6 +33,7 @@ int main() {
             biggest = max_of_three(numbers[0], numbers[1], numbers[2]);
             break;
     }
+
     printf("The largest number entered was %d\n", biggest);
 
     return 0;

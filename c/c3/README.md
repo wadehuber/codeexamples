@@ -18,8 +18,12 @@ The intention of this video & example is to show how header files are included i
 
 ## mystuff_originial.c / multifile
 
-[Video](https://youtu.be/lJdCQPuFiOE) (11:16) & [makefile video](https://youtu.be/rnPmx6-AiOs) (4:52) - *Multifile C program example*
-This mystuff_original.c file is split up into several files in the multifile directory.
+ *Multifile C program example*
+This example deomonstrates how to create a module (.h + .c files) from some macros and functions in the mystuff_original.c file that we may want to save for reuse later.  
+
+- [Video](https://youtu.be/lJdCQPuFiOE) (11:16) - Creating the module
+- [makefile video](https://youtu.be/rnPmx6-AiOs) (4:52) - A more indepth video about creating a makefile
+- [Reusing modules video](https://youtu.be/TwjgmNYi2II) (5:55) - a video where we reuse the module created above
 
 ## multifile2
 
