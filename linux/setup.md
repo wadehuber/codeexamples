@@ -8,7 +8,10 @@ For CSC220 and for compiling C & C++ in CSC240 you will need a UNIX-style termin
 - MacOS
 - Linux
 
-I created a video which compares [compiling C code using the 3 different methods for using gcc on Windows](https://www.youtube.com/watch?v=irCWodI1MO4).  
+I created some videos to demonstrate how to compile under Linux or any other UNIX-like terminal.  Keep in mind that depending on the specific terminal you use, some things may be slightly different, but the overall procedure is the same.  
+
+- A [comparison of compiling C code using the 3 different methods for using gcc on Windows](https://www.youtube.com/watch?v=irCWodI1MO4)
+- A [video with a step-by-step walkthrough of editing, compiling, & running a C program](https://youtu.be/6O12bPrdwWE) from the terminal
 
 At the end of this page are more specific directions for editing, compiling, and running C code on the classroom VMs, but the steps are similar on any of the below.  Once you have your environment set up and know which directories to get to then there isn't much difference between working on any of the system.s
 
