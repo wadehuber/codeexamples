@@ -2,6 +2,8 @@
 
 Note - I strongly recommend using a static analysis tool such as cppcheck (See [this video](https://youtu.be/KQE7i0F1at4)) (3:48) when working with pointers to help you avoid common mistakes.  
 
+VIDEO: [Overview of C Pointers](https://youtu.be/RWT6ziOXk6Y) (5:11)
+
 ## Introduction to pointers
 
 The following videos introduce pointers and show how they relate to arrays and strings.  
