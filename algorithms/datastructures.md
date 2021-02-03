@@ -44,6 +44,10 @@ This [website](https://www.cs.usfca.edu/~galles/JavascriptVisual/Heap.html) lets
 - A graph showing the [Lexical Distance Among the Languages of Europe](https://elms.wpcomstaging.com/2008/03/04/lexical-distance-among-languages-of-europe/)
 - Wolfram Alpha has some interesting [graph & network capabilities](https://www.wolfram.com/language/11/graphs-and-networks/)
 
+### Real-world Applications of Graphs
+
+- Google uses graph theory to find [routes for electric vehicles](https://www.theverge.com/2021/1/27/22252261/google-maps-electric-vehicle-charging-station-ai)
+
 ### The Bridges of Königsberg
 
 [Wikipedia](https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg) article
