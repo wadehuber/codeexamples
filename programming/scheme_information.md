@@ -138,6 +138,7 @@ More information:
 ## LISP in the real world
 
 - [LambdaNative](http://www.lambdanative.org/) is a framework for developing mobile apps in Scheme.
+- A LISP application in [the pharmaceutical industy](https://franz.com/success/customer_apps/bioinformatics/mdl_story.lhtml)
 - LISP & [the development of the GNU Emacs](https://www.gnu.org/gnu/rms-lisp.en.html)
 - LISP was used in several games.  Here are some post-mortem comments about [LISP's use in Jax & Dexter](http://wiki.c2.com/?LispInJakAndDaxter).
 - The Halo mission scripting language [was based on LISP](https://opencarnage.net/index.php?/topic/4156-scripting-guide/)
