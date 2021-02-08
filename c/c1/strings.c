@@ -1,49 +1,47 @@
 #include <stdio.h>
 
 int main(void) {
-    char str1[] = "Hello";   /* string (null-terminated character array) */
-    char str2[] = {'W', 'o', 'r', 'l', 'd'}; /* character array (not a string!) */
-    char str3[] = {'e', 'n', 'd', '\0'}; /* null-terminated char array (a string!) */
-    char str4[] = "This is a really long string.  Maybe too long?";
-    int ii;
+    char str1[] = "Hello";  /* string (null-terminated character array) */
+    char str2[] = {'W', 'o', 'r', 'l', 'd'};  /* character array - not a string! */
+    char str3[] = {'E', 'n', 'd', '.', '\0'}; /* string (null-terminated character array) */
+    char str4[] = "This is a really long string.  Maybe too long?"; 
 
-    printf("str1: %s \t%lu\n", str1, sizeof(str1));
-    printf("str2: %s \t%lu\n", str2, sizeof(str2));
-    printf("str3: %s \t%lu\n", str3, sizeof(str3));
-    printf("str4: %s \t%lu\n", str4, sizeof(str4));
+    int ii; 
+
+    printf("str1: size=%lu %s\n", sizeof(str1), str1);
+    printf("str2: size=%lu %s\n", sizeof(str2), str2);
+    printf("str3: size=%lu %s\n", sizeof(str3), str3);
+    printf("str4: size=%lu %s\n", sizeof(str4), str4);
+    printf("\n");
+
+    /* Null */
+    printf("Null: [%c] decimal=%d hex=%X\n", '\0', '\0', '\0');
     printf("\n");
 
     ii = 0;
     printf("str1 char-by-char: ");
     while (str1[ii] != '\0') {
-        printf("%c", str1[ii]);
+        printf("%c ", str1[ii]);
         ii++;
     }
-    printf("\n\n");
+    printf("\n");
 
     ii = 0;
-    printf("str3 values char-by-char: \n");
+    printf("str3 values char-by-char:\n");
     while (str3[ii] != '\0') {
-        printf("str3[%d]: %c (ASCII=%d\n", ii, str3[ii], str3[ii]);
+        printf("  str3[%d]: %c (ASCII:%4d %4o %4X)\n", ii, 
+                       str3[ii], str3[ii], str3[ii], str3[ii]);
         ii++;
     }
-    printf("\n\n");
+    printf("\n");
 
     printf("str4: %s\n", str4);
     str4[29] = '\0';
     printf("str4: %s\n", str4);
-    printf("str4 char-by-char: ");
     for(ii=0;ii<sizeof(str4)/sizeof(char);ii++) {
-        printf("%c", str4[ii]);
+        printf("[%c]", str4[ii]);
     }
-    printf("\n\n");
-
-    str1[0] = 'M';
-    printf("str1: %s\n", str1);
-    str1[4] = '#';
-    printf("str1: %s\n", str1);
-    str1[5] = '#';
-    printf("str1: %s\n", str1);
+    printf("\n");
 
     return 0;
 }
