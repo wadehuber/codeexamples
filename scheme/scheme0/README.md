@@ -1,4 +1,4 @@
-# SCHEME Module 0
+# Scheme Module 0
 
 **racket.scm** - Example of using DrRacket
 [Video](https://youtu.be/Ro1S8OGcaNI)

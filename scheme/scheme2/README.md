@@ -1,10 +1,9 @@
-# SCHEME Module2
+# Scheme Module2
 
 [Thinking recursively](https://youtu.be/zDJXVpHASuI) walks through recursive solutions to several problems
 
 ## scheme2.scm - Writing List Procedures
 
-- [Thinking recursively](https://youtu.be/zDJXVpHASuI)
 - [Scheme review](https://youtu.be/YCjxbHZT_Ho)
 - [Recursive arithmetic](https://youtu.be/mdnEoBMOpQs)
 - [Review of list procedures (car/cdr/cons/append)](https://youtu.be/DhbmRVMdEaE)
