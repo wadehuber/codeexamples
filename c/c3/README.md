@@ -32,6 +32,8 @@ Includes more examples of working with the preprocessor.  Also includes examples
 
 ## basiclist
 
+[Video - Overview of Linked Lists](https://youtu.be/GDE6_KpRrHE) (11:34) for those of you who are rusty on your CSC205 material.
+
 [Video](https://youtu.be/yBF8AxoSO6I) (22:44) - *Simple example of a linked list in C*
 The basicilist.h is the header file that contains the struct definition and forward declarations for our linked list functions.  We use a node_t pointer to point to the first element in our linked list.  In the basiclist.c file, the list_add function takes a double pointer to the list (since it will add the new element to the front of the list) and a pointer to the data.  Since we don't know what type of data we are adding to the list, we use a void *.  The user of the code will need to handle casting back to the correct type.  The list_remove_first funtion frees the memory associated with the first element then points the list to the 2nd element.  There is also a test main function that will be compiled if you use the -DTEST flag.  The main method in basiclist.c creates a list of integers then prints them out.  
 
