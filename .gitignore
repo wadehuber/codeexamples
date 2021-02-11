@@ -40,3 +40,7 @@ compiled
 *.stackdump
 *~
 .vscode/c_cpp_properties.json
+
+# DrRacket
+*.1
+*.2

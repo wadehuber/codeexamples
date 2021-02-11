@@ -1,63 +1,5 @@
 #lang scheme
 
-"Review"
-(define a 1)
-(define b a)
-(define c (+ a b))
-a
-b
-c
-
-(* -1 c)
-(- c)
-(- (- c))
-
-(define opposite
-  (lambda (x)
-    (- x)))
-(opposite 10)
-(opposite -10)
-(opposite (opposite 10))
-(opposite (opposite -10))
-
-(newline)
-"Tail-recursive Fibonacci implementation"
-(define fib-tail
-  (lambda (x)
-    (fib-tail-acc x 0 1)))
-(define fib-tail-acc
-  (lambda (x f2 f1)
-    (if (<= x 2)
-        (+ f1 f2)
-        (fib-tail-acc (- x 1) f1 (+ f1 f2)))))
-(fib-tail 10)
-(fib-tail 20)
-
-(newline)
-"Conditional statements"
-(define what-is-it?
-  (lambda (x)
-    (cond
-      ((not (number? x)) "Not a number")
-      ((< x 0) "Negative")
-      ((= x 0) "Zero")
-      (else "Positive"))))
-(what-is-it? 2)
-(what-is-it? +)
-(what-is-it? -4)
-
-(define return-something
-  (lambda (x)
-    (cond
-      ((> x 11) 10)
-      ((= (remainder x 2) 0) 2)
-      ((> x 5) 5)
-      (#t 0))))
-(return-something 20)
-(return-something 8)
-(return-something 7)
-(return-something 3)
-
 (newline)
 "Recursive arithmetic"
 (define increment
@@ -93,46 +35,47 @@ c
 "null"
 null
 (null? '())
-(null? 3)
-(null? 0)
+(null? 2)
+(null? -1)
 ;(null? ())
-(null? (+ 5 2))
+(null? (+ 4 2))
 (null? null)
 (null? null?)
-(null? (car '(1)))
-(null? (cdr '(1)))
+(null? (car '(0)))
+(null? (cdr '(0)))
 
 (newline)
 "List procedures"
-(define lst '(1 2 3 4))
+(define lst '(0 2 3 4))
 (car lst)
 (cdr lst)
-(cons 0 '(1 2 3 4))
-(car (cons 0 lst))
-(cdr (cons 0 lst))
+(cons -1 '(1 2 3 4))
+(car (cons -1 lst))
+(cdr (cons -1 lst))
 (cons '(a b c) lst)
 (append '(a b c) lst)
 (append lst lst)
 (cons lst lst)
 (append lst (cons lst lst))
-(cons lst 5)
-(cons lst (list 5))
-(append lst (list 5))
+(cons lst 4)
+(cons lst (list 4))
+(append lst (list 4))
 
 (newline)
 "Creating a list"
-(define exlst0 (+ 2 3))
-(define exlst1 '(+ 2 3))
-(define exlst2 (list + 2 3))
-(define exlst3 (list (+ 2 3 )))
-(define exlst4 (list '(+ 2 3 )))
-(define exlst5 (cons '+ (cons 2 '(3))))
-(define exlst6 (cons '+ (cons 2 (cons 3 '()))))
-(define exlst7 (cons '+ (cons 2 (cons 3 null))))
-(define exlst8 (list 2 (+ 2 1)))
-(define exlst9 (list list 2 3))
-(define exlst10 (list list 2 3 (list + 2 3) (+ 2 3)))
-(define exlst11 '(list 2 3 (list + 2 3) (+ 2 3)))
+(define exlst-1 (+ 2 3))
+(define exlst0 '(+ 2 3))
+(define exlst1 (list + 2 3))
+(define exlst2 (list (+ 2 3 )))
+(define exlst3 (list '(+ 2 3 )))
+(define exlst4 (cons '+ (cons 2 '(3))))
+(define exlst5 (cons '+ (cons 2 (cons 3 '()))))
+(define exlst6 (cons '+ (cons 2 (cons 3 null))))
+(define exlst7 (list 2 (+ 2 1)))
+(define exlst8 (list list 2 3))
+(define exlst9 (list list 2 3 (list + 2 3) (+ 2 3)))
+(define exlst10 '(list 2 3 (list + 2 3) (+ 2 3)))
+exlst-1
 exlst0
 exlst1
 exlst2
@@ -144,19 +87,18 @@ exlst7
 exlst8
 exlst9
 exlst10
-exlst11
 (newline)
-exlst2
-exlst4
+exlst1
+exlst3
 
-(length exlst4)
-(length (car exlst4))
-(car exlst4)
-(cdr exlst4)
-;((car exlst1) 10 20 30)
-((car exlst2) 10 20 30)
-;    +             2              3
-((car exlst2) (cadr exlst2) (caddr exlst2))
+(length exlst3)
+(length (car exlst3))
+(car exlst3)
+(cdr exlst3)
+;((car exlst0) 10 20 30)
+((car exlst1) 10 20 30)
+;    +             1              3
+((car exlst1) (cadr exlst2) (caddr exlst2))
 
 
 (newline)

@@ -2,9 +2,12 @@
 
 [Thinking recursively](https://youtu.be/zDJXVpHASuI) walks through recursive solutions to several problems
 
+## review2.scm - Review of Module 1 content
+
+[Video](https://youtu.be/83HrG5pGp8U) (9:05): - Review of atoms, define, cond, and defining functions
+
 ## scheme2.scm - Writing List Procedures
 
-- [Scheme review](https://youtu.be/YCjxbHZT_Ho)
 - [Recursive arithmetic](https://youtu.be/mdnEoBMOpQs)
 - [Review of list procedures (car/cdr/cons/append)](https://youtu.be/DhbmRVMdEaE)
 - [Writing list procedures in Scheme (part 1)](https://youtu.be/BAYoEGGzj5s)
