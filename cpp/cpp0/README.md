@@ -19,3 +19,9 @@ This file has an example of a class with 2 private attributes and 2 public metho
 [Video](https://youtu.be/vqPb1pIff8M) (9:23)
 
 Another example of writing a C++ class.  Includes examples of an initializer list and declaring object variables & object pointers.  We will extend this class in a later module as an inheritance & polymorphism example.
+
+## animal.cpp
+
+[Video](https://youtu.be/zvgwLT4FSQg) (7:25)
+
+Another example of writing a C++ class.  We will extend this class in the next module as an example of inheritance & polymorphism.
