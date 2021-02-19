@@ -22,6 +22,6 @@ Another example of writing a C++ class.  Includes examples of an initializer lis
 
 ## animal.cpp
 
-[Video](https://youtu.be/zvgwLT4FSQg) (7:25)
+[Video](https://youtu.be/a5Xfq8L2VtY) (7:25)
 
 Another example of writing a C++ class.  We will extend this class in the next module as an example of inheritance & polymorphism.
