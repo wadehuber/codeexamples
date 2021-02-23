@@ -1,4 +1,4 @@
-# SCHEME Module3
+# Scheme Module3
 
 ## scheme3.scm - Higher-Order Functions & Scope
 

@@ -1,6 +1,6 @@
 # Scheme Videos From Previous Semesters
 
-Most of these videos cover the same material in the existing videos.  They may have worse audio or video quality as well, but are left here in case you want an additional review.
+Most of these videos cover the same material in the existing videos.  I rerecorded these videos so that each video covered a single Scheme file.  Soem of the videos also had worse audio or video quality as well.  The content is mostly the same, but I have left links to the code & videos here in case you want an additional review.
 
 ## scheme0.scm
 
