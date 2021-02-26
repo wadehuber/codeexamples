@@ -5,7 +5,7 @@
 #include"shape.hpp"
 
 class Rectangle : public Shape {
-    private:
+    protected:
         float length;
         float width;
     public:

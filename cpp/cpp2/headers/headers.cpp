@@ -50,7 +50,7 @@ int main() {
         s->printType();
         cout << "  ";
         s->print();
-    cout << "  area=" << s->area() << "  perimeter=" << s->perimeter() << endl;
+        cout << "  area=" << s->area() << "  perimeter=" << s->perimeter() << endl;
     }
     return 0;
 }
