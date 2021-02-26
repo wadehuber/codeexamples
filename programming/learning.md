@@ -41,7 +41,7 @@ I sometimes get asked for recommended books/podcasts about being a developer.  T
 - *Elegant Objects (Volume 1)* by Yegor Bugayenko (I'm currently reading this one)
 - *Effective LANGUAGE* (fill in the blank with your favorite language - the Java, Python, & C++ ones are excellent)
 - Other lists of books (most of these are more advanced):
-  - [Top 10 Career Chaning Programming Books](http://www.nomachetejuggling.com/2014/02/05/top-10-career-changing-programming-books)
+  - [Top 10 Career Changing Programming Books](http://www.nomachetejuggling.com/2014/02/05/top-10-career-changing-programming-books)
   - Coding Horror's [Recommended Reading for Developers](https://blog.codinghorror.com/recommended-reading-for-developers/)
 
 ### Podcasts
