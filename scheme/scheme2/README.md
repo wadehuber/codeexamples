@@ -6,9 +6,12 @@
 
 [Video](https://youtu.be/83HrG5pGp8U) (9:05): - Review of atoms, define, cond, and defining functions
 
+## recursivearithmetic.scm
+
+[Video](https://youtu.be/wSKarNIdmBE) (6:43): - Example of recursively defining addition & subtraction
+
 ## scheme2.scm - Writing List Procedures
 
-- [Recursive arithmetic](https://youtu.be/mdnEoBMOpQs)
 - [Review of list procedures (car/cdr/cons/append)](https://youtu.be/DhbmRVMdEaE)
 - [Writing list procedures in Scheme (part 1)](https://youtu.be/BAYoEGGzj5s)
 - [Writing list procedures in Scheme (part 2)](https://youtu.be/u0U4XJMzFzM)
