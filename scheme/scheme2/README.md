@@ -1,6 +1,6 @@
 # Scheme Module2
 
-[Thinking recursively](https://youtu.be/zDJXVpHASuI) walks through recursive solutions to several problems
+[Thinking recursively](https://youtu.be/zDJXVpHASuI) (3:33): walkhrough of recursive solutions to several problems
 
 ## review2.scm - Review of Module 1 content
 
@@ -18,18 +18,18 @@
 
 ## listprocedures1.scm
 
-[Video](https://youtu.be/WC6TYWaMxjU) *Introduction to writing recursive list procedures in Scheme*
+[Video](https://youtu.be/WC6TYWaMxjU) (7:13): *Additional examples of writing recursive list procedures in Scheme*
 
-This video introduces writing recursive list procedures.  Features an exmaple of recursively generating a list and of writing procedures that return a modified version of the list.  
+This video features examples of writing a procedure recursively generating a list and of writing procedures that return a modified version of the list.  
 
 ## listprocedures2.scm
 
-[Video](https://youtu.be/tiveq6A4d20) *Continuation of introduction to writing recursive list procedures in Scheme*
+[Video](https://youtu.be/tiveq6A4d20) (8:02): *Even more examples of writing recursive list procedures in Scheme*
 
 This video features examples of writing a procedure that combines the elements of a list, searching lists, and working with nested lists (lists that contain other lists).
 
 ## pairs.scm
 
-[Video](https://youtu.be/05INT6Cxvh8) *Introduction to Scheme pairs*
+[Video](https://youtu.be/05INT6Cxvh8) (15:16): *Introduction to Scheme pairs*
 
 Includes difference between pairs & lists, using pairs, and writing functions that work with pairs
