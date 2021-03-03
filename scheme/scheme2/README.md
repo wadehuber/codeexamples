@@ -10,9 +10,12 @@
 
 [Video](https://youtu.be/wSKarNIdmBE) (6:43): - Example of recursively defining addition & subtraction
 
+## listprimitives.scm
+
+[Video](https://youtu.be/IJDZkZWodqE) (17:14) - Overview of null, car, cdr, cons, append, and length in preparation for writing list procedures
+
 ## scheme2.scm - Writing List Procedures
 
-- [Review of list procedures (car/cdr/cons/append)](https://youtu.be/DhbmRVMdEaE)
 - [Writing list procedures in Scheme (part 1)](https://youtu.be/BAYoEGGzj5s)
 - [Writing list procedures in Scheme (part 2)](https://youtu.be/u0U4XJMzFzM)
 
