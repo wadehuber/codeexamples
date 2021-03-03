@@ -14,18 +14,21 @@
 
 [Video](https://youtu.be/IJDZkZWodqE) (17:14) - Overview of null, car, cdr, cons, append, and length in preparation for writing list procedures
 
-## scheme2.scm - Writing List Procedures
-
-- [Writing list procedures in Scheme (part 1)](https://youtu.be/BAYoEGGzj5s)
-- [Writing list procedures in Scheme (part 2)](https://youtu.be/u0U4XJMzFzM)
-
 ## listprocedures1.scm
+
+[Writing list procedures in Scheme (part 1)](https://youtu.be/BAYoEGGzj5s)
+
+## listprocedures2.scm
+
+[Writing list procedures in Scheme (part 2)](https://youtu.be/u0U4XJMzFzM)
+
+## listprocedures3.scm
 
 [Video](https://youtu.be/WC6TYWaMxjU) (7:13): *Additional examples of writing recursive list procedures in Scheme*
 
 This video features examples of writing a procedure recursively generating a list and of writing procedures that return a modified version of the list.  
 
-## listprocedures2.scm
+## listprocedures4.scm
 
 [Video](https://youtu.be/tiveq6A4d20) (8:02): *Even more examples of writing recursive list procedures in Scheme*
 
