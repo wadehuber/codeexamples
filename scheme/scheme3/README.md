@@ -1,14 +1,29 @@
-# Scheme Module3
+# Scheme Module 3 - Higher-Order Functions & Scope
 
-## scheme3.scm - Higher-Order Functions & Scope
+## review3.scm
 
-- [Review & working with modules](https://youtu.be/tYX7Nht6pyA)
-- [Reduce](https://youtu.be/wOu7itUGR70)
-- [Higher-order functions: apply, map & filter](https://youtu.be/Xs58XIu_QyU)
-- [Currying](https://youtu.be/ojutgb4UjAE)
-- [Scope (let structures)](https://youtu.be/drmrNQWklxM)
-- [Advanced topics: case-lambda & match](https://youtu.be/3dfEXUz0NTg)
+[VIDEO](https://youtu.be/tYX7Nht6pyA) (): *Review & working with modules*
+
+## reduce.scm
+
+[VIDEO](https://youtu.be/wOu7itUGR70) (): *Reduce*
+
+## higherorder.scm
+
+[VIDEO](https://youtu.be/Xs58XIu_QyU) (): *Higher-order functions: apply, map & filter*
+
+## currying.scm
+
+[VIDEO](https://youtu.be/ojutgb4UjAE) (): *Currying*
+
+## letscope.scm
+
+[VIDEO](https://youtu.be/drmrNQWklxM) (): *Scope (let structures)*
+
+## advancedtopics.scm
+
+[VIDEO](https://youtu.be/3dfEXUz0NTg) (): *Advanced topics: case-lambda & match*
 
 ## table.scm - Example of using
 
-- [Video](https://youtu.be/5FESmC54bTw) - This example shows how you can set up a table of values using pairs in Scheme.
+- [Video](https://youtu.be/5FESmC54bTw) (): *Setting up a table of values using Scheme pairs*
