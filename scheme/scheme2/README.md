@@ -22,7 +22,7 @@ This video introduces writing recursive list procedures in Scheme, including a m
 
 ## listprocedures2.scm
 
-[Video](https://youtu.be/u0U4XJMzFzM) (): *List procedures that combine the elements of a list*
+[Video](https://youtu.be/Da6ruzvgPU4) (11:34): *List procedures that combine the elements of a list*
 
 Examples include summing the elements of a list, doubling each element of a list, summing the double of each element in the list, and adding two lists together in a pairwise fashion.
 
