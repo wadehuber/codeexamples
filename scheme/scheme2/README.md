@@ -14,7 +14,7 @@
 
 [Video](https://youtu.be/IJDZkZWodqE) (17:14): *Overview of null, car, cdr, cons, append, and length in preparation for writing list procedures*
 
-## listprocedures1.scm 
+## listprocedures1.scm
 
 [Video](https://youtu.be/BAYoEGGzj5s) (): *Introduction to writing list procedures in Scheme*
 
