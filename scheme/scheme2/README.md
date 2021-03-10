@@ -16,7 +16,7 @@
 
 ## listprocedures1.scm
 
-[Video](https://youtu.be/BAYoEGGzj5s) (): *Introduction to writing list procedures in Scheme*
+[Video](https://youtu.be/pAZL0efONcs) (14:53): *Introduction to writing list procedures in Scheme*
 
 This video introduces writing recursive list procedures in Scheme, including a method that does nothing but go through a list (leaving it alone) to demonstrate the general structure of a recursive list procedure.  The video also walks through the `rember` procedure from *The Little Schemer* that removes the first occurence of an element, a proceedure to remove non-numeric values from a list, the procedure `lat?` from *The Little Schemer* that checks that all elements of a list are atoms, and finally a `member?` predicate.
 
