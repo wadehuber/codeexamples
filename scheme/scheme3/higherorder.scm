@@ -1,4 +1,7 @@
 #lang scheme
+(define lst '(1 2 3 4 5 6 7 8 9 10 11 12 13))
+(define lstn '(0 -1 2 -3 4 -5 6 -7 8 -9 10 -11 12 -13))
+(define badlst (list "CGCC" 1 'a + 10 'hello lst '(1 2 3) '(a . b) red 8 6 -3))
 
 "Higher-order functions - apply"
 (apply + lst)
