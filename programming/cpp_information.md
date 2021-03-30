@@ -39,6 +39,7 @@ In general, [cppreference.com](http://cppreference.com) is a reliable C++ refere
 ### Vectors
 
 - [Vector information](http://en.cppreference.com/w/cpp/container/vector)
+- A good [overview of C++ vectors](https://www.bitdegree.org/learn/c-plus-plus-vector)
 
 ### Strings
 
@@ -161,6 +162,11 @@ Once your code compiles, you can run it on your code by typing:
 ```bash
 cppcheck filename.cpp
 ```
+
+## C++ Hisoory
+
+- [VIDEO: The Design of C++](https://youtu.be/69edOm889V4) by Bjarne Stroustrup
+- [VIDEO: C++: An Invisible Foundation](https://youtu.be/00Z52UYk4vM) by Bjarne Stroustrup
 
 ## Advanced C++
 

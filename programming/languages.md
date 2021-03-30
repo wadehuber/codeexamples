@@ -98,6 +98,7 @@ You will notice that I talk a lot about the history of programming languages.  W
 - A list of [Ten Interesting Features from Modern Programming Languages](https://medium.com/@kasperpeulen/10-features-from-various-modern-languages-that-i-would-like-to-see-in-any-programming-language-f2a4a8ee6727).
 - An episode of The Computer Chronicles from 1984 that discussed programming languages: [Computer Chronicles - S01E19 Programming 09 02 1984](https://www.youtube.com/watch?v=Jtvgf_CyiS0)
 - Another episode The Computer Chronicles, this time from 1990 discussing [Object Oriented Languages](https://www.youtube.com/watch?v=TcrmLfQx_to)
+- [50 years of video game revenue visualized](https://www.visualcapitalist.com/50-years-gaming-history-revenue-stream/)
 - In [Systems Analysis and Programming: Thoughts from the Attic](http://norvig.com/sciam/sciam.html) Peter Norvig walks through debugging a Checkers program written in an old language for which no interpreter exists.  
 
 ## Humor
