@@ -107,6 +107,10 @@ More information:
 - Examples of [Higher Order Functions in JavaScript](https://medium.com/better-programming/the-power-of-higher-order-functions-in-javascript-91fc8edc3a7a)
 - [What is a Pure Function](https://medium.com/better-programming/what-is-a-pure-function-3b4af9352f6f) with examples in Python
 
+## F# (F Sharp)
+
+- [F# 5.0 Announcement](https://devblogs.microsoft.com/dotnet/announcing-f-5/)
+
 ## Lambda Calculus
 
 - VIDEO: Steven Syrek - Lambda Calculus For People Who Can't Be Bothered to Learn It [Part 1](https://www.youtube.com/watch?v=c_ReqkiyCXo) and [Part 2](https://www.youtube.com/watch?v=9lM825quliY)
@@ -137,6 +141,7 @@ More information:
 
 ## LISP in the real world
 
+- [Why Isn't Functional Programming the Norm](https://youtu.be/QyJZzq0v7Z4)
 - [LambdaNative](http://www.lambdanative.org/) is a framework for developing mobile apps in Scheme.
 - A LISP application in [the pharmaceutical industy](https://franz.com/success/customer_apps/bioinformatics/mdl_story.lhtml)
 - LISP & [the development of the GNU Emacs](https://www.gnu.org/gnu/rms-lisp.en.html)
