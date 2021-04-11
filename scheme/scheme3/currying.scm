@@ -1,6 +1,21 @@
 #lang scheme
 
 "Currying"
+(define subtract
+  (lambda (a b)
+    (- a b)))
+
+(define subtract-curr
+  (lambda (a)
+    (lambda (b)
+      (subtract a b))))
+
+(subtract 10 4)
+((subtract-curr 10) 4)
+((subtract-curr 10) 3)
+
+(newline)
+"Secret number game"
 (define secret-num
   (lambda (secret guess)
     (= secret guess)))
