@@ -10,7 +10,7 @@
 
 ## listsandpairs.pl
 
-[VIDEO - Lists & pairs](https://youtu.be/GOuw28DtteM) (10:10)
+[VIDEO - Lists & pairs](https://youtu.be/bKEjcVp_-Gg) (12:25): Introduction to pairs & lists in Prlog, including some simple rules to work with lists & pairs and return individual members of a pair
 
 ## recursivelistrules.pl
 
@@ -18,4 +18,4 @@
 
 ## recursionexamples.pl
 
-[VIDEO - Review of recursive Prolog rules](https://youtu.be/pJmNTKeHu_A) This file contains an example of implementing a recursive mathematical function, a recursive list procedure which replaces certain values, and two implementations of factorial (N!), including a tail-recursive implementation.
+[VIDEO - Review of recursive Prolog rules](https://youtu.be/pJmNTKeHu_A) (11:55): Examples of implementing a recursive mathematical function, a recursive list procedure which replaces certain values, and two implementations of factorial (N!), including a tail-recursive implementation.
