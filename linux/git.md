@@ -25,6 +25,10 @@
 
 [10 Common git Mistakes & How  to Fix Them](ttps://sethrobertson.github.io/GitBestPractices/)
 
+## GitHub, GitLab, & BitBucket
+
+- [Git vs GitHub/GitLab](https://youtu.be/wpISo9TNjfU)
+
 ## GitHub Error 403 help
 
 If you get Error 403 when working with GitHub, some here are some [suggestions for resolving that error](http://stackoverflow.com/questions/7438313/pushing-to-git-returning-error-code-403-fatal-http-request-failed)

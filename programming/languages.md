@@ -21,6 +21,7 @@ There is more information on the paradigms covered in CSC240 on the page for tho
 
 ### General Articles and Papers About Programming Language Paradigms
 
+- [Questions to ask when choosing a programming language](https://shekhargulati.com/2021/02/12/questions-to-ask-when-choosing-a-programming-language/) and some of the answers from companies
 - A [review](https://blog.acolyer.org/2018/01/29/the-paradigms-of-programming/) of an old paper on programming paradigms
 - A [taxonomy of programming language paradigms](https://www.info.ucl.ac.be/~pvr/paradigms.html)
 - A discussion of [3 paradigms (Procedural, OOP, & Functional)](https://dev.to/ericnormand/programming-paradigms-and-the-procedural-paradox)
