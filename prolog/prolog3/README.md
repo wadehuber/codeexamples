@@ -12,6 +12,12 @@
 
 [VDEO - Gathering all solutions](https://youtu.be/JTf5_IH-6MY) (8:57)
 
+## moreexamples.pl
+
+These are some additional examples that show some things that may be useful on the project.  If you don't remember quicksort, you may want to review the first two minutes of the [quicksort video from CSC205](https://youtu.be/zWcDAFInFuU).
+
+[VIDEO - More Prolog examples](https://youtu.be/_itFt_RRSfU) (13:29): splitting a list, quicksort, testing if a list holds no duplicate elements, and a simple scheduling example.
+
 ## modifyingdb.pl
 
 [VDEO - Modyfying the database (assert/retract)](https://youtu.be/PApILwbuvns) (7:30)
