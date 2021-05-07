@@ -25,11 +25,16 @@ yum install vim
 - [Tutorial](http://heather.cs.ucdavis.edu/~matloff/UnixAndC/Editors/ViIntro.html)
 - [VIM Adventures](https://vim-adventures.com/)Learn vim by playing a game
 - [OpenVim](http://www.openvim.com/) is an interactive Vim tutorial.
+- [A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced)
 
 ## Plugins & settings
 
 - The vimrc file stores your settings.  Here is a [good introduction](https://dougblack.io/words/a-good-vimrc.html)
 - Another introduction to [settings and plugins for vim](https://boddy.im/vim-dev-env.html)
+
+## Vim & VSCode
+
+- [Boost your Coding Fu with VSCode and Vim](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/dedication)
 
 ## Links
 
