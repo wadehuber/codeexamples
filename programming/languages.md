@@ -47,6 +47,10 @@ There is more information on the paradigms covered in CSC240 on the page for tho
 - Many languages are developed on GitHub, so you can see real world examples of compiler code, often written in C & C++.  Here's [a listl](https://github.com/showcases/programming-languages)
 - The [source code for Python](https://www.python.org/downloads/source/) (written in C)
 
+## Programming Language Concepts Books
+
+- The home page for [Programming Language Concepts](https://www.itu.dk/~sestoft/plc/) by Peter Sestoft
+
 ## Programming Language History
 
 You will notice that I talk a lot about the history of programming languages.  While you may never actually code professionally in an old language, there are still ideas from the past that you can apply even in modern languages.
