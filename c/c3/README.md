@@ -5,6 +5,11 @@
 [Video](https://youtu.be/apSfrXPSRNg) (16:15) - *Recursion examples*
 This file uses the Fibonacci function to demonstrate a loop-based implemenation, an naive recursive implemenatation, and a tail-recursive implenation.  
 
+Additional videos on recursion (also part of the C module):
+
+- [Thinking recursively video](https://youtu.be/zDJXVpHASuI) (3:33): *Walkhrough of recursive solutions to several problems*
+- [Tail Recursion](https://youtu.be/zvoFWNNC99s) goes over tail recursion using examples in Java & Python but which are both applicable to C
+
 ## constants.c
 
 [Video](https://youtu.be/svbqz77Fox4) (8:48) - *Using constants in C*

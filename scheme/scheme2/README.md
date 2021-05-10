@@ -1,6 +1,9 @@
 # Scheme Module2
 
-[Thinking recursively video](https://youtu.be/zDJXVpHASuI) (3:33): *Walkhrough of recursive solutions to several problems*
+You must understand recursion for this module.  The two videos below go over how recursion works & tail recursion.
+
+- [VIDEO: Thinking recursively video](https://youtu.be/zDJXVpHASuI) (3:33): *Walkhrough of recursive solutions to several problems*
+- [VIDEO: Tail recursion](https://youtu.be/zvoFWNNC99s) (10:40) *Introduction to tail recursion*
 
 ## review2.scm - Review of Module 1 content
 
