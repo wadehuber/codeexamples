@@ -47,6 +47,8 @@ This [website](https://www.cs.usfca.edu/~galles/JavascriptVisual/Heap.html) lets
 ### Real-world Applications of Graphs
 
 - Google uses graph theory to find [routes for electric vehicles](https://www.theverge.com/2021/1/27/22252261/google-maps-electric-vehicle-charging-station-ai)
+- [Math reveals unseen worlds of Star Wars](https://actu.epfl.ch/news/math-reveals-unseen-worlds-of-star-wars/)
+- [The Wizarding World of Harry Poter](http://dpmartin42.github.io/projects/Harry_Potter/Harry_Potter_Network.html) displays a graph of character relationships in the Harry Potter universe.
 
 ### The Bridges of Königsberg
 

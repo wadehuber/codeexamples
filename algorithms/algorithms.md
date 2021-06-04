@@ -4,10 +4,16 @@
 
 - A great collection of data structures & algorithms from the *Grokking Algorithms* book implemented in several languages is [available on GitHub](https://github.com/egonschiele/grokking_algorithms)
 
-## Big-Oh Notation
+## Algorithm Analysis
+
+- [How to analyze time complexity: Count your Steps](https://yourbasic.org/algorithms/time-complexity-explained/)
+- [Algorithm Anlysis](https://everythingcomputerscience.com/algorithms/Algorithm_Analysis.html) is an in depth introduction to algorithm analysis
+
+### Big-Oh Notation
 
 - [A Beginner's Guide to Big-Oh Notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 - [Big-Oh: How Code Slows as Data Grows](https://nedbatchelder.com/text/slowsgrows.html) has examples in Python, but a good overview
+- [Complexity and Big-O Notation](http://pages.cs.wisc.edu/~vernon/cs367/notes/3.COMPLEXITY.html)
 
 ## Advanced Practice Problems
 

@@ -17,7 +17,12 @@ Some of these are a bit out of date, but they each have some interesting informa
 
 ## Programming Language Paradigms
 
-There is more information on the paradigms covered in CSC240 on the page for those languages.
+Specific information about the the paradigms covered in CSC240 on the page for those languages (C, C++, Scheme, & Prolog).
+
+## Videos
+
+- [Programming Across Paradigms](https://youtu.be/Pg3UeB-5FdA) by Anjana Vakil
+- [4 Programming Paradigms in 40 Minutes](https://youtu.be/cgVVZMfLjEI) by Aja Hammerly
 
 ### General Articles and Papers About Programming Language Paradigms
 
