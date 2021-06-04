@@ -8,7 +8,7 @@ Module numbers are for CSC220.  Commands in **bold** are ones you should pay spe
 
 ## Module 1
 
-[Commands for getting information about the system](https://youtu.be/hNgx2rbScXc)
+[Commands for getting information about the system](https://youtu.be/8-ZipNecjyE)
 Commands: uptime **date** cal **history** whoami **which** echo df **exit** **man**
 
 [Working with files and directories](https://youtu.be/MhYtNsOJXD8)
@@ -69,3 +69,9 @@ The next two vidoes work with the [github-video-example](https://github.com/CGCC
 ## Module 14 - cron
 
 [cron](https://youtu.be/V79zDptTpH8) walks through setting up a cron job
+
+## Obsolete Videos
+
+The videos below have been re-recorded.  In some cases the videos are shorter, but may be of lower quality and not contain all the information that the newer video contains.
+
+- Module 1: [Commands for getting information about the system](https://youtu.be/hNgx2rbScXc)
