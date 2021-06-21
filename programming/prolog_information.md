@@ -27,6 +27,10 @@ We will not be doing this in class, but for those of you interested here is an e
 
 ## Prolog Links
 
+- [Prolog as a Database Query Langauge](https://www3.cs.stonybrook.edu/~warren/xsbbook/node11.html) shows you you can use Porlog as a database query langauge.  
+
+## Prolog Links
+
 - A [comparison of SQL and Prolog](https://stackoverflow.com/questions/2117651/comparing-sql-and-prolog)
 - SWI-Prolog offers an [online Prolog course](https://edu.swi-prolog.org/), including constraint programming
 - The author of [Logic Programming Is Overrated](http://programming-puzzler.blogspot.com/2013/03/logic-programming-is-overrated.html) talks about how a certain problem was easier to solve in Clojure without using logic programming extensions.  While not directly related to what we cover in this class, there are some interesting examples of Clojure & logic programming in the article.
