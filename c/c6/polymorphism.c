@@ -3,7 +3,7 @@
 
 enum shapes {SQUARE, CIRCLE};
 
-#define COUNT 2
+#define COUNT 4
 #define PI 3.14159
 
 /* Defines the generic parts of a shape object */
@@ -45,9 +45,10 @@ double c_area(void* this) {
     circle_t * me = (circle_t *) this;
     return me->r * me->r * PI;
 }
+
 double c_perimeter(void* this) {
     circle_t * me = (circle_t *) this;
-    return me->r * 2.0 * PI;
+    return 2 * me->r * PI;
 }
 
 /* These #defines are intended to clean up the syntax */
@@ -58,21 +59,24 @@ double c_perimeter(void* this) {
 #define S_PERIMETER(s)    (((shape_t*)(s)))->perimeter((s))
 
 int main() {
-    square_t s1 = {1, SQUARE, "square1", &s_area, &s_perimeter, 3}; 
-    circle_t c1 = {2, CIRCLE, "circle1", &c_area, &c_perimeter, 3}; 
+
+    square_t s1 = {1, SQUARE, "square1", &s_area, &s_perimeter, 3};
+    square_t s2 = {2, SQUARE, "square2", &s_area, &s_perimeter, 4};
+    circle_t c1 = {3, CIRCLE, "circle1", &c_area, &c_perimeter, 1};
+    circle_t c2 = {4, CIRCLE, "circle2", &c_area, &c_perimeter, 3};
+
     shape_t * shapes[COUNT];
-    shape_t ** sptr = shapes;
-    int ii;
- 
+    shape_t * curr;
+
     shapes[0] = (shape_t *) &s1;
     shapes[1] = (shape_t *) &c1;
- 
-    /* This is an array of shape_t, but we call the appropriate function for
-         each individual shape type */
-    for(ii=0;ii<COUNT;ii++) {
-        printf("%s: id=%d, type=%d, area=%f, perimeter=%f\n", S_NAME(*sptr), 
-                S_ID(*sptr), S_TYPE(*sptr), S_AREA(*sptr), S_PERIMETER(*sptr));
-        sptr ++;
+    shapes[2] = (shape_t *) &s2;
+    shapes[3] = (shape_t *) &c2;
+
+    for(int ii=0;ii<COUNT;ii++) {
+        curr = shapes[ii];
+        printf("%s: id=%d, type=%d, area=%.1f, perimeter=%.1f\n", S_NAME(curr),
+                S_ID(curr), S_TYPE(curr), S_AREA(curr), S_PERIMETER(curr));
     }
 
     return 0;
