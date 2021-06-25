@@ -62,7 +62,10 @@ This file includes examples of inheritance, polymorphism, and virtual and pure-v
 
 ### staff
 
-[Video](https://youtu.be/ZwDR84yAB4E) (43:12): *Payroll example*  
+- [Video 1](https://youtu.be/rNrPJnndOz4) (8:00) - Creating the abstract classes StaffMember & Employee
+- [Video 2](https://youtu.be/Hfb9JCOo8Lw) (8:25) - Creating the concrete classes Hourly, Salaried, & Volunteer
+- [Video 3](https://youtu.be/_43ZUcLYMUk) (15:29) - Working with collections of objects and virtual vs. non-virtual methods
+- [Video 4](https://youtu.be/cT3NatYvXpE) (3:22) - Working with collections of objects and virtual vs. non-virtual methods
 
 Example of inheritance, polymorporphism, virtual vs non-virtual methods, C++ header (.hpp) files, and writing a makefile for a larger multi-file program.  We use a vector to store a list of pointers to StaffMembers.  We will cover vectors in a later module.  I left a lot of the compile errors and some design changes in the video so that you can see the thought process behind it.
 
@@ -76,4 +79,4 @@ This program contains the following class heirarchy:
 
 In the loop where the paystubs are printed in staff.cpp the StaffMember print method is called since print is not virtual.  This is as intended - the only thing that should be printed is the name/address/phone of the employee, not additional things such as SSN.  To print that information we would need to use a variable or pointer of the derrived class type.
 
-**NOTE**: You may notice in the video I started to make pay non-virtual when I added the bonus method.  Since the bonus method takes a parameter and pay doesn't, I could have still called it pay since it would have overloaded, not overridden, then virtual pay method.  Also, it probably would have been better to use variables for the 4 StaffMembers to avoid memory allocation.  
+**NOTE**: Instead of writing the bonus method, I could have overloaded the pay method with a virtual method that took a parameter for the size of the bonus.  Also, it probably would have been better to use variables for the 4 StaffMembers to avoid memory allocation.  
