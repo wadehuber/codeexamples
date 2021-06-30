@@ -49,7 +49,7 @@ int main() {
   superObject.Virtual2();
   */
 
-  cout << endl << "Calling Sub Object methods" << endl;
+  cout << endl << "Calling Sub Object methods with Sub variable" << endl;
   subObject.nonVirtual1();
   subObject.nonVirtual2();
   subObject.Virtual1();
