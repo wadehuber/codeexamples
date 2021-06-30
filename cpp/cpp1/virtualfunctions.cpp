@@ -18,7 +18,7 @@ class Super {
     virtual void Virtual2() { cout << "SUPER: Virtual2" << endl; }
 
     // Pure virtual methods must be overridden by any non-abstract
-    //   derrived class
+    //   derived class
     virtual void pureVirtual() = 0;
 };
 
