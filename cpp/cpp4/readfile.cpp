@@ -7,9 +7,8 @@
 using namespace std;
 
 int main(int argc, char * argv[]) {
- 
+    ifstream numberFile; 
     string buffer;
-    ifstream numberFile;
     int number;
     int sum = 0;
 
@@ -23,21 +22,21 @@ int main(int argc, char * argv[]) {
     // Open the file
     numberFile.open(argv[1]);
     if (!numberFile) {
-        cerr << "Unable to open file: " << argv[1] << endl;
-        exit(1);
+        cerr << "Unable to open file " << argv[1] << endl;
+        exit(2);
     }
 
-    // Read the file line by line
-    while ( getline(numberFile, buffer)) {
+    // Read the file line by line 
+    while (getline(numberFile, buffer)) {
         auto lineStream = istringstream(buffer);
 
+        // Get each number from lineStream
         while(lineStream >> number) {
             sum += number;
         }
     }
 
     cout << "Total = " << sum << endl;
-
     numberFile.close();
 
     return 0;
