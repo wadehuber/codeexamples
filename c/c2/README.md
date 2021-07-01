@@ -59,6 +59,11 @@ strncpy, strcat, strncmp, sprintf
 
 ## Advanced pointer examples
 
+### memdump.c
+
+[Video](https://youtu.be/xdrX_RDj5_0) (10:42) - *Examining memory byte-by-byte*
+Example function that will print out memory byte-by-byte using a char pointer.  In this example we use the function to examine the contents of a stuct.
+
 ### morearrayptr.c
 
 [Video](https://youtu.be/UsR9A3o7DFM) (13:11) - *Two dimensional arrays, accessing elements of an array using a pointer*
