@@ -38,4 +38,5 @@ In general, unique_ptr is preferred since shared_ptr may not free resources if t
 
 ## namespace.cpp
 
-Example of using a namespace
+[Video](https://youtu.be/rlmYjs8JKtM) (9:50)
+*Example of using C++ namespaces*
