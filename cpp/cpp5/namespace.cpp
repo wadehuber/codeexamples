@@ -1,7 +1,7 @@
 #include<iostream>
 
 namespace square {
-    using namespace std;
+    using namespace std;    // Only applies inside namespace square
 
     int area (int s) {
         return s * s;
@@ -35,6 +35,7 @@ namespace circle {
 }
 
 void circlesquare(int x) {
+    // Specify where we want area & perimeter to come from
     using circle::area;
     using square::perimeter;
 
@@ -57,6 +58,7 @@ int main () {
     std::cout << "The perimeter of a circle with radius 5 is " << circle::perimeter(5) << std::endl;
     std::cout << std::endl;
 
+    // We have to use the SRO here to access the value of PI
     std::cout << "PI = " << circle::PI << std::endl;
     std::cout << std::endl;
 
