@@ -18,6 +18,10 @@ return (name.compareTo(m.getName()));
 
 Note that this is not a recursive call to ```compareTo``` - it is calling the ```compareTo()``` of the String class (or whatever the type is for data member m).  This is common way of implementing a compareTo method since it leverages code that has already been implemented for the data member.  If we want to sort our class based on a String data member then using the ```String.compareTo()``` method is much easier than trying to write something ourselves.
 
+## Java Versions
+
+- [A Guide to Java Versions and Features](https://dzone.com/articles/a-guide-to-java-versions-and-features)
+
 ## General Programming Advice
 
 - Why you should always use braces even around one line of code - [Apple's SSL Bug Explained](https://nakedsecurity.sophos.com/2014/02/24/anatomy-of-a-goto-fail-apples-ssl-bug-explained-plus-an-unofficial-patch/)

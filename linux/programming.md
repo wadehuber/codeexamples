@@ -2,10 +2,15 @@
 
 ## make
 
-- The [GNU Make manual](https://www.gnu.org/software/make/manual/)
+- [What is a Makefile and how does it work?](https://opensource.com/article/18/8/what-how-makefile)
 - [Notes for new make users](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/)
 - Makefile [best practices](https://danyspin97.org/blog/makefiles-best-practices/)
 - [Don't be afraid of makefiles](https://matthias-endler.de/2017/makefiles/)
+- [Makefile tutorial](https://makefiletutorial.com/)
+- [An introduction to Makefiles](https://web.mit.edu/gnu/doc/html/make_2.html)
+- [A Simple Makefile Tutorial](https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
+- The [GNU Make manual](https://www.gnu.org/software/make/manual/)
+
 - CMake
   - [An Introduction](https://cliutils.gitlab.io/modern-cmake/) to modern CMake
   - Links to several [videos covering cmake](https://steveire.wordpress.com/2017/11/05/embracing-modern-cmake/)
