@@ -28,6 +28,12 @@ This file has examples showing the similarities & differences between pointers. 
 [Video](https://youtu.be/60qUR7uJa_I) (12:15) - *Struct pointers*
 This file has an example of using a pointer to a struct.
 
+### doublepointer.c
+
+[Video](https://youtu.be/BWfB1Whc_p8) (10:22) - *Double pointers*
+
+Double pointers are simply pointers that hold the address of a pointer.  This video starts off with a review of pointers then discusses double pointers with an example of a function that takes a double pointer as a paramter.  
+
 ### voidpointer.c
 
 [Video](https://youtu.be/QEQot5CqdYs) (7:57) - *void pointers*
