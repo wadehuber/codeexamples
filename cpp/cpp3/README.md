@@ -27,6 +27,10 @@ In this video I show an example of using a vector to store objects of a custom c
 
 [Video](https://youtu.be/i_vm3nu0MyQ) (8:43): *C++ Maps*
 
+## map2.cpp
+
+NO VIDEO : *Another example of using C++ Maps*
+
 ## algorithm.ccp
 
 [Video](https://youtu.be/bdiWTAWxc_w) (13:45): *Methods from the C++ algorithms library*
