@@ -2,7 +2,7 @@
 #include<string>
 
 // To compile:
-//   g++ --std=c++11 -pedantic -Wall hello.cpp
+//   g++ --std=c++17 -pedantic -Wall hello.cpp
 
 int main() {
   std::string greeting = "Hello";

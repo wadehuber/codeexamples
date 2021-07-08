@@ -10,14 +10,6 @@ You should compile your programs with the following command to ensure you are us
 g++ --std=c++17 -pedantic -Wall filename.cpp
 ```
 
-or on the older class VMs
-
-```bash
-g++ --std=c++11 -pedantic -Wall filename.cpp
-```
-
-Note that the c++11 standard will cover most of what we cover this semester, so that will be acceptable in most cases in place of c++17.
-
 ## C++ Tutorials
 
 - Google has a nice [C++ Tutorial](https://developers.google.com/edu/c++/)
