@@ -40,7 +40,7 @@ This file contains an example of using default arguments in C++ functions.
 
 ## OOP Examples
 
-The next three videos feature examples of virtual/non-virtual functions, inheritance, and polymorphism.  The are included in increasing order of complexity, but if you are new to OOP you may find the first animals.cpp to be easier to understand at first.  
+The next three videos feature examples of inheritance, virtual/non-virtual functions, and polymorphism.  The are included in increasing order of complexity, but if you are new to OOP you may find the first animals.cpp to be easier to understand at first.  
 
 VIDEO - [Overview of Inheritance, Polymorphism, & Virtual Functions in C++](https://youtu.be/eVczTPsEMgQ)
 
@@ -79,4 +79,4 @@ This program contains the following class heirarchy:
 
 In the loop where the paystubs are printed in staff.cpp the StaffMember print method is called since print is not virtual.  This is as intended - the only thing that should be printed is the name/address/phone of the employee, not additional things such as SSN.  To print that information we would need to use a variable or pointer of the derrived class type.
 
-**NOTE**: Instead of writing the bonus method, I could have overloaded the pay method with a virtual method that took a parameter for the size of the bonus.  Also, it probably would have been better to use variables for the 4 StaffMembers to avoid memory allocation.  
+**NOTE**: Instead of writing the bonus method, I could have overloaded the pay method with a virtual method that took a parameter for the size of the bonus.  Also, it probably would have been better to use variables instead of pointers for the 4 StaffMembers to avoid memory allocation.  
