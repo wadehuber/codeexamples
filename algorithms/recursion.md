@@ -7,6 +7,10 @@
 - [Iteration vs Recursion](https://www.codeproject.com/Articles/21194/Iterative-vs-Recursive-Approaches) gives a good overview of the efficiency comparison between recursion, iteration, and an optimized recursion where the values are stored in a Dictionary. The optimized recursion could be made even more efficient using tail recursion, though for things like the Fibonacci numbers & factorial the iterative solution is going to be more efficient if for no other reason than it doesn't make additional method calls.
 - [Thinking about Recursion](https://www.solipsys.co.uk/new/ThinkingAboutRecursion.html)
 
+## Tail Recursion
+
+- [Understanding Tail Recursion](https://codeburst.io/understanding-tail-recursion-7975af331296)
+
 ## Implementing Recursion
 
 From DonaldPShimodap, Hacker News:
