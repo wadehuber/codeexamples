@@ -18,10 +18,11 @@ g++ --std=c++11 -pedantic -Wall filename.cpp
 
 Note that the c++11 standard will cover most of what we cover this semester, so that will be acceptable in most cases in place of c++17.
 
-## C++ Tutorial
+## C++ Tutorials
 
 - Google has a nice [C++ Tutorial](https://developers.google.com/edu/c++/)
-- This 10 hour [C++ Programming All-in-One Tutorial](https://www.youtube.com/watch?v=_bYFu9mBnr4) goes over most of the topics we will cover this semester.  
+- This 10 hour [C++ Programming All-in-One Tutorial](https://www.youtube.com/watch?v=_bYFu9mBnr4) goes over most of the topics we will cover this semester
+- The Cherno's [C++ playlist](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) has several short videos touching on the topics we cover in CSC240 & CSC220
 
 ## C++ References
 
