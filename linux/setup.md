@@ -135,7 +135,7 @@ int main() {
    printf("Hello, world!");
    return 0;
 }
-[student@localhost 240]$ gcc -ansi -pedantic -Wall first.c # Compile
+[student@localhost 240]$ gcc --std=c11 -pedantic -Wall first.c # Compile
 [student@localhost 240]$ ls                # Notice the new file - a.out.  That is the executable that is generated when we compile.  
 a.out first.c
 [student@localhost 240]$ a.out
