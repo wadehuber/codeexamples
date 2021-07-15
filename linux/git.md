@@ -23,7 +23,9 @@
 
 ## Git Best Practices
 
-[10 Common git Mistakes & How  to Fix Them](ttps://sethrobertson.github.io/GitBestPractices/)
+- [Commit Often, Perfect Later, Publish Once: Git Best Practices](https://sethrobertson.github.io/GitBestPractices/)
+- [10 Common git Mistakes & How  to Fix Them](https://sethrobertson.github.io/GitBestPractices/)
+- [What is the best Git branch strategy?](https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy)
 
 ## GitHub, GitLab, & BitBucket
 
