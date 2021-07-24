@@ -40,9 +40,13 @@ This file contains an example of using default arguments in C++ functions.
 
 ## OOP Examples
 
-The next three videos feature examples of inheritance, virtual/non-virtual functions, and polymorphism.  The are included in increasing order of complexity, but if you are new to OOP you may find the first animals.cpp to be easier to understand at first.  
+The next few videos feature examples of inheritance, virtual/non-virtual functions, and polymorphism.  The are included in increasing order of complexity, but if you are new to OOP you may find the first animals.cpp to be easier to understand at first.  
 
 VIDEO - [Overview of Inheritance, Polymorphism, & Virtual Functions in C++](https://youtu.be/eVczTPsEMgQ)
+
+### inheritance.cpp
+
+[Video](https://youtu.be/zoXJga46l1o) (6:18): *Overview of deriving a class in C++*
 
 ### virtualfunctions.cpp
 
