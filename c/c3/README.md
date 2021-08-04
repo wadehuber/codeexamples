@@ -15,6 +15,11 @@ Additional videos on recursion (also part of Scheme 2 for CSC240):
 [Video](https://youtu.be/svbqz77Fox4) (8:48) - *Using constants in C*
 This file has examples of symbolic & enumeration constants as well as constant variables.  It also shows how the value of a "constant" variable can be changed.  A constant variable is different from a symbolic constant since the constant variable will have memory allocated to it and we can have pointers to it, we just can't change it directly.  
 
+## macros.c
+
+[Video](https://youtu.be/aoV31pjY_2Y) (12:03) - *Using macros in C*
+This file has examples of using macros to define symbolic constants and macro functions.  
+
 ## headers.c
 
 [Video](https://youtu.be/dtlTKLIupgs) (9:00) - *Example of how header files work*

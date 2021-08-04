@@ -6,8 +6,8 @@
 #define MAX 10
 
 /* macros */
-#define triple(a) a*3
-#define absm(a) ( (a<0) ? -(a) : a)
+#define triple(a) a * 3
+#define absm(a) ( (a<0) ? -(a) : a )
 
 /* function */
 int absf(int a) {
@@ -18,22 +18,33 @@ int absf(int a) {
 }
 
 int main(void) {
-    int j=MAX;
-    int k=MAX * -1;
-    int m=-8;
+    int j = MAX;
+    int k = MAX * -1;
+    int m = -8;
     int n = triple(4);
 
-    printf("j=%d, k=%d, m=%d, n=%d\n",j,k,m,n);
+    printf("Original:\n");
+    printf("j=%d, k=%d, m=%d, n=%d\n", j, k, m, n);
 
-    printf("absf(j++) = %d \n",absf(j++));
-    printf("absf(k++) = %d \n",absf(k++));
+    printf("\nCalling absf (function):\n");
+    printf("absf(%d)=%d\n", j, absf(j));
+    printf("absf(%d)=%d\n", k, absf(k));
+    printf("j=%d, k=%d, m=%d, n=%d\n", j, k, m, n);
 
-    printf("j=%d, k=%d, m=%d, n=%d\n",j,k,m,n);
+    printf("\nCalling absm (macro):\n");
+    printf("absm(%d)=%d\n", j, absm(j));
+    printf("absm(%d)=%d\n", k, absm(k));
+    printf("j=%d, k=%d, m=%d, n=%d\n", j, k, m, n);
 
-    printf("absm(j++) = %d \n",absm(j++));
-    printf("absm(k++) = %d \n",absm(k++));
+    printf("\nCalling absf (function):\n");
+    printf("absf(++%d)=%d\n", j, absf(++j));
+    printf("absf(++%d)=%d\n", k, absf(++k));
+    printf("j=%d, k=%d, m=%d, n=%d\n", j, k, m, n);
 
-    printf("j=%d, k=%d, m=%d, n=%d\n",j,k,m,n);
+    printf("\nCalling absm (macro):\n");
+    printf("absm(++%d)=%d\n", j, absm(++j));
+    printf("absm(++%d)=%d\n", k, absm(++k));
+    printf("j=%d, k=%d, m=%d, n=%d\n", j, k, m, n);
 
     return 0;
 }
