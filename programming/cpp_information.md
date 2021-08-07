@@ -55,7 +55,11 @@ In general, [cppreference.com](http://cppreference.com) is a reliable C++ refere
 
 ### Variadic Templates
 
+- [Practical uses for variadic templates](https://crascit.com/2015/03/21/practical-uses-for-variadic-templates/)
+- [C++ Insights: Variadic Templates](https://www.modernescpp.com/index.php/c-insights-variadic-templates)
+- [Modern C++ and Variadic Functions: How to Shoot Yourself in the Foot and How to Avoid It](https://www.linkedin.com/pulse/modern-c-variadic-functions-how-shoot-yourself-foot-avoid-zinin/)
 - VIDEO: [Variadic Templates in C++11/C++14 - An Introduction](https://www.youtube.com/watch?v=R1G3P5SRXCw) by Peter Sommerlad at CppCon2015
+- [C++ Core Guidelines - Rules for Variadic Templates](https://www.modernescpp.com/index.php/c-core-guidelines-rules-for-variadic-templates)
 
 ### Namespaces
 
