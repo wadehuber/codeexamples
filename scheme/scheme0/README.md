@@ -1,5 +1,7 @@
 # Scheme Module 0
 
+[Video](https://youtu.be/cw-g6Sdca1o) (3:14) Downloading & installing DrRacket
+
 ## racket.scm
 
 [Video](https://youtu.be/Ro1S8OGcaNI) (5:50): Example of using DrRacket
