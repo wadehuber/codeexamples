@@ -81,6 +81,10 @@ to the beginning of the file and
 
 to the end of the file.
 
+## Threads
+
+- [Introduction to C11 Threads](https://stdin.top/posts/c11-threads/)
+
 ## Why Learn C
 
 - [Learn C programming and the rest will come](https://zeroequalsfalse.com/posts/learn-c-programming/)
@@ -94,6 +98,7 @@ to the end of the file.
 
 - An overview of [5 C standards](https://opensourceforu.com/2017/04/different-c-standards-story-c/)
 - A series of blog posts on the [differences between C90 & C99](http://www.simplyembedded.org/archives/battle-of-the-standards-round1/)
+- [C11 The new standard](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3631.pdf)
 
 ## ANSI C vs C11
 
@@ -125,6 +130,7 @@ for (int ii=0;ii<10;ii++) {
 - [A list of breaking changes in C11](https://stackoverflow.com/questions/6399615/what-breaking-changes-are-introduced-in-c11) has information about features in ANSI C that no longer work in C11.
 - [Why C & C++ Are Awful Programming Languages](https://www.radford.edu/ibarland/Manifestoes/whyC++isBad.shtml) is written from a teaching perspective, but has some interesting points about both C & C++.
 - The paper [The Case for Writing Network Drivers in High-Level Programming Languages](https://www.net.in.tum.de/fileadmin/bibtex/publications/papers/the-case-for-writing-network-drivers-in-high-level-languages.pdf) argues that network drivers should be written in higher level languages
+- [C11 Defects - C threads are not realizable with POSIX threads](https://gustedt.wordpress.com/2012/10/14/c11-defects-c-threads-are-not-realizable-with-posix-threads/)
 
 ## Object-Oriented Programming with C
 

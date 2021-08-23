@@ -37,6 +37,7 @@ This [website](https://www.cs.usfca.edu/~galles/JavascriptVisual/Heap.html) lets
 ## Graphs
 
 - An [illustrated introduction to graph theory with applications](https://www.freecodecamp.org/news/i-dont-understand-graph-theory-1c96572a1401/)
+- A 7-hour [course on Graph Theory](https://youtu.be/09_LlHjoEiY)
 - [D3 Graph Theory](https://d3gt.com/index.html) - A very nice interactive introduction to Graph theory.
 - [Understanding Dijkstra's Algorithm](https://blog.aos.sh/2018/02/24/understanding-dijkstras-algorithm/) goes over Dijkstra's single-source shortest path algorithm
 - Examples of how [graphs are used in Machine Learning](https://www.oreilly.com/ideas/how-graph-algorithms-improve-machine-learning)

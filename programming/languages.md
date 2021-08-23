@@ -64,6 +64,7 @@ You will notice that I talk a lot about the history of programming languages.  W
 - “Uncle” Bob Martin on [The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc) gives an overview of the history of programming and talks about where it is headed.
 - [Plugboard Programming](http://www.righto.com/2017/04/1950s-tax-preparation-plugboard.html) on the IBM 403 Accounting Machine
 - [Interviews with creators of different programming languages](http://www.math.bas.bg/bantchev/misc/az.pdf)
+- Microsoft Channel 9 Ask the Expert: [Hello, Brian - A Conversation with Dr. Brian Kernighan, creator of "hello, world"](https://channel9.msdn.com/Shows/Ask-the-Expert/Ask-the-Expert-Hello-Brian-A-conversation-with-Dr-Brian-Kernighan-creator-of-hello-world)
 
 ## Apollo Code
 

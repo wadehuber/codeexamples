@@ -9,6 +9,7 @@ If you have a Raspberry Pi, there are [installation instructions](https://www.ha
 ### Tutorials
 
 - Tutorial from [visualstudio.com](https://code.visualstudio.com/docs/introvideos/basics)
+- [Visual Studio Code Crash Course](https://youtu.be/WPqXP_kLzpo) from freeCodeCamp.org
 
 ### Extensions
 

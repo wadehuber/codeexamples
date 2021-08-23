@@ -1,5 +1,13 @@
 # Python Information
 
+## Strings
+
+- [Strings and Character Data in Python](https://realpython.com/python-strings/)
+
+## Concurrency
+
+- [Making Lunch Faster with Python Concurrency](https://sourcery.ai/blog/concurrency/)
+
 ## Advanced Python
 
 - [Five Things You Didn't Know Python Could Do](https://channel9.msdn.com/Shows/5-Things/Five-Things-You-Didnt-Know-Python-Could-Do)
@@ -9,3 +17,6 @@
 ## Itertools
 
 - A [Tour of Python Itertools](https://martinheinz.dev/blog/16)
+
+## Related Topics
+- [Introduction to Git and GitHub](https://realpython.com/python-git-github-intro/) for Python Developers

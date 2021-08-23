@@ -122,7 +122,7 @@ More information:
 
 - [Functional Pearls](http://www.cs.ox.ac.uk/people/jeremy.gibbons/pearls/)
 - A great article on [What's Functional Programming All About?](http://www.lihaoyi.com/post/WhatsFunctionalProgrammingAllAbout.html)
-- A paper on [Why Functional Programming Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
+- A [Video](https://www.youtube.com/watch?v=XrNdvWqxBvA) and [paper](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf) on Why Functional Programming Matters
 - A guide to [Functional Programming Jargon](https://github.com/hemanth/functional-programming-jargon/blob/master/readme.md)
 - A blog post asks if Functional Programming [can be liberated fro the Von Neumann paradigm](http://conal.net/blog/posts/can-functional-programming-be-liberated-from-the-von-neumann-paradigm).
 - [((All those parens!))](http://blog.avenuecode.com/all-those-parens) discusses S-expressions and there use.  The examples are in Clojure, but you should be able to understand most of the examples.
