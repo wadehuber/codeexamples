@@ -40,40 +40,42 @@ If you get Error 403 when working with GitHub, some here are some [suggestions f
 The following shows how to download the Class examples from GitHub.  Note that this isn't required, you can just use a web browser if you prefer.  Replace the URL in the ```git clone``` line the URL for your course/semester which is posted on Canvas.  User commands are in bold.
 
 ```bash
-[student@localhost ~]$ mkdir git
-[student@localhost ~]$ cd git/
-[student@localhost git]$ ls
-[student@localhost git]$ git clone https://github.com/CGCC-CS/csc240fall19.git
-Cloning into 'csc240fall18'...
-remote: Counting objects: 77, done.
-remote: Compressing objects: 100% (68/68), done.
-remote: Total 77 (delta 0), reused 73 (delta 0), pack-reused 0
-Unpacking objects: 100% (77/77), done.
-[student@localhost git]$ ls
-csc240fall18
-[student@localhost git]$ cd csc240fall18/
-[student@localhost csc240fall18]$ ls -ltr
-total 4
--rw-rw-r--. 1 student student 51 Aug 27 22:54 README.md
-drwxrwxr-x. 2 student student 79 Aug 27 22:54 c1
-drwxrwxr-x. 2 student student 57 Aug 27 22:54 c0
-drwxrwxr-x. 2 student student 106 Aug 27 22:54 c2
-drwxrwxr-x. 4 student student 168 Aug 27 22:54 c3
-drwxrwxr-x. 2 student student 70 Aug 27 22:54 cpp3
-drwxrwxr-x. 2 student student 94 Aug 27 22:54 cpp2
-drwxrwxr-x. 2 student student 59 Aug 27 22:54 cpp1
-drwxrwxr-x. 2 student student 23 Aug 27 22:54 cpp0
-drwxrwxr-x. 2 student student 45 Aug 27 22:54 c4
-drwxrwxr-x. 2 student student 25 Aug 27 22:54 scheme2
-drwxrwxr-x. 2 student student 25 Aug 27 22:54 scheme1
-drwxrwxr-x. 2 student student 25 Aug 27 22:54 scheme0
-drwxrwxr-x. 2 student student 24 Aug 27 22:54 prolog3
-drwxrwxr-x. 2 student student 24 Aug 27 22:54 prolog2
-drwxrwxr-x. 2 student student 24 Aug 27 22:54 prolog1
-drwxrwxr-x. 2 student student 24 Aug 27 22:54 prolog0
-drwxrwxr-x. 2 student student 56 Aug 27 22:54 cpp4
-drwxrwxr-x. 2 student student 25 Aug 27 22:54 scheme4
-drwxrwxr-x. 2 student student 47 Aug 27 22:54 scheme3
+whuber@kong:/mnt/c$ cd /mnt/c
+whuber@kong:/mnt/c$ mkdir classes
+whuber@kong:/mnt/c$ cd classes
+whuber@kong:/mnt/c/classes$ ls -ltr
+total 0
+whuber@kong:/mnt/c/classes$ git clone https://github.com/wadehuber/codeexamples.git
+Cloning into 'codeexamples'...
+remote: Enumerating objects: 2136, done.
+remote: Counting objects: 100% (495/495), done.
+remote: Compressing objects: 100% (364/364), done.
+remote: Total 2136 (delta 248), reused 334 (delta 124), pack-reused 1641
+Receiving objects: 100% (2136/2136), 710.24 KiB | 1.71 MiB/s, done.
+Resolving deltas: 100% (1174/1174), done.
+Updating files: 100% (308/308), done.
+whuber@kong:/mnt/c/classes$ ls -ltr
+total 0
+drwxrwxrwx 1 whuber whuber 4096 Aug 24 18:23 codeexamples
+whuber@kong:/mnt/c/classes$ cd codeexamples/
+whuber@kong:/mnt/c/classes/codeexamples$ ls -ltr
+total 16
+-rwxrwxrwx 1 whuber whuber 11357 Aug 24 18:23 LICENSE
+-rwxrwxrwx 1 whuber whuber  1734 Aug 24 18:23 README.md
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 algorithms
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 applications
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 bash
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 c
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 concurrency
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 cpp
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 debugging
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 java
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 javascript
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 linux
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 programming
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 prolog
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 python
+drwxrwxrwx 1 whuber whuber  4096 Aug 24 18:23 scheme
 ```
 
 ## GitHub Student Developer Pack
