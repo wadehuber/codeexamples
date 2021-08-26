@@ -2,6 +2,8 @@
 
 The examples below are intended to give you a fast introduction to C.  If you are coming from Java, some of the examples, such as control.c, should look familiar.
 
+For CSC240 & CSC220 we will be using gcc.  The easiest way to get gcc is to [install Ubuntu under Windows (Video)](https://www.youtube.com/watch?v=X4JnQLPTS44).
+
 [Video - Compiling & Running C code](https://youtu.be/6O12bPrdwWE) walks through the process of compiling & running a C program under the Windows Sybsystem for Linux (Ubuntu).  The process is similar with Cygwin (other than the executable is called a.exe & you the command to change to a drive is ```cd drive:*``` where drive is the drive letter you want to change to).  The process is also similar to Linux or MacOS, other than the part about navigating to the folder with the code.
 
 ## Introductory examples
