@@ -14,7 +14,7 @@ The next three videos give 3 separate examples of using threads for multi-thread
 
 ### thread.c
 
-[Video](https://youtu.be/M-zQt_tHsTc) (10:40): Example of using C11 threads for multi-threaded programming
+[Video](https://youtu.be/gkIr_MFUGA0) (10:40): Example of using C11 threads for multi-threaded programming
 
 ### threads.cpp
 
