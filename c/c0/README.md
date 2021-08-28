@@ -4,7 +4,7 @@ The examples below are intended to give you a fast introduction to C.  If you ar
 
 For CSC240 & CSC220 we will be using gcc.  
 
-- Windows 10 & later: install Ubuntu under Windows [Video]](https://www.youtube.com/watch?v=X4JnQLPTS44)
+- Windows 10 & later: install Ubuntu under Windows [Video](https://www.youtube.com/watch?v=X4JnQLPTS44)
 - MacOS: You can run gcc from the command line[Video](https://youtu.be/qOchFxcstXU)
 - Linux: make sure you have gcc installed
 
@@ -22,7 +22,7 @@ Editing, compiling, & running a C program.  The #include statement brings in the
 
 ### [c_overview.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/c_overview.c)
 
-[Video](https://youtu.be/6loLv3xSBmo) (19:45) - *Summary of C features*
+[Video](https://youtu.be/e4D6SnAo5rE) (15:07) - *Summary of C features*
 
 This file goes over many of the features of C you will need to know, including data types, printf, structures, calling functions, and arrays.  All of the material in this video is covered in more detail in the videos below.
 
