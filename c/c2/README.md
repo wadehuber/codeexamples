@@ -1,8 +1,8 @@
 # C Pointers
 
-Note - I strongly recommend using a static analysis tool such as cppcheck (See [this video](https://youtu.be/KQE7i0F1at4)) (3:48) when working with pointers to help you avoid common mistakes.  
+Note - I strongly recommend using a static analysis tool such as cppcheck (See [this video](https://youtu.be/oJ8SXVoefaA)) (3:37) when working with pointers to help you avoid common mistakes.  
 
-VIDEO: [Overview of C Pointers](https://youtu.be/RWT6ziOXk6Y) (5:11)
+VIDEO: [Overview of C Pointers](https://youtu.be/w-EykTbqyls) (4:46)
 
 ## Introduction to pointers
 
