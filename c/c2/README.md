@@ -48,7 +48,7 @@ Note that after the video ended line 33 of alloc.c was changed to ```if(nums == 
 
 ### pointer_review.c
 
-[Video](https://youtu.be/xQAoSUNrGq4) (23:09) - *Overfiew of pointer usage in C*
+[Video](https://youtu.be/xQAoSUNrGq4) (23:09) - *Overview of pointer usage in C*
 This file has several different examples of using pointers, including an example of using malloc to allocate memory.  T
 
 ## Strings & Pointers
