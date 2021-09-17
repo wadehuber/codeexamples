@@ -10,7 +10,7 @@
 
 ## listsandpairs.pl
 
-[VIDEO - Lists & pairs](https://youtu.be/bKEjcVp_-Gg) (12:25): Introduction to pairs & lists in Prolog, including some simple rules to work with lists & pairs and return individual members of a pair
+[VIDEO - Lists & pairs](https://youtu.be/XubLIMoqjtk) (12:25): Introduction to pairs & lists in Prolog, including some simple rules to work with lists & pairs and return individual members of a pair
 
 ## recursivelistrules.pl
 

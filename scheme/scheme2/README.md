@@ -15,7 +15,7 @@ You must understand recursion for this module.  The two videos below go over how
 
 ## listprimitives.scm
 
-[Video](https://youtu.be/IJDZkZWodqE) (17:14): *Overview of null, car, cdr, cons, append, and length in preparation for writing list procedures*
+[Video](https://youtu.be/slotKodkA-U) (15:32): *Overview of null, car, cdr, cons, append, and length in preparation for writing list procedures*
 
 ## listprocedures1.scm
 
