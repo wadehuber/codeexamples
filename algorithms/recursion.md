@@ -13,7 +13,7 @@
 
 ## Implementing Recursion
 
-From DonaldPShimodap, Hacker News:
+From DonaldPShimoda, Hacker News:
 
 1. Write down what your function does in a comment.  (e.g., "sum all the elements of a binary tree").
 2. Write the function signature.
