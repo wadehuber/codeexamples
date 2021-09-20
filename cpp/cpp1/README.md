@@ -2,35 +2,35 @@
 
 ## cppio.cpp
 
-[Video](https://youtu.be/DrTNMjeosZ8) (5:57): *C++ input & output - cout, cin, & getline*
+[Video](https://youtu.be/QqgYq7edw40) (5:57): *C++ input & output - cout, cin, & getline*
 
 This file has examples of using stream input & output in C++.
 
 ## overview.cpp
 
-[Video](https://youtu.be/qJ_LcjbN8fI) (9:24): *Introduction to C++ syntax*
+[Video](https://youtu.be/pROtrtS9D5U) (9:24): *Introduction to C++ syntax*
 
 This file has examples of variable declarations, initilaizations, auto, constants, a vector, and pointers in C++.
 
 ## strings.cpp
 
-[Video](https://youtu.be/95yj6NZmL_Y) (11:42): *C++ string examples*
+[Video](https://youtu.be/XRQbpeFrUsA) (11:42): *C++ string examples*
 
 C++ includes a string type.  Several examples of different string functions.
 
 ## boolean.cpp
 
-[Video](https://youtu.be/61Ti3L05CuU) (10:00) *Example of using bool type and ternary operator*
+[Video](https://youtu.be/ua0BtWg6McY) (10:00) *Example of using bool type and ternary operator*
 
 ## references.cpp
 
-[Video](https://youtu.be/j1HiuaUt1MU) (11:12) *Examples of C++ references*
+[Video](https://youtu.be/kTGKQ-GJk8M) (11:12) *Examples of C++ references*
 
 Demonstration of how to work with references, including a function that returns a reference.
 
 ## defaultargs.cpp
 
-[Video](https://youtu.be/2VTzfl7Aidc) (4:32): *Default arguments*
+[Video](https://youtu.be/T7DV_ssN9-c) (4:32): *Default arguments*
 
 This file contains an example of using default arguments in C++ functions.
 
