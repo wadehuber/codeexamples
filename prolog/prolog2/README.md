@@ -18,4 +18,4 @@
 
 ## recursionexamples.pl
 
-[VIDEO - Review of recursive Prolog rules](https://youtu.be/pJmNTKeHu_A) (11:55): Examples of implementing a recursive mathematical function, a recursive list procedure which replaces certain values, and two implementations of factorial (N!), including a tail-recursive implementation.
+[VIDEO - Review of recursive Prolog rules](https://youtu.be/zg47962TL7c) (11:55): Examples of implementing a recursive mathematical function, a recursive list procedure which replaces certain values, and two implementations of factorial (N!), including a tail-recursive implementation.
