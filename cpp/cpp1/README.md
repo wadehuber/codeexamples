@@ -58,9 +58,9 @@ UPDATE: Line 29 has changed from the video.  The string was changed to "SUB: non
 
 ### animals.cpp
 
-[Video 1](https://youtu.be/zvgwLT4FSQg) (7:34): *Inheritance with C++, pointers & references*
+[Video 1](https://youtu.be/Bw6uIeoY4YU) (7:34): *Inheritance with C++, pointers & references*
 
-[Video 2](https://youtu.be/TB50U8UoA78) (13:07): *Polymorphism, virtual, non-virtual, & pure virtual methods*
+[Video 2](https://youtu.be/az0a3B1MjSc) (13:07): *Polymorphism, virtual, non-virtual, & pure virtual methods*
 
 This file includes examples of inheritance, polymorphism, and virtual and pure-virtual methods.  
 
