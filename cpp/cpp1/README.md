@@ -36,21 +36,21 @@ This file contains an example of using default arguments in C++ functions.
 
 ## constmethod.cpp
 
-[Video](https://youtu.be/_F5emVR-jd4) (8:02): *Example of const member methods*
+[Video](https://youtu.be/OYuGREPfJEs) (5:28): *Example of const member methods*
 
 ## OOP Examples
 
 The next few videos feature examples of inheritance, virtual/non-virtual functions, and polymorphism.  The are included in increasing order of complexity, but if you are new to OOP you may find the first animals.cpp to be easier to understand at first.  
 
-VIDEO - [Overview of Inheritance, Polymorphism, & Virtual Functions in C++](https://youtu.be/eVczTPsEMgQ)
+VIDEO - [Overview of Inheritance, Polymorphism, & Virtual Functions in C++](https://youtu.be/maKD6_I45O0) (9:02)
 
 ### inheritance.cpp
 
-[Video](https://youtu.be/zoXJga46l1o) (6:18): *Overview of deriving a class in C++*
+[Video](https://youtu.be/UIEh1HWJNZM) (6:18): *Overview of deriving a class in C++*
 
 ### virtualfunctions.cpp
 
-[Video](https://youtu.be/ZnV4gXitoz0) (17:24): *Virtual & pure virtual methods*
+[Video](https://youtu.be/qqXOivZ6ZLA) (9:31): *Virtual & pure virtual methods*
 
 This file contains a simplified example of how non-virtual, virtual, & pure-virtual methods work.  You may want to review the animals.cpp videos first if you want to get a review of inheritance first or a more specific explaination of how each of the types of functions work.  
 
