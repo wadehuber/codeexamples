@@ -56,6 +56,12 @@ The links below go far more in depth into C than we will in this class, but if y
 - [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/) discusses how C strings and malloc work and why it is important to know it.
 - [Signal handling](https://publications.gbdirect.co.uk//c_book/chapter9/signal_handling.html) in C
 
+## Static Analysis
+
+See the [C++ Information page](./cpp_information.md) for information about `cppcheck` which is the static analyzer I'll be using on your C & C++ assignments.
+
+- [Splint](http://splint.org/) is a static analyzer for security vulnerabilities and general coding issues
+
 ## Memory Usage & Data Alignment
 
 - [Recursion, Runtime Environment, & the Call Stack](http://www.cs.tau.ac.il/~efif/courses/Software1_Summer_04/lectures/lecture7_2.php) shows how function calls work in C

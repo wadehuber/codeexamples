@@ -115,6 +115,7 @@ More information:
 
 - VIDEO: Steven Syrek - Lambda Calculus For People Who Can't Be Bothered to Learn It [Part 1](https://www.youtube.com/watch?v=c_ReqkiyCXo) and [Part 2](https://www.youtube.com/watch?v=9lM825quliY)
 - [Algebra and the Lambda Calculus](https://people.csail.mit.edu/jaffer/lambda.txt) discusses some of the mathematical underpinnings of functional programming.
+- VIDEO: [Lambda Calculus - Fundamentals of Lambda Calculus & FUnctional Programming in JavaScript](https://youtu.be/3VQ382QG-y4) by Gabriel Lebec ([slides](https://speakerdeck.com/glebec/lambda-calc-talk-smartly-dot-io-version))
 - VIDEO: [Lambda Calculus Tutorial from PYCON 2019](https://www.youtube.com/watch?v=5C6sv7-eTKg)
 - VIDEO: [Lambda Calculus Then and Now](https://www.youtube.com/watch?v=SphBW9ILVPU)
 

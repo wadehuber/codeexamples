@@ -29,8 +29,14 @@ From DonaldPShimoda, Hacker News:
 
 ## Recursive Games
 
-- Online [Conway's Game of Life](https://bitstorm.org/gameoflife/)
 - [Towers of Hanoi](https://www.mathsisfun.com/games/towerofhanoi.html)
+
+### Conway's Game of Life
+
+- [Wikipedia article](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+- [Play Online](https://bitstorm.org/gameoflife/)
+- Or [play online here](https://playgameoflife.com/)
+- A great [overview](http://pi.math.cornell.edu/~lipa/mec/lesson6.html)
 
 ## Applications of Recursion
 

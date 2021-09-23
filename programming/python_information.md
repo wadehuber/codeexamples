@@ -4,6 +4,10 @@
 
 - [Strings and Character Data in Python](https://realpython.com/python-strings/)
 
+## Maps
+
+- [How to Use Python Maps](https://pythonmachinelearning.pro/python-map-tutorial/)
+
 ## Concurrency
 
 - [Making Lunch Faster with Python Concurrency](https://sourcery.ai/blog/concurrency/)
@@ -19,4 +23,5 @@
 - A [Tour of Python Itertools](https://martinheinz.dev/blog/16)
 
 ## Related Topics
+
 - [Introduction to Git and GitHub](https://realpython.com/python-git-github-intro/) for Python Developers
