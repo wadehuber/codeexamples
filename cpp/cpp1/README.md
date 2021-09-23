@@ -66,10 +66,10 @@ This file includes examples of inheritance, polymorphism, and virtual and pure-v
 
 ### staff
 
-- [Video 1](https://youtu.be/rNrPJnndOz4) (8:00) - Creating the abstract classes StaffMember & Employee
-- [Video 2](https://youtu.be/Hfb9JCOo8Lw) (8:25) - Creating the concrete classes Hourly, Salaried, & Volunteer
-- [Video 3](https://youtu.be/_43ZUcLYMUk) (15:29) - Working with collections of objects and virtual vs. non-virtual methods
-- [Video 4](https://youtu.be/cT3NatYvXpE) (3:22) - Working with collections of objects and virtual vs. non-virtual methods
+- [Video 1](https://youtu.be/Sy11dQJBd_Y) (8:00) - Creating the abstract classes StaffMember & Employee
+- [Video 2](https://youtu.be/GEtbMSH7LOA) (8:26) - Creating the concrete classes Hourly, Salaried, & Volunteer
+- [Video 3](https://youtu.be/QZowskf-B-g) (15:29) - Working with collections of objects and virtual vs. non-virtual methods
+- [Video 4](https://youtu.be/XWzJ-mFOoJs) (3:22) - Working with collections of objects and virtual vs. non-virtual methods
 
 Example of inheritance, polymorporphism, virtual vs non-virtual methods, C++ header (.hpp) files, and writing a makefile for a larger multi-file program.  We use a vector to store a list of pointers to StaffMembers.  We will cover vectors in a later module.  I left a lot of the compile errors and some design changes in the video so that you can see the thought process behind it.
 
