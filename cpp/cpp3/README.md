@@ -14,8 +14,8 @@ Note that while we only overload the +, <, >, and << operators in this video, th
 
 *C++ Vectors* In general, you should always prefer using the STL classes when you can.  Use vectors - *especially* instead of creating arrays with `new`.
 
-- [Video 1 Initializing & accessing members](https://youtu.be/xabMvAstrD4) (12:48)
-- [Video 2 Working with vectors](https://youtu.be/CADgXFk8Dio) (19:44)
+- [Video 1 Initializing & accessing members](https://youtu.be/8Z4FYcoGlZU) (12:48)
+- [Video 2 Working with vectors](https://youtu.be/IMoA5_jUB7c) (19:44)
 
 ## vector2.cpp
 
