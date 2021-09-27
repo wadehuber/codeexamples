@@ -19,7 +19,7 @@ Note that while we only overload the +, <, >, and << operators in this video, th
 
 ## vector2.cpp
 
-[Video](https://youtu.be/JK3sLGN0kjU) (12:20): *Vectors of user-defined objects*
+[Video](https://youtu.be/V5XwQ5Fh-SM) (12:20): *Vectors of user-defined objects*
 
 In this video I show an example of using a vector to store objects of a custom class.  You should review the other vector videos first so that you understand how vectors work.
 
