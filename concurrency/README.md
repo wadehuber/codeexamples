@@ -2,7 +2,7 @@
 
 ## fork.c
 
-[Video](https://youtu.be/x2O0gWUzccc) (12:07): Example of using fork() for multi-process programming
+[Video](https://youtu.be/r16PoQCedUA) (12:07): Example of using fork() for multi-process programming
 
 ## Threads
 
@@ -10,7 +10,7 @@ The next three videos give 3 separate examples of using threads for multi-thread
 
 ### pthread.c
 
-[Video](https://youtu.be/qnb70hFNfVE) (8:29): Example of using pthreads for multi-threaded programming
+[Video](https://youtu.be/m-tdUq2Iniw) (8:29): Example of using pthreads for multi-threaded programming
 
 ### thread.c
 
@@ -18,4 +18,4 @@ The next three videos give 3 separate examples of using threads for multi-thread
 
 ### threads.cpp
 
-[Video](https://youtu.be/CNFNhZdRtIU) (7:03): Example of using C++ threads for multi-threaded programming
+[Video](https://youtu.be/PYOWOK6hhvw) (7:03): Example of using C++ threads for multi-threaded programming
