@@ -14,6 +14,12 @@ This file contains a review of defining names & functions, conditionals, recursi
 
 [VIDEO](https://youtu.be/Xs58XIu_QyU) (): *Higher-order functions: apply, map & filter*
 
+## mapapplyfilter.scm
+
+[VIDEO](https://youtu.be/cqrj0rQn3Ag) (7:15): *Recursively implementing map, apply & filter*
+
+This is an optional video showing how the higher-order functions from the previous video can be implemented recursively
+
 ## currying.scm
 
 [VIDEO](https://youtu.be/u1U_UzvmXlE) (14:41): *Currying*
