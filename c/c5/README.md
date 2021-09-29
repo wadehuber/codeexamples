@@ -32,6 +32,14 @@
 
 [Video](https://youtu.be/iq7puCxsgHQ) (10:04) - Using the execve() system call to replace the existing process with another program.  The file *userscript.sh* is a bash script that is used to demonstrate how execve() works.
 
+## env1.c
+
+[Video](https://youtu.be/wJ2ZPdc-5uw) (8:21) - Accessing Linux environment variables using getenv, envp, & environ
+
+## env2.c
+
+[Video](https://youtu.be/uYb89zsJHE4) (5:26) - Modifying Linux environment variables using setenv & putenv
+
 ## gdbtest.c
 
 [Video](https://youtu.be/ii7kEcBYKs0) (6:47) - Demonstration of using gdb.  
