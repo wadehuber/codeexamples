@@ -2,7 +2,7 @@
 
 The c0 directory is intended as an introduction to C for existing programmers.  In CSC240 we will cover modules c0-c3.  In CSC220 we cover all 7 modules.
 
-- [c0: Introduction to C](c0\README.md) - An introduction to C, printf/scanf, contruld structures, & datatypes
+- [c0: Introduction to C](c0\README.md) - An introduction to C, printf/scanf, control structures, & data types
 - [c1: C Data Types & Functions](c1\README.md) - Arrays, functions, strings, structs, unions
 - [c2: C Pointers](c2\README.md) - Pointers
 - [c3: Modules & Structures with Pointers](c3\README.md) - Header files, constants, recursion
