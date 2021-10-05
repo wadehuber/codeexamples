@@ -6,11 +6,11 @@
 
 ## popen.c
 
-[Video](https://youtu.be/rdd97NHcK_4) (3:56) - An example of using popen to execute a shell command, which allows the program to read the output.  There is also an example of using the ```sed``` command.
+[Video](https://youtu.be/rdd97NHcK_4) (3:56) - An example of using a popen to execute a shell command, which allows the program to read the output.  There is also an example of using the ```sed``` command.
 
 ## getsfgets.c
 
-[Video](https://youtu.be/WyFfQ_DzZXs) (3:57) - Demonstrates why you should not use gets.
+[Video](https://youtu.be/WyFfQ_DzZXs) (3:57) - Demonstrates why you should not use the C library function " gets() ".
 
 ## guess.c
 
