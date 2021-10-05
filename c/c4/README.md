@@ -2,7 +2,7 @@
 
 ## arguments.c
 
-[Video](https://youtu.be/-P3uILoGTeE) (3:45) - Example os how command-line argument work in C
+[Video](https://youtu.be/-P3uILoGTeE) (3:45) - Example of how command-line argument work in C
 
 ## adder.c
 
