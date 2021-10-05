@@ -29,14 +29,14 @@ The videos below are intended to give you additional examples that may come in h
 
 ### [countspaces.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/countspaces.c)
 
-[Video](https://youtu.be/Mysm2AS6Inc) (6:55) - *Calling a function with an array pointer.  Getting string input from user using fgets.  Symbolic constants.*
+[Video](https://youtu.be/Mysm2AS6Inc) (6:55) - *Calling a function with an array pointer.  Getting string input from the user using fgets.  Symbolic constants.*
 We have to pass the length of the array to the function so the loop will know when to stop.  The fgets() function has 3 parameters - the array you want to fill with the user input, the length of the array, and the file to read from.  The identifier stdin refers to standard input (stdout is output and stderr is for errors).
 
 ### [union.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/union.c)
 
 [Video](https://youtu.be/UCDsmTC-FTE) (6:23) - *An example of a union of an int, double & string*
 
-Unions are similar to structures (and identical in how they are declared other than being called unions), but a union will only be allocated enough memory for its *largest* member, whereas a struct will be allocated enough memory for all its members *combined*.  You would use a union if you want to have a variable that can hold differet types at different times.
+Unions are similar to structures (and identical in how they are declared other than being called unions), but a union will only be allocated enough memory for its *largest* member, whereas a struct will be allocated enough memory for all its members *combined*.  You would use a union if you want to have a variable that can hold different types at different times.
 
 ### [structsize.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/structsize.c)
 
