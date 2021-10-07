@@ -21,7 +21,7 @@ This file has examples of how arithmetic with pointers works.
 ### arrayvsptr.c
 
 [Video](https://youtu.be/qa3xXcoI7z0) (14:08) - *Using array names & pointers*
-This file has examples showing the similarities & differences between pointers.  If we declare a variable with type `char *` then it is a pointer.  A variable with type `char[]` is an array.  We can use the *names* of pointers and arrays in the same way (as shown in this example), so in that way they are the similar.  However, an array variable has memory allocated for it whereas a pointer variable does not - it only has memory allocated to hold an address.
+This file has examples showing the similarities & differences between pointers.  If we declare a variable with type `char *` then it is a pointer.  A variable with type `char[]` is an array.  We can use the *names* of pointers and arrays in the same way (as shown in this example), so in that way they are similar.  However, an array variable has memory allocated for it whereas a pointer variable does not - it only has memory allocated to hold an address.
 
 ### structptr.c
 
@@ -32,7 +32,7 @@ This file has an example of using a pointer to a struct.
 
 [Video](https://youtu.be/BWfB1Whc_p8) (10:22) - *Double pointers*
 
-Double pointers are simply pointers that hold the address of a pointer.  This video starts off with a review of pointers then discusses double pointers with an example of a function that takes a double pointer as a paramter.  
+Double pointers are simply pointers that hold the address of a pointer.  This video starts off with a review of pointers then discusses double pointers with an example of a function that takes a double pointer as a parameter.  
 
 ### voidpointer.c
 
@@ -68,7 +68,7 @@ strncpy, strcat, strncmp, sprintf
 ### memdump.c
 
 [Video](https://youtu.be/xdrX_RDj5_0) (10:42) - *Examining memory byte-by-byte*
-Example function that will print out memory byte-by-byte using a char pointer.  In this example we use the function to examine the contents of a stuct.
+Example function that will print out memory byte-by-byte using a char pointer.  In this example we use the function to examine the contents of a struct.
 
 ### morearrayptr.c
 
@@ -82,7 +82,7 @@ There are multiple ways of creating an array of strings.  In this example we com
 
 ### memorylocation.c
 
-[Video](https://youtu.be/d9y3u1j5b1A) (13:07) - *Examples of allocation different memory locations*
+[Video](https://youtu.be/d9y3u1j5b1A) (13:07) - *Examples of allocation of different memory locations*
 This file has examples of allocating heap, stack, & static memory.
 
 ### debug.c

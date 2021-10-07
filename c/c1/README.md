@@ -4,7 +4,7 @@
 
 ### [arrays.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/arrays.c)
 
-[Video](https://youtu.be/PIG-VKPtY9I) (9:47) - *Declaring and initialiing arrays.  Array sizes.  sizeof.*
+[Video](https://youtu.be/PIG-VKPtY9I) (9:47) - *Declaring and initializing arrays.  Array sizes.  sizeof.*
 The important thing to keep in mind about C arrays is that C does not perform any bounds checking.  So you can use an index that is larger than the size of the array!  What happens in that case?  In C the size of the array is the number of bytes allocated for the array, not the number of elements in the array.  So to determine the number of elements in an array you have to divide its size by the size of the type of the element it stores.  One caveat to keep in mind - even the size of the array is lost when you pass the array to a function.  So if you want to write a function that takes an array as a parameter you should include a length parameter as well.
 
 ### [strings.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/strings.c)
@@ -16,7 +16,7 @@ C does not have a string type.  Strings are represented using null-terminated ch
 
 ### [functions.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/functions.c)
 
-[Video](https://youtu.be/4Ha7L_ub8uQ) (13:04) - *Defining & calling functions in C. Paremeter passing*
+[Video](https://youtu.be/4Ha7L_ub8uQ) (13:04) - *Defining & calling functions in C. Parameter passing*
 In C, the compiler has to know the function signature before it is called in the code.  One way to do this is to include a forward declaration, which is just the function signature followed by a semi-colon.  In cases where the parameter is intended to be changed in the function we use pass-by-address: the parameter is preceded by * in the declaration (formal parameter) and when it is called (actual parameter) it is preceded by a &.  If an array is passed as a parameter then the formal parameter does not need to include the length of the array as that is not passed to the function.
 
 ### [usertypes.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/usertypes.c)
@@ -29,14 +29,14 @@ The videos below are intended to give you additional examples that may come in h
 
 ### [countspaces.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/countspaces.c)
 
-[Video](https://youtu.be/Mysm2AS6Inc) (6:55) - *Calling a function with an array pointer.  Getting string input from user using fgets.  Symbolic constants.*
+[Video](https://youtu.be/Mysm2AS6Inc) (6:55) - *Calling a function with an array pointer.  Getting string input from the user using fgets.  Symbolic constants.*
 We have to pass the length of the array to the function so the loop will know when to stop.  The fgets() function has 3 parameters - the array you want to fill with the user input, the length of the array, and the file to read from.  The identifier stdin refers to standard input (stdout is output and stderr is for errors).
 
 ### [union.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/union.c)
 
 [Video](https://youtu.be/UCDsmTC-FTE) (6:23) - *An example of a union of an int, double & string*
 
-Unions are similar to structures (and identical in how they are declared other than being called unions), but a union will only be allocated enough memory for its *largest* member, whereas a struct will be allocated enough memory for all its members *combined*.  You would use a union if you want to have a variable that can hold differet types at different times.
+Unions are similar to structures (and identical in how they are declared other than being called unions), but a union will only be allocated enough memory for its *largest* member, whereas a struct will be allocated enough memory for all its members *combined*.  You would use a union if you want to have a variable that can hold different types at different times.
 
 ### [structsize.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/structsize.c)
 

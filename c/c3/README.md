@@ -3,11 +3,11 @@
 ## recursion.c
 
 [Video](https://youtu.be/apSfrXPSRNg) (16:15) - *Recursion examples*
-This file uses the Fibonacci function to demonstrate a loop-based implemenation, an naive recursive implemenatation, and a tail-recursive implenation.  
+This file uses the Fibonacci function to demonstrate a loop-based implementation, a naive recursive implementation, and a tail-recursive implementation.  
 
 Additional videos on recursion (also part of Scheme 2 for CSC240):
 
-- [Thinking recursively video](https://youtu.be/zDJXVpHASuI) (3:33): *Walkhrough of recursive solutions to several problems*
+- [Thinking recursively video](https://youtu.be/zDJXVpHASuI) (3:33): *Walkthrough of recursive solutions to several problems*
 - [Tail Recursion](https://youtu.be/zvoFWNNC99s) (10:40) goes over tail recursion using examples in Java & Python but which are both applicable to C
 
 ## constants.c
@@ -29,7 +29,7 @@ The intention of this video & example is to show how header files are included i
 ## mystuff_originial.c / multifile
 
  *Multifile C program example*
-This example deomonstrates how to create a module (.h + .c files) from some macros and functions in the mystuff_original.c file that we may want to save for reuse later.  
+This example demonstrates how to create a module (.h + .c files) from some macros and functions in the mystuff_original.c file that we may want to save for reuse later.  
 
 - [Video](https://youtu.be/lJdCQPuFiOE) (11:16) - Creating the module
 - [makefile video](https://youtu.be/rnPmx6-AiOs) (4:52) - A more indepth video about creating a makefile
@@ -47,7 +47,7 @@ Includes more examples of working with the preprocessor.  Also includes examples
 [Video - Overview of the basiclist module](https://youtu.be/kjIPryTpnXo) (9:20) has diagrams that go over how basiclist works
 
 [Video](https://youtu.be/MjOE9W6KFyY) (15:21) - *Simple example of a linked list in C*
-The basicilist.h is the header file that contains the struct definition and forward declarations for our linked list functions.  We use a node_t pointer to point to the first element in our linked list.  In the basiclist.c file, the list_add function takes a double pointer to the list (since it will add the new element to the front of the list) and a pointer to the data.  Since we don't know what type of data we are adding to the list, we use a void *.  The user of the code will need to handle casting back to the correct type.  The list_remove_first funtion frees the memory associated with the first element then points the list to the 2nd element.  There is also a test main function that will be compiled if you use the -DTEST flag.  The main method in basiclist.c creates a list of integers then prints them out.  
+The basicilist.h is the header file that contains the struct definition and forward declarations for our linked list functions.  We use a node_t pointer to point to the first element in our linked list.  In the basiclist.c file, the list_add function takes a double pointer to the list (since it will add the new element to the front of the list) and a pointer to the data.  Since we don't know what type of data we are adding to the list, we use a void *.  The user of the code will need to handle casting back to the correct type.  The list_remove_first function frees the memory associated with the first element then points the list to the 2nd element.  There is also a test main function that will be compiled if you use the -DTEST flag.  The main method in basiclist.c creates a list of integers then prints them out.  
 
 ## structwithptr.c
 
