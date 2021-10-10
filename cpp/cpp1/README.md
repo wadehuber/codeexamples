@@ -10,13 +10,13 @@ This file has examples of using stream input & output in C++.
 
 [Video](https://youtu.be/pROtrtS9D5U) (9:24): *Introduction to C++ syntax*
 
-This file has examples of variable declarations, initilaizations, auto, constants, a vector, and pointers in C++.
+This file has examples of variable declarations, initializations, auto, constants, a vector, and pointers in C++.
 
 ## strings.cpp
 
 [Video](https://youtu.be/XRQbpeFrUsA) (11:42): *C++ string examples*
 
-C++ includes a string type.  Several examples of different string functions.
+C++ includes a string type. Several examples of different string functions.
 
 ## boolean.cpp
 
@@ -40,7 +40,7 @@ This file contains an example of using default arguments in C++ functions.
 
 ## OOP Examples
 
-The next few videos feature examples of inheritance, virtual/non-virtual functions, and polymorphism.  The are included in increasing order of complexity, but if you are new to OOP you may find the first animals.cpp to be easier to understand at first.  
+The next few videos feature examples of inheritance, virtual/non-virtual functions, and polymorphism. The are included in increasing order of complexity, but if you are new to OOP you may find the first animals.cpp to be easier to understand at first.  
 
 VIDEO - [Overview of Inheritance, Polymorphism, & Virtual Functions in C++](https://youtu.be/maKD6_I45O0) (9:02)
 
@@ -52,9 +52,9 @@ VIDEO - [Overview of Inheritance, Polymorphism, & Virtual Functions in C++](http
 
 [Video](https://youtu.be/qqXOivZ6ZLA) (9:31): *Virtual & pure virtual methods*
 
-This file contains a simplified example of how non-virtual, virtual, & pure-virtual methods work.  You may want to review the animals.cpp videos first if you want to get a review of inheritance first or a more specific explaination of how each of the types of functions work.  
+This file contains a simplified example of how non-virtual, virtual, & pure-virtual methods work. You may want to review the animals.cpp videos first if you want to get a review of inheritance first or a more specific explanation of how each of the types of functions work.  
 
-UPDATE: Line 29 has changed from the video.  The string was changed to "SUB: nonVirtual2" to reflect that this was part of the derrived class.
+UPDATE: Line 29 has changed from the video. The string was changed to "SUB: nonVirtual2" to reflect that this was part of the derived class.
 
 ### animals.cpp
 
@@ -71,9 +71,9 @@ This file includes examples of inheritance, polymorphism, and virtual and pure-v
 - [Video 3](https://youtu.be/QZowskf-B-g) (15:29) - Working with collections of objects and virtual vs. non-virtual methods
 - [Video 4](https://youtu.be/XWzJ-mFOoJs) (3:22) - Working with collections of objects and virtual vs. non-virtual methods
 
-Example of inheritance, polymorporphism, virtual vs non-virtual methods, C++ header (.hpp) files, and writing a makefile for a larger multi-file program.  We use a vector to store a list of pointers to StaffMembers.  We will cover vectors in a later module.  I left a lot of the compile errors and some design changes in the video so that you can see the thought process behind it.
+Examples of inheritance, polymorporphism, virtual vs non-virtual methods, C++ header (.hpp) files, and writing a makefile for a larger multi-file program.  We use a vector to store a list of pointers to StaffMembers. We will cover vectors in a later module. I left a lot of the compile errors and some design changes in the video so that you can see the thought process behind it.
 
-This program contains the following class heirarchy:
+This program contains the following class hierarchy:
 
 - StaffMember (staffmember.cpp / staffmember.hpp)
   - Volunteer (volunteer.hpp - no cpp file needed)
@@ -81,6 +81,6 @@ This program contains the following class heirarchy:
     - Hourly (hourly.cpp / hourly.hpp)
     - Salaried (salaried.cpp / salaried.hpp)
 
-In the loop where the paystubs are printed in staff.cpp the StaffMember print method is called since print is not virtual.  This is as intended - the only thing that should be printed is the name/address/phone of the employee, not additional things such as SSN.  To print that information we would need to use a variable or pointer of the derrived class type.
+In the loop where the paystubs are printed in staff.cpp, the StaffMember print method is called since print is not virtual. This is as intended - the only thing that should be printed is the name/address/phone of the employee, not additional things such as SSN. To print that information we would need to use a variable or pointer of the derived class type.
 
 **NOTE**: Instead of writing the bonus method, I could have overloaded the pay method with a virtual method that took a parameter for the size of the bonus.  Also, it probably would have been better to use variables instead of pointers for the 4 StaffMembers to avoid memory allocation.  
