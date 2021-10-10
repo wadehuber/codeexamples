@@ -2,7 +2,7 @@
 
 You must understand recursion for this module.  The two videos below go over how recursion works & tail recursion.
 
-- [VIDEO: Thinking recursively video](https://youtu.be/zDJXVpHASuI) (3:33): *Walkhrough of recursive solutions to several problems*
+- [VIDEO: Thinking recursively video](https://youtu.be/zDJXVpHASuI) (3:33): *Walkthrough of recursive solutions to several problems*
 - [VIDEO: Tail recursion](https://youtu.be/zvoFWNNC99s) (10:40) *Introduction to tail recursion*
 
 ## review2.scm - Review of Module 1 content
@@ -21,7 +21,7 @@ You must understand recursion for this module.  The two videos below go over how
 
 [Video](https://youtu.be/pAZL0efONcs) (14:53): *Introduction to writing list procedures in Scheme*
 
-This video introduces writing recursive list procedures in Scheme, including a method that does nothing but go through a list (leaving it alone) to demonstrate the general structure of a recursive list procedure.  The video also walks through the `rember` procedure from *The Little Schemer* that removes the first occurence of an element, a proceedure to remove non-numeric values from a list, the procedure `lat?` from *The Little Schemer* that checks that all elements of a list are atoms, and finally a `member?` predicate.
+This video introduces writing recursive list procedures in Scheme, including a method that does nothing but go through a list (leaving it alone) to demonstrate the general structure of a recursive list procedure.  The video also walks through the `rember` procedure from *The Little Schemer* that removes the first occurence of an element, a procedure to remove non-numeric values from a list, the procedure `lat?` from *The Little Schemer* that checks that all elements of a list are atoms, and finally a `member?` predicate.
 
 ## listprocedures2.scm
 
