@@ -1,6 +1,6 @@
 # Prolog Module 1
 
-## prolog1.pl - Introduction to Prolg: Facts & Rules
+## prolog1.pl - Introduction to Prolog: Facts & Rules
 
 - [Introduction to using SWI-Prolog](https://youtu.be/pgGL0r3tLbY)
 - [Facts & rules](https://youtu.be/yXcdOTTv9rs)
@@ -14,9 +14,9 @@
 - [Lists & pairs](https://youtu.be/GOuw28DtteM)
 - [Recursive list rules](https://youtu.be/PW_KZxYOA78)
 
-## prolog3.pl - Introduction to Prolg: Facts & Rules
+## prolog3.pl - Introduction to Prolog: Facts & Rules
 
 - [Review](https://youtu.be/0YwHOebLTII)
 - [Cut (!)](https://youtu.be/YvR6N4VooWg)
 - [Gathering all solutions](https://youtu.be/JTf5_IH-6MY)
-- [Modyfying the database (assert/retract)](https://youtu.be/PApILwbuvns)
+- [Modifying the database (assert/retract)](https://youtu.be/PApILwbuvns)
