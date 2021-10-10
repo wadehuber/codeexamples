@@ -29,7 +29,7 @@ In general, unique_ptr is preferred since shared_ptr may not free resources if t
 ## constintptr.cpp
 
 [Video](https://youtu.be/0Xo18Ozh09Q) (5:29)
-*Demonstration of allocating constant pointers in differnt ways*
+*Demonstration of allocating constant pointers in different ways*
 
 ## variant.cpp
 
