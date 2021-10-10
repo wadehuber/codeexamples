@@ -6,11 +6,11 @@
 
 ## cut.pl
 
-[VDEO - Cut (!)](https://youtu.be/YvR6N4VooWg) (14:10)
+[VIDEO - Cut (!)](https://youtu.be/YvR6N4VooWg) (14:10)
 
 ## allsolutions.pl
 
-[VDEO - Gathering all solutions](https://youtu.be/JTf5_IH-6MY) (8:57)
+[VIDEO - Gathering all solutions](https://youtu.be/JTf5_IH-6MY) (8:57)
 
 ## moreexamples.pl
 
@@ -20,4 +20,4 @@ These are some additional examples that show some things that may be useful on t
 
 ## modifyingdb.pl
 
-[VDEO - Modyfying the database (assert/retract)](https://youtu.be/PApILwbuvns) (7:30)
+[VIDEO - Modifying the database (assert/retract)](https://youtu.be/PApILwbuvns) (7:30)
