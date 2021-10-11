@@ -7,7 +7,7 @@
 % stock(Symbol, CompanyName, Price).
 stock(etp,'Energy Transfer Partners, L.P.', 15.93).
 stock(jpm,'JPMorgan Chase &amp; Co.', 107.52).
-stock(bab,'AAlibaba Group Holding Limited', 175.15). %stock(bab,'Alibaba Group Holding Limited', 175.15)
+stock(bab,'Alibaba Group Holding Limited', 175.15).
 stock(kmi,'Kinder Morgan, Inc.', 14.75).
 stock(avgo,'Broadcom Limited', 228.28).
 stock(feye,'FireEye, Inc.', 16.80).
