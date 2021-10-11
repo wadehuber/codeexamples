@@ -24,7 +24,7 @@ This is an optional video showing how the higher-order functions from the previo
 
 [VIDEO](https://youtu.be/u1U_UzvmXlE) (14:41): *Currying*
 
-Introduction to Currying.  Creating a secret number game generating function.  Using Currying with higher-order functions (filtering a list of numnbers in a range, increasing each element by a certain amount), creating polynomial functions using Currying.
+Introduction to Currying.  Creating a secret number game generating function.  Using Currying with higher-order functions (filtering a list of numbers in a range, increasing each element by a certain amount), creating polynomial functions using Currying.
 
 ## letscope.scm
 

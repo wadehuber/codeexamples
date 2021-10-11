@@ -4,7 +4,7 @@
 
 [Video](https://youtu.be/M48fMs8LAkg) (20:44): *Example of destructor & copy constructor*
 
-Example of constructor, destructor, and copy constructor.  The output here is pretty verbose because the intention is to understand when the different functions get called.  In general, constructors, destructors, and copy constructors (and *especially overloaded operators*) should avoid output to stdout.
+Examples of constructor, destructor, and copy constructor.  The output here is pretty verbose because the intention is to understand when the different functions get called.  In general, constructors, destructors, and copy constructors (and *especially overloaded operators*) should avoid output to stdout.
 
 ## headers
 
@@ -14,9 +14,9 @@ This example walks through using C++ header files.  It also reviews inheritance,
 
 ## structvsclass.cpp
 
-[Video](https://youtu.be/PyGxAl4sfK0) (13:52): *Comparing structs & classes in C++*
+[Video](https://youtu.be/PyGxAl4sfK0) (13:52): *Comparing Structs & Classes in C++*
 
-Differences and similarities between structs & classes in C++.  Also an example of usin g a char pointer to view memory contents.
+Differences and similarities between Structs & Classes in C++.  Also an example of using a char pointer to view memory contents.
 
 ## memory.cpp
 
