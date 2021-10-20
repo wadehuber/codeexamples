@@ -2,7 +2,7 @@
 
 ## simple.sh & hello.sh
 
-[Video](https://youtu.be/urtY0-s3R2Y) (3:32)
+[Video](https://youtu.be/LYT6Cd6GFEA) (3:32)
 simple.sh is basic bash script consisting of a list of commands to execute.  
 hello.sh is a "Hello, World" example.
 

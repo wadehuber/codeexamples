@@ -4,7 +4,7 @@ These videos give you an overview of C++, specifically with writing classes.  Th
 
 ## hello.cpp
 
-[Video](https://youtu.be/SpGArm0iCz4) (3:00) - *Hello, World example*
+[Video](https://youtu.be/gwqQQ-XUS0Y) (3:00) - *Hello, World example*
 
 Example of string type & output in C++.
 
