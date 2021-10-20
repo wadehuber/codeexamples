@@ -21,7 +21,7 @@ Note that the template in this file has 2 type parameters, but the video example
 
 ## readfile.cpp
 
-[Video](https://youtu.be/J-Wq5-j-JmM) (10:00)
+[Video](https://youtu.be/fxKr6lZ0HeY) (10:00)
 *Example of reading a file & parsing a string in C++.  This program is equivalent to readfile.c.*
 
 ## explicit.cpp

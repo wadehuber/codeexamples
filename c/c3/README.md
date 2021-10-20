@@ -7,8 +7,8 @@ This file uses the Fibonacci function to demonstrate a loop-based implementation
 
 Additional videos on recursion (also part of Scheme 2 for CSC240):
 
-- [Thinking recursively video](https://youtu.be/zDJXVpHASuI) (3:33): *Walkthrough of recursive solutions to several problems*
-- [Tail Recursion](https://youtu.be/zvoFWNNC99s) (10:40) goes over tail recursion using examples in Java & Python but which are both applicable to C
+- [Thinking recursively video](https://youtu.be/OpX214pT6D0) (2:59): *Walkthrough of recursive solutions to several problems*
+- [Tail Recursion](https://youtu.be/mFiRdTmbs3E) (10:40) goes over tail recursion using examples in Java & Python but which are both applicable to C
 
 ## constants.c
 
