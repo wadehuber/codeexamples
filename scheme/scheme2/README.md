@@ -31,7 +31,7 @@ Examples include summing the elements of a list, doubling each element of a list
 
 ## listprocedures3.scm
 
-[Video](https://youtu.be/2JkRNjOmbRs) (7:13): *Additional examples of writing recursive list procedures in Scheme*
+[Video](https://youtu.be/2JkRNjOmbRs) (7:37): *Additional examples of writing recursive list procedures in Scheme*
 
 This video features examples of writing a procedure recursively generating a list and of writing procedures that return a modified version of the list.  
 
