@@ -37,7 +37,7 @@ This video features examples of writing a procedure recursively generating a lis
 
 ## listprocedures4.scm
 
-[Video](https://youtu.be/tiveq6A4d20) (8:02): *Even more examples of writing recursive list procedures in Scheme*
+[Video](https://youtu.be/Y7NQD9hABfI) (6:26): *Even more examples of writing recursive list procedures in Scheme*
 
 This video features examples of writing a procedure that combines the elements of a list, searching lists, and working with nested lists (lists that contain other lists).
 
