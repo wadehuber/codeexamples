@@ -3,7 +3,7 @@
 ## Git Tutorials
 
 - [Simple guide to git](http://rogerdudler.github.io/git-guide/)
-- GitHub [cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+- GitHub [cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - Additional resources [from GitHub](https://services.github.com/resources/)
 - [5 Git ideas explained the hard way](https://zwischenzugs.com/2018/03/14/five-key-git-concepts-explained-the-hard-way/)
 - [git - the simple guild](http://rogerdudler.github.io/git-guide/)

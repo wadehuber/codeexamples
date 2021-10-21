@@ -88,7 +88,7 @@ There is no forward declaration for my_function().  Either include the appropria
 warning: control reaches end of non-void function
 ```
 
-You forgot to add a return statement.
+You forgot to add a return statement to the function.  
 
 ### Code compiles with warnings, but crashes
 

@@ -16,7 +16,7 @@ This section examples go over programming basics in C
 
 ### [hello.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/hello.c)
 
-[Video](https://youtu.be/_-pZgDV7vFk) (2:20) - *A hello world example.*
+[Video](https://youtu.be/nYiQMJNAPdY) (2:20) - *A hello world example.*
 
 Editing, compiling, & running a C program.  The #include statement brings in the forward declaration for the printf function.
 

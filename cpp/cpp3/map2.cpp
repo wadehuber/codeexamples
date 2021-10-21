@@ -9,11 +9,10 @@ class StudentID {
         int id;
         int year;
     public:
-        StudentID(int i, int y=2021) {
+        explicit StudentID(int i, int y=2021) {
             id = i;
             year = y;
         }
-        bool operator<(const StudentID& a);  // Lets us use this in a map
 
         friend ostream& operator<<(ostream& strm, const StudentID& m) {
             strm << "  ID : " << m.id << " " << m.year;
@@ -53,21 +52,24 @@ int main() {
 
     // Search the map
     cout << endl << "Searching for studentIDs:" << endl;
-    StudentID searchID(1234567);
-    if (studentIDs.find(searchID) == studentIDs.end()) {
-        cout << "  Unable to find record for student ID " << searchID << endl;
+    StudentID idToSearch1(1234567);
+    if (studentIDs.find(idToSearch1) == studentIDs.end()) {
+        cout << "  Unable to find record for student ID " << idToSearch1 << endl;
     }
     else {
-        cout << "  Student ID " << searchID << " belongs to " << studentIDs.at(searchID) << endl;
+        cout << "  Student ID " << idToSearch1 << " belongs to " << studentIDs.at(idToSearch1) << endl;
     }
 
-    searchID = 2788773;
-    if (studentIDs.find(searchID) == studentIDs.end()) {
-        cout << "  Unable to find record for student ID " << searchID << endl;
+    StudentID idToSearch2(2788773);
+    if (studentIDs.find(idToSearch2) == studentIDs.end()) {
+        cout << "  Unable to find record for student ID " << idToSearch2 << endl;
     }
     else {
-        cout << "  Student ID " << searchID << " belongs to " << studentIDs.at(searchID) << endl;
+        cout << "  Student ID " << idToSearch2 << " belongs to " << studentIDs.at(idToSearch2) << endl;
     }
+    studentIDs.insert(pair<StudentID, string>(StudentID(2493890,2021), "Margie Bell"));
+    studentIDs.insert(pair<StudentID, string>(StudentID(2788773,2021), "Robin Newman"));
+    studentIDs.insert(pair<StudentID, string>(StudentID(3009755,2021), "Kristy Sharp"));
 
     return 0;
 }
