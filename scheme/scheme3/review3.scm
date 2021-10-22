@@ -68,9 +68,3 @@ Thursday
             (hanoi (- n 1) temp source destination)))))
 (hanoi 3 'redpeg 'yellowpeg 'bluepeg)
 (hanoi 4 'pegA 'pegB 'pegC)
-
-(newline)
-"Including a module"
-(require "scheme3inc.scm")
-(fib-tail 10)   ; Provided by scheme3inc.scm
-;(fib 10)   ; Not provided by scheme3inc.scm

@@ -2,7 +2,7 @@
 
 ## review3.scm
 
-[VIDEO](https://youtu.be/4xRuFEv8jrY) (14:20): *Review & working with modules*
+[VIDEO](https://youtu.be/vBaToXTnCH4) (9:58): *Review & working with modules*
 
 This file contains a review of defining names & functions, conditionals, recursion, and a walkthrough of using modules in Scheme (`provide`/`require`)
 
@@ -19,6 +19,12 @@ This file contains a review of defining names & functions, conditionals, recursi
 [VIDEO](https://youtu.be/cqrj0rQn3Ag) (7:15): *Recursively implementing map, apply & filter*
 
 This is an optional video showing how the higher-order functions from the previous video can be implemented recursively
+
+## module.scm (includes fibonacci.scm)
+
+[VIDEO]() (): *Modules*
+
+Example of including a Scheme module in another file
 
 ## currying.scm
 
