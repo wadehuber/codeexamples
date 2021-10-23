@@ -1,6 +1,14 @@
 #lang scheme
 
-"Including a module"
 (require "fibonacci.scm")
-(fib-tail 10)   ; Provided by scheme3inc.scm
-;(fib 10)   ; Not provided by scheme3inc.scm
+
+(newline)
+"module.scm"
+"Demonstration of using a module"
+
+; (fib 1) ; not provided by fibonacci.scm
+(fib-tail 11)
+
+; abc ; not provided by fibonacci.scm
+xyz
+

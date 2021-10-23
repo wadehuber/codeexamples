@@ -22,7 +22,7 @@ This is an optional video showing how the higher-order functions from the previo
 
 ## module.scm (includes fibonacci.scm)
 
-[VIDEO]() (): *Modules*
+[VIDEO](https://youtu.be/x2ujbDeF-ug) (4:19): *Modules*
 
 Example of including a Scheme module in another file
 
