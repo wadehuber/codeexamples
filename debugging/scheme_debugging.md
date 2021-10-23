@@ -47,3 +47,15 @@ This error is given when you pass the wrong number of arguments to a function.  
 ```
 
 This error is likely the result of having an extraneous pair of parenthesis around the name of the function, such as in the case above.  Removing the parenthesis around my-function will solve the problem.
+
+## Multiple expressions after identifier
+
+```(text)
+define: bad syntax (multiple expressions after identifier) in: (define add (lambda x y) (+ x y)
+```
+
+This error is the result of a missing opening parenthesis before the x parameter following the lambda.  The correct defintion for that procedure is as follows (note the added parenthesis before the x parameter and at the end of the definiton):
+
+```(lisp)
+(define add (lambda (x y) (+ x y)))
+```
