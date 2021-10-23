@@ -6,7 +6,7 @@ Videos created for CSC220 that cover Linux topics
 
 ## history.md
 
-Contiains links & information about the history and development of Unix, Linux, and related topics.
+Contains links & information about the history and development of Unix, Linux, and related topics.
 
 ## setup.md
 

@@ -1,6 +1,6 @@
 # Data Structures & Algorithms
 
-Articles and links related to algorithms & data structures, mostly as releates to CSC205.
+Articles and links related to algorithms & data structures, mostly as related to CSC205.
 
 - [Recursion](recursion.md) - General recursion, implementing recursive methods, recursive mathematical functions, recursive games
 - [Algorithms](algorithms.md) - Big-Oh notation, algorithms

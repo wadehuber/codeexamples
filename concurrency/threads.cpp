@@ -9,7 +9,7 @@ using namespace std;
 
 mutex writeMutex;
 
-// This funtion counts to 10 with a small random delay between counts
+// This function counts to 10 with a small random delay between counts
 //   The tabs argument lets us differentiate between different
 //   threads visually.  
 void count_to_ten(int tabs) {
