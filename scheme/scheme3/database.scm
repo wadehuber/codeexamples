@@ -1,14 +1,15 @@
 #lang scheme
 
 (define saints2009 '(
-    (drew_brees . ((passing . 4388) (rushing . 33) (receiving . -4)))
-    (mark_brunell . ((passing . 102) (rushing . -12)))
-    (mike_bell . ((rushing . 654) (receiving . 12)))
-    (reggie_bush . ((rushing . 390) (receiving . 335)))
-    (devery_henderson . ((rushing . 13) (receiving . 804)))
-    (jeremy_shockey . ((receiving . 569)))
-    (marques_colston . ((rushing . 6) (receiving . 1074)))
-    (lance_moore . ((receiving . 153)))))
+    (drew_brees       . ((passing . 4388) (rushing .  33) (receiving .   -4)))
+    (mark_brunell     . ((passing .  102) (rushing . -12)                   ))
+    (mike_bell        . (                 (rushing . 654) (receiving .   12)))
+    (reggie_bush      . (                 (rushing . 390) (receiving .  335)))
+    (devery_henderson . (                 (rushing .  13) (receiving .  804)))
+    (jeremy_shockey   . (                                 (receiving .  569)))
+    (marques_colston  . (                 (rushing .   6) (receiving . 1074)))
+    (lance_moore      . (                                 (receiving .  153)))
+    ))
 
 (newline)
 "find-player returns the statistics for a player"
@@ -55,4 +56,3 @@
 (find-team-stat saints2009 'rushing)
 (find-team-stat saints2009 'receiving)
 (find-team-stat saints2009 'losstofalcons)
-
