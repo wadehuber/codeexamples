@@ -8,7 +8,7 @@ This file contains a review of defining names & functions, conditionals, recursi
 
 ## reduce.scm
 
-[VIDEO](https://youtu.be/wOu7itUGR70) (): *Reduce*
+[VIDEO](https://youtu.be/pRoTDsVKkDw) (9:47): *Reduce*
 
 ## higherorder.scm
 
@@ -42,4 +42,4 @@ Introduction to Currying.  Creating a secret number game generating function.  U
 
 ## table.scm - Example of using
 
-- [Video](https://youtu.be/5FESmC54bTw) (): *Setting up a table of values using Scheme pairs*
+[Video](https://youtu.be/5FESmC54bTw) (): *Setting up a table of values using Scheme pairs*
