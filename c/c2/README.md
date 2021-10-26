@@ -30,7 +30,7 @@ This file has an example of using a pointer to a struct.
 
 ### doublepointer.c
 
-[Video](https://youtu.be/BWfB1Whc_p8) (10:22) - *Double pointers*
+[Video](https://youtu.be/P2B1FT8okyc) (10:22) - *Double pointers*
 
 Double pointers are simply pointers that hold the address of a pointer.  This video starts off with a review of pointers then discusses double pointers with an example of a function that takes a double pointer as a parameter.  
 
