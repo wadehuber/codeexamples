@@ -17,42 +17,39 @@
   (lambda (lst player)
     (cond
       ((null? lst) '())
-      ((equal? (caar lst) player) (cdar lst))
+      ((equal? (car (car lst)) player) (cdr (car lst)))
       (else (find-player (cdr lst) player)))))
-
 (find-player saints2009 'drew_brees)
-(find-player saints2009 'marques_colston)
-(find-player saints2009 'michael_thomas)
+(find-player saints2009 'archie_manning)
+(find-player saints2009 'lance_moore)
+
 
 (newline)
-"find-player-stat returns a specific statistic"
+"find-player-stat returns a specific statistic for a player"
 (define find-stat
   (lambda (lst stat)
     (cond
       ((null? lst) 0)
-      ((equal? stat (caar lst)) (cdar lst))
+      ((equal? stat (car (car lst))) (cdr (car lst)))
       (else (find-stat (cdr lst) stat)))))
 (define find-player-stat
   (lambda (lst player stat)
     (find-stat (find-player lst player) stat)))
 (find-player-stat saints2009 'jeremy_shockey 'receiving)
 (find-player-stat saints2009 'reggie_bush 'rushing)
-(find-player-stat saints2009 'joe_burrow 'passing)
+(find-player-stat saints2009 'dalton_hilliard 'rushing)
 
 (newline)
-"find-team-stat finds the teams total statistics"
-(define find-value
-  (lambda (lst stat)
-    (cond
-      ((null? lst) 0)
-      ((equal? stat (caar lst)) (cdar lst))
-      (else (find-value (cdr lst) stat)))))
+"find-team-stat fins the team total statistics"
 (define find-team-stat
   (lambda (lst stat)
     (if (null? lst)
         0
-        (+ (find-value (cdar lst) stat) (find-team-stat (cdr lst) stat)))))
+        (+ (find-stat (cdr (car lst)) stat) (find-team-stat (cdr lst) stat)))))
 (find-team-stat saints2009 'passing)
 (find-team-stat saints2009 'rushing)
 (find-team-stat saints2009 'receiving)
 (find-team-stat saints2009 'losstofalcons)
+
+
+

@@ -42,4 +42,4 @@ Introduction to Currying.  Creating a secret number game generating function.  U
 
 ## table.scm - Example of using
 
-[Video](https://youtu.be/5FESmC54bTw) (): *Setting up a table of values using Scheme pairs*
+[Video](https://youtu.be/TSAk5CMxp4E) (6:51): *Setting up a table of values using Scheme pairs*
