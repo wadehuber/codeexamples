@@ -1,6 +1,6 @@
 #lang scheme
 
-; A Scheme form is something that you as Scheme to evaluate
+; A Scheme form is something that you ask Scheme to evaluate
 
 1
 "Hello, world!"
