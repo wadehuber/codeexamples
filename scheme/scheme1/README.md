@@ -6,6 +6,12 @@
 
 This example covers comments, data types, symbols & strings, predicates for data types, using define, and checking equality.
 
+## checkingequality.scm
+
+[Video](https://youtu.be/09nnf3WWFt8) (7:45): *Checking equality in Scheme*
+
+This example covers equality checking and the difference between `=`, `eq?`, `string=?`, and `equal?`.
+
 ## procedures.scm
 
 [Video](https://youtu.be/8gg2asyhuPU) (16:14): *Writing Scheme procedures*
