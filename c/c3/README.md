@@ -17,7 +17,7 @@ This file has examples of symbolic & enumeration constants as well as constant v
 
 ## macros.c
 
-[Video](https://youtu.be/aoV31pjY_2Y) (12:03) - *Using macros in C*
+[Video](https://youtu.be/r9jqJZEeXho) (12:04) - *Using macros in C*
 This file has examples of using macros to define symbolic constants and macro functions.  
 
 ## headers.c
