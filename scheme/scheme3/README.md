@@ -10,6 +10,10 @@ This file contains a review of defining names & functions, conditionals, recursi
 
 [VIDEO](https://youtu.be/pRoTDsVKkDw) (9:47): *Reduce*
 
+## higherorderuser.scm
+
+[VIDEO](https://youtu.be/V3lxZfO6guk) (5:26): *Higher-order functions: apply, map & filter*
+
 ## higherorder.scm
 
 [VIDEO](https://youtu.be/Xs58XIu_QyU) (): *Higher-order functions: apply, map & filter*
