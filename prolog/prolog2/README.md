@@ -2,11 +2,11 @@
 
 ## review2.pl - Recursion & List Rules
 
-[VIDEO - Review](https://youtu.be/xuZToi22MtY) (14:59)
+[VIDEO - Review](https://youtu.be/1kIQ9jbjcSY) (14:59)
 
 ## recursiverules.pl
 
-[VIDEO - Recursive rules](https://youtu.be/Ln9hAQ6iv88) (12:28)
+[VIDEO - Recursive rules](https://youtu.be/mSdQtrAx1Co) (12:29)
 
 ## listsandpairs.pl
 
@@ -14,7 +14,7 @@
 
 ## recursivelistrules.pl
 
-[VIDEO - Recursive list rules](https://youtu.be/PW_KZxYOA78) (24:33)
+[VIDEO - Recursive list rules](https://youtu.be/yi30r4gU4uE) (24:34)
 
 ## recursionexamples.pl
 
