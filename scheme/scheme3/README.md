@@ -24,7 +24,7 @@ Example of including a Scheme module in another file (`provide`/`require`)
 
 ### higherorder.scm
 
-[VIDEO](https://youtu.be/Xs58XIu_QyU) (): *Apply, map & filter*
+[VIDEO](https://youtu.be/ATonPhARJ5g) (6:43): *Apply, map & filter*
 
 ### mapapplyfilter.scm
 
