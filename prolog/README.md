@@ -6,7 +6,7 @@ In each directory there is a single Prolog file and a list of videos that walk t
 
 ## prolog0.pl
 
-[Video](https://youtu.be/pgGL0r3tLbY) (6:02): An introduction to Prolog
+[Video](https://youtu.be/4R-lBsQhUeM) (6:02): An introduction to Prolog
 
 ## prologtutorial.pl
 
