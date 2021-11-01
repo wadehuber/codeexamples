@@ -6,11 +6,11 @@
 
 This file contains a review of defining names & functions, conditionals, and recursion
 
-## module.scm & fibonacci.scm
+## module.scm (includes fibonacci.scm)
 
-[VIDEO](https://youtu.be/x2ujbDeF-ug) (4:18): *Review & working with modules*
+[VIDEO](https://youtu.be/x2ujbDeF-ug) (4:19): *Modules*
 
-This file contains a walkthrough of using modules in Scheme (`provide`/`require`)
+Example of including a Scheme module in another file (`provide`/`require`)
 
 ## reduce.scm
 
@@ -31,12 +31,6 @@ This file contains a walkthrough of using modules in Scheme (`provide`/`require`
 [VIDEO](https://youtu.be/cqrj0rQn3Ag) (7:15): *Recursively implementing map, apply & filter*
 
 This is an optional video showing how the higher-order functions from the previous video can be implemented recursively
-
-## module.scm (includes fibonacci.scm)
-
-[VIDEO](https://youtu.be/x2ujbDeF-ug) (4:19): *Modules*
-
-Example of including a Scheme module in another file
 
 ## currying.scm
 
