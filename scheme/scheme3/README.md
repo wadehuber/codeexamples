@@ -2,9 +2,15 @@
 
 ## review3.scm
 
-[VIDEO](https://youtu.be/vBaToXTnCH4) (9:58): *Review & working with modules*
+[VIDEO](https://youtu.be/vBaToXTnCH4) (9:58): *Scheme Review*
 
-This file contains a review of defining names & functions, conditionals, recursion, and a walkthrough of using modules in Scheme (`provide`/`require`)
+This file contains a review of defining names & functions, conditionals, and recursion
+
+## module.scm & fibonacci.scm
+
+[VIDEO](https://youtu.be/x2ujbDeF-ug) (4:18): *Review & working with modules*
+
+This file contains a walkthrough of using modules in Scheme (`provide`/`require`)
 
 ## reduce.scm
 
