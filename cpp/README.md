@@ -1,5 +1,7 @@
 # C++
 
+[C++ Playlist](https://youtube.com/playlist?list=PLm8dSOaqLPHI8sxPtxHOrttz-kwl1h0ln)
+
 The cpp0 directory is intended as an introduction to C++ for existing programmers who are familiar with Java & C.  In CSC240 we will cover modules cpp0-cpp3.  In CSC220 we cover all 6 modules.
 
 Each directory contains multiple C++ files.  CSC240 will cover through cpp3, CSC220 will cover all the examples.
