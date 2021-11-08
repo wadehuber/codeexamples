@@ -10,13 +10,13 @@ Example of string type & output in C++.
 
 ## class.cpp
 
-[Video](https://youtu.be/1ou-Jrlua7g) (9:40)
+[Video](https://youtu.be/Lkg26IsN644) (9:41)
 
 This file has an example of a class with 2 private attributes and 2 public methods. An example of a constructor with default parameters is included.  Note that the methods are defined *outside* the class definition.
 
 ## staffmember.cpp
 
-[Video](https://youtu.be/vqPb1pIff8M) (9:23)
+[Video](https://youtu.be/QTv_mc7v38s) (9:23)
 
 Another example of writing a C++ class.  Includes examples of an initializer list and declaring object variables & object pointers.  We will extend this class in a later module as an inheritance & polymorphism example.
 

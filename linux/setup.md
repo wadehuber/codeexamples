@@ -11,7 +11,7 @@ For CSC220 and for compiling C & C++ in CSC240 you will need a UNIX-style termin
 I created some videos to demonstrate how to compile under Linux or any other UNIX-like terminal.  Keep in mind that depending on the specific terminal you use, some things may be slightly different, but the overall procedure is the same.  
 
 - A [comparison of compiling C code using the 3 different methods for using gcc on Windows](https://www.youtube.com/watch?v=irCWodI1MO4)
-- A [video with a step-by-step walkthrough of editing, compiling, & running a C program](https://youtu.be/6O12bPrdwWE) from the terminal
+- A [video with a step-by-step walkthrough of editing, compiling, & running a C program](https://youtu.be/CPn8nvxbXFs) (7:37)
 
 At the end of this page are more specific directions for editing, compiling, and running C code on the classroom VMs, but the steps are similar on any of the below.  Once you have your environment set up and know which directories to get to then there isn't much difference between working on any of the system.s
 
@@ -28,7 +28,7 @@ I will be using all 4 of the environments listed above to compile and I use [Vim
 
 You can install several different Linux distributions in the Microsoft Store.  If you go this route I sugguest [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
 
-VIDEO: [Installing Ubuntu on Windows](https://youtu.be/X4JnQLPTS44) (including activating the Windows Subsystem for Linux and compiling & running a C program).  To simulate one likely scenario, I forgot to activiate the WSL first before installing Ubuntu.  If you want to do things the easy way you may want to do that part first.  
+VIDEO: [Installing Ubuntu on Windows](https://youtu.be/iPRULLjw96Y) (5:03) (including activating the Windows Subsystem for Linux and compiling & running a C program).  To simulate one likely scenario, I forgot to activiate the WSL first before installing Ubuntu.  If you want to do things the easy way you may want to do that part first.  
 
 **Note**: as soon as you get the command line running you should type the following to ensure you have the latest updates.  When asked for your password, enter your Windows password.
 
