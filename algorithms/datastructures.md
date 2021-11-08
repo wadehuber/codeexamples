@@ -15,6 +15,8 @@
 
 ## Stacks
 
+- The [Stack in Magic & JavaScript](https://levelup.gitconnected.com/the-stack-in-magic-and-javascript-47229c148990) has some good analogies for the stack.  You don't need to know JavaScript to understand the main points.
+
 ## Queues
 
 ## Trees
