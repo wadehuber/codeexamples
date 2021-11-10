@@ -44,7 +44,7 @@ Introduction to Currying.  Creating a secret number game generating function.  U
 
 ## advancedtopics.scm
 
-[VIDEO](https://youtu.be/3dfEXUz0NTg) (): *Advanced topics: case-lambda & match*
+[VIDEO](https://youtu.be/3dfEXUz0NTg) (4:45): *Advanced topics: case-lambda & match*
 
 ## table.scm - Example of using
 
