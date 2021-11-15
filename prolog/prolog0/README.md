@@ -6,7 +6,3 @@
 ## prolog0.pl
 
 [Video](https://youtu.be/4R-lBsQhUeM) (6:02): An introduction to Prolog
-
-## prologtutorial.pl
-
-Prolog database used in the Prolog Tutorial posted on Canvas
