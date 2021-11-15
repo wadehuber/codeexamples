@@ -1,5 +1,9 @@
 # Data Structures
 
+## Links to other classes
+
+- [CSC310 at SDSU](https://youtube.com/playlist?list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk) covers a lot of the same data structures & sorting material as we do in CSC205 but at a more indepth level
+
 ## Collections & Generics
 
 - Oracle's Java tutorial on [Interfaces & collections](https://docs.oracle.com/javase/tutorial/collections/interfaces/index.html)
