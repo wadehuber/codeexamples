@@ -2,7 +2,7 @@
 
 ## factsandrules.pl
 
-[VIDEO](https://youtu.be/yXcdOTTv9rs) (5:49) - Introduction to Prolog, facts & rules
+[VIDEO](https://youtu.be/zRxNrK4kS5A) (5:49) - Introduction to Prolog, facts & rules
 
 ## workingwithnumbers.pl
 
