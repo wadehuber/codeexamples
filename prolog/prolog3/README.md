@@ -4,13 +4,19 @@
 
 [VIDEO - Review](https://youtu.be/1WjP-_5DaUc) (12:10)
 
+Review of writing rules that work with lists
+
 ## cut.pl
 
 [VIDEO - Cut (!)](https://youtu.be/Dh2gnnQ9lVY) (14:11)
 
+Using Cut (!) to control backtracking in Prolog
+
 ## allsolutions.pl
 
 [VIDEO - Gathering all solutions](https://youtu.be/mFtEDoFIaxE) (8:35)
+
+Examples of using `findall/3` & `setof/3`
 
 ## moreexamples.pl
 
