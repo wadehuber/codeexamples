@@ -10,7 +10,7 @@
 
 ## allsolutions.pl
 
-[VIDEO - Gathering all solutions](https://youtu.be/QRv0Za4U2qg) (8:58)
+[VIDEO - Gathering all solutions](https://youtu.be/mFtEDoFIaxE) (8:35)
 
 ## moreexamples.pl
 
