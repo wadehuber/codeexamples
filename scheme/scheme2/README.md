@@ -46,3 +46,7 @@ This video features examples of writing a procedure that combines the elements o
 [Video](https://youtu.be/lML7RaSldkI) (15:16): *Introduction to Scheme pairs*
 
 Includes difference between pairs & lists, using pairs, and writing functions that work with pairs
+
+## problems.scm
+
+[Video](https://youtu.be/EYgBVkSe4S4) (8:43) *Some common mistakes when working with recursive list procedures*
