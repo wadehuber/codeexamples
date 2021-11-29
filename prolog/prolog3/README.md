@@ -20,7 +20,7 @@ Examples of using `findall/3` & `setof/3`
 
 ## moreexamples.pl
 
-These are some additional examples that show some things that may be useful on the project.  If you don't remember quicksort, you may want to review the first two minutes of the [quicksort video from CSC205](https://youtu.be/zWcDAFInFuU).
+These are some additional examples that show some things that may be useful on the project.  If you don't remember quicksort, you may want to review the first two minutes of the [quicksort video from CSC205](https://youtu.be/-2w5LPqP8Gs).
 
 [VIDEO - More Prolog examples](https://youtu.be/43FCcgr5apU) (13:29): splitting a list, quicksort, testing if a list holds no duplicate elements, and a simple scheduling example.
 
