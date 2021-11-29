@@ -10,12 +10,12 @@ The following videos introduce pointers and show how they relate to arrays and s
 
 ### pointer.c
 
-[Video](https://youtu.be/woUn-BuAvEg) (11:02) - *Pointers, referencing & dereferencing, allocating memory, sizeof pointers*
+[Video](https://youtu.be/dc8euF3aIVc) (11:02) - *Pointers, referencing & dereferencing, allocating memory, sizeof pointers*
 This file has examples of referencing & dereferencing pointers and variables.  malloc allocates a certain number of bytes.  If you want to allocate an array, make sure you allocate the number of elements you want times the size of the type of the array.
 
 ### pointerarithmetic.c
 
-[Video](https://youtu.be/DpMnOg1Roj4) (15:05) - *Pointer arithmetic*
+[Video](https://youtu.be/pBrCD9A_i_w) (15:06) - *Pointer arithmetic*
 This file has examples of how arithmetic with pointers works.
 
 ### arrayvsptr.c
