@@ -7,11 +7,11 @@ double_list([H | T], [H2 | T2]) :- H2 is H * 2, double_list(T, T2).
 duplicate_list_elements([],[]).
 duplicate_list_elements([H | T], [ H, H | T2]) :- duplicate_list_elements(T, T2).
 
-% nextto/3 - 2 elements appear next to each other in a ist
+% nextto/3 - 2 elements appear next to each other in a list
 nextto([X,Y|_], X, Y).
 nextto([_ | T], X, Y) :- nextto(T, X, Y).
 
-% sumlist/2 - sum the elements o fa list
+% sumlist/2 - sum the elements of a list
 sumlist([], 0).
 sumlist([H | T], Sum) :- sumlist(T, SumT), Sum is SumT + H.
 
