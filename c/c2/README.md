@@ -20,12 +20,12 @@ This file has examples of how arithmetic with pointers works.
 
 ### arrayvsptr.c
 
-[Video](https://youtu.be/qa3xXcoI7z0) (14:08) - *Using array names & pointers*
+[Video](https://youtu.be/DhoPMlB4RiE) (14:09) - *Using array names & pointers*
 This file has examples showing the similarities & differences between pointers.  If we declare a variable with type `char *` then it is a pointer.  A variable with type `char[]` is an array.  We can use the *names* of pointers and arrays in the same way (as shown in this example), so in that way they are similar.  However, an array variable has memory allocated for it whereas a pointer variable does not - it only has memory allocated to hold an address.
 
 ### structptr.c
 
-[Video](https://youtu.be/60qUR7uJa_I) (12:15) - *Struct pointers*
+[Video](https://youtu.be/IgqKL9Nr63A) (12:16) - *Struct pointers*
 This file has an example of using a pointer to a struct.
 
 ### doublepointer.c
@@ -36,7 +36,7 @@ Double pointers are simply pointers that hold the address of a pointer.  This vi
 
 ### voidpointer.c
 
-[Video](https://youtu.be/QEQot5CqdYs) (7:57) - *void pointers*
+[Video](https://youtu.be/6ahM6eSxgUU) (7:58) - *void pointers*
 This file has an example of working with void pointers.
 
 ### alloc.c
@@ -55,7 +55,7 @@ This file has several different examples of using pointers, including an example
 
 ### stringvsptr.c
 
-[Video](https://youtu.be/oysI9kgp0Cg) (18:42) - *Pointers, referencing & dereferencing, allocating memory, sizeof pointers*
+[Video](https://youtu.be/tymWEU5YHAQ) (18:43) - *Pointers, referencing & dereferencing, allocating memory, sizeof pointers*
 This file has examples of referencing & dereferencing pointers and variables.  malloc allocates a certain number of bytes.  If you want to allocate an array, make sure you allocate the number of elements you want times the size of the type of the array.
 
 ### stringfunctions.c
