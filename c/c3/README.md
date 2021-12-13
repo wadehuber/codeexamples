@@ -31,13 +31,13 @@ The intention of this video & example is to show how header files are included i
  *Multifile C program example*
 This example demonstrates how to create a module (.h + .c files) from some macros and functions in the mystuff_original.c file that we may want to save for reuse later.  
 
-- [Video](https://youtu.be/lJdCQPuFiOE) (11:16) - Creating the module
-- [makefile video](https://youtu.be/rnPmx6-AiOs) (4:52) - A more indepth video about creating a makefile
-- [Reusing modules video](https://youtu.be/TwjgmNYi2II) (5:55) - a video where we reuse the module created above
+- [Video](https://youtu.be/lARP1419SsI) (11:16) - Creating the module
+- [makefile video](https://youtu.be/ME986X6VWoM) (4:53) - A more indepth video about creating a makefile
+- [Reusing modules video](https://youtu.be/uwAhmcauntc) (5:55) - a video where we reuse the module created above
 
 ## multifile2
 
-[Video](https://youtu.be/lGfscPcDegY) (19:29) - *A second multfile example*
+[Video](https://youtu.be/tvWigt9RCLU) (19:30) - *A second multfile example*
 Includes more examples of working with the preprocessor.  Also includes examples of inline functions.
 
 ## basiclist
@@ -51,6 +51,6 @@ The basicilist.h is the header file that contains the struct definition and forw
 
 ## structwithptr.c
 
-[Video](https://youtu.be/x_fEDTaEmBk) (8:35) - *Example of allocating memory for a pointer to a struct*
+[Video](https://youtu.be/iAxVfDVBie8) (8:35) - *Example of allocating memory for a pointer to a struct*
 
 If you have a structure that contains pointers, if you create a pointer to that structure you need to allocate memory for the structure itself, and also for the pointers it contains.
