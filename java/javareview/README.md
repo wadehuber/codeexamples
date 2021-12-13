@@ -2,7 +2,7 @@
 
 ## ClassExample.java
 
-[Video](https://youtu.be/02SNITqfSzk) (13:06): Example of writing a class in Java
+[Video](https://youtu.be/WVZ6o1xoBoE) (10:33): Example of writing a class in Java
 
 ## Functions.java
 
