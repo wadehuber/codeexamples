@@ -14,7 +14,7 @@
 
 ## polymorphism.c
 
-[Video](https://youtu.be/AqjtGor4jZM) (12:06) - Example of implementing polymorphism in C
+[Video](https://youtu.be/i62XHiEb7xA) (12:06) - Example of implementing polymorphism in C
 
 ### floadtaccuracy.c
 

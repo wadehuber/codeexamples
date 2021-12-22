@@ -67,7 +67,7 @@ strncpy, strcat, strncmp, sprintf
 
 ### memdump.c
 
-[Video](https://youtu.be/xdrX_RDj5_0) (10:42) - *Examining memory byte-by-byte*
+[Video](https://youtu.be/cUf0rzF17_M) (10:42) - *Examining memory byte-by-byte*
 Example function that will print out memory byte-by-byte using a char pointer.  In this example we use the function to examine the contents of a struct.
 
 ### morearrayptr.c

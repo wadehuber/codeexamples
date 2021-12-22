@@ -21,7 +21,7 @@ In C, the compiler has to know the function signature before it is called in the
 
 ### [usertypes.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/usertypes.c)
 
-[Video](https://youtu.be/p127cSHXHs4) (24:47) - *User-defined types in C, including enums, structs, and unions.  typedef.*
+[Video](https://youtu.be/CjROf4vRwFk) (24:47) - *User-defined types in C, including enums, structs, and unions.  typedef.*
 
 ## Additional Examples
 
