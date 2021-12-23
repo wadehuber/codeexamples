@@ -16,7 +16,7 @@ C does not have a string type.  Strings are represented using null-terminated ch
 
 ### [functions.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/functions.c)
 
-[Video](https://youtu.be/4Ha7L_ub8uQ) (13:04) - *Defining & calling functions in C. Parameter passing*
+[Video](https://youtu.be/7kxaZd4DZAU) (13:04) - *Defining & calling functions in C. Parameter passing*
 In C, the compiler has to know the function signature before it is called in the code.  One way to do this is to include a forward declaration, which is just the function signature followed by a semi-colon.  In cases where the parameter is intended to be changed in the function we use pass-by-address: the parameter is preceded by * in the declaration (formal parameter) and when it is called (actual parameter) it is preceded by a &.  If an array is passed as a parameter then the formal parameter does not need to include the length of the array as that is not passed to the function.
 
 ### [usertypes.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/usertypes.c)
