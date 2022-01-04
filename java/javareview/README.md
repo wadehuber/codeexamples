@@ -4,13 +4,13 @@
 
 [Video](https://youtu.be/WVZ6o1xoBoE) (10:33): Example of writing a class in Java
 
-## Functions.java
-
-[Video](https://youtu.be/9HQxZY7TlJ8) (8:18): Example of writing methods in Java
-
 ## Arrays.java
 
-[Video](https://youtu.be/sAOo8Wq7if0) (7:17): Examples using Java arrays
+[Video](https://youtu.be/qi6xqrdjEGA) (7:18): Examples using Java arrays
+
+## Functions.java
+
+[Video](https://youtu.be/0WRJgPZQ3Gc) (8:19): Example of writing methods in Java
 
 ## ControlStructures.java
 

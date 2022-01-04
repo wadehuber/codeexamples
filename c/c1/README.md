@@ -9,7 +9,7 @@ The important thing to keep in mind about C arrays is that C does not perform an
 
 ### [strings.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/strings.c)
 
-- [Video - Introduction to C strings](https://youtu.be/4JhnhLb4TBk) (4:05) - *Introduction to strings in C*
+- [Video - Introduction to C strings](https://youtu.be/1CgrUZgLQlc) (4:05) - *Introduction to strings in C*
 - [Video - strings.c](https://youtu.be/TfKL_UhKvKw) (14:07) - *Working with strings in C*
 
 C does not have a string type.  Strings are represented using null-terminated character arrays.  So if you have a valid string (character array) and you change the element where the null-terminator - '\0' - is stored then you no longer have a valid string.  When you perform an operation on a string, including printf, the operation continues until a null-terminator is reached.  This can be a problem if the string is not valid, so when writing functions that work on strings you should always include the length as a parameter.
