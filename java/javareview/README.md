@@ -1,4 +1,4 @@
-# Module 0 - Java Review
+# Java Review
 
 ## ClassExample.java
 
@@ -18,7 +18,7 @@
 
 ## Wrapper.java
 
-[Video](https://youtu.be/8x-AOGHONII) (12:25): Java Wrapper classes
+[Video](https://youtu.be/MB4dpRZojXU) (12:25): Java Wrapper classes
 
 ## MathAndRandom.java
 
@@ -26,7 +26,7 @@
 
 ## ObjectReferences.java
 
-[Video](https://youtu.be/VwJySWRnHyY) (8:37) - Primitive variables (int, double, char) and Object reference variables
+[Video](https://youtu.be/o3nfWNJEf5w) (8:37) - Primitive variables (int, double, char) and Object reference variables
 
 ## strings
 
@@ -36,6 +36,6 @@
 
 ## staticexample
 
-- [Video](https://youtu.be/zKKmFIC05zc) (7:09) covering both of the below files
+- [Video](https://youtu.be/wwGUa6NfGec) (7:09) covering both of the below files
   - staticexample/Static.java: A class that has both static & non-static attributes & methods
   - staticexample/StaticExample.java: Driver class for Static.java
