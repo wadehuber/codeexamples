@@ -14,7 +14,7 @@
 
 ## ControlStructures.java
 
-[Video](https://youtu.be/4JEvo2b2k2M) (10:24): Examples of Java control structures
+[Video](https://youtu.be/yYTubUpYYaU) (10:25): Examples of Java control structures
 
 ## Wrapper.java
 
@@ -22,7 +22,7 @@
 
 ## MathAndRandom.java
 
-[Video](https://youtu.be/rtYEJ1bWvgU) (9:17): Examples of methods in the java.lang.Math & java.util.Random classes (**Note**: The purpose of this example is to demonstrate what is available - you don't necessarily need to understand all the math.)
+[Video](https://youtu.be/FZhZgLF-2L4) (9:17): Examples of methods in the java.lang.Math & java.util.Random classes (**Note**: The purpose of this example is to demonstrate what is available - you don't necessarily need to understand all the math.)
 
 ## ObjectReferences.java
 
@@ -30,7 +30,7 @@
 
 ## strings
 
-- [Video](https://youtu.be/Z1nQwa__LvQ) (20:12) covering both of the below files
+- [Video](https://youtu.be/CPK8wnSTO6E) (20:13) covering both of the below files
   - strings/String205.java: Examples of working with strings methods from the String class
   - strings/StringExamples.java: Driver class for String205.java
 
