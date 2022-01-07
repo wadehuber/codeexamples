@@ -29,27 +29,27 @@ The videos below are intended to give you additional examples that may come in h
 
 ### [countspaces.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/countspaces.c)
 
-[Video](https://youtu.be/Mysm2AS6Inc) (6:55) - *Calling a function with an array pointer.  Getting string input from the user using fgets.  Symbolic constants.*
+[Video](https://youtu.be/KPXblHbpUKw) (6:55) - *Calling a function with an array pointer.  Getting string input from the user using fgets.  Symbolic constants.*
 We have to pass the length of the array to the function so the loop will know when to stop.  The fgets() function has 3 parameters - the array you want to fill with the user input, the length of the array, and the file to read from.  The identifier stdin refers to standard input (stdout is output and stderr is for errors).
 
 ### [union.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/union.c)
 
-[Video](https://youtu.be/UCDsmTC-FTE) (6:23) - *An example of a union of an int, double & string*
+[Video](https://youtu.be/ECNDwnfQXyQ) (6:23) - *An example of a union of an int, double & string*
 
 Unions are similar to structures (and identical in how they are declared other than being called unions), but a union will only be allocated enough memory for its *largest* member, whereas a struct will be allocated enough memory for all its members *combined*.  You would use a union if you want to have a variable that can hold different types at different times.
 
 ### [structsize.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/structsize.c)
 
-[Video](https://youtu.be/Llz6LeDT0YU) (13:07) - *Size of structures with similar fields.  Bitfields.*
+[Video](https://youtu.be/eioSR8_YKEc) (13:07) - *Size of structures with similar fields.  Bitfields.*
 
 ### [unvssigned.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/unvssigned.c)
 
-[Video](https://youtu.be/fuJwzxuGoeE) (4:33) - *Demonstration of comparisons between signed & unsigned ints*
+[Video](https://youtu.be/0XIUcwQJD3w) (4:33) - *Demonstration of comparisons between signed & unsigned ints*
 This is an example of some of the pitfalls of working with signed vs unsigned integers.
 
 ### [rwchar.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/rwchar.c)
 
-[Video](https://youtu.be/Az4fBCu8Xg0) (5:51) - *Reading and writing output character-by-character*
+[Video](https://youtu.be/mftDcFd317k) (5:51) - *Reading and writing output character-by-character*
 
 ## Advanced Videos
 
@@ -57,9 +57,9 @@ The videos below cover topics that are required in CSC220 but which may be skipp
 
 ### [stdfiles.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/stdfiles.c)
 
-[Video](https://youtu.be/1vKcUoc7FWU) (3:34) - *Example of stdout & stderr*
+[Video](https://youtu.be/dDglXVwKz2Y) (3:34) - *Example of stdout & stderr*
 This example demonstrates how output can be directed to stdout or to stderr.
 
 ### [bitwise.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/bitwise.c)
 
-[Video](https://youtu.be/8XIK3HlAjg0) (6:11) - *Examples of bitwise operations*
+[Video](https://youtu.be/371vBlwtm2k) (6:11) - *Examples of bitwise operations*
