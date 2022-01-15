@@ -34,6 +34,7 @@ VIDEO: [Installing Ubuntu on Windows](https://youtu.be/iPRULLjw96Y) (5:03) (incl
 
 ```bash
 sudo apt-get update
+sudo apt install gcc
 ```
 
 ### Compiling C files with the Linux Subsystem for Windows
