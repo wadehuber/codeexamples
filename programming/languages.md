@@ -1,5 +1,12 @@
 # Programming Languages & Paradigms
 
+## CSC240 Module 1 - Introduction to Programming Languages & Paradigms
+
+- [VIDEO: Programming Language Paradigms](https://youtu.be/dBiPRIfi4uE) (10:31) is an introduction to the course and a high level overview of programming paradigms
+- [VIIDEO: Programming Language History](https://youtu.be/MzwnYGgTX4Y) (9:19) reviews the how & why of programming language evolution
+- [VIDEO: Compilation & Interpretation](https://youtu.be/kyjRqcP4DkM) (8:10) goes over the various techniques for getting source code to execute
+- [VIDEO: Characteristics of Programming Languages](https://youtu.be/Urqf4QOsOQM) (14:50) goes over some important concepts relating to programming languages, including syntax, semantics, data types, type checking, type conversion, & orthogonality
+
 ## Programming Language Usage Trends
 
 Some of these are a bit out of date, but they each have some interesting information about how language use evolves over time.
