@@ -48,7 +48,7 @@ Note that after the video ended line 33 of alloc.c was changed to ```if(nums == 
 
 ### pointer_review.c
 
-[Video](https://youtu.be/xQAoSUNrGq4) (23:09) - *Overview of pointer usage in C*
+[Video](https://youtu.be/oGiUw35seyE) (23:10) - *Overview of pointer usage in C*
 This file has several different examples of using pointers, including an example of using malloc to allocate memory.  T
 
 ## Strings & Pointers
@@ -60,7 +60,7 @@ This file has examples of referencing & dereferencing pointers and variables.  m
 
 ### stringfunctions.c
 
-[Video](https://youtu.be/5gqW7nP47fMco) (29:25) - *Example of writing functions with string parameters & C string functions*
+[Video](https://youtu.be/kiYo4G1XqL4) (29:26) - *Example of writing functions with string parameters & C string functions*
 strncpy, strcat, strncmp, sprintf
 
 ## Advanced pointer examples
@@ -72,20 +72,20 @@ Example function that will print out memory byte-by-byte using a char pointer.  
 
 ### morearrayptr.c
 
-[Video](https://youtu.be/UsR9A3o7DFM) (13:11) - *Two dimensional arrays, accessing elements of an array using a pointer*
+[Video](https://youtu.be/XLxG70C3ers) (13:12) - *Two dimensional arrays, accessing elements of an array using a pointer*
 This file has an example of a 1D & 2D array and how to access their members.
 
 ### raggedstringarray.c
 
-[Video](https://youtu.be/LDM-3__LixI) (4:49) - *Example of allocating strings in an array of pointers vs an array of arrays (2D array)*
+[Video](https://youtu.be/Vos7q5mvZOE) (4:25) - *Example of allocating strings in an array of pointers vs an array of arrays (2D array)*
 There are multiple ways of creating an array of strings.  In this example we compare allocating arrays of strings as arrays of pointers and arrays of arrays.
 
 ### memorylocation.c
 
-[Video](https://youtu.be/d9y3u1j5b1A) (13:07) - *Examples of allocation of different memory locations*
+[Video](https://youtu.be/1ow7JAahG0s) (13:08) - *Examples of allocation of different memory locations*
 This file has examples of allocating heap, stack, & static memory.
 
 ### debug.c
 
-[Video](https://youtu.be/lsEcaRfpRuE) (9:28) - *Using the preprocessor for debugging*
+[Video](https://youtu.be/A7wuwnkcGPY) (9:29) - *Using the preprocessor for debugging*
 This file has examples of using the preprocessor to allow a file to be compiled to display debugging information.  This is optional, but you may find it helpful to do something similar with your code to help you debug your program.

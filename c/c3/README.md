@@ -2,7 +2,7 @@
 
 ## recursion.c
 
-[Video](https://youtu.be/apSfrXPSRNg) (16:15) - *Recursion examples*
+[Video](https://youtu.be/cAnujKR4stQ) (16:16) - *Recursion examples*
 This file uses the Fibonacci function to demonstrate a loop-based implementation, a naive recursive implementation, and a tail-recursive implementation.  
 
 Additional videos on recursion (also part of Scheme 2 for CSC240):
