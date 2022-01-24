@@ -2,9 +2,6 @@
 #include <string.h>
 
 int main(void) {
-	int ii;
-	int s1size=0, s2size=0;
-
 	/* 2D array - Array of 5 character arrays of length 15 */
 	char s1[5][32] = {
 		"Arizona",
@@ -24,17 +21,17 @@ int main(void) {
 		"California"
 	};
 
+	int s1size = sizeof(s1);
+	int s2size = sizeof(s2);
+	int ii;
 
 	/* Print each array */
 	printf("s1 - Array of character arrays:\n");
-	s1size = 0;
 	for (ii = 0; ii < 5; ii++)  {
 		printf("   %s\n", s1[ ii ]); 
 	}
-	s1size = sizeof(s1);
 
 	printf("\n\ns2 - Array of pointers to strings:\n");
-	s2size = sizeof(s2);
 	for (ii = 0; ii < 5; ii++) {
 		printf("   %s\n", s2[ ii ]); 
         /* Add size of string + null-teminator */
@@ -42,7 +39,7 @@ int main(void) {
 	}
 
 	/* Print sizes */
-	printf ("\nSizes: s1=%d, s2=%d\n", s1size, s2size);
+	printf ("\nSizes: s1=%d, s2=%d (%lu)\n", s1size, s2size, sizeof(s2));
 	
 	return 0;
 }
