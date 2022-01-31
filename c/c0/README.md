@@ -9,6 +9,8 @@ For CSC240 & CSC220 we will be using gcc.
 - MacOS: You can run gcc from the command line [Video](https://youtu.be/qOchFxcstXU) (4:48)
 - Linux: make sure you have gcc installed
 
+You need to have a text editor installed.  It doesn't matter what text editor you use, but I recommend Visual Studio Code ([VIDEO: Installing VS Code on Windows 11](https://youtu.be/Ra_EJ_bMduY) (3:47))
+
 [Video - Compiling & Running C code (for Java programmers)](https://youtu.be/CPn8nvxbXFs) (7:37) walks through the process of compiling & running a C program under the Windows Subsystem for Linux (Ubuntu).  The process is similar with Cygwin (other than the executable is called a.exe & you the command to change to a drive is ```cd drive:*``` where the drive is the drive letter you want to change to).  The process is also similar to Linux or MacOS, other than the part about navigating to the folder with the code.
 
 ## Introductory examples
