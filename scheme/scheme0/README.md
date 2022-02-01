@@ -1,6 +1,11 @@
 # Scheme Module 0
 
-[Video](https://youtu.be/cw-g6Sdca1o) (3:14) Downloading & installing DrRacket
+We will be using DrRacket as our Scheme IDE/REPL.  DrRacket comes with the Racket download.  The first set of videos go over installing Racket then remaining videos go over using DrRacket.  There is some overlap with the videos to reinforce the key points.  
+
+## Downloading & installing DrRacket
+
+- [Windows 10 Video](https://youtu.be/cw-g6Sdca1o) (3:14)
+- [Windows 11 Video](https://youtu.be/RyDORoKp4Qw) (3:53)
 
 ## racket.scm
 

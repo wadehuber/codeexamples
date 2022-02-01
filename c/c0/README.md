@@ -4,8 +4,10 @@ The examples below are intended to give you a fast introduction to C.  If you ar
 
 For CSC240 & CSC220 we will be using gcc.  
 
-- Windows 10 & later: install Ubuntu under Windows [Video](https://youtu.be/iPRULLjw96Y) (5:03)
-- Windows 11 [video demonstrating how to install Visual Studio Code & gcc](https://youtu.be/RZIk2IMUsdk) (5:46)
+- Widows (using Linux Subsystem for Linux & Ubuntu) 
+  - [Video: Windows 10](https://youtu.be/iPRULLjw96Y) (5:03)
+  - [Video: Windows 11](https://youtu.be/L4YdOJFDjj4) (5:18)
+  - [Video: Installng Visual Studio Code & gcc on a Windows 11 Virtual Machine](https://youtu.be/RZIk2IMUsdk) (5:46)
 - MacOS: You can run gcc from the command line [Video](https://youtu.be/qOchFxcstXU) (4:48)
 - Linux: make sure you have gcc installed
 
