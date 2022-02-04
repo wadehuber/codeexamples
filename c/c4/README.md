@@ -6,7 +6,7 @@
 
 ## adder.c
 
-[Video](https://youtu.be/cMNq467Z2xA) (4:43) - Example of using command-line arguments, atoi
+[Video](https://youtu.be/5IIOzLksbs4) (4:44) - Example of using command-line arguments, atoi
 
 ## inout.c
 
@@ -14,11 +14,11 @@
 
 ## printletters.c
 
-[video](https://youtu.be/qnxaWxYPDjI) (4:57) - Example of reading input from the user, converting the input to an integer, and using it to generate output.  
+[video](https://youtu.be/Q817uy5jSx8) (4:58) - Example of reading input from the user, converting the input to an integer, and using it to generate output.  
 
 ## fileio.c
 
-[Video](https://youtu.be/CugLdd69V3s) (15:31) - Examples of reading from and writing to text files
+[Video](https://youtu.be/gn5a9X-G8H8) (15:32) - Examples of reading from and writing to text files
 
 ## ctype.c
 
