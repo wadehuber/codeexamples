@@ -41,7 +41,7 @@ This file has an example of working with void pointers.
 
 ### alloc.c
 
-[Video](https://youtu.be/4pjzT5sfCHU) (29:09) - *Examples of allocating memory, including arrays and structs*
+[Video](https://youtu.be/i0N4f2AcAS0) (29:10) - *Examples of allocating memory, including arrays and structs*
 malloc, calloc, puts, exit
 
 Note that after the video ended line 33 of alloc.c was changed to ```if(nums == NULL) {``` to correct the variable name.
