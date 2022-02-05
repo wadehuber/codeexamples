@@ -12,6 +12,7 @@ I created some videos to demonstrate how to compile under Linux or any other UNI
 
 - A [comparison of compiling C code using the 3 different methods for using gcc on Windows](https://www.youtube.com/watch?v=irCWodI1MO4)
 - A [video with a step-by-step walkthrough of editing, compiling, & running a C program](https://youtu.be/CPn8nvxbXFs) (7:37)
+- An [introduction to using the Linux command line for compiling C code](https://youtu.be/jCbawRqwWXU) (8:00)
 
 At the end of this page are more specific directions for editing, compiling, and running C code on the classroom VMs, but the steps are similar on any of the below.  Once you have your environment set up and know which directories to get to then there isn't much difference between working on any of the system.s
 

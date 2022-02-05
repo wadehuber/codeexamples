@@ -51,6 +51,10 @@ This is an example of some of the pitfalls of working with signed vs unsigned in
 
 [Video](https://youtu.be/mftDcFd317k) (5:51) - *Reading and writing output character-by-character*
 
+### [sizeof.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/sizeof.c)
+
+[Video](https://youtu.be/HHvxGEbxlyg) (5:51) - *Reading and writing output character-by-character*
+
 ## Advanced Videos
 
 The videos below cover topics that are required in CSC220 but which may be skipped in CSC240.

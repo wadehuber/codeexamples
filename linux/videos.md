@@ -4,7 +4,7 @@ Module numbers are for CSC220.  Commands in **bold** are ones you should pay spe
 
 ## Module 0
 
-[Terminals for Windows (Virtual machine, bash, Cygwin)](https://youtu.be/irCWodI1MO4) (5:48) walks through opening a termial & editing a file using a Centos 8 virtual machine, bash on Ubuntu for Windows, and Cygwin.  
+[Terminals for Windows (Virtual machine, bash, Cygwin)](https://youtu.be/fGEWQ0Vg6Vc) (5:49) walks through opening a termial & editing a file using a Centos 8 virtual machine, bash on Ubuntu under Windows System for Linux, and Cygwin.  
 
 ## Module 1
 
