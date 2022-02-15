@@ -2,7 +2,7 @@
 
 ## arguments.c
 
-[Video](https://youtu.be/-P3uILoGTeE) (3:45) - Example of how command-line argument work in C
+[Video](https://youtu.be/m_TlNj4cLbo) (2:41) - Example of how command-line argument work in C
 
 ## adder.c
 
@@ -10,7 +10,7 @@
 
 ## inout.c
 
-[Video](https://youtu.be/O5cs66MQi94) (10:04) - Examples of different types of input and output
+[Video](https://youtu.be/ktOx2DektKA) (10:05) - Examples of different types of input and output
 
 ## printletters.c
 
@@ -22,7 +22,7 @@
 
 ## ctype.c
 
-[Video](https://youtu.be/JkYcZQH5ozo) (7:44) - Examples of working with types with functions from ctype.h
+[Video](https://youtu.be/onarOGp6P30) (7:45) - Examples of working with types with functions from ctype.h
 
 ## math.c
 
