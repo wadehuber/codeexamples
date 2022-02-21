@@ -6,7 +6,7 @@
 
 ## functionptr.c
 
-[Video](https://youtu.be/y2ax-WwTxKY) (6:26) - Examples of using function pointers.
+[Video](https://youtu.be/zIH_w01VKJc) (6:27) - Examples of using function pointers.
 
 ## structnamespace.c
 
