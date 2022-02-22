@@ -30,4 +30,4 @@
 
 ## easyencrypt.c
 
-[Video](https://youtu.be/gk3MeXw9rfM) (9:43) - Example of reading input, conditional compilation, and makefile
+[Video](https://youtu.be/uGktrCYlXNs) (9:44) - Example of reading input, conditional compilation, and makefile
