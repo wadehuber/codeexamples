@@ -26,6 +26,12 @@ This file has examples of using macros to define symbolic constants and macro fu
 
 The intention of this video & example is to show how header files are included into a C source file.  We use the -E flag so that gcc will run the preprocessor but not compile the file since header files affect the C code that gets compiled.  We also discuss how to write guards and demonstrate what their purpose is.  See the multifile & multifile2 examples below for more information on writing header files and C programs with more than one C source file.
 
+## typedef.c
+
+[Video](https://youtu.be/iYJemPTIWtU) (6:07) - *Example of using typedef with structs*
+
+This video shows multiple ways to declare a struct with typedef
+
 ## mystuff_originial.c / multifile
 
  *Multifile C program example*
