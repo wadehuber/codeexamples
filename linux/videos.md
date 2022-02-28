@@ -11,20 +11,20 @@ Module numbers are for CSC220.  Commands in **bold** are ones you should pay spe
 [Commands for getting information about the system](https://youtu.be/VU6pUGKqgKQ) (11:40)
 Commands: uptime **date** cal **history** whoami **which** echo df **exit** **man**
 
-[Working with files and directories](https://youtu.be/MhYtNsOJXD8) (8:12)
+[Working with files and directories](https://youtu.be/vo4Je0luiAY) (8:12)
 **ls** touch **pwd** **mkdir** **cd** **rmdir** . ..  **cp** **cat** more less head tail **wc** mv grep diff
 
 ## Module 2
 
-[Pipes & redirection](https://youtu.be/SzSZl56pI-8) (11:03)
+[Pipes & redirection](https://youtu.be/YR5N1mcT3Wk) (11:04)
 stdout, stderr, redirection, ```/dev/null``` pipes, wildcards
 
-[Working with text](https://youtu.be/wfVVPKEIRCE) (9:54)
+[Working with text](https://youtu.be/3DFtM3rmxmk) (9:54)
 **cat, tail, wc, sort, uniq, cut, grep, history, find**
 
 ## Module 3
 
-[Processes](https://youtu.be/_paIoXq6tmA) (8:32)
+[Processes](https://youtu.be/OwkYudcrnaE) (8:33)
 **ps, kill, top, jobs, fg, paste, >>**
 
 ## Module 4
