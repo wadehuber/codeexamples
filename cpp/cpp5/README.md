@@ -11,14 +11,14 @@ NOTE: After the video was completed I updated the source to add an `explicit` mo
 
 ## smartptr1.cpp
 
-[Video](https://youtu.be/odTiBLk09DA) (11:28)
+[Video](https://youtu.be/254os0-YhdM) (11:29)
 *Introduction to smart pointers in C++ - declaring and working with shared_ptr & unique_ptr*
 
 In general, unique_ptr is preferred since shared_ptr may not free resources if there are pointers still holding the resource.
 
 ## smartptr2.cpp
 
-[Video](https://youtu.be/2RMhCQn2qOY) (4:14)
+[Video](https://youtu.be/GUeMwYRR2s8) (4:14)
 *Demonstration of unique_ptr to an object with a destructor*
 
 ## exceptions.cpp
