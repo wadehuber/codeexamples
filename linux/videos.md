@@ -29,13 +29,13 @@ stdout, stderr, redirection, ```/dev/null``` pipes, wildcards
 
 ## Module 4
 
-[Permissions](https://youtu.be/vx13prR-ZzM) (12:58)
+[Permissions](https://youtu.be/ohdNV5aIQdA) (12:59)
 **user permissions, chmod, umask, groups, umask, su, sudo, ls -l**
 
-[The Linux Environment & the find command](https://youtu.be/nETb6vLZScs) (13:26)
+[The Linux Environment & the find command](https://youtu.be/JA5UeasGYJU) (13:27)
 **symbolic links, .bashrc & .bash_profile, env, find**
 
-[Compiling with gcc](https://youtu.be/iDjWXKnoF_I) (5:36)
+[Compiling with gcc](https://youtu.be/tzdOoBvxkx8) (5:37)
 **gcc options**
 
 ## Module 5
