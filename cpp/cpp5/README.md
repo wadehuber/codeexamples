@@ -23,7 +23,7 @@ In general, unique_ptr is preferred since shared_ptr may not free resources if t
 
 ## exceptions.cpp
 
-[Video](https://youtu.be/uV7VrfDd33o) (9:28)
+[Video](https://youtu.be/pU5hZnYSO8M) (9:29)
 *Example of C++ exceptions*
 
 ## constintptr.cpp
