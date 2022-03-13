@@ -2,7 +2,7 @@
 
 ## endian.c
 
-[Video](https://youtu.be/3u1r-Pze1D0) (8:21) - Using unions and pointer casting to look at individual bytes of a long int
+[Video](https://youtu.be/RvFRCDoj6JI) (8:22) - Using unions and pointer casting to look at individual bytes of a long int
 
 ## functionptr.c
 
