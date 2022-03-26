@@ -76,6 +76,7 @@ For Scheme, we will be using [DrRacket](https://download.racket-lang.org/).  Mak
 - [Functional Thinking talk from OSCON 2013](https://www.youtube.com/watch?v=7aYS9PcAITQ) doesn't cover anything about Scheme, but does a good job of explaining where functional programming fits in to modern programming.
 - [The Power of Composition](https://www.youtube.com/watch?v=WhEkBCWpDas) is a great introduction to Functional Programming.  It uses F#, but most of it should be at a level where you can follow it.
 - [Plain Functional Programming](https://www.youtube.com/watch?v=YXDm3WHZT5g) by Martin Odersky is another good talk about some more advanced topics (with  Scala) in functional programming.
+- [Declarative vs Imperative in Functional Programming](https://youtu.be/YoFnqpv3qgU) by Dave Farley has some excellent real-world discussion about the advantages & disadvantages of functional programming
 
 ## Other Scheme & LISP implementations
 
