@@ -40,9 +40,9 @@ stdout, stderr, redirection, ```/dev/null``` pipes, wildcards
 
 ## Module 5
 
-[Regular expressions](https://youtu.be/Wxw6TEp6yWo) (7:14)
+[Regular expressions](https://youtu.be/D6vP2WQB10w) (7:15)
 
-[tar & gzip](https://youtu.be/W79JlqYRmbU) (4:16) **tar, gzip, gunzip, & gzcat**
+[tar & gzip](https://youtu.be/81d8lG4378s) (4:17) **tar, gzip, gunzip, & gzcat**
 
 ## Module 6
 
@@ -68,4 +68,4 @@ The next two vidoes work with the [github-video-example](https://github.com/CGCC
 
 ## Module 14 - cron
 
-[cron](https://youtu.be/V79zDptTpH8) (4:58) walks through setting up a cron job
+[cron](https://youtu.be/3TanUV_36_s) (4:59) walks through setting up a cron job
