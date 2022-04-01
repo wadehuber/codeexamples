@@ -6,7 +6,7 @@
 
 ## popen.c
 
-[Video](https://youtu.be/rdd97NHcK_4) (3:56) - An example of using a popen to execute a shell command, which allows the program to read the output.  There is also an example of using the ```sed``` command.
+[Video](https://youtu.be/3bAAYel7L9o) (3:57) - An example of using a popen to execute a shell command, which allows the program to read the output.  There is also an example of using the ```sed``` command.
 
 ## getsfgets.c
 
@@ -18,7 +18,7 @@
 
 ## readfile.c
 
-[Video](https://youtu.be/VVLJycRScqM) (17:08) - another example of reading a file in a C program.  This file reads in a file containing numbers and generates the total.  Includes examples of using errno & strtok.
+[Video](https://youtu.be/UJ9FHescot4) (17:09) - another example of reading a file in a C program.  This file reads in a file containing numbers and generates the total.  Includes examples of using errno & strtok.
 
 ## bits.c
 

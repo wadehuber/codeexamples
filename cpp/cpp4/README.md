@@ -16,7 +16,7 @@ Note that the template in this file has 2 type parameters, but the video example
 
 ## friend.cpp
 
-[Video](https://youtu.be/m7RQOpEv9oQ) (13:46)
+[Video](https://youtu.be/rjpJHMYrK9g) (13:47)
 *Example of the friend modifier for classes & methods.  The example is in the context of a simple linked-list implementation.*
 
 ## readfile.cpp
