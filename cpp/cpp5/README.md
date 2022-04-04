@@ -38,5 +38,5 @@ In general, unique_ptr is preferred since shared_ptr may not free resources if t
 
 ## namespace.cpp
 
-[Video](https://youtu.be/9kil31mkbKE) (9:50)
+[Video](https://youtu.be/q-GibRTKWXs) (9:50)
 *Example of using C++ namespaces*
