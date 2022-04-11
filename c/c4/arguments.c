@@ -1,16 +1,18 @@
 /* example of a C program that takes command-line arguments */
 #include<stdio.h>
 
-/* argc is the number of arguments, argv is a string array of each argument
- * (Note that each argument is passed as a string
- */
+/* 
+   argc is the number of arguments
+   argv is an array of strings holding each argument
+     (note that each argument is passed as a string)
+*/
 int main(int argc, char * argv[]) {
-    
-    /* Print the number of arguments passed to our function */
+
+    /* Print the number of argumnts passed to our program */
     printf("argc = %d\n", argc);
 
-    /* Print each individual argument.  argv[0] is the name of the command */
-    for(int ii=0;ii<argc;ii++) {
+    /* Print out each argument */
+    for (int ii=0;ii<argc;ii++) {
         printf("argv[%d] = %s\n", ii, argv[ii]);
     }
     
