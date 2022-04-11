@@ -8,16 +8,16 @@ hello.sh is a "Hello, World" example.
 
 ## example.sh
 
-[Video](https://youtu.be/ZiVIlrvQIqQ) (10:43)
+[Video](https://youtu.be/ks8Ebs4rEV4) (10:44)
 A more advanced example of a shell script.
 
 ## heredocument.sh
 
-[Video](https://youtu.be/Qv3DIv3WqaY) (8:34)
+[Video](https://youtu.be/bTDBf3gjD3Q) (8:35)
 
 Examples of using here documents.  
 
 ## nd.sh
 
-[Video](https://youtu.be/gEIkJk_Jk48) (2:50)
+[Video](https://youtu.be/_XPcw_s86J4) (2:51)
 Creates a directory and initializes with a readme file.

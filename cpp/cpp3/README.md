@@ -29,7 +29,7 @@ In this video I show an example of using a vector to store objects of a custom c
 
 ## map2.cpp
 
-NO VIDEO : *Another example of using C++ Maps*
+[Video](https://youtu.be/YaupVd9vTOA) (5:22) : *Another example of using C++ Maps, this time with a custom class as the key value*
 
 ## algorithm.ccp
 
