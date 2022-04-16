@@ -2,14 +2,14 @@
 
 ## functiontemplate.cpp
 
-[Video](https://youtu.be/7PiYpQiPhbU) (5:24)
+[Video](https://youtu.be/ivEHiw8YQdI) (5:24)
 *Examples of function templates in C++*
 
 Note that in the video the filename was called template.cpp.
 
 ## template.cpp
 
-[Video](https://youtu.be/FTrJQZEuUEE) (10:32)
+[Video](https://youtu.be/bg8HFa43VA0) (10:33)
 *Introduction to templates in C++*
 
 Note that the template in this file has 2 type parameters, but the video example starts with one type parameter and builds to 2.
