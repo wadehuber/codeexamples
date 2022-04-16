@@ -9,3 +9,7 @@
 ## prolog0.pl
 
 [Video](https://youtu.be/4R-lBsQhUeM) (6:02): An introduction to Prolog
+
+## factsqueries.pl
+
+[Video](https://youtu.be/sJIEBlWaE1U) (2:39): The difference between facts and queries
