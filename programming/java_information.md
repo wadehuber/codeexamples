@@ -21,6 +21,7 @@ Note that this is not a recursive call to ```compareTo``` - it is calling the ``
 ## Java Versions
 
 - [A Guide to Java Versions and Features](https://dzone.com/articles/a-guide-to-java-versions-and-features)
+- [New Features in Java Versions since Java 8](https://ondro.inginea.eu/index.php/new-features-in-java-versions-since-java-8/)
 
 ## General Programming Advice
 
