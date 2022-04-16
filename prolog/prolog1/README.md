@@ -1,5 +1,9 @@
 # Prolog Module 1
 
+## trace.pl
+
+[VIDEO](https://youtu.be/360AHAy8U-E) (2:54) - an example of debugging a query using `trace`
+
 ## factsandrules.pl
 
 [VIDEO](https://youtu.be/zRxNrK4kS5A) (5:49) - Introduction to Prolog, facts & rules
