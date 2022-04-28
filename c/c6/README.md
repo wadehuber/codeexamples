@@ -10,7 +10,7 @@
 
 ## structnamespace.c
 
-[Video](https://youtu.be/iO9v9K7TRF0) (3:45) - Demonstration of the struct namespace
+[Video](https://youtu.be/MHhZR2k4azQ) (3:45) - Demonstration of the struct namespace
 
 ## polymorphism.c
 
