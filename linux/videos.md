@@ -50,11 +50,11 @@ stdout, stderr, redirection, ```/dev/null``` pipes, wildcards
 
 ## Module 7
 
-[Introduction to git](https://youtu.be/6goHaRDdq1Y) (13:13) walks through cloning & modifying a git repo hosted on GitHub
+[Introduction to git](https://youtu.be/mNu4ZPbLNrs) (13:14) walks through cloning & modifying a git repo hosted on GitHub
 
 The next two vidoes work with the [github-video-example](https://github.com/CGCC-CS/github-video-example) repository on GitHub.
 
-[Creating a GitHub repo](https://youtu.be/vVXnUKO7RoA) (6:45)
+[Creating a GitHub repo](https://youtu.be/oYJ-EraavnU) (5:20)
 
 [Introduction to markdown](https://youtu.be/-cuDmIpRz9o) (7:08)
 
