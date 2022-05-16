@@ -42,4 +42,4 @@
 
 ## gdbtest.c
 
-[Video](https://youtu.be/ii7kEcBYKs0) (6:47) - Demonstration of using gdb.  
+[Video](https://youtu.be/8AHT8uJX38k) (6:48) - Demonstration of using gdb.  

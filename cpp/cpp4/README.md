@@ -31,5 +31,5 @@ Note that the template in this file has 2 type parameters, but the video example
 
 ## variadic.cpp
 
-[Video](https://youtu.be/YD3ckx2jEHE) (7:27)
+[Video](https://youtu.be/cnoVlwUTAIE) (7:26)
 *Example of variadic template*
