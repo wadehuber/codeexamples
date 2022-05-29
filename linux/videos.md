@@ -46,7 +46,7 @@ stdout, stderr, redirection, ```/dev/null``` pipes, wildcards
 
 ## Module 6
 
-[sed](https://youtu.be/rNCiBqWa2xs) (5:40)
+[sed](https://youtu.be/fhoFRG6KNqI) (5:41)
 
 ## Module 7
 
