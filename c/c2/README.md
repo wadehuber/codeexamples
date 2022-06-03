@@ -67,6 +67,8 @@ strncpy, strcat, strncmp, sprintf
 
 ### memdump.c
 
+First, a refresher on [converting hex values to binary](https://youtu.be/EXyDKPDfX8I) (2:20).  We will be looking at hex values for each bytes.  Two hex values represent one byte which is 8 bits.  
+
 [Video](https://youtu.be/cUf0rzF17_M) (10:42) - *Examining memory byte-by-byte*
 Example function that will print out memory byte-by-byte using a char pointer.  In this example we use the function to examine the contents of a struct.
 
