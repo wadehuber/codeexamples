@@ -10,6 +10,7 @@ One of the most powerful things you can do in Unix is process large amounts of t
 - [RegEx for Noobs](https://www.janmeppe.com/blog/regex-for-noobs/)
 - [How to write Regular Expressions](https://www.geeksforgeeks.org/write-regular-expressions/) from GeeksforGeeks
 - There slight differences in regular expression syntax in different languages.  Here is a [summary of the differences](http://www.greenend.org.uk/rjk/tech/regexp.html)
+- For a look under the hood, see this [First Look at How a Regex Engine Works Internally](https://www.regular-expressions.info/engine.html)
 
 ## sed
 

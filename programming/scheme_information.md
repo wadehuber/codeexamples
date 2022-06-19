@@ -27,7 +27,8 @@ For Scheme, we will be using [DrRacket](https://download.racket-lang.org/).  Mak
 
 ## Scheme Lists and Box & Arrow notation
 
-- A good discussion about Scheme lists with examples of [box & arrow notation](http://icem-www.folkwang-hochschule.de/~finnendahl/cm_kurse/doc/schintro/schintro_93.html).
+- A good discussion about Scheme lists with examples of [box & arrow notation](http://icem-www.folkwang-hochschule.de/~finnendahl/cm_kurse/doc/schintro/schintro_93.html)
+- A PDF explaining [Box & Pointer Diagrams](https://inst.eecs.berkeley.edu/~cs61a/su10/resources/Joshua%20Cantrell%20Notes/4-Box-Pointer.pdf)
 
 ## Clojure
 
