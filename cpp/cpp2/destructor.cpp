@@ -11,8 +11,9 @@ class Destruct {
         }
 
         ~Destruct() {
-            cout << "Destructor " << a << endl; 
+            cout << "Destructor " << a << endl;
         }
+
 };
 
 void destFunction(Destruct d3) {
@@ -25,12 +26,15 @@ int main() {
     Destruct d1(1);
     Destruct d2(2);
     Destruct * d5 = new Destruct(5);
-    cout << "Done allocating" << endl;
+    
+    cout << "Done declaring variables" << endl;
 
+    cout << endl << "Calling destFunction(d1)" << endl;
     destFunction(d1);
 
+    cout << endl << "Calling delete(d5)" << endl;
     delete(d5);
 
-    cout << "End of main" << endl;
+    cout << endl << "End of main" << endl;
     return 0;
 }

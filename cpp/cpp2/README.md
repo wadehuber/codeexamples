@@ -2,6 +2,12 @@
 
 ## destructors.cpp
 
+[Video coming soon]() (): *Example of a destructor*
+
+This video shows an example of what a destructor is and when it is called.  For the particular class in question we do not explicitly need a destructor - the intention is just to show what a destructor is, how to declare one, and when a destructor gets called.  The next video goes into more detail about why destructors are needed with more advanced examples.  
+
+## whydestructors.cpp
+
 [Video](https://youtu.be/M48fMs8LAkg) (20:44): *Example of destructor & copy constructor*
 
 Examples of constructor, destructor, and copy constructor.  The output here is pretty verbose because the intention is to understand when the different functions get called.  In general, constructors, destructors, and copy constructors (and *especially overloaded operators*) should avoid output to stdout.
