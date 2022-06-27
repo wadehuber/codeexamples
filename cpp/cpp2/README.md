@@ -1,8 +1,8 @@
 # C++ Memory Management
 
-## destructors.cpp
+## destructor.cpp
 
-[Video coming soon]() (): *Example of a destructor*
+[Video coming soon](https://youtu.be/QJZsHWZ3xS4) (6:06): *Example of a destructor*
 
 This video shows an example of what a destructor is and when it is called.  For the particular class in question we do not explicitly need a destructor - the intention is just to show what a destructor is, how to declare one, and when a destructor gets called.  The next video goes into more detail about why destructors are needed with more advanced examples.  
 
