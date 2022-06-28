@@ -10,7 +10,7 @@
 
 ## getsfgets.c
 
-[Video](https://youtu.be/WyFfQ_DzZXs) (3:57) - Demonstrates why you should not use the C library function " gets() ".
+[Video](https://youtu.be/UoysSe194EE) (3:57) - Demonstrates why you should not use the C library function " gets() ".
 
 ## guess.c
 
