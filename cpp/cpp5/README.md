@@ -33,7 +33,7 @@ In general, unique_ptr is preferred since shared_ptr may not free resources if t
 
 ## variant.cpp
 
-[Video](https://youtu.be/uEJy4QGKWIk) (6:23)
+[Video](https://youtu.be/_DSgqYjwBSc) (6:24)
 *C++ variants*
 
 ## namespace.cpp
