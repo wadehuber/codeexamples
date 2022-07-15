@@ -7,7 +7,7 @@
 
 ## numbers.sh
 
-[Video](https://youtu.be/FpaXAUGoxmw) (4:22)
+[Video](https://youtu.be/XM3l8JowzBY) (4:23)
 *Examples of working with numbers in a shell script*
 
 ## loops.sh
