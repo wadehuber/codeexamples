@@ -25,11 +25,14 @@ I will be using all 4 of the environments listed above to compile and I use [Vim
 - Directions for [installing Linux on a VMWare virtual machine](https://www.linux.com/news/installing-virtual-machines-vmware), which will allow you to install & run Linux on your computer without needing to reboot.
 - You can download a [free (non-commercial) version of VM Player](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
 
-## Windows 10 - Windows Subsystem for Linux
+## Windows - Windows Subsystem for Linux
 
-You can install several different Linux distributions in the Microsoft Store.  If you go this route I sugguest [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+You can install several different Linux distributions in the Microsoft Store.  If you go this route I sugguest Ubuntu, though any distribution should work.  
 
-VIDEO: [Installing Ubuntu on Windows](https://youtu.be/iPRULLjw96Y) (5:03) (including activating the Windows Subsystem for Linux and compiling & running a C program).  To simulate one likely scenario, I forgot to activiate the WSL first before installing Ubuntu.  If you want to do things the easy way you may want to do that part first.  
+Installing Ubuntu on Windows:
+
+- VIDEO: [Installing Ubuntu on Windows 10](https://youtu.be/iPRULLjw96Y) (5:03) (including activating the Windows Subsystem for Linux and compiling & running a C program).  To simulate one likely scenario, I forgot to activiate the WSL first before installing Ubuntu.  If you want to do things the easy way you may want to do that part first.  
+- VIDEO: [Installing Ubuntu on Windows 11](https://youtu.be/L4YdOJFDjj4) (5:18) is an updated video using Windows 11
 
 **Note**: as soon as you get the command line running you should type the following to ensure you have the latest updates.  When asked for your password, enter your Windows password.
 
