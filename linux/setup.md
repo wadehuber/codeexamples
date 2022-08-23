@@ -39,6 +39,8 @@ Installing Ubuntu on Windows:
 ```bash
 sudo apt-get update
 sudo apt install gcc
+sudo apt install g++
+sudo apt install make
 ```
 
 ### Compiling C files with the Linux Subsystem for Windows
