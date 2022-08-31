@@ -11,13 +11,13 @@ gcc --std=c11 -pedantic -Wall filename.c
 then to run the code in Ubuntu, other Linux distros, WSL, or MacOS
 
 ```bash
-.\a.out
+./a.out
 ```
 
 or under Cygwin
 
 ```bash
-.\a.exe
+./a.exe
 ```
 
 Not using gcc with these compile flags may hide errors that result in a grade of 0 on your project!
