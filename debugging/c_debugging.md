@@ -45,7 +45,7 @@ error: C++ style comments are not allowed in ISO C90
 This is due to compiling with a C standard prior to C99.  C++ style comments - // - instead of C-style comments /* */ - are not allowed in C90 an earlier (the -ansi flag).  Remove the -ansi flag from your compile statement.
 ```
 
-### Stray '\223' in program
+### Stray character in program
 
 ```(text)
 myprogram.c:4:5: error: stray '\223' in program
@@ -54,6 +54,20 @@ myprogram.c:8:11: warning: missing terminating " character [enabled by default]
 myprogram.c:8:3: error: missing terminating " character
 myprogram.c:9:1: error: expected expression before '}' token
 myprogram.c:9:1: error: expected ';' before '}' token
+```
+
+or
+
+```(text)
+stray223224.c: In function ‘main’:
+stray223224.c:4:12: error: stray ‘\342’ in program
+    4 |     printf(File not found error example\n”);
+      |            ^
+stray223224.c:4:13: error: stray ‘\200’ in program
+    4 |     printf(File not found error example\n”);
+      |             ^
+stray223224.c:4:14: error: stray ‘\234’ in program
+    4 |     printf(File not found error example\n”);
 ```
 
 The likely cause is that you did a copy & paste from a program that uses smart quotes (such as MS Word or Google Docs).  Double check each quote in your program to be sure you have an actual single/double quote and NOT a smart quote.
