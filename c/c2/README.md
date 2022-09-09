@@ -46,6 +46,12 @@ malloc, calloc, puts, exit
 
 Note that after the video ended line 33 of alloc.c was changed to ```if(nums == NULL) {``` to correct the variable name.
 
+### splat.c
+
+[Video](https://youtu.be/mSVhgq2Czqg) (5:51) - *The different ways you can use a star/asterisk/splat in C*
+
+This is to help review how the * is used in C.
+
 ### pointer_review.c
 
 [Video](https://youtu.be/oGiUw35seyE) (23:10) - *Overview of pointer usage in C*
