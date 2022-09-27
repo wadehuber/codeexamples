@@ -24,7 +24,7 @@ Some of these are a bit out of date, but they each have some interesting informa
 
 ## Programming Language Paradigms
 
-Specific information about the the paradigms covered in CSC240 on the page for those languages (C, C++, Scheme, & Prolog).
+Specific information about the paradigms covered in CSC240 on the page for those languages (C, C++, Scheme, & Prolog).
 
 ## Videos
 

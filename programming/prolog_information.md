@@ -62,7 +62,7 @@ I have not looked in depth at most of these, but here are a few newer logic lang
 
 ### Semantic Web
 
-Logic programming was used with the the [Semantic Web](http://www.w3.org/2001/sw)
+Logic programming was used with the [Semantic Web](http://www.w3.org/2001/sw)
 
 - [SWI-Prolog’s Semantic Web extensions](https://www.swi-prolog.org/web/index.html)
 - A [survey of the first 20 years of the Semantic Web](https://hal.inria.fr/hal-01935898/document)
