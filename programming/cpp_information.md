@@ -160,7 +160,7 @@ Once your code compiles, you can run it on your code by typing:
 cppcheck filename.cpp
 ```
 
-## C++ Hisoory
+## C++ History
 
 - [VIDEO: The Design of C++](https://youtu.be/69edOm889V4) by Bjarne Stroustrup
 - [VIDEO: C++: An Invisible Foundation](https://youtu.be/00Z52UYk4vM) by Bjarne Stroustrup
