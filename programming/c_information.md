@@ -36,6 +36,7 @@ The flags above are required, bug gcc has a lot of other flags you may want to u
 - [Essential C](http://cslibrary.stanford.edu/101/) from The Stanford CS Education Library has an excellent summary of the C language.  It covers most of what we will discuss about C this semester.  There are also PDFs about [pointers](http://cslibrary.stanford.edu/102/), [linked lists](http://cslibrary.stanford.edu/103/), and [binary trees](http://cslibrary.stanford.edu/110/) in C.
 - The [C FAQ](http://c-faq.com/) has a great discussion of [pointers vs. arrays](http://c-faq.com/aryptr/aryptrequiv.html).
 - [Beej's Guide to C Programming](http://beej.us/guide/bgc/)
+- If you are lookng for a C book, here is StackOverflow's [Definitive C Book Guide & List](https://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list)
 - A guide to [building (compiling) programs with gcc](http://seenaburns.com/building-c-programs/)
 - The [right-left rule](http://cseweb.ucsd.edu/~ricko/rt_lt.rule.html) for deciphering C declarations.
 - [A C Reference Manual](https://www.bell-labs.com/usr/dmr/www/cman.pdf) from Bell Labs (by Dennis Ritchie)
