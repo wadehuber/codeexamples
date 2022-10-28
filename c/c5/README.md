@@ -14,7 +14,7 @@
 
 ## guess.c
 
-[Video](https://youtu.be/MrOLG-6OFVQ) (4:20) - has an example of using compile-time symbolic constants to affect the way a program is built.
+[Video](https://youtu.be/rF83KvpBGfU) (3:10) - has an example of using compile-time symbolic constants to affect the way a program is built.
 
 ## readfile.c
 
