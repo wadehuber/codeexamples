@@ -25,7 +25,7 @@ CSC205, CSC220, and CSC240 are not database courses, but we will briefly cover d
 - [10 common mistakes Java developers make when writing SQL](https://blog.jooq.org/2013/07/30/10-common-mistakes-java-developers-make-when-writing-sql/)
 - [10 *more* common mistakes Java developers make when writing SQL](https://blog.jooq.org/2013/08/12/10-more-common-mistakes-java-developers-make-when-writing-sql/)
 
-## Setting up SQLite in Eclips
+## Setting up SQLite in Eclipse
 
 1. Download the [SQLite jar](https://github.com/xerial/sqlite-jdbc/releases)
 2. Install the JAR file in your project.
