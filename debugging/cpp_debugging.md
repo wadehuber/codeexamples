@@ -24,6 +24,25 @@ myfile.hpp:32:5: error: 'string' does not name a type; did you mean 'stdin'?
 
 This indicates that the compiler doesn’t know what namespace “string” is in.  Use `std::string` or add `using namespace std` to the top of the file.
 
+## request for member in non-class type
+
+```(text)
+non_class_type.cpp:18:14: error: request for member ‘print’ in ‘greeting’, which is of non-class type ‘MyClass()’
+   18 |     greeting.print();
+```
+
+In this case, `MyClass` likely has a constructor with no parameters, but the variable greeting is declared with empty parenthesis, as follows:
+
+```(text)
+MyClass greeting();
+```
+
+But the *correct* declaration of a MyClass object with no parameters would be without any parenthesis, as follows: 
+
+```(text)
+MyClass greeting;
+```
+
 ## default argument given for parameter
 
 ```(text)
