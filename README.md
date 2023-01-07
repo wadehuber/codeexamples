@@ -6,7 +6,7 @@ For the most part, I have left mistakes (whether intentional or not) in the vide
 
 For my students you should also refer to the material on Canvas and the GitHub repo specific to your class.
 
-Contents:
+## Contents
 
 - [algorithms](./algorithms) - Links related to algorithms & data structures
 - [bash](./bash) - Video examples for bash shell scripting
@@ -18,3 +18,29 @@ Contents:
 - [programming](./programming) - Programming language history, links to history & tutorials for different programming languages
 - [prolog](./prolog) - The Prolog programming language
 - [scheme](./scheme) - The Scheme programming language
+
+## Contents organized by course
+
+### CSC205 - Data Structures & Algorithms
+
+- [algorithms](./algorithms) - Links related to algorithms & data structures
+- [debugging](./debugging) - Debugging guides for C, C++, Java, Prolog, & Scheme
+
+### CSC240 - Introduction to Different Programming Languages
+
+- [programming](./programming) - Programming language history, links to history & tutorials for different programming languages
+- [c](./c) - The C programming language
+- [cpp](./cpp) - The C++ programming language
+- [concurrency](./concurrency) - Programming with concurrent processes & threads
+- [scheme](./scheme) - The Scheme programming language
+- [prolog](./prolog) - The Prolog programming language
+- [debugging](./debugging) - Debugging guides for C, C++, Java, Prolog, & Scheme
+
+### CSC220 - Programming for Computer Engineering
+
+- [c](./c) - The C programming language
+- [linux](./linux) - Linux history, tutorials, and videos, vim, & git
+- [cpp](./cpp) - The C++ programming language
+- [bash](./bash) - Video examples for bash shell scripting
+- [concurrency](./concurrency) - Programming with concurrent processes & threads
+- [debugging](./debugging) - Debugging guides for C, C++, Java, Prolog, & Scheme
