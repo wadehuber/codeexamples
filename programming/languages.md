@@ -18,7 +18,7 @@ Some of these are a bit out of date, but they each have some interesting informa
 
 ## Aspects of Programming Languages
 
-### Radability
+### Readability
 
 - [What does **code readability** really mean?](http://typicalprogrammer.com/what-does-code-readability-mean)
 
