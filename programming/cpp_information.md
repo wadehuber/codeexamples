@@ -63,7 +63,7 @@ In general, [cppreference.com](http://cppreference.com) is a reliable C++ refere
 
 ### Namespaces
 
-- [Everytnhing You Need to Know About Namespace in C++](https://www.edureka.co/blog/namespace-in-cpp/)
+- [Everything You Need to Know About Namespace in C++](https://www.edureka.co/blog/namespace-in-cpp/)
 - Microsoft's documentation on [Namespaces in C++](https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=vs-2019)
 
 ### Other Topics
@@ -83,7 +83,7 @@ In C++ there is the idea of the "Rule of Three" - for classes that use heap memo
 
 ### Move Semantics
 
-- [C++ moves for people who don't knjow or care what rvalues are](https://medium.com/@winwardo/c-moves-for-people-who-dont-know-or-care-what-rvalues-are-%EF%B8%8F-56ee122dda7)
+- [C++ moves for people who don't NJ or care what rvalues are](https://medium.com/@winwardo/c-moves-for-people-who-dont-know-or-care-what-rvalues-are-%EF%B8%8F-56ee122dda7)
 - [Copy vs Move semantics](https://www.modernescpp.com/index.php/copy-versus-move-semantic-a-few-numbers)
 - [What is a move constructor in C++?](https://www.educative.io/edpresso/what-is-a-move-constructor-in-cpp)
 - [Move Constructors and move assignment](https://www.learncpp.com/cpp-tutorial/15-3-move-constructors-and-move-assignment/) from learncpp.com
@@ -150,7 +150,7 @@ It is always a good idea to run static analyzer on your code.  A static analyzer
 
 ### cppcheck
 
-One C++ static analyzer is cppcheck.  Information about cppcheck & installaction instructions are available from the cppcheck website - [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/)
+One C++ static analyzer is cppcheck.  Information about cppcheck & installation instructions are available from the cppcheck website - [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/)
 
 I've created a [video that walks you through using cppcheck](https://youtu.be/oJ8SXVoefaA) on Ubuntu & using the Windows GUI.
 
@@ -170,7 +170,7 @@ cppcheck filename.cpp
 - VIDEO: [The Care and Feeding of C++'s Dragons](https://www.youtube.com/watch?v=JSjoCisIHcM) is a talk about some of tools Google uses to help with simplicity in C++.  It isn't really a tutorial, but it touches on a lot of issues that come up in industry.  
 A discussion of some [obscure C++ features](http://madebyevan.com/obscure-cpp-features/)
 - [C++ Annotations](http://www.icce.rug.nl/documents/cplusplus) is an online book with a focus on differences between C & C++.   It goes well beyond what we will cover this semester, but it has a lot of good information.
-- VIDEO: [C9 Lectures: Stephan T. Lavavej - Standard Templiate Library](https://channel9.msdn.com/Series/C9-Lectures-Stephan-T-Lavavej-Standard-Template-Library-STL-/C9-Lectures-Introduction-to-STL-with-Stephan-T-Lavavej) has several videos covering the STL
+- VIDEO: [C9 Lectures: Stephan T. Lavavej - Standard Template Library](https://channel9.msdn.com/Series/C9-Lectures-Stephan-T-Lavavej-Standard-Template-Library-STL-/C9-Lectures-Introduction-to-STL-with-Stephan-T-Lavavej) has several videos covering the STL
 - John Carmack on [functional programming in C++](https://www.gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php)
 - A list of recommended [advanced C++ books](https://www.fluentcpp.com/2017/07/28/what-books-to-read-to-get-better-at-c/)
 - CPPCon notes (most of the talks are available on YouTube):

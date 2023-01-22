@@ -65,7 +65,7 @@ See the [C++ Information page](./cpp_information.md) for information about `cppc
 
 ## Memory Usage & Data Alignment
 
-- [Recursion, Runtime Environment, & the Call Stack](http://www.cs.tau.ac.il/~efif/courses/Software1_Summer_04/lectures/lecture7_2.php) shows how function calls work in C
+- [Recursion, Run time Environment, & the Call Stack](http://www.cs.tau.ac.il/~efif/courses/Software1_Summer_04/lectures/lecture7_2.php) shows how function calls work in C
 - Some lecture notes about [how C uses memory](http://web.eecs.utk.edu/~huangj/cs360/360/notes/Memory/lecture.html)(Unix oriented, but the first section is applicable anywhere)
 - We will talk in class about how C structs sometime waste space due to word alignment.  [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/?src=yc) is a good article about how rearranging your structs can wind up saving a lot of space in your program.  There are a few things we probably won't cover about in the article, but you should know enough C by the end to understand most of it.
 - A [bug report](http://pzemtsov.github.io/2016/11/06/bug-story-alignment-on-x86.html) related to how data is aligned in memory
@@ -147,7 +147,7 @@ for (int ii=0;ii<10;ii++) {
 
 - Rob Pike's [Notes on Programming in C](http://www.lysator.liu.se/c/pikestyle.html).  [His 5 Rules for Programming](http://users.ece.utexas.edu/~adnan/pike.html) are also worth reading.
 - [C Puzzles](http://www.gowrikumar.com/c/index.php) has some interesting (very advanced) examples of C programs with surprising output.
-- [Is C still relevant in the 21st Century?](https://insights.dice.com/2014/12/08/c-still-relevant-21st-century/) has some good points, though it glosses over C's use in embedded systems and microcontrollers which is probably where the bulk of future C programming will happen.
+- [Is C still relevant in the 21st Century?](https://insights.dice.com/2014/12/08/c-still-relevant-21st-century/) has some good points, though it glosses over C's use in embedded systems and micro-controllers which is probably where the bulk of future C programming will happen.
 - [f() vs f(void) function declarations in C & C++](https://nickdesaulniers.github.io/blog/2019/05/12/f-vs-f-void-in-c-vs-c-plus-plus/)
 - [The Top 10 Ways to Get Screwed by the C Programming Language](http://tsemba.org/c/topten.html) (though most of these are the result of poor style or practice on the part of the programmer!)
 - [What Every Programmer Should Know About Undefined Behavior in C](http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html) (and [part 2](http://blog.llvm.org/2011/05/what-every-c-programmer-should-know_14.html) & [part 3](http://blog.llvm.org/2011/05/what-every-c-programmer-should-know_21.html)).  

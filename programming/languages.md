@@ -3,7 +3,7 @@
 ## CSC240 Module 1 - Introduction to Programming Languages & Paradigms
 
 - [VIDEO: Programming Language Paradigms](https://youtu.be/dBiPRIfi4uE) (10:31) is an introduction to the course and a high level overview of programming paradigms
-- [VIIDEO: Programming Language History](https://youtu.be/MzwnYGgTX4Y) (9:19) reviews the how & why of programming language evolution
+- [VIDEO: Programming Language History](https://youtu.be/MzwnYGgTX4Y) (9:19) reviews the how & why of programming language evolution
 - [VIDEO: Compilation & Interpretation](https://youtu.be/kyjRqcP4DkM) (8:10) goes over the various techniques for getting source code to execute
 - [VIDEO: Characteristics of Programming Languages](https://youtu.be/Urqf4QOsOQM) (14:50) goes over some important concepts relating to programming languages, including syntax, semantics, data types, type checking, type conversion, & orthogonality
 
@@ -51,12 +51,12 @@ Specific information about the paradigms covered in CSC240 on the page for those
 ## Learning Other Languages
 
 - [Learn X in Y Minutes](https://learnxinyminutes.com/) has a ton of quick introductions to several different programming languages
-- [Coding Ground](http://www.tutorialspoint.com/codingground.htm) has several different broser-based compilers you use to try out several languages.  Note that while this is great for trying things out, try not to rely on these.  For class projects you will want to use the recommended compiler for that class.
+- [Coding Ground](http://www.tutorialspoint.com/codingground.htm) has several different browser-based compilers you use to try out several languages.  Note that while this is great for trying things out, try not to rely on these.  For class projects you will want to use the recommended compiler for that class.
 
 ## Example Code
 
 - A great way to learn a new language is to look at good examples.  Here is a [curated list of projects with good code](https://github.com/CodeReaderMe/awesome-code-reading)
-- Many languages are developed on GitHub, so you can see real world examples of compiler code, often written in C & C++.  Here's [a listl](https://github.com/showcases/programming-languages)
+- Many languages are developed on GitHub, so you can see real world examples of compiler code, often written in C & C++.  Here's [a list](https://github.com/showcases/programming-languages)
 - The [source code for Python](https://www.python.org/downloads/source/) (written in C)
 
 ## Programming Language Concepts Books
