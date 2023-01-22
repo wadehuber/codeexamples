@@ -12,6 +12,8 @@ If your program exists without output, check for the following:
 
 ### No such file or directory
 
+[Video](https://youtu.be/JaJsWuwbFns) (4:04)
+
 If you get a `No such file or directory` error there are a few possibilities:
 
 - You may not be in the correct directory.  Make sure you are in the same directory where your .c or .cpp files are.  
