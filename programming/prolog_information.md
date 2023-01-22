@@ -46,6 +46,7 @@ I have not looked in depth at most of these, but here are a few newer logic lang
 
 - VIDEO: [Production Prolog](https://www.youtube.com/watch?v=G_eYTctGZw8) by Michael Hendricks
 - An interesting experiment in using Prolog for [bots in Counter-Strike](http://ceur-ws.org/Vol-928/0170.pdf).  Two interesting conclusions: C++ bot code can be rewritten to Prolog, & Prolog bots can be used e?ciently.
+- [cozo](https://github.com/cozodb/cozo) is a relational database that ueses Datalog as its query language
 - [GRAKN.AI](http://grakn.ai/) is a distributed graph database that is [compatible with logic programs](https://blog.grakn.ai/isa-graql-logic-program-8af1258054a4).
 - Windows NT had an [embedded Prolog interpreter](http://www.redditmirror.cc/cache/websites/web.archive.org_84624/web.archive.org/web/20040603192757/research.microsoft.com/research/dtg/davidhov/pap.htm) to help with network configuration
 - [Web Prolog and the Programmable Prolog Web](https://github.com/Web-Prolog/swi-web-prolog/blob/master/web-client/apps/swish/web-prolog.pdf) (book).

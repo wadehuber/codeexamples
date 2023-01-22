@@ -23,6 +23,10 @@
 
 - A [Tour of Python Itertools](https://martinheinz.dev/blog/16)
 
+## Industry
+
+- [An Oral History of Bank Python](https://calpaterson.com/bank-python.html)
+
 ## Related Topics
 
 - [Introduction to Git and GitHub](https://realpython.com/python-git-github-intro/) for Python Developers
