@@ -7,7 +7,7 @@ For CSC240 & CSC220 we will be using gcc.
 - Windows (using Linux Subsystem for Linux & Ubuntu)
   - [Video: Windows 10](https://youtu.be/iPRULLjw96Y) (5:03)
   - [Video: Windows 11](https://youtu.be/L4YdOJFDjj4) (5:18)
-  - [Video: Installng Visual Studio Code & gcc on a Windows 11 Virtual Machine](https://youtu.be/RZIk2IMUsdk) (5:46)
+  - [Video: Installing Visual Studio Code & gcc on a Windows 11 Virtual Machine](https://youtu.be/RZIk2IMUsdk) (5:46)
 - MacOS: You can run gcc from the command line [Video](https://youtu.be/qOchFxcstXU) (4:48)
 - Linux: make sure you have gcc installed
 
@@ -77,6 +77,6 @@ This example shows how to read input from stdin character by character.
 
 ### [temps.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/temps.c)
 
-[Video](https://youtu.be/eFB14ZxK1t8) (4:18) - *Fahrenheit to Celcius conversion.*
+[Video](https://youtu.be/eFB14ZxK1t8) (4:18) - *Fahrenheit to Celsius conversion.*
 
-Create a table of Fahrenheit to Celcius conversion.
+Create a table of Fahrenheit to Celsius conversion.

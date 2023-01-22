@@ -1,10 +1,10 @@
 # Programming Notes
 
-This directory contains pages with notes, tips, and interesting links relateded to programming and different languages.
+This directory contains pages with notes, tips, and interesting links related to programming and different languages.
 
 ## General Programming Language
 
-- [learning.md](learning.md) contains tips and tools for learning new progrmaming languages
+- [learning.md](learning.md) contains tips and tools for learning new programming languages
 - [languages.md](languages.md) contains general programming language theory, paradigms, and related topics
 
 ## C & C++ Programming (CSC220 & CSC240)

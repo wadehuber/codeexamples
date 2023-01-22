@@ -7,7 +7,7 @@ This file uses the Fibonacci function to demonstrate a loop-based implementation
 
 Additional videos on recursion (also part of Scheme 2 for CSC240):
 
-- [Thinking recursively video](https://youtu.be/OpX214pT6D0) (2:59): *Walkthrough of recursive solutions to several problems*
+- [Thinking recursively video](https://youtu.be/OpX214pT6D0) (2:59): *Walk-through of recursive solutions to several problems*
 - [Tail Recursion](https://youtu.be/mFiRdTmbs3E) (10:40) goes over tail recursion using examples in Java & Python but which are both applicable to C
 
 ## constants.c
@@ -32,18 +32,18 @@ The intention of this video & example is to show how header files are included i
 
 This video shows multiple ways to declare a struct with typedef
 
-## mystuff_originial.c / multifile
+## mystuff_original.c / multifile
 
- *Multifile C program example*
+ *Multi-file C program example*
 This example demonstrates how to create a module (.h + .c files) from some macros and functions in the mystuff_original.c file that we may want to save for reuse later.  
 
 - [Video](https://youtu.be/lARP1419SsI) (11:16) - Creating the module
-- [makefile video](https://youtu.be/ME986X6VWoM) (4:53) - A more indepth video about creating a makefile
+- [makefile video](https://youtu.be/ME986X6VWoM) (4:53) - A more in depth video about creating a makefile
 - [Reusing modules video](https://youtu.be/uwAhmcauntc) (5:55) - a video where we reuse the module created above
 
 ## multifile2
 
-[Video](https://youtu.be/tvWigt9RCLU) (19:30) - *A second multfile example*
+[Video](https://youtu.be/tvWigt9RCLU) (19:30) - *A second multi-file example*
 Includes more examples of working with the preprocessor.  Also includes examples of inline functions.
 
 ## basiclist
@@ -53,7 +53,7 @@ Includes more examples of working with the preprocessor.  Also includes examples
 [Video - Overview of the basiclist module](https://youtu.be/kjIPryTpnXo) (9:20) has diagrams that go over how basiclist works
 
 [Video](https://youtu.be/MjOE9W6KFyY) (15:21) - *Simple example of a linked list in C*
-The basicilist.h is the header file that contains the struct definition and forward declarations for our linked list functions.  We use a node_t pointer to point to the first element in our linked list.  In the basiclist.c file, the list_add function takes a double pointer to the list (since it will add the new element to the front of the list) and a pointer to the data.  Since we don't know what type of data we are adding to the list, we use a void *.  The user of the code will need to handle casting back to the correct type.  The list_remove_first function frees the memory associated with the first element then points the list to the 2nd element.  There is also a test main function that will be compiled if you use the -DTEST flag.  The main method in basiclist.c creates a list of integers then prints them out.  
+The basiclist.h is the header file that contains the struct definition and forward declarations for our linked list functions.  We use a node_t pointer to point to the first element in our linked list.  In the basiclist.c file, the list_add function takes a double pointer to the list (since it will add the new element to the front of the list) and a pointer to the data.  Since we don't know what type of data we are adding to the list, we use a void *.  The user of the code will need to handle casting back to the correct type.  The list_remove_first function frees the memory associated with the first element then points the list to the 2nd element.  There is also a test main function that will be compiled if you use the -DTEST flag.  The main method in basiclist.c creates a list of integers then prints them out.  
 
 ## structwithptr.c
 
