@@ -45,7 +45,7 @@ sudo apt install make
 
 ### Compiling C files with the Linux Subsystem for Windows
 
-Once you have installed a Linux distribution from the Windows Store, the simplest way to compile & run your C files is to change to the apprpriate directory from inside the Linux window then follow the directions for the VM's above.  
+Once you have installed a Linux distribution from the Windows Store, the simplest way to compile & run your C files is to change to the appropriate directory from inside the Linux window then follow the directions for the VM's above.  
 
 If you save your files in a directory called ```csc240``` on your ```C:``` drive:
 
