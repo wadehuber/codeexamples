@@ -4,8 +4,6 @@ Note - I strongly recommend using a static analysis tool such as cppcheck (See [
 
 VIDEO: [Overview of C Pointers](https://youtu.be/w-EykTbqyls) (4:46)
 
-VIDEO: [What does the * mean in C?](https://youtu.be/mSVhgq2Czqg) (5:49)
-
 ## Introduction to pointers
 
 The following videos introduce pointers and show how they relate to arrays and strings.  
