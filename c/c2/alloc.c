@@ -47,7 +47,7 @@ int main(void) {
     /* Allocating a string */
     printf("\nAllocating strings:\n");
     ptr = malloc(COUNT * sizeof(char));   /* Allocate 10 bytes */
-    if(intptr == NULL) {
+    if(ptr == NULL) {
         fputs("Error allocating memory for pointer ptr.\n",stderr);
         exit(-1);
     }

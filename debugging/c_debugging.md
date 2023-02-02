@@ -150,7 +150,7 @@ clang: error: linker command failed with exit code 1
 
 This indicates that you are compiling a file(s) without a main() function.  If you are building a module, you can use the -c option to build an object file to avoid this error.  Or make sure you include all the files used by your project in the compile command.
 
-### Multiple definions
+### Multiple definitions
 
 ```(text)
 basiclist.o:basiclist.c:(.text+0x0): multiple definition of 'list_add'
