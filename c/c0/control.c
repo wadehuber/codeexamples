@@ -52,7 +52,7 @@ int main(void) {
     /* Do-while loop - the body is always executed at least once */
     printf("Do-while loop:\n");
     do {
-        printf("  Your number = %d, loop variale = %d\n", b, ii);
+        printf("  Your number = %d, loop variable = %d\n", b, ii);
         ii = ii-2;
     } while (ii > 0);
 

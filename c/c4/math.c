@@ -30,7 +30,7 @@ int main(void) {
     printf("  pow(3,2.5)=%.2f\n", pow(3,2.5));
 
     printf("\n");
-    printf("Logrithms:\n");
+    printf("Logarithms:\n");
     printf("  log(e)=%.2f\n", log(E));
     printf("  log(10.0)=%.2f\n", log(10.0));
     printf("  log(100.0)=%.2f\n", log(100.0));
