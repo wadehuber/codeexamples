@@ -8,7 +8,7 @@ int main() {
     std::cin >> count;
 
     std::cout << "Enter a word: ";
-    std::cin >> str;  // cin only gets chararcter until the next whitespace
+    std::cin >> str;  // cin only gets character until the next whitespace
 
     for(int ii=0; ii<count; ii++) {
         std::cout << ii+1 << " : " << str << std::endl;

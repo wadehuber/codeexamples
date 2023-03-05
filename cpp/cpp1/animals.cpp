@@ -10,14 +10,14 @@ class Animal {
     public:
         Animal(string s="Noname")  : name(s) { }   // Default value = "Noname"
 
-        // Pure virtual method - must be overridden by non-abstract derrived class
+        // Pure virtual method - must be overridden by non-abstract derived class
         virtual void speak() = 0;
 
         // Virtual method - can be overridden by the child class.  The type of the
         //   *OBJECT* being pointed to determines the method that gets called.
         virtual void move() { cout << "  ANIMAL " << name << " : I'm moving"  << endl; }
 
-        // Non-virtual method - can be overriddedn by the child class.  The type 
+        // Non-virtual method - can be overridden by the child class.  The type 
         //   of the *POINTER* being used determines the method that gets called.
         void eat() { cout << "  ANIMAL " << name << " : I'm hungry!"  << endl; }
 };
