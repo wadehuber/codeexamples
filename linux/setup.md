@@ -2,13 +2,15 @@
 
 For CSC220 and for compiling C & C++ in CSC240 you will need a UNIX-style terminal.  Directions for getting started on the following 4 development environments are listed here (keep in mind that ***you only need one!***):
 
-- Linux on a virtual machine (VM)
-- Windows Subsystem for Linux (Windows 10)
-- Cygwin on Windows
-- MacOS
-- Linux
+- On Windows, I recommend you use the Windows Subsystem for Linux (Windows 10)
+- On MacOS, the terminal will be sufficient
+- You can also install Linux on a virtual machine (VM) using VM Ware, Openbox, etc.  
+- On older versions of Windows, you can install Cygwin on Windows (but WSL is better)
+- And of course, you can install Linux as a primary operating system, though this is not required for this course
 
-I created some videos to demonstrate how to compile under Linux or any other UNIX-like terminal.  Keep in mind that depending on the specific terminal you use, some things may be slightly different, but the overall procedure is the same.  
+Installation directions are shown below.
+
+I have created some videos to demonstrate how to compile under Linux or any other UNIX-like terminal.  Keep in mind that depending on the specific terminal you use, some things may be slightly different, but the overall procedure is the same.  
 
 - A [comparison of compiling C code using the 3 different methods for using gcc on Windows](https://www.youtube.com/watch?v=irCWodI1MO4)
 - A [video with a step-by-step walkthrough of editing, compiling, & running a C program](https://youtu.be/CPn8nvxbXFs) (7:37)
@@ -18,7 +20,7 @@ At the end of this page are more specific directions for editing, compiling, and
 
 No matter what environment you use, make sure you install `gcc`, `g++`, `make`, and (for CSC220) `gdb`.  You may have to choose those separately during Cygwin or Linux installation.  If you forget, you can always install them later - consult the documentation for your system.  You will also need an editor.  For Cygwin, Linux on Windows 10, or MacOS you can use whatever editor you prefer (Vim, Notepad++, Visual Studio Code, etc.).  On Linux I recommend Gedit or Vim.
 
-I will be using all 4 of the environments listed above to compile and I use [Vim](https://www.vim.org/download.php) as my editor.  
+I will be using all 4 of the environments listed above in my examples and I use either [Visual Studio Code](https://code.visualstudio.com/) or [Vim](https://www.vim.org/download.php) as my editor.
 
 ## Installing Linux on a virtual machine
 
