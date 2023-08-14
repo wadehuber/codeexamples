@@ -28,7 +28,7 @@ For my students you should also refer to the material on Canvas and the GitHub r
 
 ### CSC240 - Introduction to Different Programming Languages
 
-- [programming](./programming) - Programming language history, links to history & tutorials for different programming languages
+- [programming](./programming/languages.md) - Programming language history, links to history & tutorials for different programming languages
 - [c](./c) - The C programming language
 - [cpp](./cpp) - The C++ programming language
 - [concurrency](./concurrency) - Programming with concurrent processes & threads
