@@ -1,8 +1,13 @@
-# Eclipse Links (CSC205)
+# Eclipse Links CSC110 & CSC205
 
-## Getting Ready for CSC205
+## Getting Ready for CSC110 & CSC205
 
 If you have not already done so, [download Eclipse](https://www.eclipse.org/downloads/).  The classroom & lab PCs should have Eclipse Photon & Java 8 installed, but any earlier version of Eclipse for Java Developers should be sufficient for the work we will do in CSC205.  
+
+Then, once you have Eclipse installed, you should download the class example & starter code from GitHub (the videos are here also).  Then you should regularly update your project to ensure you have the latest code.  
+
+- VIDEO: [Importing a project from GitHub repository into Eclipse](https://youtu.be/q-ItQbNzGd8) (note that CSC205 students should email me their GitHub username first to be given access to the repo)
+- VIDEO: [Keeping Eclipse Up-to-Date with GitHub](https://youtu.be/neIAbG9hLqU) walks through the steps to make sure you always have the most up-to-date code from GitHub, which is important for projects
 
 ## Eclipse Tutorials
 
