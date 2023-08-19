@@ -1,12 +1,23 @@
 # Setup
 
-For CSC220 and for compiling C & C++ in CSC240 you will need a UNIX-style terminal.  Directions for getting started on the following 4 development environments are listed here (keep in mind that ***you only need one!***):
+***NOTE: you only have to follow one set of instuctions below***
 
-- On Windows, I recommend you use the Windows Subsystem for Linux (Windows 10)
-- On MacOS, the terminal will be sufficient
-- You can also install Linux on a virtual machine (VM) using VM Ware, Openbox, etc.  
-- On older versions of Windows, you can install Cygwin on Windows (but WSL is better)
-- And of course, you can install Linux as a primary operating system, though this is not required for this course
+- **Windows 10 & 11** (using Linux Subsystem for Linux & Ubuntu)
+  - [Video: Windows 10](https://youtu.be/iPRULLjw96Y) (5:03)
+  - [Video: Windows 11](https://youtu.be/L4YdOJFDjj4) (5:18)
+- **Windows** (using a Linux virtual machine)
+  - [Video: Installing Visual Studio Code & gcc on a Windows 11 Virtual Machine](https://youtu.be/RZIk2IMUsdk) (5:46)
+- On **older versions of Windows** (prior to Windows 10) you can install [Cygwin](https://www.cygwin.com/)
+- MacOS: You can run gcc from the command line [Video](https://youtu.be/qOchFxcstXU) (4:48)
+- Linux: make sure you have gcc installed
+
+No matter what environment you use, make sure you install `gcc`, `g++`, `make`, and (for CSC220) `gdb`.  You may have to choose those separately during Cygwin or Linux installation.  If you forget, you can always install them later - consult the documentation for your system.  You will also need an editor.  For Cygwin, Linux on Windows 10, or MacOS you can use whatever editor you prefer (Vim, Notepad++, Visual Studio Code, etc.).  On Linux I recommend Gedit or Vim.
+
+You need to have a text editor installed.  It doesn't matter what text editor you use, but I recommend Visual Studio Code ([VIDEO: Installing VS Code on Windows 11](https://youtu.be/Ra_EJ_bMduY) (3:47))
+
+Tutorials for compiling C code:
+
+- [Video - Compiling & Running C code (for Java programmers)](https://youtu.be/CPn8nvxbXFs) (7:37) walks through the process of compiling & running a C program under the Windows Subsystem for Linux (Ubuntu).  The process is similar with Cygwin (other than the executable is called a.exe & you the command to change to a drive is ```cd drive:*``` where the drive is the drive letter you want to change to).  The process is also similar to Linux or MacOS, other than the part about navigating to the folder with the code.
 
 Installation directions are shown below.
 
@@ -17,8 +28,6 @@ I have created some videos to demonstrate how to compile under Linux or any othe
 - An [introduction to using the Linux command line for compiling C code](https://youtu.be/jCbawRqwWXU) (8:00)
 
 At the end of this page are more specific directions for editing, compiling, and running C code on the classroom VMs, but the steps are similar on any of the below.  Once you have your environment set up and know which directories to get to then there isn't much difference between working on any of the system.s
-
-No matter what environment you use, make sure you install `gcc`, `g++`, `make`, and (for CSC220) `gdb`.  You may have to choose those separately during Cygwin or Linux installation.  If you forget, you can always install them later - consult the documentation for your system.  You will also need an editor.  For Cygwin, Linux on Windows 10, or MacOS you can use whatever editor you prefer (Vim, Notepad++, Visual Studio Code, etc.).  On Linux I recommend Gedit or Vim.
 
 I will be using all 4 of the environments listed above in my examples and I use either [Visual Studio Code](https://code.visualstudio.com/) or [Vim](https://www.vim.org/download.php) as my editor.
 
