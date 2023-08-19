@@ -2,7 +2,7 @@
 
 The examples below are intended to give you a fast introduction to C.  If you are coming from Java, some of the examples, such as control.c, should look familiar.
 
-For CSC240 & CSC220 we will be using gcc.  Below are some videos to get you started, but if you prefer, I have provided **[detailed instructions for installing gcc](../linux/setup.md)**
+For CSC240 & CSC220 we will be using gcc.  Below are some videos to get you started, but if you prefer, I have provided **[detailed instructions for installing gcc](../../linux/setup.md)**
 
 - Windows 10 & 11 (using Linux Subsystem for Linux & Ubuntu)
   - [Video: Windows 10](https://youtu.be/iPRULLjw96Y) (5:03)
