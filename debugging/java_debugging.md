@@ -10,7 +10,7 @@
 
 ### Multiple markers at this line, Syntax error on token
 
-[Multiple markers this line](images/eclipseerror.png)
+![Multiple markers this line](images/eclipseerror.png)
 
 [Video link](https://youtu.be/U3VsNDDEjWE)
 
