@@ -53,7 +53,7 @@ This is an example of some of the pitfalls of working with signed vs unsigned in
 
 ### [sizeof.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/sizeof.c)
 
-[Video](https://youtu.be/HHvxGEbxlyg) (5:51) - *Reading and writing output character-by-character*
+[Video](https://youtu.be/HHvxGEbxlyg) (8:17) - *Using sizeof to determine the size of a variable or type*
 
 ## Advanced Videos
 
