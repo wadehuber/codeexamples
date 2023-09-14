@@ -4,7 +4,7 @@
 
 [Video](https://youtu.be/QqgYq7edw40) (5:57): *C++ input & output - cout, cin, & getline*
 
-This file has examples of using stream input & output in C++.
+This file has code examples of using stream input & output in C++.
 
 ## overview.cpp
 
