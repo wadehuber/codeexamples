@@ -1,11 +1,16 @@
-/* Very basic linked list example */
+/* Very basic linked list example 
+
+   To run as a test: 
+    gcc --std=c11 -pedantic -Wall basiclist.c -DTEST
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "basiclist.h"
 
 #define COUNT 10
 
-int list_add(node_t ** list, void * data) {
+int list_add(node_t ** list, const void * data) {
     int ret = 0;
 
     node_t * newnode = malloc(sizeof(node_t));
@@ -20,9 +25,9 @@ int list_add(node_t ** list, void * data) {
     return ret;
 }
 
-void * list_remove_first(node_t ** list) {
+const void * list_remove_first(node_t ** list) {
     node_t * old_front = *list;
-    void * data = old_front->data;
+    const void * data = old_front->data;
 
     *list = old_front->next;
     free(old_front);
