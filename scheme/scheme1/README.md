@@ -18,6 +18,8 @@ This example covers equality checking and the difference between `=`, `eq?`, `st
 
 This example covers writing Scheme procedures, including lambdas, conditionals, and recursion.
 
+[Video](https://youtu.be/wxipASELjOQ) You can use an actual lambda character instead of the `lambda` keyword by typing `<Ctrl>-\`.
+
 ## introlists.scm
 
 [Video](https://youtu.be/t6go5AbXE-U) (12:24): *Introduction to lists in Scheme*
