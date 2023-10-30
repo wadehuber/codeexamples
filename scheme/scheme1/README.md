@@ -1,5 +1,7 @@
 # SCHEME Module 1 - Introduction
 
+If you have not already done so, change the default language in DrRacket to `#lang scheme`. [This video walks you through changing the default](https://youtu.be/5yRsuO4fy4M).
+
 ## datatypes.scm
 
 [Video](https://youtu.be/gErFSiMQyKU) (21:54): *Examples of data types and predicates in Scheme*
