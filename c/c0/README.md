@@ -6,7 +6,7 @@ For CSC240 & CSC220 we will be using gcc.  Below are some videos to get you star
 
 - Windows 10 & 11 (using Linux Subsystem for Linux & Ubuntu)
   - [Video: Windows 10](https://youtu.be/iPRULLjw96Y) (5:03)
-  - [Video: Windows 11](https://youtu.be/L4YdOJFDjj4) (5:18)
+  - [Video: Windows 11](https://youtu.be/HrAsmXy1-78) (3:27)
 - Windows (using a Linux virtual machine)
   - [Video: Installing Visual Studio Code & gcc on a Windows 11 Virtual Machine](https://youtu.be/RZIk2IMUsdk) (5:46)
 - On older versions of Windows (prior to Windows 10) you can install [Cygwin](https://www.cygwin.com/)
