@@ -65,7 +65,7 @@ int main(void) {
     /* The break statement exits the current loop */
     printf("Break:\n");
     for(;;) {
-        /* Once a is bigger than 1000 exit the loop */
+        /* Once a is bigger than 100 exit the loop */
         if (a > 100) {
             printf("  Breaking at a=%d. . . \n", a);
             break;
