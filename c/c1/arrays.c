@@ -8,7 +8,7 @@ int main(void) {
     int a[4] = {1, 2, 3, 4};
     double b[] = {2.4, 3.14, 9.99999};  /* b is the size of the initializer */
     /* What happens if we declare an array with size smaller than
-     *   the initalizer? */
+     *   the initializer? */
 
     unsigned int ii;
 
