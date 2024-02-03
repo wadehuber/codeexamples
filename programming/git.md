@@ -17,7 +17,7 @@
 - Branching in git can be hard to get your head around.  Here is a great [introduction to branching](https://learngitbranching.js.org/)
 - This claims to be [the only introduction to git you'll ever need](https://areknawo.com/git-basics-the-only-introduction-you-will-ever-need/)
 - A guide to [More Productive Git](https://increment.com/open-source/more-productive-git/)
-- [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud) is from Atlassian so it focuses on Bitbucket instead of GitHub, but it is nicely organized and has nice illustations of how git works.
+- [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud) is from Atlassian so it focuses on Bitbucket instead of GitHub, but it is nicely organized and has nice illustrations of how git works.
 - Videos
   - [Basic Git Concepts](https://www.youtube.com/watch?v=8KCQe9Pm1kg) is a nice overview of what git does
   - [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)

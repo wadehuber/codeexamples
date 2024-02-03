@@ -2,7 +2,7 @@
 
 ## General links
 
-- [What's the Diff: Programs, Prodcesses, and Threads](https://www.backblaze.com/blog/whats-the-diff-programs-processes-and-threads/)
+- [What's the Diff: Programs, Processes, and Threads](https://www.backblaze.com/blog/whats-the-diff-programs-processes-and-threads/)
 - [15 years of concurrency](http://joeduffyblog.com/2016/11/30/15-years-of-concurrency/)
 - Rob Pike ["Concurrency is not Parallelism"](https://blog.golang.org/concurrency-is-not-parallelism) (and more good discussion at [Stack Overflow](https://stackoverflow.com/questions/11700953/concurrency-is-not-parallelism)
 

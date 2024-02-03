@@ -12,7 +12,7 @@ I don't expect you to memorize all the methods from these packages but you will 
 
 When you have a line in your code like the following:
 
-```java)
+```(java)
 return (name.compareTo(m.getName()));
 ```
 
