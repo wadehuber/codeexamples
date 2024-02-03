@@ -4,9 +4,10 @@
 
 For Scheme, we will be using [DrRacket](https://download.racket-lang.org/).  Make sure you include the language directive `#lang scheme` at the top of each Scheme source file you create.  Save your files with the extension `.scm`.
 
-## Scheme (and other LISPs) Tutorials
+## Scheme (and other LISPs) Tutorials & Books
 
 - An excellent video explaining how recursively adding elements of a list works - [The Parable of the Clones](https://youtu.be/Al15GtRxmRE)
+- [*The Scheme Programming Language*](https://www.scheme.com/tspl4/) by R. Kent Dybvig is available free online.
 
 ## History of Lisp & Scheme
 
