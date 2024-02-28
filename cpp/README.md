@@ -14,6 +14,6 @@ Each directory contains multiple C++ files.  CSC240 will cover through cpp3, CSC
 
 - [cpp3: Operator Overloading, STL (Vectors & Maps)](cpp3/README.md) - Overloading operators, virtual destructors, C++ STL, vectors, maps, & algorithms
 
-- [cpp4: Templates & friends](cpp4/README.md) - template, variadic templates, reading from a file, the explicit modifier
+- [cpp4: Templates & friends](cpp4/README.md) - templates, friends, variadic templates, reading from a file, the explicit modifier
 
 - [cpp5: Modern C++](cpp5/README.md) - Rule of 5, smart pointers, exceptions, variants, & namespaces
