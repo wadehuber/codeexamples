@@ -6,6 +6,12 @@
 - Make sure your imports are pulling in from the right location (for example, your projects typically should not be importing from the ClassExamples package)
 - Hover over the error in Eclipse to see what the error message is
 
+## Eclipse Errors
+
+### Red lines under my class name and all Class types
+
+If you hover over the class name you will `Implicit super constructor Object() is undefined for default constructor. Must define an explicit constructor` and if you hover over class types such as `String` or `System` you will see 
+
 ## Syntax Errors
 
 ### Multiple markers at this line, Syntax error on token
