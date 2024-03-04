@@ -31,6 +31,10 @@ In this video I show an example of using a vector to store objects of a custom c
 
 [Video](https://youtu.be/YaupVd9vTOA) (5:22) : *Another example of using C++ Maps, this time with a custom class as the key value*
 
+## random.cpp
+
+NO VIDEO : *Example of generating random integers*
+
 ## algorithm.ccp
 
 [Video](https://youtu.be/2XW4bD_cV-M) (13:45): *Methods from the C++ algorithms library*
