@@ -27,6 +27,12 @@ This section examples go over programming basics in C
 
 Editing, compiling, & running a C program.  The #include statement brings in the forward declaration for the printf function.
 
+### [hello.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/CommandLine.java)
+
+[Video](https://youtu.be/thqSXsdLT3w) (4:03) - *Discussion of compilation & program execution in Java & C*
+
+The goal of this video is to show how what we are doing to run our C programs is not technically any different from what you were doing with Java & Eclipse, we are just being more explicit with each step.
+
 ### [c_overview.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/c_overview.c)
 
 [Video](https://youtu.be/e4D6SnAo5rE) (15:07) - *Summary of C features*
