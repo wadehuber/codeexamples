@@ -67,6 +67,7 @@ Specific information about the paradigms covered in CSC240 on the page for those
 
 You will notice that I talk a lot about the history of programming languages.  While you may never actually code professionally in an old language, there are still ideas from the past that you can apply even in modern languages.
 
+- The [oldest programming languages still in use](https://www.oldest.org/technology/programming-languages/)
 - Bret Victor’s talk [The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4) discusses some “futuristic” ideas with programming languages from the perspective of someone in the 1970s.
 - “Uncle” Bob Martin on [The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc) gives an overview of the history of programming and talks about where it is headed.
 - [Plugboard Programming](http://www.righto.com/2017/04/1950s-tax-preparation-plugboard.html) on the IBM 403 Accounting Machine

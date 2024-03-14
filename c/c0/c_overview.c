@@ -37,8 +37,8 @@ int main(void) {
     /* Printing values */
     printf("x=%d, c=%c\n", x, c);
     printf("x=%X, c=%d\n", x, c);
-    printf("hello=%s, sizof(hello)=%lu\n", hello, sizeof(hello));
-    printf("world=%s, sizof(world)=%lu\n", world, sizeof(world));
+    printf("hello=%s, sizeof(hello)=%lu\n", hello, sizeof(hello));
+    printf("world=%s, sizeof(world)=%lu\n", world, sizeof(world));
 
     /* Working with structs */
     printf("\n");

@@ -34,7 +34,7 @@ int main(void) {
 	printf("\n\ns2 - Array of pointers to strings:\n");
 	for (ii = 0; ii < 5; ii++) {
 		printf("   %s\n", s2[ ii ]); 
-        /* Add size of string + null-teminator */
+        /* Add size of string + null-terminator */
 		s2size += (strlen(s2[ii]) + 1) * sizeof(char);
 	}
 

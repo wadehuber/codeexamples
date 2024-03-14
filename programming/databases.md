@@ -16,7 +16,7 @@ CSC205, CSC220, and CSC240 are not database courses, but we will briefly cover d
 
 - [SQL Concepts from A to Z](https://www.helenanderson.co.nz/sql-concepts-from-a-to-z/).  That site also has an expaination of [SQL Joins without using Venn Diagrams](https://www.helenanderson.co.nz/sql-joins-venn-diagrams/)
 - [SQL queries don't start with SELECT](https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/) has some good information about how SQL queries work
-- [A Visual Explaination of SQL Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
+- [A Visual Explanation of SQL Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
 - A guide to [optimizing queries](https://towardsdatascience.com/learning-sql-201-optimizing-queries-regardless-of-platform-918a3af9c8b1)
 
 ## JDBC

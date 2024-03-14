@@ -52,7 +52,7 @@ int main(void) {
     /* Do-while loop - the body is always executed at least once */
     printf("Do-while loop:\n");
     do {
-        printf("  Your number = %d, loop variale = %d\n", b, ii);
+        printf("  Your number = %d, loop variable = %d\n", b, ii);
         ii = ii-2;
     } while (ii > 0);
 
@@ -65,7 +65,7 @@ int main(void) {
     /* The break statement exits the current loop */
     printf("Break:\n");
     for(;;) {
-        /* Once a is bigger than 1000 exit the loop */
+        /* Once a is bigger than 100 exit the loop */
         if (a > 100) {
             printf("  Breaking at a=%d. . . \n", a);
             break;
