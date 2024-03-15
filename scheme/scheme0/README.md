@@ -6,6 +6,7 @@ We will be using DrRacket as our Scheme IDE/REPL.  DrRacket comes with the Racke
 
 - [Windows 10 Video](https://youtu.be/cw-g6Sdca1o) (3:14)
 - [Windows 11 Video](https://youtu.be/RyDORoKp4Qw) (3:53)
+- [macOS Sonoma Video](https://youtu.be/z8LRkEvJmg0) (1:33)
 
 ## racket.scm
 
