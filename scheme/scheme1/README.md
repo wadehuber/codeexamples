@@ -10,9 +10,15 @@ This example covers comments, data types, symbols & strings, predicates for data
 
 ## checkingequality.scm
 
-[Video](https://youtu.be/09nnf3WWFt8) (7:45): *Checking equality in Scheme*
+[Video](https://youtu.be/REWCHiIl9nc) (7:45): *Checking equality in Scheme*
 
 This example covers equality checking and the difference between `=`, `eq?`, `string=?`, and `equal?`.
+
+## booleanoperators.scm
+
+[Video](https://youtu.be/09nnf3WWFt8) (3:44): *Scheme Boolean operators*
+
+This example covers some the Boolean operators `and`, `or`, `xor`, and `not`.
 
 ## procedures.scm
 
