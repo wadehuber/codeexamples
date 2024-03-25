@@ -19,18 +19,18 @@
 (half-even-cond 42)
 (half-even-cond 45)
 
+(newline)
 "Example 2a - 3 conditions using cond"
 (define example2-cond
   (lambda (n)
     (cond
-      ((< n ) (* n -1))
+      ((< n 0) (* n -1))
       ((= 1 (remainder n 2)) (+ n 1))
       (else n))))
 (example2-cond -10)
 (example2-cond 10)
 (example2-cond 11)
 
-(newline)
 "Example 2a - 3 conditions using if"
 (define example2-if
   (lambda (n)

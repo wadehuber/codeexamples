@@ -9,6 +9,10 @@ You must understand recursion for this module.  The two videos below go over how
 
 [Video](https://youtu.be/IMJNNLLM99U) (9:05): *Review of atoms, define, cond, and defining functions*
 
+## cond_or_if.scm
+
+[Video](https://youtu.be/7T7cRF_gkkg) (2:35): *Using if vs using cond in Scheme*
+
 ## recursivearithmetic.scm
 
 [Video](https://youtu.be/uyER4B3q9ag) (6:43): *Example of recursively defining addition & subtraction*
