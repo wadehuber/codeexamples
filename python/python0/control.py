@@ -4,7 +4,7 @@ a = 5
 
 b = int(input("Enter an integer: "))
 
-# If-then-else statment
+# If-then-else statement
 if a < b:
     print('{} is less than {}'.format(a,b))
 elif a > b:

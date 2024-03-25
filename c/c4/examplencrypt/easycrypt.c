@@ -3,7 +3,7 @@
  *    gcc --std=c11 -pedantic -Wall easycrypt.c -o encrypt
  *    gcc --std=c11 -pedantic -Wall easycrypt.c -D DECRYPT -o decrypt
  *
- * Sample outpu:
+ * Sample output:
  * $ echo "This is a test" | ./encrypt 
  * Uijt!jt!b!uftu
  *

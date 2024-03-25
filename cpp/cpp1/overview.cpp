@@ -18,7 +18,7 @@ int main() {
     cout << "d = " << d << endl;
     cout << endl;
 
-    // Automatic types - deduced from the initalizer
+    // Automatic types - deduced from the initializer
     auto m = 3;
     auto n = 3.14;
     auto o = 'x';
