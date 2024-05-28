@@ -2,6 +2,8 @@
 
 ***NOTE: you only have to follow one set of instuctions below***
 
+[Windows 11 how to install the Linux Windows Subsystem](https://techcommunity.microsoft.com/t5/windows-11/how-to-install-the-linux-windows-subsystem-in-windows-11/m-p/2701207)
+
 - **Windows 10 & 11** (using Linux Subsystem for Linux & Ubuntu)
   - [Video: Windows 10](https://youtu.be/iPRULLjw96Y) (5:03)
   - [Video: Windows 11](https://youtu.be/L4YdOJFDjj4) (5:18)
