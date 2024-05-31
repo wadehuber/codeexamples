@@ -8,7 +8,7 @@
 */
 int main(int argc, char * argv[]) {
 
-    /* Print the number of argumnts passed to our program */
+    /* Print the number of arguments passed to our program */
     printf("argc = %d\n", argc);
 
     /* Print out each argument */
