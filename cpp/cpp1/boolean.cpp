@@ -34,7 +34,7 @@ int main() {
 
     cout << endl;
 
-    // Loop until we reach a multiple 7 larget than 10;
+    // Loop until we reach a multiple 7 larger than 10;
     int ii=0;
     bool multOf7 = false;
     bool bigger10 = false;
@@ -52,7 +52,7 @@ int main() {
     }
 
     cout << endl;
-    // Loop until we reach a multiple 5 larget than 16
+    // Loop until we reach a multiple 5 larger than 16
     int jj=0;
     while (!finished) {
         cout << jj << " ";
