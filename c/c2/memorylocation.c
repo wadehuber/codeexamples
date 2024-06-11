@@ -48,6 +48,6 @@ int main(void) {
 
   printf("MAIN: globalVar=%d at %p\n", globalVar, (void *) &globalVar);
   
-  free(mLocalVar);
+  free(mLocalVarPtr);
   return 0;
 }
