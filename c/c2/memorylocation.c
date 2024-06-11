@@ -8,7 +8,7 @@ void func(int fParameter) {
   static int fStaticLocalVar = 30;     /* Static memory */
 
   printf("FUNCTION: fParameter=%d at %p\n", fParameter, (void *) &fParameter);
-  printf("FUNCTION: fLocalVar=%d at %p\n", fLocalVar, (void *) (void *) &fLocalVar);
+  printf("FUNCTION: fLocalVar=%d at %p\n", fLocalVar, (void *) &fLocalVar);
   printf("FUNCTION: fStaticLocalVar=%d at %p\n", fStaticLocalVar, (void *) &fStaticLocalVar);
   printf("FUNCTION: globalVar=%d at %p\n", globalVar, (void *) &globalVar);
 
