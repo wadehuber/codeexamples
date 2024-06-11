@@ -106,6 +106,8 @@ to the end of the file.
 - An overview of [5 C standards](https://opensourceforu.com/2017/04/different-c-standards-story-c/)
 - A series of blog posts on the [differences between C90 & C99](http://www.simplyembedded.org/archives/battle-of-the-standards-round1/)
 - [C11 The new standard](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3631.pdf)
+- [C23: a slightly better C](https://lemire.me/blog/2024/01/21/c23-a-slightly-better-c/)
+- [C23 is Finished: Here is What is on the Menu](https://thephd.dev/c23-is-coming-here-is-what-is-on-the-menu)
 
 ## ANSI C vs C11
 
