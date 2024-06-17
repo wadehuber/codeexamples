@@ -4,6 +4,8 @@
 
 ### Windows
 
+[Installing Python on Windows 11 Video](https://youtu.be/HUrZoTVddjA) (2:15)
+
 You can download Python for Windows from the [official Python site](https://www.python.org/downloads/)
 
 PyCharm is a great, free Python IDE which you can download form [JetBrains](https://www.jetbrains.com/pycharm/download/)
