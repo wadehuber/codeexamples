@@ -8,7 +8,11 @@
 
 You can download Python for Windows from the [official Python site](https://www.python.org/downloads/)
 
+#### PyCharm
+
 PyCharm is a great, free Python IDE which you can download form [JetBrains](https://www.jetbrains.com/pycharm/download/)
+
+[Installing PyCharm Community Edition on Windows 11 Video](https://youtu.be/Za0s3_y5hlY) (2:37)
 
 ### Linux
 
