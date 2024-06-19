@@ -8,6 +8,12 @@ We will be using DrRacket as our Scheme IDE/REPL.  DrRacket comes with the Racke
 - [Windows 11 Video](https://youtu.be/RyDORoKp4Qw) (3:53)
 - [macOS Sonoma Video](https://youtu.be/z8LRkEvJmg0) (1:33)
 
+## Prefix notation
+
+[Video - Is prefix notation really weird?](https://youtu.be/E1xU-_Vm7PQ) (3:06)
+
+One thing that can be confusing to programmers first learning Scheme is that Scheme uses prefix notation - the operator comes before the operands like this.  So to say 10 + 7 in Scheme, we use the Scheme form `(+ 10 7)`.
+
 ## racket.scm
 
 [Video](https://youtu.be/lxH7bnc9OOk) (5:51): Example of using DrRacket
