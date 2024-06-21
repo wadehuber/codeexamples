@@ -19,11 +19,6 @@ Note that the template in this file has 2 type parameters, but the video example
 [Video](https://youtu.be/rjpJHMYrK9g) (13:47)
 *Example of the friend modifier for classes & methods.  The example is in the context of a simple linked-list implementation.*
 
-## readfile.cpp
-
-[Video](https://youtu.be/fxKr6lZ0HeY) (10:00)
-*Example of reading a file & parsing a string in C++.  This program is equivalent to readfile.c.*
-
 ## explicit.cpp
 
 [Video](https://youtu.be/TaeQWvQGOTw) (3:25)
