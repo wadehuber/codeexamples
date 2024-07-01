@@ -50,7 +50,7 @@ addem
 (increment (increment (increment (increment 0))))
 
 (newline)
-"Function as a prameter"
+"Function as a parameter"
 (define do
   (lambda (this that)
     (this that)))
