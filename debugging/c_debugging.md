@@ -90,12 +90,6 @@ make: *** No targets specified and no makefile found.  Stop.
 
 This indicates that there is no makefile in the current directory.  Another possibility is that the makefile is improperly named.  Try typing `ls -l` at the command prompt and verify that you have a file called `makefile` (**not** `makefile.txt`) and if so rename it using the command `mv makefile.txt makefile` (replace the original file name with whatever you are seeing on your system)
 
-```(text)
-error: expected declaration or statement at end of input
-```
-
-Typically, this error is the result of unmatched braces or some other grouping symbol (parenthesis, quotes, etc.).
-
 ### Assignment to expression with array type
 
 ```(text)
