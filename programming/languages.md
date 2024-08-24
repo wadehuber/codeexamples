@@ -45,7 +45,7 @@ Specific information about the paradigms covered in CSC240 on the page for those
 
 ## Coding Style
 
-- If you wonder why I always use braces, even for a single line block, the risk of introducing bugs like what is described in [this article about Apple's SSL/TLS bug from 2014](https://www.imperialviolet.org/2014/02/22/applebug.html) is why.  You may also find it interesting to see a "goto" used in real code.
+- If you wonder why I always use braces, even for a single line block, the risk of introducing bugs like what is described in [this article about Apple's SSL/TLS bug from 2014](https://web.archive.org/web/20140225140816/https://nakedsecurity.sophos.com/2014/02/24/anatomy-of-a-goto-fail-apples-ssl-bug-explained-plus-an-unofficial-patch/) is why.  You may also find it interesting to see a "goto" used in real code.
 - In some languages, [adding spaces](https://en.wikipedia.org/wiki/ABAP#Spaces) can completely change the meaning of a statement
 
 ## Learning Other Languages
