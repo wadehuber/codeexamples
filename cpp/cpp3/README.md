@@ -43,5 +43,5 @@ Note that the examples of any_of, any_of, none_of all use lambdas which we haven
 
 ## readfile.cpp
 
-[Video](https://youtu.be/fxKr5lZ0HeY) (10:00)
+[Video](https://youtu.be/fxKr6lZ0HeY)(10:00)
 *Example of reading a file & parsing a string in C++.  This program is equivalent to readfile.c.*
