@@ -27,17 +27,23 @@ CSC205, CSC220, and CSC240 are not database courses, but we will briefly cover d
 
 ## Setting up SQLite in Eclipse
 
-1. Download the [SQLite jar](https://github.com/xerial/sqlite-jdbc/releases)
-2. Install the JAR file in your project.
-3. Left click on your project and select Build Path -> Configure Build Path
-4. Click the Libraries tab and click "Add External JAR"
-5. Navigate to the directory you downloaded the SQLite JAR file and select it.
-6. Click OK
-7. If the installation worked, try to execute the class below.  It should state that it made the connection correctly.  
+1. Create a new folder called **lib** in your project folder.
+    * In Microsoft Windows, In Eclipse, with your project selected in the Project Explorer left hand window frame of Eclipse, right click then select **New -> Folder**. Name this folder **lib**.
+
+2. Download the [SQLite jar](https://github.com/xerial/sqlite-jdbc/releases) and save the file in the **lib** directory you just created on your file system.
+
+3. Refresh your project in eclipse.
+    * In Microsoft Windows, In Eclipse, with your project selected in the **Project Explorer** left hand window frame of Eclipse, **right click** then select **Refresh**. In Eclipse you should now see the file you downloaded in the **lib** directory you created in your project.
+
+4. In the **lib** directory of your project, select the jar file you downloaded. **Right click** on it and select **Build Path -> Add to Build Path**.
+
+5. If the installation works, create the class **SQLiteTest** in your project, copy the code below into it, and try to execute the class. It should state that it made the connection correctly by displaying **Opened database connection!**
 
 ```(Java)
+// SQLiteTest.java
 import java.sql.Connection;
-import java.sql.DriverManager; import java.sql.SQLException;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class SQLiteTest {
 
