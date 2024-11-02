@@ -51,6 +51,12 @@ This video features examples of writing a procedure that combines the elements o
 
 Includes difference between pairs & lists, using pairs, and writing functions that work with pairs
 
+## pairprocedures.scm
+
+[Video](https://youtu.be/RjxklP-5eMs) (4:08): *Writing Scheme procedures with a pair as a parameter*
+
+This video features examples of writing procedures that have a pair as one of the paramters, including a case where a list is one of the elements in the pair.
+
 ## problems.scm
 
 [Video](https://youtu.be/EYgBVkSe4S4) (8:43) *Some common mistakes when working with recursive list procedures*
