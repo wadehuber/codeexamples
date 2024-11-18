@@ -34,7 +34,7 @@
 
 ## B-trees
 
-A paper about [modern use of B-trees](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.219.7269&rep=rep1&type=pdf).  This goes into way more detail than what you need for this course, but if you are interested in how databases work under the hood you should fine this helpful.
+A paper about [modern use of B-trees]([http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.219.7269&rep=rep1&type=pdf](https://web.archive.org/web/20160917171253/http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.219.7269&rep=rep1&type=pdf).  This goes into way more detail than what you need for this course, but if you are interested in how databases work under the hood you should fine this helpful.
 
 ## Heaps
 
