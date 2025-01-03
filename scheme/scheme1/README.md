@@ -20,6 +20,12 @@ This example covers equality checking and the difference between `=`, `eq?`, `st
 
 This example covers some the Boolean operators `and`, `or`, `xor`, and `not`.
 
+## returnboolean.scm
+
+[Video](https://youtu.be/xfaEL3ttfa4) (2:01): *Returning the result of a boolean expression in place of #t or #f*
+
+This example shows how you can return the result of evaluating a boolean expression instead of using an if structure to check the condition.  This can help simplify your code. 
+
 ## procedures.scm
 
 [Video](https://youtu.be/8gg2asyhuPU) (16:14): *Writing Scheme procedures*
