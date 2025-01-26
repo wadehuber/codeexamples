@@ -55,7 +55,7 @@ This is to help review how the * is used in C.
 ### pointer_review.c
 
 [Video](https://youtu.be/oGiUw35seyE) (23:10) - *Overview of pointer usage in C*
-This file has several different examples of using pointers, including an example of using malloc to allocate memory.  T
+This file has several different examples of using pointers, including an example of using malloc to allocate memory. 
 
 ## Strings & Pointers
 
