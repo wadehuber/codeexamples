@@ -8,7 +8,7 @@ template<typename T> void printVector(vector<T> vec, const string name);
 
 int main() {
     vector<int> v1(10);              // Create a vector with a capacity of 10
-    vector<int> v2 = {10, 20, 30};   // Initialize with an array initalizer
+    vector<int> v2 = {10, 20, 30};   // Initialize with an array initializer
     vector<int> v3;                  // Default initialization
     vector<int> v4 = {8, 3, 1, 5, 12, 13, 2, 7, 10};
     vector<int>::size_type vsize;    // size_type is an unsigned type that stores a size
@@ -108,7 +108,7 @@ int main() {
     printVector(v3, "v3");
 
 
-    cout << endl << "Calling push_back on a vector with a defined capactity " << endl;
+    cout << endl << "Calling push_back on a vector with a defined capacity " << endl;
     for (int ii=0;ii<10;ii++) {
         v1.push_back(ii+10);
     }

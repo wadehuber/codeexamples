@@ -13,8 +13,8 @@ This class does not cover networking, but it is an important topic to learn.  Th
 
 ## Network Programming
 
-- [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html/single/bgnet.html)
+- [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html/)
 
 ## Other Links
 
-- [The End-to-End Argument](https://www.usenix.org/conference/usenixsecurity10/end-end-arguments-internet-and-beyond)
+- [End-to-End Arguments: The Internet and Beyond](https://www.usenix.org/conference/usenixsecurity10/end-end-arguments-internet-and-beyond)

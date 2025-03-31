@@ -2,6 +2,8 @@
 
 ***NOTE: you only have to follow one set of instuctions below***
 
+[Windows 11 how to install the Linux Windows Subsystem](https://techcommunity.microsoft.com/t5/windows-11/how-to-install-the-linux-windows-subsystem-in-windows-11/m-p/2701207)
+
 - **Windows 10 & 11** (using Linux Subsystem for Linux & Ubuntu)
   - [Video: Windows 10](https://youtu.be/iPRULLjw96Y) (5:03)
   - [Video: Windows 11](https://youtu.be/L4YdOJFDjj4) (5:18)
@@ -23,7 +25,6 @@ Installation directions are shown below.
 
 I have created some videos to demonstrate how to compile under Linux or any other UNIX-like terminal.  Keep in mind that depending on the specific terminal you use, some things may be slightly different, but the overall procedure is the same.  
 
-- A [comparison of compiling C code using the 3 different methods for using gcc on Windows](https://www.youtube.com/watch?v=irCWodI1MO4)
 - A [video with a step-by-step walkthrough of editing, compiling, & running a C program](https://youtu.be/CPn8nvxbXFs) (7:37)
 - An [introduction to using the Linux command line for compiling C code](https://youtu.be/jCbawRqwWXU) (8:00)
 

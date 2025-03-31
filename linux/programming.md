@@ -39,7 +39,7 @@ Please note this was from June 27, 2012. They also have episodes about C, C++ an
 
 ## Programming in Linux/UNIX
 
-- [Directions for creating a daemon](http://www.enderunix.org/docs/eng/daemon.php)
+- [Directions for creating a daemon](https://www.makeuseof.com/create-daemons-on-linux/)
 - Some [falsehoods programmers believe about Unix time](https://alexwlchan.net/2019/05/falsehoods-programmers-believe-about-unix-time/)
 - [The Definitive Guide to Linux System Calls](https://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/)
 - [Making a System Call in C](https://jameshfisher.com/2018/02/19/how-to-syscall-in-c/)

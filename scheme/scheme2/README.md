@@ -9,6 +9,10 @@ You must understand recursion for this module.  The two videos below go over how
 
 [Video](https://youtu.be/IMJNNLLM99U) (9:05): *Review of atoms, define, cond, and defining functions*
 
+## cond_or_if.scm
+
+[Video](https://youtu.be/7T7cRF_gkkg) (2:35): *Using if vs using cond in Scheme*
+
 ## recursivearithmetic.scm
 
 [Video](https://youtu.be/uyER4B3q9ag) (6:43): *Example of recursively defining addition & subtraction*
@@ -46,6 +50,12 @@ This video features examples of writing a procedure that combines the elements o
 [Video](https://youtu.be/lML7RaSldkI) (15:16): *Introduction to Scheme pairs*
 
 Includes difference between pairs & lists, using pairs, and writing functions that work with pairs
+
+## pairprocedures.scm
+
+[Video](https://youtu.be/RjxklP-5eMs) (4:08): *Writing Scheme procedures with a pair as a parameter*
+
+This video features examples of writing procedures that have a pair as one of the paramters, including a case where a list is one of the elements in the pair.
 
 ## problems.scm
 

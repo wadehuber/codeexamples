@@ -45,7 +45,7 @@ Specific information about the paradigms covered in CSC240 on the page for those
 
 ## Coding Style
 
-- If you wonder why I always use braces, even for a single line block, the risk of introducing bugs like what is described in [this article about Apple's SSL/TLS bug from 2014](https://www.imperialviolet.org/2014/02/22/applebug.html) is why.  You may also find it interesting to see a "goto" used in real code.
+- If you wonder why I always use braces, even for a single line block, the risk of introducing bugs like what is described in [this article about Apple's SSL/TLS bug from 2014](https://web.archive.org/web/20140225140816/https://nakedsecurity.sophos.com/2014/02/24/anatomy-of-a-goto-fail-apples-ssl-bug-explained-plus-an-unofficial-patch/) is why.  You may also find it interesting to see a "goto" used in real code.
 - In some languages, [adding spaces](https://en.wikipedia.org/wiki/ABAP#Spaces) can completely change the meaning of a statement
 
 ## Learning Other Languages
@@ -67,6 +67,7 @@ Specific information about the paradigms covered in CSC240 on the page for those
 
 You will notice that I talk a lot about the history of programming languages.  While you may never actually code professionally in an old language, there are still ideas from the past that you can apply even in modern languages.
 
+- The [oldest programming languages still in use](https://www.oldest.org/technology/programming-languages/)
 - Bret Victor’s talk [The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4) discusses some “futuristic” ideas with programming languages from the perspective of someone in the 1970s.
 - “Uncle” Bob Martin on [The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc) gives an overview of the history of programming and talks about where it is headed.
 - [Plugboard Programming](http://www.righto.com/2017/04/1950s-tax-preparation-plugboard.html) on the IBM 403 Accounting Machine

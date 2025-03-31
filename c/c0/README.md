@@ -6,7 +6,7 @@ For CSC240 & CSC220 we will be using gcc.  Below are some videos to get you star
 
 - Windows 10 & 11 (using Linux Subsystem for Linux & Ubuntu)
   - [Video: Windows 10](https://youtu.be/iPRULLjw96Y) (5:03)
-  - [Video: Windows 11](https://youtu.be/L4YdOJFDjj4) (5:18)
+  - [Video: Windows 11](https://youtu.be/HrAsmXy1-78) (3:27)
 - Windows (using a Linux virtual machine)
   - [Video: Installing Visual Studio Code & gcc on a Windows 11 Virtual Machine](https://youtu.be/RZIk2IMUsdk) (5:46)
 - On older versions of Windows (prior to Windows 10) you can install [Cygwin](https://www.cygwin.com/)
@@ -26,6 +26,12 @@ This section examples go over programming basics in C
 [Video](https://youtu.be/nYiQMJNAPdY) (2:20) - *A hello world example.*
 
 Editing, compiling, & running a C program.  The #include statement brings in the forward declaration for the printf function.
+
+### [hello.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/CommandLine.java)
+
+[Video](https://youtu.be/thqSXsdLT3w) (4:03) - *Discussion of compilation & program execution in Java & C*
+
+The goal of this video is to show how what we are doing to run our C programs is not technically any different from what you were doing with Java & Eclipse, we are just being more explicit with each step.
 
 ### [c_overview.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/c_overview.c)
 

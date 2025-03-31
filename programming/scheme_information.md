@@ -4,9 +4,10 @@
 
 For Scheme, we will be using [DrRacket](https://download.racket-lang.org/).  Make sure you include the language directive `#lang scheme` at the top of each Scheme source file you create.  Save your files with the extension `.scm`.
 
-## Scheme (and other LISPs) Tutorials
+## Scheme (and other LISPs) Tutorials & Books
 
 - An excellent video explaining how recursively adding elements of a list works - [The Parable of the Clones](https://youtu.be/Al15GtRxmRE)
+- [*The Scheme Programming Language*](https://www.scheme.com/tspl4/) by R. Kent Dybvig is available free online.
 
 ## History of Lisp & Scheme
 
@@ -146,7 +147,7 @@ More information:
 
 - [Why Isn't Functional Programming the Norm](https://youtu.be/QyJZzq0v7Z4)
 - [LambdaNative](http://www.lambdanative.org/) is a framework for developing mobile apps in Scheme.
-- A LISP application in [the pharmaceutical industy](https://franz.com/success/customer_apps/bioinformatics/mdl_story.lhtml)
+- A LISP application in [the pharmaceutical industry](https://franz.com/success/customer_apps/bioinformatics/mdl_story.lhtml)
 - LISP & [the development of the GNU Emacs](https://www.gnu.org/gnu/rms-lisp.en.html)
 - LISP was used in several games.  Here are some post-mortem comments about [LISP's use in Jax & Dexter](http://wiki.c2.com/?LispInJakAndDaxter).
 - The Halo mission scripting language [was based on LISP](https://opencarnage.net/index.php?/topic/4156-scripting-guide/)

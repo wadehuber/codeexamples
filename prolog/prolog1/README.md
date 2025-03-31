@@ -15,3 +15,9 @@
 ## moreexamples.pl
 
 [VIDEO](https://youtu.be/fjw5nif64X8) (17:14) - (note that the same_temp/2 rule that is shown own screen at the start of the video is not included in this file)
+
+## otherexamples.pl
+
+I use this file to store small examples for short videos
+
+[VIDEO](https://youtu.be/CFuBfQwtscE) (2:12) - Explaination of why some queries return both true and false

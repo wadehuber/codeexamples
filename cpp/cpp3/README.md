@@ -31,8 +31,17 @@ In this video I show an example of using a vector to store objects of a custom c
 
 [Video](https://youtu.be/YaupVd9vTOA) (5:22) : *Another example of using C++ Maps, this time with a custom class as the key value*
 
+## random.cpp
+
+NO VIDEO : *Example of generating random integers*
+
 ## algorithm.ccp
 
 [Video](https://youtu.be/2XW4bD_cV-M) (13:45): *Methods from the C++ algorithms library*
 
 Note that the examples of any_of, any_of, none_of all use lambdas which we haven't covered yet.  For now, just keep in mind that the lambda function is contained between the braces, so you can update that part to have it do what you want.
+
+## readfile.cpp
+
+[Video](https://youtu.be/fxKr6lZ0HeY)(10:00)
+*Example of reading a file & parsing a string in C++.  This program is equivalent to readfile.c.*
