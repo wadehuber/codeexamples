@@ -34,6 +34,10 @@ This example covers writing Scheme procedures, including lambdas, conditionals, 
 
 [Video](https://youtu.be/wxipASELjOQ) You can use an actual lambda character instead of the `lambda` keyword by typing `<Ctrl>-\`.
 
+## lambdavsnamed.scm
+
+NOVIDEO Example of a lambda vs a named function/procedure.
+
 ## introlists.scm
 
 [Video](https://youtu.be/t6go5AbXE-U) (12:24): *Introduction to lists in Scheme*
