@@ -36,7 +36,7 @@ This example covers writing Scheme procedures, including lambdas, conditionals, 
 
 ## lambdavsnamed.scm
 
-NOVIDEO Example of a lambda vs a named function/procedure.
+[Video](https://youtu.be/jpT3oUc2wQc) (2:08) Example of a lambda vs a named function/procedure.
 
 ## introlists.scm
 
