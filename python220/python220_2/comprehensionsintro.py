@@ -6,7 +6,6 @@
     using loops to create these data structures.
 """ 
 
-
 # Examples without using comprehensions
 print("Old style:")
 
@@ -29,11 +28,11 @@ print()
 print("Using comprehensions:")
 
 
-# Create a list of letters from a word using a list comprension
+# Create a list of letters from a word using a list comprehension
 lets = [c for c in WORD]  # list comprehension
 print(lets)
 
-# Create a list of squares of numbers using a list comprension
+# Create a list of squares of numbers using a list comprehension
 squares = [x*x for x in nums] # list comprehension
 print(squares)
 
@@ -62,7 +61,6 @@ students = ['Alice', 'Bob', 'Charlie']
 grades = [85, 92, 78]
 grade_book = {student: grade for student, grade in zip(students, grades)}
 print(grade_book) # {'Alice': 85, 'Bob': 92, 'Charlie': 78}
-
 
 # A more complicated list comprehension example
 # This creates a list of products of two numbers from 0 to 9
