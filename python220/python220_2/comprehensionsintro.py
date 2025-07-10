@@ -7,7 +7,7 @@
 """ 
 
 
-# Old style
+# Examples without using comprehensions
 print("Old style:")
 
 # Create a list of letters from a word
@@ -22,39 +22,20 @@ nums = [1, 2, 3, 4, 5]
 squares = []
 for x in nums:
     squares.append(x * x)  # append square of each number
+print(squares)
 
 # Comprehensions
 print()
-print("Using Comprehensions:")
-# This is a more concise way to create lists, sets, or dictionaries
+print("Using comprehensions:")
 
-# Create a list of letters from a word using list comprehension
+
+# Create a list of letters from a word using a list comprension
 lets = [c for c in WORD]  # list comprehension
 print(lets)
 
-# Create a list of squares of numbers using list comprehension
-squares = [x * x for x in nums]            # list comprehension
-print(squares)  # [1, 4, 9, 16, 25]
-
-# Set & dict comprensions
-evens   = {x for x in nums if x % 2 == 0}  # set comprehension
-print(evens)    # {2, 4}
-
-lookup  = {x: x ** 3 for x in nums}        # dict comprehension
-print(lookup)   # {1:1, 2:8, ...}
-
-print()
-print("List Comprehensions")
-# This is a more concise way to create lists
-nums = [1, 2, 3, 4, 5]
-squares = [x * x for x in nums]
-print(squares)  # [1, 4, 9, 16, 25]
-
-# List comprehensions with conditions
-nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-even_squares = [x * x for x in nums if x % 2 == 0]
-print(even_squares) # [4, 16, 36, 64, 100]
-
+# Create a list of squares of numbers using a list comprension
+squares = [x*x for x in nums] # list comprehension
+print(squares)
 
 print()
 print("Set Comprehensions")
@@ -90,7 +71,6 @@ result = [x * y
           for y in range(10)
           if x * y > 20
           and x % 2 == 0]
-
 
 # Shortcuts so that you don't have to use a comprehension
 print()
