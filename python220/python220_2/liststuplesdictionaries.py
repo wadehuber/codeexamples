@@ -1,9 +1,13 @@
 """
-Python Lists, Tuples, and Dictionaries
+# File: liststuplesdictionaries.py
+# This module demonstrates the use of lists, tuples, and dictionaries in Python
+
+# It covers creation, operations, and practical examples of these data
+# structures. It also includes examples of list comprehensions, tuple unpacking,
+# and nested dictionaries.
 """
 
 from collections import namedtuple
-
 
 print("#" * 70)
 print("LISTS - Mutable, ordered collections")
@@ -78,16 +82,12 @@ a, b, c = colors
 print(f"Unpacked colors: a={a}, b={b}, c={c}")
 
 # Tuples as dictionary keys (since they're immutable)
-locations = {
-    (0, 0): "origin",
-    (1, 1): "northeast",
-    (-1, -1): "southwest"
-}
+locations = {(0, 0): "origin", (1, 1): "northeast", (-1, -1): "southwest"}
 print(f"Locations: {locations}")
 
 # Named tuples (from collections module)
 # from collections import namedtuple
-Point = namedtuple('Point', ['x', 'y'])
+Point = namedtuple("Point", ["x", "y"])
 p = Point(3, 4)
 print(f"Named tuple: {p}, x={p.x}, y={p.y}")
 
@@ -96,12 +96,7 @@ print("DICTIONARIES - Mutable, key-value pairs")
 print("#" * 70)
 
 # Creating dictionaries
-student = {
-    "name": "Alice",
-    "age": 20,
-    "major": "Computer Science",
-    "gpa": 3.8
-}
+student = {"name": "Alice", "age": 20, "major": "Computer Science", "gpa": 3.8}
 
 # Different ways to create dictionaries
 empty_dict = {}
@@ -141,7 +136,7 @@ for key, value in student.items():
 students = {
     "alice": {"age": 20, "major": "CS"},
     "bob": {"age": 19, "major": "Math"},
-    "charlie": {"age": 21, "major": "Physics"}
+    "charlie": {"age": 21, "major": "Physics"},
 }
 
 print(f"\nNested dictionaries: {students}")
@@ -175,12 +170,14 @@ print("#" * 70)
 # Example 1: Shopping cart (using dictionary)
 shopping_cart = {}
 
+
 def add_item(cart, product, amount):
-    """ Add an item to the shopping cart if it doesn't already exist. """
+    """Add an item to the shopping cart if it doesn't already exist."""
     if product in cart:
         cart[product] += amount
     else:
         cart[product] = amount
+
 
 add_item(shopping_cart, "apples", 5)
 add_item(shopping_cart, "bananas", 3)
@@ -194,7 +191,7 @@ for item, quantity in shopping_cart.items():
 grades = {
     "Alice": [85, 92, 78, 96],
     "Bob": [79, 85, 88, 92],
-    "Charlie": [92, 88, 84, 90]
+    "Charlie": [92, 88, 84, 90],
 }
 
 print("\nStudent averages:")
@@ -218,9 +215,9 @@ print(f"\nPath coordinates: {path}")
 # Calculate distance traveled
 TOTAL_DISTANCE = 0
 for i in range(1, len(path)):
-    x1, y1 = path[i-1]
+    x1, y1 = path[i - 1]
     x2, y2 = path[i]
-    distance = ((x2-x1)**2 + (y2-y1)**2)**0.5
+    distance = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
     TOTAL_DISTANCE += distance
 
 print(f"Total distance: {TOTAL_DISTANCE:.2f}")
