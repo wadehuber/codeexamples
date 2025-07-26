@@ -72,6 +72,8 @@ stray223224.c:4:14: error: stray ‘\234’ in program
     4 |     printf(File not found error example\n”);
 ```
 
+[Video](https://youtu.be/EHpQnDPyfTA) (2:50)
+
 The likely cause is that you did a copy & paste from a program that uses smart quotes (such as MS Word or Google Docs).  Double check each quote in your program to be sure you have an actual single/double quote and NOT a smart quote.
 
 ### Expected declaration or statement
