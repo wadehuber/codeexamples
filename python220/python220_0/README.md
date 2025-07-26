@@ -8,6 +8,8 @@
 
 You can download Python for Windows from the [official Python site](https://www.python.org/downloads/)
 
+You can also use Python on Windows Subsystem for Linux.  Here is a video walking through [installing Python with pyenv in Ubuntu for Windows](https://youtu.be/pMlLDWQ8SuE) (6:03)
+
 #### PyCharm
 
 PyCharm is a great, free Python IDE which you can download form [JetBrains](https://www.jetbrains.com/pycharm/download/)
