@@ -22,7 +22,7 @@ application: not a procedure;
 
 This happens when you ask Scheme to evaluate something where the first item in the form is not a procedure.  A common place where this occurs is when you forget to quote a list, like `(car (1 2 3 4))`.  In this case, `(1 2 3 4)` is not a list.
 
-## Airity mismatch
+## Arity mismatch
 
 ```(text)
 my-defined-function: arity mismatch;
@@ -32,7 +32,7 @@ the expected number of arguments does not match the given number
  arguments…;
 ```
 
-This error is given when you pass the wrong number of arguments to a function.  The expected number of arguments will be listed along with how many arguments you passed.  To resolve, you need to find where the function call is with the wrong number of parameters.  This is a common error with recursive functions.  Check that both recursive calls have the coorect number of parameters.
+This error is given when you pass the wrong number of arguments to a function.  The expected number of arguments will be listed along with how many arguments you passed.  To resolve, you need to find where the function call is with the wrong number of parameters.  This is a common error with recursive functions.  Check that both recursive calls have the correct number of parameters.
 
 ```(scheme)
 (define (my-function)

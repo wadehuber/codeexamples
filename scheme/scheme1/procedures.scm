@@ -34,7 +34,7 @@ trip
 (atom? (cons 1 2))
 (atom? (list 1 2 3))
 
-"Define a procedure with 2 paramters"
+"Define a procedure with 2 parameters"
 (define addem
   (lambda (a b)
     (+ a b)))
@@ -60,7 +60,7 @@ addem
 (do integer? 8)
 (do (lambda (x) (* x (+ x 1))) 3)
 ;(do 10 20)     ; 10 is not a procedure
-;(do addem 1)   ; airity mismatch - addem takes 2 parameters
+;(do addem 1)   ; arity mismatch - addem takes 2 parameters
 (do (lambda (x) (addem x 100)) 1)
 
 (newline)
