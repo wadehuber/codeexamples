@@ -2,8 +2,9 @@
 
 ## Git Videos
 
-- [Fixing chmod on config.lock failed error](https://youtu.be/uTw50U9sMO8) (1:35) walks through setting up Windows Subsystem for Linux to allow git to update file permissions
+- [Everything You Need to Know about Git](https://www.youtube.com/watch?v=K6Q31YkorUE) from ForrestKnight (23:15)
 - [Adding SSH keys to GitHub](https://youtu.be/_sTURUDtTQs) (2:40) walks through generating SSH keys on Ubuntu then adding the to your GitHub account
+- [Fixing chmod on config.lock failed error](https://youtu.be/uTw50U9sMO8) (1:35) walks through setting up Windows Subsystem for Linux to allow git to update file permissions
 
 ## Git Tutorials
 
