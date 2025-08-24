@@ -46,6 +46,7 @@ The flags above are required, bug gcc has a lot of other flags you may want to u
 - [Efficient String Operations in C](https://developers.redhat.com/blog/2019/08/12/efficient-string-copying-and-concatenation-in-c/) - specifically copying & concatenation
 - VIDEO: [What Are Pointers](https://www.youtube.com/watch?v=iChalAKXffs) is an excellent introduction to pointers.  The video uses C++ but the first half of the video is applicable to C as well.
 - A video on [Pointers](https://www.youtube.com/watch?v=5BpYD7TxvKU&list=PL6gx4Cwl9DGAKIXv8Yr6nhGJ9Vlcjyymq&index=42) that is part of a C programming tutorial.  There are several other videos on pointer topics in the playlist following this video.
+- The [Clockwise/Spiral Rule](https://c-faq.com/decl/spiral.anderson.html) is a technique to help you understand what is going on with a C declaration.
 
 ## Advanced C Tutorials/Examples
 
@@ -140,6 +141,7 @@ for (int ii=0;ii<10;ii++) {
 - [Why C & C++ Are Awful Programming Languages](https://www.radford.edu/ibarland/Manifestoes/whyC++isBad.shtml) is written from a teaching perspective, but has some interesting points about both C & C++.
 - The paper [The Case for Writing Network Drivers in High-Level Programming Languages](https://www.net.in.tum.de/fileadmin/bibtex/publications/papers/the-case-for-writing-network-drivers-in-high-level-languages.pdf) argues that network drivers should be written in higher level languages
 - [C11 Defects - C threads are not realizable with POSIX threads](https://gustedt.wordpress.com/2012/10/14/c11-defects-c-threads-are-not-realizable-with-posix-threads/)
+- [How Do I Declare a Function Pointer in C?](https://goshdarnfunctionpointers.com/)
 
 ## Object-Oriented Programming with C
 
