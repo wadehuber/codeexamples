@@ -40,6 +40,27 @@ Undefined reference
 
 This is typically the result of an error during the linking phase.  Make sure you are compiling all the C files you need (you can add more than one C file to your compile command).
 
+### Undefined reference to 'sqrt' (or other math.h functions - floor, ceil, round, sin, tan, cos)
+
+```(text)
+/usr/bin/ld: /tmp/ccm9wUlD.o: in function `main':
+mathstuff.c:(.text+0x26): undefined reference to `sqrt'
+/usr/bin/ld: mathstuff.c:(.text+0x1c9): undefined reference to `floor'
+/usr/bin/ld: mathstuff.c:(.text+0x24b): undefined reference to `ceil'
+/usr/bin/ld: mathstuff.c:(.text+0x373): undefined reference to `cos'
+/usr/bin/ld: mathstuff.c:(.text+0x3cf): undefined reference to `sin'
+/usr/bin/ld: mathstuff.c:(.text+0x42b): undefined reference to `tan'
+collect2: error: ld returned 1 exit status
+```
+
+[VIDEO](https://youtu.be/oIwfFwmcAHQ)
+
+This is happening because you are not linking with the math library, where the functions in `math.h` are defined.  The fix here is to compile with the `-lm` flag, where the `-l` directs gcc to load a library and the `m` specifies the math library.  
+
+```(bash)
+gcc myfile.c --std=c99 -lm
+```
+
 ### C++ style comments not allowed
 
 ```(text)
