@@ -69,7 +69,8 @@ mother(sue, bob).
 mother(ann, sue).
 dad(X, Y)  :-  father(X, Y).
 child(Y, X)  :-  father(X, Y).
-parent(X, Y) :- mother(X, Y); father(X, Y).
+parent(X, Y) :- mother(X, Y).
+parent(X, Y) :- father(X, Y).
 grandmother(X, Y) :- mother(X, Z), parent(Z, Y).
 is_grandmother(X) :- grandmother(X, _).
 grandparent(A, D) :- 
@@ -109,7 +110,7 @@ change([], []) :- !.   % base case
 % The next rule add 'secret' to the front of the result, then changes the tail
 %   note secret is an atom so we do not need quotes
 change([_H| T], [secret | T1]) :- change(T, T1).  
-% we don’t need a rule for the case where we don’t give the rule a list as a parameter since the existing two rules will fail for any non-list.
+% we donï¿½t need a rule for the case where we donï¿½t give the rule a list as a parameter since the existing two rules will fail for any non-list.
 % this line tests change/2
 :- change([1, 2, 3], X), write(X), nl.
 
