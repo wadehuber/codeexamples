@@ -16,6 +16,13 @@ If you want something a bit more high-end, [Sicstus](https://sicstus.sics.se/) i
 - *The Art of Prolog* is an excellent book on Prolog and logic programming.  It is available [for free online](https://mitpress.mit.edu/books/art-prolog-second-edition) - look under the "Open Access" tab.
 - [The Power of Prolog](https://www.metalevel.at/prolog) is a more thorough, advanced tutorial.
 
+## Prolog Books
+
+- [The Art of Prolog: Advanced Programming Techniques](https://mitpress.mit.edu/9780262691635/the-art-of-prolog/) by Leon S. Sterling and Ehud Y. Shapiro *This text is available Open Access*
+- Clause and Effect: Prolog Programming for the Working Programmer by W. F. Clocksin
+- [Programming in Prolog: Using the ISO Standard](https://link.springer.com/book/10.1007/978-3-642-55481-0) by W. F. Clocksin and C. S. Mellish
+- [Prolog Programming for Artificial Intelligence](https://www.pearson.com/en-ca/subject-catalog/p/prolog-programming-for-artificial-intelligence/P200000003804/9780321417466) by Ivan Bratko
+
 ## Representation of Lists of 2 elements in Scheme vs Prolog
 
 - Scheme: `(X1, Y1)` is equivalent to `(X1 . (Y1 . ())`
