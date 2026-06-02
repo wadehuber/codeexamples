@@ -30,3 +30,15 @@ Python usually is installed with Linux.  You can run it using the command `pytho
 
 [Video](https://youtu.be/U2bcCsYFAlQ) (5:09): Indentation is important in Python - its how we indicate code blocks. This video walks through some of the things you need to know about.
 
+### controlflowintro.py
+
+Control flow fundamentals: conditionals (ternary operators), for loops, and while loops. Demonstrates dynamic typing and f-strings.
+
+### loc_counter.py
+
+A practical example showing how Python can be useful for software engineers. This script recursively analyzes a directory of Python files and reports: total lines, code lines, comment lines, and blank lines.
+
+**Usage:** `python loc_counter.py [directory]` (defaults to current directory)
+
+**Shows:** File I/O, loops, string methods, command-line arguments, and the `os` module.
+

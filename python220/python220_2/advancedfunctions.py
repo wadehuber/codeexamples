@@ -34,3 +34,11 @@ print(greet("Luke", "Use the Force"))
 print(greet("Han", "Never tell me the odds"))
 print(stats(7))
 print(stats(10, 20, 30, 40))
+
+def example_function1(positional1, positional2, /, keyword1="either", keyword2="or"):
+    pass   # This function is just an example and does not perform any operations.
+
+def example_function2(positional1, keyword1="here", *, keywdonly1="abc", keywdonly2="123"):
+    pass   # This function is just an example and does not perform any operations.
+
+
