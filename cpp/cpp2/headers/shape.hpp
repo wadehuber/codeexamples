@@ -10,6 +10,8 @@ class Shape {
     public:
         Shape(const std::string &t="Shape") : type(t) {}  
 
+        virtual ~Shape() {} // virtual destructor for proper cleanup of derived classes
+
         // non-virtual method
         void print() const { std::cout << "I am a shape" << std::endl; }
         

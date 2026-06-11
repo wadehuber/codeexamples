@@ -52,5 +52,11 @@ int main() {
         s->print();
         cout << "  area=" << s->area() << "  perimeter=" << s->perimeter() << endl;
     }
+
+    // Clean up dynamically allocated shapes
+    for (auto s : sArray) {
+        delete s;
+    }
+
     return 0;
 }
