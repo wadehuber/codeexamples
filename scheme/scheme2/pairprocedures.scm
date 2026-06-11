@@ -27,3 +27,7 @@
     (if (null? (car pr))
         '()
         (cons (* (car (car pr)) (cdr pr)) (multiply-by (cons (cdr (car pr)) (cdr pr)))))))
+
+(multiply-by '((17) . 3))
+(multiply-by '((1 2 3 4 5 6) . 3))
+(multiply-by (cons '(1 2 3 4) 5))
