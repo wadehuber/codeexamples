@@ -17,7 +17,7 @@ int main () {
     my_struct struct2 = {2, 1.234};
 
     printf("struct mystruct: num=%d, name=%s\n", struct1.num, struct1.name);
-    printf(" mystruct: count=%d, average=%s\n", struct2.count, struct2.average);
+    printf(" mystruct: count=%d, average=%.2f\n", struct2.count, struct2.average);
 
     return 0;
 }
