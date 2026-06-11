@@ -1,51 +1,181 @@
-# Prerequisites
+```gitignore
+# ------------------------------------------------------------
+# OS / general
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.bak
+*.tmp
+*.temp
+*~
+*.stackdump
+
+
+# ------------------------------------------------------------
+# Editors
+# ------------------------------------------------------------
+
+# Vim
+*.swp
+*.swo
+*.swn
+.vim/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Notepad++
+*.bak
+
+
+# ------------------------------------------------------------
+# C / C++
+# ------------------------------------------------------------
+
+# Dependency files
 *.d
 
-# Compiled Object files
-*.slo
-*.lo
+# Object files
 *.o
 *.obj
+*.lo
+*.slo
 
-# Precompiled Headers
+# Precompiled headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Libraries
+*.a
+*.lib
+*.la
+*.lai
+
+# Shared / dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
 
-# Other files
-.DS_Store
-*.swp
-compiled
-*.bak
-*.o
-*.stackdump
-*~
-.vscode/c_cpp_properties.json
+# Common build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
-# DrRacket
+# Compiler output sometimes used in examples
+compiled
+
+
+# ------------------------------------------------------------
+# Java
+# ------------------------------------------------------------
+
+*.class
+*.jar
+*.war
+*.ear
+
+# Common Java build directories
+target/
+.gradle/
+build/
+
+# IntelliJ / Eclipse, in case they appear
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling / caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Local Python version file
+.python-version
+
+
+# ------------------------------------------------------------
+# Jupyter notebooks
+# ------------------------------------------------------------
+
+.ipynb_checkpoints/
+
+
+# ------------------------------------------------------------
+# Scheme / Racket / DrRacket
+# ------------------------------------------------------------
+
+# DrRacket autosave / backup files
+*.rkt~
+*.scm~
+*.ss~
 *.1
 *.2
 
-c/c5/example
+# Racket compiled files
+compiled/
+
+
+# ------------------------------------------------------------
+# Prolog
+# ------------------------------------------------------------
+
+# SWI-Prolog quick load / saved states
+*.qlf
+*.sav
+
+
+# ------------------------------------------------------------
+# Databases / course-specific files
+# ------------------------------------------------------------
+
+*.mdb
 lock.mdb
 data.mdb
 lock
+
+
+# ------------------------------------------------------------
+# Course-specific generated files
+# ------------------------------------------------------------
+
+c/c5/example
+```
