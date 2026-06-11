@@ -81,11 +81,21 @@ lst
 "Return list with only number"
 (define only-nums
   (lambda (lst)
-    (if (null?)
+    (if (null? lst)
         '()
         (if (number? (car lst))
             (cons (car lst) (only-nums (cdr lst)))
             (only-nums (cdr lst))))))
+(only-nums '())
+(only-nums '(1))
+(only-nums '(1 2 3 4))
+(only-nums '((1 2) 3 4))
+(only-nums '(a b c d))
+(only-nums '(1 a 2 b 3 c 4))
+(only-nums '(apple 99 banana 3.14 cherry -12))
+(only-nums '(#t #f "string" symbol))
+(only-nums '(1.0 2e3 -0.5))
+
 
 "member?"
 (define member?
