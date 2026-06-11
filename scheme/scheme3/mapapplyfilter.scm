@@ -66,7 +66,7 @@ lst3
     (cond
       ((null? lst) '())
       ((fun (car lst)) (cons (car lst) (filter-r fun (cdr lst))))
-      (else (filter fun (cdr lst))))))
+      (else (filter-r fun (cdr lst))))))
 
 "testing filter"
 (filter even? lst1)
