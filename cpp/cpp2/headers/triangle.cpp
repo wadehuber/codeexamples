@@ -1,14 +1,17 @@
 #include<iostream>
+#include<cmath>
 #include"triangle.hpp"
 
 using namespace std;
 
 float Triangle::area() const { 
-    return base * height;
+    return 0.5f * base * height;
 }
 
 float Triangle::perimeter() const { 
-    return 0.5 * base * height;
+    // Assume right triangle
+    float hypotenuse = std::sqrt(base * base + height * height);
+    return base + height + hypotenuse;
 }
 
 void Triangle::print() const {
