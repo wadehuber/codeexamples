@@ -2,31 +2,31 @@
 
 If you have not already done so, change the default language in DrRacket to `#lang scheme`. [This video walks you through changing the default](https://youtu.be/5yRsuO4fy4M).
 
-## datatypes.scm
+## [datatypes.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme1/datatypes.scm)
 
 [Video](https://youtu.be/gErFSiMQyKU) (21:54): *Examples of data types and predicates in Scheme*
 
 This example covers comments, data types, symbols & strings, predicates for data types, using define, and checking equality.
 
-## checkingequality.scm
+## [equalitychecking.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme1/equalitychecking.scm)
 
 [Video](https://youtu.be/09nnf3WWFt8) (7:45): *Scheme Boolean operators*
 
 This example covers equality checking and the difference between `=`, `eq?`, `string=?`, and `equal?`.
 
-## booleanoperators.scm
+## [booleanoperators.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme1/booleanoperators.scm)
 
 [Video](https://youtu.be/REWCHiIl9nc) (3:44): *Checking equality in Scheme*
 
 This example covers some the Boolean operators `and`, `or`, `xor`, and `not`.
 
-## returnboolean.scm
+## [returnboolean.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme1/returnboolean.scm)
 
 [Video](https://youtu.be/xfaEL3ttfa4) (2:01): *Returning the result of a boolean expression in place of #t or #f*
 
 This example shows how you can return the result of evaluating a boolean expression instead of using an if structure to check the condition.  This can help simplify your code. 
 
-## procedures.scm
+## [procedures.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme1/procedures.scm)
 
 [Video](https://youtu.be/8gg2asyhuPU) (16:14): *Writing Scheme procedures*
 
@@ -34,16 +34,20 @@ This example covers writing Scheme procedures, including lambdas, conditionals, 
 
 [Video](https://youtu.be/wxipASELjOQ) You can use an actual lambda character instead of the `lambda` keyword by typing `<Ctrl>-\`.
 
-## lambdavsnamed.scm
+## [lambdavsnamedprocedure.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme1/lambdavsnamedprocedure.scm)
 
 [Video](https://youtu.be/jpT3oUc2wQc) (2:08) Example of a lambda vs a named function/procedure.
 
-## introlists.scm
+## [namedprocedure.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme1/namedprocedure.scm)
+
+Procedures in Scheme are first-class values - they can be stored in names, passed as arguments, and returned from other procedures.  This example shows how a lambda expression creates a procedure and define gives it a name, then shows the shorter "named procedure" define form and explains how the two forms relate.
+
+## [introlists.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme1/introlists.scm)
 
 [Video](https://youtu.be/t6go5AbXE-U) (12:24): *Introduction to lists in Scheme*
 
 Creating lists with `list` & `quote` and using ths list operations `car` & `cdr`.
 
-## carcdrexample.scm
+## [carcdrexample.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme1/carcdrexample.scm)
 
 [Video](https://youtu.be/wDMb4EXdUPA) (7:23): *Using car & cdr to extract elements from a nested Scheme list*

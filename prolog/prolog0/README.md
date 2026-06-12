@@ -6,10 +6,14 @@
 - [VIDEO: Consulting a file in SWI-Prolog on MacOS](https://youtu.be/3HSPB9qPSCk) (1:38) walks through how to manually consult a file, handy if you don't get a 'File' menu in your installation.
 - [VIDEO: Installing Visual Studio Code](https://youtu.be/Ra_EJ_bMduY) (3:47) including how to install the recommended Prolog extension
 
-## prolog0.pl
+## [prolog0.pl](https://github.com/wadehuber/codeexamples/blob/master/prolog/prolog0/prolog0.pl)
 
 [Video](https://youtu.be/4R-lBsQhUeM) (6:02): An introduction to Prolog
 
-## factsqueries.pl
+## [factsqueries.pl](https://github.com/wadehuber/codeexamples/blob/master/prolog/prolog0/factsqueries.pl)
 
 [Video](https://youtu.be/sJIEBlWaE1U) (2:39): The difference between facts and queries
+
+## [usingswi.pl](https://github.com/wadehuber/codeexamples/blob/master/prolog/prolog0/usingswi.pl)
+
+A small factbase used to practice consulting a file and running queries in SWI-Prolog.  Also includes an example of using `findall/3` to gather all of the solutions to a query into a single list.

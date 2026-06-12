@@ -27,7 +27,7 @@ This section examples go over programming basics in C
 
 Editing, compiling, & running a C program.  The #include statement brings in the forward declaration for the printf function.
 
-### [hello.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/CommandLine.java)
+### [CommandLine.java](https://github.com/wadehuber/codeexamples/blob/master/c/c0/CommandLine.java)
 
 [Video](https://youtu.be/thqSXsdLT3w) (4:03) - *Discussion of compilation & program execution in Java & C*
 
@@ -44,6 +44,10 @@ This file goes over many of the features of C you will need to know, including d
 [Video](https://youtu.be/KeXW4lb1Vv8) (3:23) - *Getting user input in C using scanf.*
 
 Note that scanf is not the best way to do it, but will suffice at first.  The scanf function takes a pointer to a variable as its parameter so we need to pass the address (&) of the variable.  We will go into more detail later in the course.
+
+### [scanf.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/scanf.c)
+
+More examples of getting user input with scanf, including reading multiple data types and a string.  See the inputoutput.c video above for an introduction to scanf.
 
 ### [printf.c](https://github.com/wadehuber/codeexamples/blob/master/c/c0/printf.c)
 

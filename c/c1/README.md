@@ -7,6 +7,10 @@
 [Video](https://youtu.be/T6eSt06zuaA) (9:47) - *Declaring and initializing arrays.  Array sizes.  sizeof.*
 The important thing to keep in mind about C arrays is that C does not perform any bounds checking.  So you can use an index that is larger than the size of the array!  What happens in that case?  In C the size of the array is the number of bytes allocated for the array, not the number of elements in the array.  So to determine the number of elements in an array you have to divide its size by the size of the type of the element it stores.  One caveat to keep in mind - even the size of the array is lost when you pass the array to a function.  So if you want to write a function that takes an array as a parameter you should include a length parameter as well.
 
+### [sizeofarrays.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/sizeofarrays.c)
+
+Demonstrates that arrays passed to functions decay to pointers, so sizeof(arr) inside a function will not give the size of the array.  Also shows how to compute the number of elements in an array by dividing the array size by the element size.  Best practice is to pass the size of the array as a parameter to any function that uses an array, including strings.
+
 ### [strings.c](https://github.com/wadehuber/codeexamples/blob/master/c/c1/strings.c)
 
 - [Video - Introduction to C strings](https://youtu.be/1CgrUZgLQlc) (4:05) - *Introduction to strings in C*

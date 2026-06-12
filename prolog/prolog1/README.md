@@ -6,7 +6,7 @@ An introductory guide to Prolog programming with practical examples and video tu
 
 ## Files Overview
 
-### trace.pl
+### [trace.pl](https://github.com/wadehuber/codeexamples/blob/master/prolog/prolog1/trace.pl)
 
 This file demonstrates how to use Prolog's `trace` feature to debug queries step-by-step.
 
@@ -14,7 +14,7 @@ This file demonstrates how to use Prolog's `trace` feature to debug queries step
 
 ---
 
-### factsandrules.pl
+### [factsandrules.pl](https://github.com/wadehuber/codeexamples/blob/master/prolog/prolog1/factsandrules.pl)
 
 Introduction to Prolog facts (base knowledge) and rules (logical deductions). This example uses a Star Wars family tree to demonstrate:
 
@@ -26,7 +26,7 @@ Introduction to Prolog facts (base knowledge) and rules (logical deductions). Th
 
 ---
 
-### variables.pl
+### [variables.pl](https://github.com/wadehuber/codeexamples/blob/master/prolog/prolog1/variables.pl)
 
 Example of working with variables in Prolog, including:
 
@@ -36,7 +36,7 @@ Example of working with variables in Prolog, including:
 
 ---
 
-### workingwithnumbers.pl
+### [workingwithnumbers.pl](https://github.com/wadehuber/codeexamples/blob/master/prolog/prolog1/workingwithnumbers.pl)
 
 Master working with numbers in Prolog:
 
@@ -50,7 +50,7 @@ Master working with numbers in Prolog:
 
 ---
 
-### moreexamples.pl
+### [moreexamples.pl](https://github.com/wadehuber/codeexamples/blob/master/prolog/prolog1/moreexamples.pl)
 
 This file contains more complex examples building on the fundamentals, including advanced rule definitions and multi-step logical reasoning.
 
@@ -60,7 +60,7 @@ This file contains more complex examples building on the fundamentals, including
 
 ---
 
-### otherexamples.pl
+### [otherexamples.pl](https://github.com/wadehuber/codeexamples/blob/master/prolog/prolog1/otherexamples.pl)
 
 A collection of smaller examples created for brief demonstrations.
 

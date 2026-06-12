@@ -18,7 +18,7 @@ Linux command references & tips.
 
 ## [programming.md](https://github.com/wadehuber/codeexamples/blob/master/linux/programming.md)
 
-Contains links & information about programming, debugging, and shell scripting (bash) under Unix & Linux.  
+Contains links & information about programming, debugging, and shell scripting (bash) under Unix & Linux.  See also the [bash script examples](../bash/README.md) in this repository.
 
 ## [git.md](https://github.com/wadehuber/codeexamples/blob/master/programming/git.md)
 

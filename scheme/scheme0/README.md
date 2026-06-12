@@ -14,11 +14,13 @@ We will be using DrRacket as our Scheme IDE/REPL.  DrRacket comes with the Racke
 
 One thing that can be confusing to programmers first learning Scheme is that Scheme uses prefix notation - the operator comes before the operands like this.  So to say 10 + 7 in Scheme, we use the Scheme form `(+ 10 7)`.
 
-## racket.scm
+The files [prefix.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme0/prefix.scm) and [prefix.c](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme0/prefix.c) show the same simple addition examples written in Scheme and in C, so you can compare prefix notation with the infix notation you are used to.
+
+## [racket.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme0/racket.scm)
 
 [Video](https://youtu.be/lxH7bnc9OOk) (5:51): Example of using DrRacket
 
-## scheme0.scm
+## [scheme0.scm](https://github.com/wadehuber/codeexamples/blob/master/scheme/scheme0/scheme0.scm)
 
 [Video](https://youtu.be/XRXXtBMMas4) (8:13) : Introduction to writing Scheme code with DrRacket
 
