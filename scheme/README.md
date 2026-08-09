@@ -6,3 +6,4 @@
 - [Scheme 1 - Scheme data types, predicates, strings vs symbols](scheme1/README.md) - Data types, equality checking, Boolean operators, procedures, & an introduction to lists
 - [Scheme 2 - Working with lists](scheme2/README.md) - Recursion, recursive list procedures, & pairs
 - [Scheme 3 - Higher-order procedures](scheme3/README.md) - map/apply/filter, reduce, currying, scope, & modules
+- [Other Examples](otherexamples/README.md) - Supplementary examples not tied to a specific module, including helper-method examples in Scheme
