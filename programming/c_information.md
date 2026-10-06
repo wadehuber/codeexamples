@@ -33,7 +33,7 @@ The flags above are required, bug gcc has a lot of other flags you may want to u
 ## C Notes & Tutorials
 
 - A quick video walking through the [C basics in 25 minutes](https://www.youtube.com/watch?v=3lQEunpmtRA)
-- [Essential C](http://cslibrary.stanford.edu/101/) from The Stanford CS Education Library has an excellent summary of the C language.  It covers most of what we will discuss about C this semester.  There are also PDFs about [pointers](http://cslibrary.stanford.edu/102/), [linked lists](http://cslibrary.stanford.edu/103/), and [binary trees](http://cslibrary.stanford.edu/110/) in C.
+- [Essential C (pdf)](https://cs.stanford.edu/people/nick/compdocs/Essential_C.pdf) from The Stanford CS Education Library has an excellent summary of the C language.
 - The [C FAQ](http://c-faq.com/) has a great discussion of [pointers vs. arrays](http://c-faq.com/aryptr/aryptrequiv.html).
 - [Beej's Guide to C Programming](http://beej.us/guide/bgc/)
 - If you are looking for a C book, here is StackOverflow's [Definitive C Book Guide & List](https://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list)

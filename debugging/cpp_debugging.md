@@ -1,6 +1,6 @@
 # C++ Debugging Tips
 
-You should also review the C debuggging tips as some errors C & C++ have in common.
+You should also review the C debugging tips as some errors C & C++ have in common.
 
 Note: if you get a lot of compile errors/warnings, resolve them from first to last.  C++ can generate a lot of errors and warnings, many of which are not particuarly helpful.  
 
