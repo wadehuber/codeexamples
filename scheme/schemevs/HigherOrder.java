@@ -9,7 +9,7 @@ import java.util.function.UnaryOperator;
 public class HigherOrder {
 
     public static void main(String[] args) {
-        List<Integer> lst = List.of(-4, 7, -2, 5, 10, -9, 3);
+        List<Integer> lst = List.of(-4, 7, -2, 5, 10, -8, 3);
         Function<Integer, Integer> square = x -> x * x;    // a function stored in a variable
 
         System.out.println("map - apply a function to every element");
@@ -25,8 +25,10 @@ public class HigherOrder {
 
         System.out.println();
         System.out.println("reduce - combine all elements into one value");
-        System.out.println(lst.stream().reduce(0, Integer::sum));
-        System.out.println(lst.stream().reduce(lst.get(0), Math::max));
+        System.out.println(lst.stream().reduce(0, Integer::sum));          // sum
+        System.out.println(lst.stream().reduce(lst.get(0), Math::max));    // largest value
+        // reduce calls f(total, element) and REQUIRES an associative function such as
+        // + or max. Subtraction is not associative, so it does not belong in reduce.
 
         System.out.println();
         System.out.println("Imperative version - sum of squares of the positive numbers");

@@ -1,9 +1,9 @@
 // Higher-order functions in C++ - lambdas, std::function, and <algorithm>
 // Compile & run:  g++ -std=c++17 higherorder.cpp -o higherorder && ./higherorder
 
-#include <algorithm>    // std::transform, std::copy_if, std::max_element
+#include <algorithm>    // std::transform, std::copy_if, std::max
 #include <cstdlib>      // std::abs
-#include <functional>   // std::function
+#include <functional>   // std::function, std::minus
 #include <iostream>
 #include <iterator>     // std::back_inserter
 #include <numeric>      // std::accumulate
@@ -54,7 +54,7 @@ T applyTwice(F f, T x) {
 }
 
 int main() {
-    const vector<int> lst = {-4, 7, -2, 5, 10, -9, 3};
+    const vector<int> lst = {-4, 7, -2, 5, 10, -8, 3};
     auto square = [](int x) { return x * x; };          // a lambda stored in a variable
 
     cout << "map - apply a function to every element" << endl;
@@ -68,8 +68,15 @@ int main() {
     print(filterList([](int x) { return x > 4; }, lst));
 
     cout << endl << "accumulate - C++'s fold" << endl;
-    cout << accumulate(lst.begin(), lst.end(), 0) << endl;
-    cout << *max_element(lst.begin(), lst.end()) << endl;
+    cout << accumulate(lst.begin(), lst.end(), 0) << endl;               // sum
+    cout << accumulate(lst.begin(), lst.end(), lst[0],
+                       [](int a, int b) { return max(a, b); }) << endl;  // largest value
+
+    cout << endl << "Fold order - accumulate calls f(total, element)" << endl;
+    // ((0 - 1) - 2) - 3 = -6. Racket's foldl calls (f element total) instead,
+    // so (foldl - 0 '(1 2 3)) is 2. The folds only agree for operations like +.
+    const vector<int> small = {1, 2, 3};
+    cout << accumulate(small.begin(), small.end(), 0, minus<int>()) << endl;
 
     cout << endl << "Imperative version - sum of squares of the positive numbers" << endl;
     cout << sumPosSquaresLoop(lst) << endl;

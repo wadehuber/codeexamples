@@ -33,7 +33,7 @@ The three versions of each example are related programs with **matching core com
 
 [expressions.scm](expressions.scm) · [Expressions.java](Expressions.java) · [expressions.cpp](expressions.cpp)
 
-In Scheme, **everything is an expression** that evaluates to a value, including `if` and `cond`. In Java and C++, `if` is a **statement**: it chooses which code to run but doesn't produce a value, so each branch has to assign to a variable.
+In Scheme, **almost everything is an expression** that evaluates to a value, including `if` and `cond`. (The exception is `define`, which names a value instead of producing one.) In Java and C++, `if` is a **statement**: it chooses which code to run but doesn't produce a value, so each branch has to assign to a variable.
 
 ```scheme
 (* 10 (if (> x 0) x (- x)))
@@ -45,14 +45,14 @@ if (x > 0) { abs = x; } else { abs = -x; }
 System.out.println(10 * abs);
 ```
 
-Both Java and C++ have an expression form of `if`, the ternary operator `?:`. Java 14+ also has `switch` expressions, which work much like Scheme's `cond`.
+Both Java and C++ have an expression form of `if`, the ternary operator `?:`. A chain of `?:` is the closest match to `cond` (see `gradeExpression` in the C++ file). Java 14+ also has `switch` expressions. They evaluate to a value too, but they work like Scheme's `case` rather than `cond`: a `switch` matches one value against constants, while `cond` tests any conditions you like.
 
 **Things to notice**
 
 - Prefix notation `(- 14 (* 2 6))` needs no precedence rules. Infix `14 - 2 * 6` depends on them.
 - `half(square(add1(5)))` is composition, and its *structure* is the same in all three languages. Functional style is about how you think, not only which language you use.
 - The structure matches, but the arithmetic doesn't always. `/` on two integers is **integer division** in Java and C++, so `half(3)` is `1`. In Scheme, `(half 3)` is the exact rational `3/2`. The example input `(6 * 6) / 2` happens to divide evenly, which hides this difference. The files include `half(3)` so students can see it.
-- The Java `switch` version caps the score with `Math.min(score, 100)` before dividing by 10. Without that cap, a score of 110 falls to `default` and returns `F`, while the `if` version and the Scheme and C++ versions return `A`. Rewriting a chain of conditions in a new form is an easy place for two "equivalent" versions to drift apart.
+- Because `switch` matches values instead of testing conditions, the Java `switch` version first has to turn the score into a small integer by dividing by 10. It also caps the score with `Math.min(score, 100)` before dividing. Without that cap, a score of 110 falls to `default` and returns `F`, while the `if` version and the Scheme and C++ versions return `A`. Rewriting a chain of conditions in a new form is an easy place for two "equivalent" versions to drift apart.
 
 ## 2. Summing a list
 
@@ -82,7 +82,7 @@ The Java and C++ files include recursive versions too. Arrays and vectors have n
 **Things to notice**
 
 - **Tail recursion:** in `sum-acc`, the recursive call is the last thing the function does. The Scheme standard guarantees **proper tail recursion**: tail calls don't grow the stack, so `sum-acc` runs in constant stack space, as a loop would. Java makes no such guarantee and does not eliminate tail calls. The C++ standard makes no guarantee either. Optimizing compilers (`-O2`) often eliminate tail calls, but you can't rely on it. So in Java and C++, deep recursion can overflow the stack even when it's written in tail form.
-- **Higher-order version:** `(foldl + 0 lst)`, `stream().reduce(0, Integer::sum)`, and `std::accumulate` all express the same idea: combine the elements with `+`, starting from 0. `(apply + lst)` gives the same answer here, but only because of how `+` works (see section 6).
+- **Higher-order version:** `(foldl + 0 lst)`, `stream().reduce(0, Integer::sum)`, and `std::accumulate` all express the same idea: combine the elements with `+`, starting from 0. They agree because the order doesn't matter for `+`. For an operation like `-` the three folds give different answers, and `(apply + lst)` matches only because of how `+` works (see section 6 for both).
 
 ## 3. Pure functions & side effects
 
@@ -98,14 +98,15 @@ int f(int x) {
 }
 ```
 
-So `f(10) + f(10)` is **23** but `2 * f(10)` is **26**. **Referential transparency**, the ability to replace an expression with its value, breaks down, and ordinary algebra no longer applies.
+Starting from a fresh count, `f(10) + f(10)` is **23** (11 + 12) but `2 * f(10)` is **22**, so `a + a = 2a` no longer holds. The answer also depends on what was called earlier. The example files evaluate `2 * f(10)` *after* the sum, when the count is already 2, so they print **26**. **Referential transparency**, the ability to replace an expression with its value, breaks down, and ordinary algebra no longer applies.
 
 **Things to notice**
 
 - Scheme *can* write impure code with `set!`. It's shown here only as a counterexample and should never appear in your assignments.
 - The fix is the same in every language: make the hidden state an explicit parameter (`f-pure`, `fPure`).
 - Java and C++ have a second source of side effects: **references**. `addBonus(scores)` changes the caller's array. In C++, `withBonus` takes a `const&` parameter and returns a new vector, and that implementation is pure. The compiler guarantee is narrower than purity, though: `const&` only stops the function from modifying the argument *through that parameter*. The compiler would still allow the same function to change a global variable or print output. Neither Java nor C++ can mark a function as pure.
-- The C++ version calls `f(10)` on separate lines, because C++ doesn't define which operand of `+` is evaluated first. Side effects make even evaluation order matter.
+- Side effects make even evaluation order matter. `f(10) - f(10)` is `-1` if the left operand is evaluated first and `1` if the right one is. (`f(10) + f(10)` is 23 either way, so it can't show this.) Java always evaluates left to right, and so does Racket. C++ and standard Scheme leave the order unspecified, so the C++ file stores the two calls in separate variables to force an order.
+- Pure doesn't mean "no assignment anywhere inside." `withBonus` in C++, and `doubleList` and `hanoiMoves` in later sections, build their result by changing a *local* variable that nothing else can see. The caller can't tell, so they are still pure: same input, same output, nothing outside changed. Purity is judged from the outside.
 
 ## 4. Immutability
 
@@ -121,6 +122,8 @@ int[] alias = arr;          // same array, two names
 // ...double every element of arr...
 System.out.println(Arrays.toString(alias));   // alias changed too!
 ```
+
+The two languages differ in how you get there. In Java, assigning an array or object *always* shares it. In C++, `vector<int> copy = arr;` makes an independent copy, and you get a second name for the same vector only by asking for a reference with `&`. The C++ file shows both. In practice, C++ sharing usually comes from passing a parameter by reference, as `addBonus` does in section 3.
 
 **Things to notice**
 
@@ -179,14 +182,15 @@ accumulate(squares.begin(), squares.end(), 0);
 | map | `map` | `stream().map` | `std::transform` |
 | filter | `filter` | `stream().filter` | `std::copy_if` |
 | fold / reduce | `foldl`, `foldr` | `stream().reduce` | `std::accumulate` |
-| call with a list of args | `apply` | *(no direct equivalent)* | *(no direct equivalent)* |
+| call with a list of args | `apply` | *(no direct equivalent)* | `std::apply` (C++17, tuples only) |
 | anonymous function | `(lambda (x) ...)` | `x -> ...` | `[](int x) { ... }` |
 | function type | *(none needed)* | `Function<T,R>`, `Predicate<T>` | `std::function<R(T)>` |
 
 **Things to notice**
 
 - Scheme reads inside-out, while Java streams read top-to-bottom. The logic is the same: filter, then map, then fold.
-- `apply` and `foldl` are **not** interchangeable. `apply` calls a function once, with every list element as an argument. `foldl` calls it once per element, building up an accumulator. They agree for `+`, but `(apply - '(1 2 3))` is `-4` while `(foldl - 0 '(1 2 3))` is `2`.
+- `apply` and `foldl` are **not** interchangeable. `apply` calls a function once, with every list element as an argument. `foldl` calls it once per element, building up an accumulator. They agree for `+`, but `(apply - '(1 2 3))` is `-4` while `(foldl - 0 '(1 2 3))` is `2`. C++17's `std::apply` does the same job for a `std::tuple`, whose size is fixed at compile time. Neither Java nor C++ can do it for a list built at run time.
+- The folds are **not** interchangeable across languages either. Racket's `foldl` calls `(f element accumulator)`. C++'s `std::accumulate` and Java's `reduce` call `f(accumulator, element)`. So folding `-` over `1 2 3` from 0 gives `2` in Racket but `-6` in C++ (see `higherorder.cpp`). Java's `reduce` goes further and *requires* an associative function such as `+` or `max`, so `-` doesn't belong there at all.
 - In Scheme, a function is just a value. Java needs a **functional interface** type, and you call it with `op.apply(x)` rather than `op(x)`.
 - C++ `<algorithm>` functions work on iterators and write into an output container. The small `mapList`/`filterList` helpers make them return new vectors, as Scheme's functions do.
 
@@ -216,15 +220,15 @@ auto makeAdder(int n) {
 }
 ```
 
-The examples also include `quad`, which generates polynomial functions, and `compose`.
+The examples also include a two-function `compose` (named `compose2` in Scheme and C++).
 
-**Currying vs. partial application.** Strict **currying** turns a function of several arguments into a chain of one-argument functions: `add` in Scheme, and `a -> b -> a + b` in Java and C++. `valid-number-curr` takes *both* range bounds at once and returns a one-argument predicate for `filter`. That's **partial application**: some arguments are fixed now and the rest are supplied later. The course notes call this currying, and the two ideas are closely related, but the precise terms are worth knowing.
+**Currying vs. partial application.** Strict **currying** turns a function of several arguments into a chain of one-argument functions: `add` in Scheme, `a -> b -> a + b` in Java, and a lambda that returns a lambda in C++. `valid-number-curr` takes *both* range bounds at once and returns a one-argument predicate for `filter`. That's **partial application**: some arguments are fixed now and the rest are supplied later. The course notes call this currying, and the two ideas are closely related, but the precise terms are worth knowing.
 
 **Things to notice**
 
 - Java lambdas can only capture **effectively final** local variables. You can't *reassign* a captured variable, but that's all the rule prevents. A lambda can still change an object or array it captured, update fields, or do I/O. The `sneaky` example captures an array and returns `11` and then `12` for the same argument. The restriction stops reassignment. It doesn't make a lambda pure.
-- C++ makes you choose how to capture: `[n]` by copy, `[&n]` by reference, or `[=]` everything by copy. Capturing a local variable **by reference** and returning the lambda is undefined behavior (see `makeBadAdder`). Scheme's garbage collector keeps captured values alive, so this bug can't happen in Scheme.
-- Java's `add5.compose(square)` is built into `Function`. In Scheme and C++, `compose` takes just a few lines to write.
+- C++ makes you choose how to capture: `[n]` by copy, `[&n]` by reference, or `[=]` everything by copy. If a lambda captures a local variable **by reference** and is called after that variable is gone, the result is undefined behavior (see `makeBadAdder`). The compiler doesn't warn, and the program may even print the right answer on one build and garbage on another. Scheme's garbage collector keeps captured values alive, so this bug can't happen in Scheme.
+- Java's `add5.compose(square)` is built into `Function`, and Racket has a built-in `compose` as well. The Scheme and C++ files write their own `compose2` to show that it takes just a few lines.
 
 See also: [Scheme 3](../scheme3/README.md) - `currying.scm`.
 
@@ -242,7 +246,7 @@ The Scheme version **returns the moves as a list**. Since the answer is a value,
 
 - This is the design principle *keep most of the program pure and isolate side effects at the edges*. The pure `hanoiMoves` does the work, and `main` does the printing.
 - `hanoi` (nested result) and `hanoi-moves` (flat result using `append`) show that the shape of the returned data is a design choice.
-- The two Scheme versions accept different inputs. `hanoi` uses `n = 1` as its base case, so it requires `n >= 1`. Called with 0, it recurs on -1, -2, ... forever. `hanoi-moves` and the Java and C++ versions use `n = 0` as the base case, so they also accept 0 and return no moves.
+- The two Scheme versions accept different inputs. `hanoi` uses `n = 1` as its base case, so it requires `n >= 1`. Called with 0, it recurs on -1, -2, ... forever. `hanoi-moves` and the Java and C++ versions stop at `n <= 0`, so they also accept 0 and return no moves, and a negative number can't send them into endless recursion.
 
 ---
 

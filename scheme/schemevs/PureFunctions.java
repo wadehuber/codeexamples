@@ -38,8 +38,13 @@ public class PureFunctions {
         System.out.println();
         System.out.println("An impure function - same input, different output");
         System.out.println(f(10) + f(10));          // 11 + 12 = 23
-        System.out.println(2 * f(10));              // 2 * 13 = 26 -- the algebra is broken
+        System.out.println(2 * f(10));              // 2 * 13 = 26 -- the algebra is broken. Even starting
+                                                    // over from count = 0 it would be 2 * 11 = 22, not 23
         System.out.println(f(10));                  // 14
+
+        System.out.println();
+        System.out.println("Side effects make the ORDER of evaluation matter");
+        System.out.println(f(10) - f(10));          // 15 - 16 = -1: Java always goes left to right
 
         System.out.println();
         System.out.println("The functional fix");

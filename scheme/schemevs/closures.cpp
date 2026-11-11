@@ -29,11 +29,6 @@ auto validNumberCurr(int x, int y) {
     return [x, y](int n) { return validNumber(n, x, y); };
 }
 
-// quad: returns a polynomial function f(x) = ax^2 + bx + c
-auto quad(double a, double b, double c) {
-    return [=](double x) { return a * x * x + b * x + c; };   // [=] captures everything by copy
-}
-
 // compose: combine two functions into a new one
 template <typename F, typename G>
 auto compose2(F f, G g) {
@@ -63,19 +58,15 @@ int main() {
     copy_if(nums.begin(), nums.end(), back_inserter(inRange), validNumberCurr(0, 20));
     print(inRange);
 
-    cout << endl << "Generating polynomial functions" << endl;
-    auto f1 = quad(1, 2, 3);
-    auto f2 = quad(2, 0, -8);
-    cout << f1(2) << endl;
-    cout << f2(2) << endl;
-
     cout << endl << "compose - combine two functions into a new one" << endl;
     auto square = [](int x) { return x * x; };
     auto squareThenAdd5 = compose2(add5, square);
     cout << squareThenAdd5(3) << endl;
 
-    // Uncommenting the next lines compiles, but is UNDEFINED BEHAVIOR -
-    // the lambda refers to a variable that no longer exists.
+    // Uncommenting the next lines compiles without a warning, but calling bad
+    // is UNDEFINED BEHAVIOR - the lambda refers to a variable that no longer
+    // exists. It may even print the "right" answer: one g++ build printed 15
+    // without optimization and garbage with -O2.
     // Scheme closures never have this problem: the garbage collector keeps
     // captured values alive as long as the closure needs them.
     // auto bad = makeBadAdder(5);

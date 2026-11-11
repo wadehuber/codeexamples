@@ -27,11 +27,11 @@ public class ListProcedures {
 
         System.out.println();
         System.out.println("A mixed list in Java needs the type Object");
-        List<Object> mixed = List.of(3, "hello", 7.5, List.of(1, 2));
+        List<Object> mixed = List.of(3, "hello", "World", 7.5, List.of(1, 2));
         System.out.println(mixed.contains(List.of(1, 2)));
     }
 
-    // ---------- Iterative versions: loops and a changing index ----------
+    // ---------- Iterative versions: loops and variables that change ----------
 
     static boolean memberLoop(String ele, List<String> lst) {
         for (String s : lst) {
@@ -43,9 +43,16 @@ public class ListProcedures {
     }
 
     static List<String> remberLoop(String ele, List<String> lst) {
-        List<String> result = new ArrayList<>(lst);   // copy so the original is unchanged
-        result.remove(ele);                           // removes the first occurrence only
-        return result;
+        List<String> result = new ArrayList<>();      // a new list, so the original is unchanged
+        boolean removed = false;
+        for (String s : lst) {
+            if (!removed && s.equals(ele)) {
+                removed = true;                       // skip the first occurrence only
+            } else {
+                result.add(s);
+            }
+        }
+        return result;                                // the library way: copy, then result.remove(ele)
     }
 
     static int countOfLoop(String ele, List<String> lst) {

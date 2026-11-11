@@ -54,7 +54,9 @@ public class Expressions {
         return 'F';
     }
 
-    // Expression style: a switch expression (Java 14+) evaluates to a value, much like cond.
+    // Expression style: a switch expression (Java 14+) evaluates to a value. It works like
+    // Scheme's case, not cond: it matches ONE value against constants instead of testing
+    // conditions, which is why the score has to be divided by 10 first.
     // Math.min caps the score at 100 so that 110, 120, ... still map to 'A' and the
     // result agrees with gradeStatement (and the Scheme and C++ versions) for every int.
     static char gradeExpression(int score) {

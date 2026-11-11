@@ -24,8 +24,15 @@
     (+ x count)))
 
 (+ (f 10) (f 10))       ; 11 + 12 = 23
-(* 2 (f 10))            ; 2 * 13 = 26  -- the algebra is broken
+(* 2 (f 10))            ; 2 * 13 = 26  -- the algebra is broken. Even starting
+                        ; over from count = 0 it would be 2 * 11 = 22, not 23
 (f 10)                  ; 14 - same input, different output every time
+
+(newline)
+"Side effects make the ORDER of evaluation matter"
+; Racket evaluates arguments left to right, so this is 15 - 16 = -1.
+; Standard Scheme does not promise an order; right to left would give 1.
+(- (f 10) (f 10))
 
 (newline)
 "The functional fix - make the hidden state an explicit parameter"

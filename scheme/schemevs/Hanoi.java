@@ -9,7 +9,7 @@ public class Hanoi {
     // The classic textbook version: the recursion and the output are tangled together.
     // It returns nothing, so all we can do is watch it print.
     static void hanoiPrint(int n, String source, String center, String destination) {
-        if (n == 0) {
+        if (n <= 0) {
             return;
         }
         hanoiPrint(n - 1, source, destination, center);
@@ -20,7 +20,7 @@ public class Hanoi {
     // The pure version: same recursion, but it RETURNS the moves as data.
     static List<String> hanoiMoves(int n, String source, String center, String destination) {
         List<String> moves = new ArrayList<>();
-        if (n == 0) {
+        if (n <= 0) {
             return moves;
         }
         moves.addAll(hanoiMoves(n - 1, source, destination, center));

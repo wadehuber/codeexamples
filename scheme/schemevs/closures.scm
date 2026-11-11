@@ -41,19 +41,9 @@
 (filter (valid-number-curr -5 5) '(-10 -5 0 5 10 15 20 25 30))
 
 (newline)
-"Generating polynomial functions - f(x) = ax^2 + bx + c"
-(define quad
-  (lambda (a b c)
-    (lambda (x)
-      (+ (* a x x) (* b x) c))))
-(define f1 (quad 1 2 3))                 ; x^2 + 2x + 3
-(define f2 (quad 2 0 -8))                ; 2x^2 - 8
-(f1 2)
-(f2 2)
-(map f1 '(0 1 2 3 4))
-
-(newline)
 "compose - combine two functions into a new one"
+; Racket already has a built-in compose. We write our own, named compose2,
+; to see how little code it takes.
 (define compose2
   (lambda (f g)
     (lambda (x)

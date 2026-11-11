@@ -9,7 +9,7 @@ using namespace std;
 // The classic textbook version: the recursion and the output are tangled together.
 // It returns nothing, so all we can do is watch it print.
 void hanoiPrint(int n, const string& source, const string& center, const string& destination) {
-    if (n == 0) return;
+    if (n <= 0) return;
     hanoiPrint(n - 1, source, destination, center);
     cout << "Move " << source << " -> " << destination << endl;
     hanoiPrint(n - 1, center, source, destination);
@@ -17,7 +17,7 @@ void hanoiPrint(int n, const string& source, const string& center, const string&
 
 // The pure version: same recursion, but it RETURNS the moves as data.
 vector<string> hanoiMoves(int n, const string& source, const string& center, const string& destination) {
-    if (n == 0) return {};
+    if (n <= 0) return {};
     vector<string> moves = hanoiMoves(n - 1, source, destination, center);
     moves.push_back(source + " -> " + destination);
     vector<string> rest = hanoiMoves(n - 1, center, source, destination);

@@ -51,11 +51,18 @@ int main() {
     cout << 2 * square(5) << endl;            // same answer - the algebra works
 
     cout << endl << "An impure function - same input, different output" << endl;
-    int first = f(10);                         // C++ does not define which operand of +
-    int second = f(10);                        // is evaluated first, so we call f separately
-    cout << first + second << endl;            // 11 + 12 = 23
-    cout << 2 * f(10) << endl;                 // 2 * 13 = 26 -- the algebra is broken
+    cout << f(10) + f(10) << endl;             // 11 + 12 = 23
+    cout << 2 * f(10) << endl;                 // 2 * 13 = 26 -- the algebra is broken. Even starting
+                                               // over from count = 0 it would be 2 * 11 = 22, not 23
     cout << f(10) << endl;                     // 14
+
+    cout << endl << "Side effects make the ORDER of evaluation matter" << endl;
+    // C++ does not define which operand of - is evaluated first, so f(10) - f(10)
+    // could be -1 or 1. Separate statements force an order. (The sum above is
+    // safe to write directly: 11 + 12 and 12 + 11 are the same.)
+    int first = f(10);                         // 15
+    int second = f(10);                        // 16
+    cout << first - second << endl;            // -1
 
     cout << endl << "The functional fix" << endl;
     cout << fPure(10, 1) + fPure(10, 1) << endl;

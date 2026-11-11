@@ -15,7 +15,7 @@ void print(const StrList& v) {
     cout << ")" << endl;
 }
 
-// ---------- Iterative versions: loops and a changing index ----------
+// ---------- Iterative versions: loops and variables that change ----------
 
 bool memberLoop(const string& ele, const StrList& lst) {
     for (const string& s : lst) {

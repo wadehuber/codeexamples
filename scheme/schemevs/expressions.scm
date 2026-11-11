@@ -1,7 +1,8 @@
 #lang scheme
 
-; Everything in Scheme is an expression that evaluates to a value.
+; Almost everything in Scheme is an expression that evaluates to a value.
 ; There are no statements - even if and cond produce values.
+; (define is the one exception: it names a value instead of producing one.)
 
 "Prefix notation - the operator comes first"
 (+ 3 4)

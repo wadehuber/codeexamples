@@ -22,11 +22,6 @@ public class Closures {
         return n -> validNumber(n, x, y);
     }
 
-    // quad: returns a polynomial function f(x) = ax^2 + bx + c
-    static Function<Double, Double> quad(double a, double b, double c) {
-        return x -> a * x * x + b * x + c;
-    }
-
     public static void main(String[] args) {
         System.out.println("makeAdder - returns a new function each time it is called");
         Function<Integer, Integer> add5 = makeAdder(5);
@@ -46,14 +41,6 @@ public class Closures {
         List<Integer> nums = List.of(-10, -5, 0, 5, 10, 15, 20, 25, 30);
         System.out.println(nums.stream().filter(validNumberCurr(0, 20)).toList());
         System.out.println(nums.stream().filter(validNumberCurr(-5, 5)).toList());
-
-        System.out.println();
-        System.out.println("Generating polynomial functions");
-        Function<Double, Double> f1 = quad(1, 2, 3);
-        Function<Double, Double> f2 = quad(2, 0, -8);
-        System.out.println(f1.apply(2.0));
-        System.out.println(f2.apply(2.0));
-        System.out.println(List.of(0.0, 1.0, 2.0, 3.0, 4.0).stream().map(f1).toList());
 
         System.out.println();
         System.out.println("compose - combine two functions into a new one");

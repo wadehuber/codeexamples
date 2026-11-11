@@ -3,7 +3,7 @@
 ; Higher-order functions - functions that take functions as parameters.
 ; map, filter, and foldl capture common loop patterns so we don't write the loop.
 
-(define lst '(-4 7 -2 5 10 -9 3))
+(define lst '(-4 7 -2 5 10 -8 3))
 (define square (lambda (x) (* x x)))
 
 "map - apply a function to every element"
@@ -28,6 +28,8 @@
 ; foldl calls it once per element, as (f element accumulator):     (- 3 (- 2 (- 1 0)))
 (apply - '(1 2 3))                       ; -4
 (foldl - 0 '(1 2 3))                     ; 2
+; Folds in other languages pass (accumulator, element) instead. C++'s
+; std::accumulate computes ((0 - 1) - 2) - 3 = -6 for the same list.
 
 (newline)
 "Combining them - sum of the squares of the positive numbers"

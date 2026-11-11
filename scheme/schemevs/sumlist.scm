@@ -1,7 +1,9 @@
 #lang scheme
 
 ; Summing a list - the same problem three ways.
-; Notice that no variable is ever changed. There is no loop counter and no running total.
+; Notice that no variable is ever changed. There is no loop counter, and
+; nothing is reassigned: in sum-acc the running total is a parameter, so
+; each call gets its own total instead of updating a shared one.
 
 (define lst '(4 8 15 16 23 42))
 

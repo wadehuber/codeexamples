@@ -32,12 +32,14 @@ vector<int> insertSorted(int n, vector<int> lst) {
 int main() {
     cout << "Imperative: double each element IN PLACE" << endl;
     vector<int> arr = {1, 2, 3, 4, 5};
-    vector<int>& alias = arr;                  // a reference to the SAME vector
+    vector<int> copy = arr;                    // in C++, = COPIES a vector (in Java it would share it)
+    vector<int>& alias = arr;                  // the & makes alias a second name for the SAME vector
     for (size_t i = 0; i < arr.size(); i++) {
         arr[i] = arr[i] * 2;
     }
     print(arr);
-    print(alias);                              // alias changed too - surprise!
+    print(alias);                              // alias changed too - it is the same vector
+    print(copy);                               // 1 2 3 4 5 - the copy is independent
 
     cout << endl << "Functional: return a NEW vector, leave the original alone" << endl;
     const vector<int> lst = {1, 2, 3, 4, 5};   // const: the compiler forbids changes

@@ -8,8 +8,9 @@
 
 "Hanoi - returns a (nested) list of moves"
 ; Requires n >= 1. The base case is n = 1, so (hanoi 0 ...) would recur on
-; -1, -2, ... and never stop. The flat version below uses n = 0 as its base
-; case, so it also accepts 0 (and returns the empty list of moves).
+; -1, -2, ... and never stop. The flat version below stops at n <= 0, so it
+; also accepts 0 (and returns the empty list of moves) and cannot run away
+; on a negative number.
 (define hanoi
   (lambda (n source center destination)
     (if (= n 1)  ; stopping condition
@@ -25,7 +26,7 @@
 "A flat version - each move is one list, appended together"
 (define hanoi-moves
   (lambda (n source center destination)
-    (if (= n 0)
+    (if (<= n 0)
         '()
         (append
          (hanoi-moves (- n 1) source destination center)
