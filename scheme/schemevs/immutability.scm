@@ -1,6 +1,11 @@
 #lang scheme
 
 ; Immutability - we never change a list, we build a new one.
+;
+; In Racket's #lang scheme (the language used throughout this course), pairs
+; made with cons are IMMUTABLE - there is no set-car! or set-cdr!. Racket keeps
+; mutable pairs as a separate type (mcons). Standard Scheme (R5RS/R7RS) is
+; different: its ordinary pairs CAN be changed with set-car! and set-cdr!.
 
 (define lst '(1 2 3 4 5))
 
@@ -22,7 +27,7 @@ lst                              ; still (1 2 3 4 5)
 (newline)
 "Structural sharing - the new list REUSES the old one"
 ; lst2 doesn't copy lst. Its cdr IS lst - the same pairs in memory.
-; That is only safe because nobody can ever change lst.
+; That is only safe because nobody can ever change lst (in this dialect).
 (eq? (cdr lst2) lst)
 
 (newline)

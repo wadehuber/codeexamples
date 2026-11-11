@@ -18,8 +18,9 @@
 
 (newline)
 "Tail-recursive sum - the running total is passed as a parameter"
-; The recursive call is the LAST thing the function does, so Scheme
-; reuses the stack frame. This runs like a loop without being one.
+; The recursive call is the LAST thing the function does (a tail call).
+; Scheme guarantees proper tail recursion: tail calls do not grow the
+; stack, so this runs in constant stack space, just as a loop would.
 (define sum-acc
   (lambda (lst total)
     (if (null? lst)
@@ -29,8 +30,9 @@
 
 (newline)
 "Higher-order sum - let a built-in function do the walking"
-(apply + lst)
-(foldl + 0 lst)
+(apply + lst)          ; calls + ONCE with all the elements as arguments
+(foldl + 0 lst)        ; calls + over and over, combining one element at a time
+; These agree for +, but not in general - see higherorder.scm
 
 (newline)
 "The original list is unchanged"

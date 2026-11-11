@@ -12,7 +12,7 @@ The goal is not to show that one language is "better." Many functional ideas car
 | Java (17+) | `javac SumList.java` then `java SumList` (or just `java SumList.java`) |
 | C++ (C++17) | `g++ -std=c++17 sumlist.cpp -o sumlist` then `./sumlist` |
 
-Each Java and C++ program prints the same results as the Scheme version, in the same order, so you can run all three side by side.
+The three versions of each example are related programs with **matching core computations**, not line-for-line translations. The Java and C++ versions often add an imperative version for contrast, and each language gets a few demonstrations that only make sense there (for example, the dangling-reference closure in C++). The Scheme examples use Racket's `#lang scheme`, which is the course language.
 
 ## The examples
 
@@ -50,7 +50,9 @@ Both Java and C++ have an expression form of `if`, the ternary operator `?:`. Ja
 **Things to notice**
 
 - Prefix notation `(- 14 (* 2 6))` needs no precedence rules. Infix `14 - 2 * 6` depends on them.
-- `half(square(add1(5)))` is composition, and it works the same in all three languages. Functional style is about how you think, not only which language you use.
+- `half(square(add1(5)))` is composition, and its *structure* is the same in all three languages. Functional style is about how you think, not only which language you use.
+- The structure matches, but the arithmetic doesn't always. `/` on two integers is **integer division** in Java and C++, so `half(3)` is `1`. In Scheme, `(half 3)` is the exact rational `3/2`. The example input `(6 * 6) / 2` happens to divide evenly, which hides this difference. The files include `half(3)` so students can see it.
+- The Java `switch` version caps the score with `Math.min(score, 100)` before dividing by 10. Without that cap, a score of 110 falls to `default` and returns `F`, while the `if` version and the Scheme and C++ versions return `A`. Rewriting a chain of conditions in a new form is an easy place for two "equivalent" versions to drift apart.
 
 ## 2. Summing a list
 
@@ -79,8 +81,8 @@ The Java and C++ files include recursive versions too. Arrays and vectors have n
 
 **Things to notice**
 
-- **Tail recursion:** in `sum-acc`, the recursive call is the last thing the function does. Scheme is *required* to optimize this into a loop. Java never does, and C++ compilers usually do only with optimization turned on. So in Java, deep recursion can overflow the stack even when it's written in tail form.
-- **Higher-order version:** `(foldl + 0 lst)`, `stream().reduce(0, Integer::sum)`, and `std::accumulate` all express the same idea: combine the elements with `+`, starting from 0.
+- **Tail recursion:** in `sum-acc`, the recursive call is the last thing the function does. The Scheme standard guarantees **proper tail recursion**: tail calls don't grow the stack, so `sum-acc` runs in constant stack space, as a loop would. Java makes no such guarantee and does not eliminate tail calls. The C++ standard makes no guarantee either. Optimizing compilers (`-O2`) often eliminate tail calls, but you can't rely on it. So in Java and C++, deep recursion can overflow the stack even when it's written in tail form.
+- **Higher-order version:** `(foldl + 0 lst)`, `stream().reduce(0, Integer::sum)`, and `std::accumulate` all express the same idea: combine the elements with `+`, starting from 0. `(apply + lst)` gives the same answer here, but only because of how `+` works (see section 6).
 
 ## 3. Pure functions & side effects
 
@@ -102,14 +104,16 @@ So `f(10) + f(10)` is **23** but `2 * f(10)` is **26**. **Referential transparen
 
 - Scheme *can* write impure code with `set!`. It's shown here only as a counterexample and should never appear in your assignments.
 - The fix is the same in every language: make the hidden state an explicit parameter (`f-pure`, `fPure`).
-- Java and C++ have a second source of side effects: **references**. `addBonus(scores)` changes the caller's array. In C++, a `const&` parameter that returns a new vector (`withBonus`) keeps the function pure, and the compiler enforces it.
+- Java and C++ have a second source of side effects: **references**. `addBonus(scores)` changes the caller's array. In C++, `withBonus` takes a `const&` parameter and returns a new vector, and that implementation is pure. The compiler guarantee is narrower than purity, though: `const&` only stops the function from modifying the argument *through that parameter*. The compiler would still allow the same function to change a global variable or print output. Neither Java nor C++ can mark a function as pure.
 - The C++ version calls `f(10)` on separate lines, because C++ doesn't define which operand of `+` is evaluated first. Side effects make even evaluation order matter.
 
 ## 4. Immutability
 
 [immutability.scm](immutability.scm) · [Immutability.java](Immutability.java) · [immutability.cpp](immutability.cpp)
 
-Scheme list procedures don't modify a list. They **build a new one** with `cons`. Java and C++ code usually changes data in place, and that causes trouble once two names refer to the same data:
+Scheme list procedures don't modify a list. They **build a new one** with `cons`. In Racket's `#lang scheme`, which these examples use, ordinary pairs are actually **immutable**: there is no `set-car!` or `set-cdr!`, and mutable pairs are a separate type (`mcons`). That's a feature of this dialect. Standard Scheme (R5RS/R7RS) lets you modify ordinary pairs with `set-car!` and `set-cdr!`, so immutability there is a matter of programming style rather than a language rule.
+
+Java and C++ code usually changes data in place, and that causes trouble once two names refer to the same data:
 
 ```java
 int[] arr = {1, 2, 3, 4, 5};
@@ -120,7 +124,7 @@ System.out.println(Arrays.toString(alias));   // alias changed too!
 
 **Things to notice**
 
-- **Structural sharing:** `(cons 0 lst)` doesn't copy `lst`. The new list's `cdr` *is* `lst` (`eq?` returns `#t`). Sharing is only safe because nobody can change `lst`.
+- **Structural sharing:** `(cons 0 lst)` doesn't copy `lst`. The new list's `cdr` *is* `lst` (`eq?` returns `#t`). Sharing is only safe because nobody can change `lst`, which `#lang scheme` guarantees.
 - Java's `List.of(...)` creates an immutable list. Trying to `set` an element throws `UnsupportedOperationException` **at run time**.
 - C++ `const` catches the same mistake **at compile time**. Uncomment `lst[0] = 100;` and the program will not build.
 - `insertSorted` in C++ takes its vector **by value**, so it gets its own copy to modify, and the caller's vector stays safe.
@@ -145,7 +149,7 @@ The Java and C++ files show each procedure twice: once with a loop, and once tra
 
 **Things to notice**
 
-- Scheme lists are built for this pattern, and `car`/`cdr`/`cons` are cheap. Array-based lists are built for indexing, so recursive Java and C++ code feels awkward and makes extra copies.
+- Scheme lists are built for this pattern, and `car`/`cdr`/`cons` are cheap. Array-based lists are built for indexing, so recursive Java and C++ code feels awkward. The real cost is in recursive **`rember`**: each level "conses" onto the front of a new list, which means copying the elements behind it, so the work grows **quadratically**. The recursive `member` and `count` procedures don't have this problem. Java's `subList` is a view of the original list, not a copy, and the C++ versions just advance an index.
 - A Scheme list can mix types: `(3 hello "World" 7.5 (1 2))`. A Java list needs `List<Object>`, and a C++ vector needs `std::variant` or `std::any`.
 - Both libraries already provide these operations (`contains`, `std::find`, `std::count`). Scheme has them too (`member`, `remove`). Writing them yourself is how you learn the pattern.
 
@@ -174,13 +178,15 @@ accumulate(squares.begin(), squares.end(), 0);
 |---|---|---|---|
 | map | `map` | `stream().map` | `std::transform` |
 | filter | `filter` | `stream().filter` | `std::copy_if` |
-| fold / reduce | `foldl`, `apply` | `stream().reduce` | `std::accumulate` |
+| fold / reduce | `foldl`, `foldr` | `stream().reduce` | `std::accumulate` |
+| call with a list of args | `apply` | *(no direct equivalent)* | *(no direct equivalent)* |
 | anonymous function | `(lambda (x) ...)` | `x -> ...` | `[](int x) { ... }` |
 | function type | *(none needed)* | `Function<T,R>`, `Predicate<T>` | `std::function<R(T)>` |
 
 **Things to notice**
 
 - Scheme reads inside-out, while Java streams read top-to-bottom. The logic is the same: filter, then map, then fold.
+- `apply` and `foldl` are **not** interchangeable. `apply` calls a function once, with every list element as an argument. `foldl` calls it once per element, building up an accumulator. They agree for `+`, but `(apply - '(1 2 3))` is `-4` while `(foldl - 0 '(1 2 3))` is `2`.
 - In Scheme, a function is just a value. Java needs a **functional interface** type, and you call it with `op.apply(x)` rather than `op(x)`.
 - C++ `<algorithm>` functions work on iterators and write into an output container. The small `mapList`/`filterList` helpers make them return new vectors, as Scheme's functions do.
 
@@ -210,11 +216,13 @@ auto makeAdder(int n) {
 }
 ```
 
-The examples also include `valid-number-curr`, which curries a range check so it can be passed to `filter`, `quad`, which generates polynomial functions, and `compose`.
+The examples also include `quad`, which generates polynomial functions, and `compose`.
+
+**Currying vs. partial application.** Strict **currying** turns a function of several arguments into a chain of one-argument functions: `add` in Scheme, and `a -> b -> a + b` in Java and C++. `valid-number-curr` takes *both* range bounds at once and returns a one-argument predicate for `filter`. That's **partial application**: some arguments are fixed now and the rest are supplied later. The course notes call this currying, and the two ideas are closely related, but the precise terms are worth knowing.
 
 **Things to notice**
 
-- Java lambdas can only capture **effectively final** local variables. You can read a captured variable but not change it, which keeps closures functional.
+- Java lambdas can only capture **effectively final** local variables. You can't *reassign* a captured variable, but that's all the rule prevents. A lambda can still change an object or array it captured, update fields, or do I/O. The `sneaky` example captures an array and returns `11` and then `12` for the same argument. The restriction stops reassignment. It doesn't make a lambda pure.
 - C++ makes you choose how to capture: `[n]` by copy, `[&n]` by reference, or `[=]` everything by copy. Capturing a local variable **by reference** and returning the lambda is undefined behavior (see `makeBadAdder`). Scheme's garbage collector keeps captured values alive, so this bug can't happen in Scheme.
 - Java's `add5.compose(square)` is built into `Function`. In Scheme and C++, `compose` takes just a few lines to write.
 
@@ -234,6 +242,7 @@ The Scheme version **returns the moves as a list**. Since the answer is a value,
 
 - This is the design principle *keep most of the program pure and isolate side effects at the edges*. The pure `hanoiMoves` does the work, and `main` does the printing.
 - `hanoi` (nested result) and `hanoi-moves` (flat result using `append`) show that the shape of the returned data is a design choice.
+- The two Scheme versions accept different inputs. `hanoi` uses `n = 1` as its base case, so it requires `n >= 1`. Called with 0, it recurs on -1, -2, ... forever. `hanoi-moves` and the Java and C++ versions use `n = 0` as the base case, so they also accept 0 and return no moves.
 
 ---
 
@@ -242,10 +251,11 @@ The Scheme version **returns the moves as a list**. Since the answer is a value,
 | | Scheme | Java | C++ |
 |---|---|---|---|
 | Main paradigm | Functional | Object-oriented / imperative | Imperative / object-oriented |
-| Repetition | Recursion (tail calls optimized) | Loops (no tail-call optimization) | Loops (TCO only with optimizer) |
+| Repetition | Recursion (proper tail calls guaranteed) | Loops (no tail-call elimination) | Loops (no guarantee; optimizers often eliminate tail calls) |
 | Conditionals | Expressions (`if`, `cond`) | Statements (plus `?:`, `switch` expressions) | Statements (plus `?:`) |
-| Default data | Immutable lists | Mutable arrays/lists (`List.of` is immutable) | Mutable vectors (`const` on request) |
+| Default data | Immutable pairs/lists in Racket's `#lang scheme` (standard Scheme pairs are mutable) | Mutable arrays/lists (`List.of` is immutable) | Mutable vectors (`const` on request) |
 | Functions as values | Built in | Lambdas + functional interfaces (Java 8+) | Lambdas + `std::function` (C++11+) |
-| Closures | Capture anything, kept alive by GC | Capture effectively final locals only | You choose copy or reference (and the risk) |
+| Closures | Capture anything, kept alive by GC | Can't reassign captured locals (captured objects can still change) | You choose copy or reference (and the risk) |
+| Purity enforced? | No (but `set!` stands out) | No | No (`const` restricts one access path) |
 
 Functional programming is a way of thinking, not just a feature of one language. Java and C++ have both adopted many functional ideas, and recognizing them in Scheme, where nothing else gets in the way, makes them easier to spot and use elsewhere.

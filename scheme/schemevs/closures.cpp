@@ -23,7 +23,8 @@ bool validNumber(int n, int x, int y) {
     return n >= x && n <= y;
 }
 
-// Curried version: fix the range now, supply n later
+// Partial application: fix the range now, supply n later
+// (the course notes call this currying - see closures.scm)
 auto validNumberCurr(int x, int y) {
     return [x, y](int n) { return validNumber(n, x, y); };
 }
@@ -56,7 +57,7 @@ int main() {
     auto add = [](int a) { return [a](int b) { return a + b; }; };
     cout << add(3)(4) << endl;
 
-    cout << endl << "Currying - filter a list for numbers in a range" << endl;
+    cout << endl << "Partial application - filter a list for numbers in a range" << endl;
     const vector<int> nums = {-10, -5, 0, 5, 10, 15, 20, 25, 30};
     vector<int> inRange;
     copy_if(nums.begin(), nums.end(), back_inserter(inRange), validNumberCurr(0, 20));

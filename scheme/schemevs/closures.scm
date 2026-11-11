@@ -16,12 +16,23 @@
 (map (make-adder 1) '(1 2 3))
 
 (newline)
-"Currying - filter a list for numbers in a range"
+"Strict currying - a chain of one-argument functions"
+(define add
+  (lambda (a)
+    (lambda (b)
+      (+ a b))))
+((add 3) 4)
+
+(newline)
+"Partial application - filter a list for numbers in a range"
 (define valid-number
   (lambda (n x y)
     (and (>= n x) (<= n y))))
 
-; filter needs a ONE-parameter function, so we curry the range
+; filter needs a ONE-parameter function, so we fix the range now and
+; supply n later. The course notes call this currying; strictly speaking it
+; is PARTIAL APPLICATION, because x and y are supplied together rather than
+; one at a time. Fully curried would be (lambda (x) (lambda (y) (lambda (n) ...))).
 (define valid-number-curr
   (lambda (x y)
     (lambda (n)

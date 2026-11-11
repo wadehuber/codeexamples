@@ -39,6 +39,11 @@ public class Expressions {
 
         System.out.println("Functional style - compose the calls directly");
         System.out.println(half(square(add1(5))));
+
+        System.out.println();
+        System.out.println("Careful - int / int is INTEGER division in Java");
+        System.out.println(half(3));               // 1 (Scheme's (half 3) is the rational 3/2)
+        System.out.println(3 / 2.0);               // 1.5 - one double operand gives a double
     }
 
     // Statement style: control flow with return statements
@@ -49,9 +54,11 @@ public class Expressions {
         return 'F';
     }
 
-    // Expression style: a switch expression (Java 14+) evaluates to a value, much like cond
+    // Expression style: a switch expression (Java 14+) evaluates to a value, much like cond.
+    // Math.min caps the score at 100 so that 110, 120, ... still map to 'A' and the
+    // result agrees with gradeStatement (and the Scheme and C++ versions) for every int.
     static char gradeExpression(int score) {
-        return switch (score / 10) {
+        return switch (Math.min(score, 100) / 10) {
             case 10, 9 -> 'A';
             case 8     -> 'B';
             case 7     -> 'C';
@@ -61,5 +68,5 @@ public class Expressions {
 
     static int square(int n) { return n * n; }
     static int add1(int n)   { return n + 1; }
-    static int half(int n)   { return n / 2; }
+    static int half(int n)   { return n / 2; }   // integer division: half(3) is 1
 }

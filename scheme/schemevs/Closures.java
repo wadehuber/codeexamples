@@ -16,7 +16,8 @@ public class Closures {
         return n >= x && n <= y;
     }
 
-    // Curried version: fix the range now, supply n later
+    // Partial application: fix the range now, supply n later
+    // (the course notes call this currying - see closures.scm)
     static Predicate<Integer> validNumberCurr(int x, int y) {
         return n -> validNumber(n, x, y);
     }
@@ -41,7 +42,7 @@ public class Closures {
         System.out.println(add.apply(3).apply(4));
 
         System.out.println();
-        System.out.println("Currying - filter a list for numbers in a range");
+        System.out.println("Partial application - filter a list for numbers in a range");
         List<Integer> nums = List.of(-10, -5, 0, 5, 10, 15, 20, 25, 30);
         System.out.println(nums.stream().filter(validNumberCurr(0, 20)).toList());
         System.out.println(nums.stream().filter(validNumberCurr(-5, 5)).toList());
@@ -66,5 +67,12 @@ public class Closures {
         // Function<Integer, Integer> bad = x -> x + counter++;   // will not compile
         Function<Integer, Integer> ok = x -> x + counter;          // reading is fine
         System.out.println(ok.apply(10));
+
+        System.out.println();
+        System.out.println("...but that does NOT make the lambda pure");
+        int[] box = {0};                     // the VARIABLE box is effectively final,
+        Function<Integer, Integer> sneaky = x -> x + ++box[0];   // the ARRAY is not
+        System.out.println(sneaky.apply(10));   // 11
+        System.out.println(sneaky.apply(10));   // 12 - same input, different output
     }
 }

@@ -23,6 +23,13 @@
 (foldl max (car lst) lst)                ; largest value
 
 (newline)
+"apply vs foldl - NOT the same thing"
+; apply calls the function once with every element as an argument: (- 1 2 3)
+; foldl calls it once per element, as (f element accumulator):     (- 3 (- 2 (- 1 0)))
+(apply - '(1 2 3))                       ; -4
+(foldl - 0 '(1 2 3))                     ; 2
+
+(newline)
 "Combining them - sum of the squares of the positive numbers"
 (foldl + 0 (map square (filter positive? lst)))
 

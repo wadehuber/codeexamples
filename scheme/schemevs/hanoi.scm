@@ -7,6 +7,9 @@
 ; moves, and whoever calls it decides what to do with that list.
 
 "Hanoi - returns a (nested) list of moves"
+; Requires n >= 1. The base case is n = 1, so (hanoi 0 ...) would recur on
+; -1, -2, ... and never stop. The flat version below uses n = 0 as its base
+; case, so it also accepts 0 (and returns the empty list of moves).
 (define hanoi
   (lambda (n source center destination)
     (if (= n 1)  ; stopping condition

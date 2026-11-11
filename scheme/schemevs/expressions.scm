@@ -35,3 +35,8 @@
 
 ; No temporary variables - values flow from the inside out
 (half (square (add1 5)))                    ; (6 * 6) / 2 = 18
+
+(newline)
+"Careful - / on integers gives an EXACT rational in Scheme"
+(half 3)                                    ; 3/2, not 1 (Java and C++ give 1)
+(half 3.0)                                  ; 1.5

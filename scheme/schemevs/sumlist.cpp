@@ -25,8 +25,8 @@ int sumRecursive(const vector<int>& values, size_t index) {
 }
 
 // Tail-recursive: the recursive call is the last thing that happens.
-// The C++ standard does not require tail-call optimization, but optimizing
-// compilers (g++ -O2) will usually turn this into a loop.
+// The C++ standard makes NO guarantee about tail calls. Optimizing compilers
+// (g++ -O2) often eliminate them, but you cannot rely on it.
 int sumAcc(const vector<int>& values, size_t index, int total) {
     if (index == values.size()) {
         return total;

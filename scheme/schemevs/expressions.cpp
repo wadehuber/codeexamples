@@ -7,7 +7,7 @@ using namespace std;
 
 int square(int n) { return n * n; }
 int add1(int n)   { return n + 1; }
-int half(int n)   { return n / 2; }
+int half(int n)   { return n / 2; }   // integer division: half(3) is 1
 
 // Statement style: control flow with return statements
 char gradeStatement(int score) {
@@ -56,6 +56,10 @@ int main() {
 
     cout << "Functional style - compose the calls directly" << endl;
     cout << half(square(add1(5))) << endl;
+
+    cout << endl << "Careful - int / int is INTEGER division in C++" << endl;
+    cout << half(3) << endl;                   // 1 (Scheme's (half 3) is the rational 3/2)
+    cout << 3 / 2.0 << endl;                   // 1.5 - one double operand gives a double
 
     return 0;
 }
